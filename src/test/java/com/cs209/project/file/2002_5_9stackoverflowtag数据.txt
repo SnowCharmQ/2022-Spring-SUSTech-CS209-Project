@@ -1,0 +1,39 @@
+java	1843168 questions	215 asked today 2249 this week
+javafx	36656 questions	6 asked today 63 this week
+javabeans	3892 questions	11 asked this month 170 this year
+javadoc	2852 questions	8 asked this month 118 this year
+javac	2370 questions	8 asked this month 103 this year
+javacv	986 questions	14 asked this year
+javacard	962 questions	7 asked this month 53 this year
+javasound	914 questions	29 asked this year
+wsdl2java	653 questions	28 asked this year
+rjava	603 questions	33 asked this year
+javassist	597 questions	28 asked this year
+javaagents	489 questions	9 asked this month 54 this year
+javacc	483 questions	5 asked this month 15 this year
+javadb	381 questions	3 asked this year
+javafxports	353 questions	1 asked this year
+drjava	188 questions	4 asked this year
+javaparser	186 questions	24 asked this year
+javax	176 questions	
+ewsjavaapi	152 questions	2 asked this year
+javacompiler	124 questions	16 asked this year
+javacpp	120 questions	7 asked this year
+javalite	120 questions	4 asked this year
+javap	119 questions	6 asked this year
+javapos	103 questions	3 asked this year
+javapoet	103 questions	5 asked this year
+javaw	93 questions	1 asked this year
+javah	86 questions	1 asked this year
+im4java	71 questions	
+javapns	71 questions	
+usb4java	70 questions	3 asked this year
+javapackager	69 questions	1 asked this year
+javalin	63 questions	22 asked this year
+luajava	51 questions	
+javahl	50 questions	1 asked this year
+javahelp	46 questions	6 asked this year
+dnsjava	39 questions	3 asked this year
+deployjava	24 questions	
+javaquery	23 questions	2 asked this year
+javaloader	20 questions
