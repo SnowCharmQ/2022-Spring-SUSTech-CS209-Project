@@ -1,25 +1,27 @@
-package com.cs209.project.scrip;
+package com.cs209.project.script;
 
+import com.cs209.project.utils.ReadHTML;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-public class ScripTag {
+public class ScriptTag {
     public static void main(String []args) throws Exception {
+        /**
+         * crawling stackoverflow tag every day
+         * only focus on 'java' tag
+         * */
         Pattern p = Pattern.compile("\\w*java\\w*");
         Pattern q = Pattern.compile("\\w*javascript\\w*");
         for(int k = 1;k<=1861;k++){
             String s = "https://stackoverflow.com/tags?page="+k+"&tab=popular";
             URL url = new URL(s);
-            String urlsource = getURLSource(url);
+            String urlsource = ReadHTML.getURLSource(url);
             Document d = Jsoup.parseBodyFragment(urlsource);
             Elements e = d.getElementsByTag("div");
             ArrayList<Element> temp = new ArrayList<>();
@@ -42,25 +44,5 @@ public class ScripTag {
                 }
             }
         }
-    }
-    public static String getURLSource(URL url) throws Exception    {
-        HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-        conn.setRequestMethod("GET");
-        conn.setConnectTimeout(5 * 1000);
-        InputStream inStream =  conn.getInputStream();
-        byte[] data = readInputStream(inStream);
-        String htmlSource = new String(data);
-        return htmlSource;
-    }
-
-    public static byte[] readInputStream(InputStream instream) throws Exception {
-        ByteArrayOutputStream outStream = new ByteArrayOutputStream();
-        byte[]  buffer = new byte[1204];
-        int len = 0;
-        while ((len = instream.read(buffer)) != -1){
-            outStream.write(buffer,0,len);
-        }
-        instream.close();
-        return outStream.toByteArray();
     }
 }
