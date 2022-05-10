@@ -1,5 +1,5 @@
-@import "http://fonts.googleapis.com/css?family=Ubuntu:400,700italic";
-@import "http://fonts.googleapis.com/css?family=Cabin:400";
+@import "http://fonts.cat.net/css?family=Ubuntu:400,700italic";
+@import "http://fonts.cat.net/css?family=Cabin:400";
 
 * {
     box-sizing: border-box;
@@ -381,6 +381,18 @@ Hexagon Mesh
     width: 100%;
     transform: perspective(600px) rotateX(60deg) scale(1.4);
     z-index: -3;
+}
+
+#error-message{
+    font-size: 20px;
+    font-size: 1.8rem;
+    color: red;
+}
+
+#error-message-reg{
+    font-size: 20px;
+    font-size: 1.8rem;
+    color: red;
 }
 
 /* =========================================

@@ -15,3 +15,6 @@ create table t_user
     modified_user varchar(60),
     modified_time date
 );
+
+select * from t_user;
+truncate table t_user;
