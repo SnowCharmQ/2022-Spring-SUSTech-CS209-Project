@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/default.css">
+    <script src='../js/prefixfree.min.js'></script>
+    <script src="../bootstrap3/js/holder.js"></script>
+    <script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div id="logo">
+    <h1 class="hogo"><i> GitHub & StackOverflow</i></h1>
+</div>
+<section class="stark-login">
+    <form id="form-login">
+        <div id="fade-box1">
+            <input type="text" name="username" id="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <span id="error-message"></span><br>
+            <button type="button" id="btn-login">Log In</button>
+        </div>
+    </form>
+    <div class="hexagons">
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <br>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <br>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+
+        <br>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <br>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+        <span>&#x2B22;</span>
+    </div>
+</section>
+
+<div id="circle1">
+    <div id="inner-circle1">
+        <h2></h2>
+    </div>
+</div>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<header class="htmleaf-header">
+    <h1>Please enter your account and password to log in to the website<br><br>
+        <span>To register, click the button on the left below </span><span>To refresh, click the button on the right below</span>
+    </h1>
+    <br>
+    <div class="htmleaf-links">
+        <a class="htmleaf-icon icon-htmleaf-home-outline" href="reg.html" title="register"
+           target="_self"><span> Register</span></a>
+        <a class="htmleaf-icon icon-htmleaf-refresh-outline" href="" title="refresh"
+           target="_self"><span> Refresh</span></a>
+    </div>
+</header>
+<script type="text/javascript">
+    $("#btn-login").click(function () {
+        $.ajax({
+            url: "/users/login",
+            type: "POST",
+            data: $("#form-login").serialize(),
+            dataType: "json",
+            success: function (json) {
+                if (json.state === 200) {
+                    alert("Successfully Login In！");
+                    location.href = "index.html";
+                } else {
+                    document.getElementById("error-message").innerText = ("Fail To Login In！" + json.message);
+                }
+            },
+            error: function (xhr) {
+                document.getElementById("error-message").innerText = xhr.message
+            }
+        });
+    });
+</script>
+</body>
+</html>
