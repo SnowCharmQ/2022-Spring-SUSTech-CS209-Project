@@ -18,3 +18,14 @@ create table t_user
 
 select * from t_user;
 truncate table t_user;
+
+create table tag(
+                    id serial primary key ,
+                    tag text,
+                    allquestion int,
+                    today int,
+                    month int,
+                    week int,
+                    year int
+);
+drop table tag;
