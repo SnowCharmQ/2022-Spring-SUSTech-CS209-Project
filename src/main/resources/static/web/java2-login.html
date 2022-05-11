@@ -111,7 +111,7 @@
     </h1>
     <br>
     <div class="htmleaf-links">
-        <a class="htmleaf-icon icon-htmleaf-home-outline" href="reg.html" title="register"
+        <a class="htmleaf-icon icon-htmleaf-home-outline" href="java2-reg.html" title="register"
            target="_self"><span> Register</span></a>
         <a class="htmleaf-icon icon-htmleaf-refresh-outline" href="" title="refresh"
            target="_self"><span> Refresh</span></a>
@@ -127,7 +127,7 @@
             success: function (json) {
                 if (json.state === 200) {
                     alert("Successfully Login In！");
-                    location.href = "index.html";
+                    location.href = "java2-card.html";
                 } else {
                     document.getElementById("error-message").innerText = ("Fail To Login In！" + json.message);
                 }
