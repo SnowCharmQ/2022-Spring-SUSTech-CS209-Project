@@ -112,7 +112,7 @@
     </h1>
     <br>
     <div class="htmleaf-links">
-        <a class="htmleaf-icon icon-htmleaf-back-outline" href="login.html" title="return"
+        <a class="htmleaf-icon icon-htmleaf-back-outline" href="java2-login.html" title="return"
            target="_self"><span> Return</span></a>
         <a class="htmleaf-icon icon-htmleaf-refresh-outline" href="" title="refresh"
            target="_self"><span> Refresh</span></a>
@@ -149,7 +149,7 @@
             else if (pwd !== verifypwd) errorspan.innerHTML = "The password is inconsistent with the confirm password"
             else {
                 $.ajax({
-                    url: "/users/reg",
+                    url: "/users/java2-reg",
                     type: "POST",
                     data: $("#form-reg").serialize(),
                     dataType: "json",
