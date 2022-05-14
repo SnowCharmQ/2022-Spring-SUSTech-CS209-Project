@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class ScriptGithubSpringBootDetail {
     public static void main(String []args) throws Exception {
-        File f = new File("C:\\Users\\HP\\Desktop\\java2_proj\\src\\test\\java\\com\\cs209\\project\\file\\SpringBootIteration.txt");
+        File f = new File("C:\\Users\\HP\\Desktop\\java2_proj\\src\\test\\java\\com\\cs209\\project\\file\\SpringBootDetail.txt");
         BufferedWriter bw = new BufferedWriter(new FileWriter(f));
         try{
             for(int i = 1;i<=998;i++){
@@ -53,10 +53,9 @@ public class ScriptGithubSpringBootDetail {
                     bw.write(sbd.getId() + "\t" + sbd.getVersion() + "\t" + sbd.getTime() + "\t" + sbd.getTag().toString() + "\n");
                 }
             }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
         finally {
+            System.out.println(1);
             bw.close();
         }
 
