@@ -25,7 +25,7 @@ public class ScriptGithubSpringBootIssueDetail {
         BufferedWriter bw = new BufferedWriter(new FileWriter(f));
         try (bw) {
             bw.write(ans);
-            for (int i = 440; i < 1002; i++) {
+            for (int i = 965; i < 1002; i++) {
                 /**
                  * TvT被github给ban了
                  * 爬到这页
