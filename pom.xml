@@ -15,6 +15,7 @@
     <description>2022-Spring-Java2-Project</description>
     <properties>
         <java.version>18</java.version>
+        <corenlp.version>3.6.0</corenlp.version>
     </properties>
     <dependencies>
         <dependency>
@@ -53,6 +54,17 @@
             <version>2.4</version>
             <classifier>jdk15</classifier>
         </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.9.2</version>
+            <classifier>models</classifier>
+        </dependency>
     </dependencies>
 
     <build>
@@ -63,5 +75,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>
