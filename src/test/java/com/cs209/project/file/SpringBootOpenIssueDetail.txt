@@ -1,0 +1,544 @@
+null	May 13, 2022	Spring Boot Logging creates duplicate log entries because it has no support for turning off additivity on the underlying lower from Spring application.yml file.		status: waiting-for-feedback	status: waiting-for-triage
+2.5.x	May 13, 2022	Custom Favicon missing in the documentation		type: documentation
+2.5.x	May 13, 2022	CassandraAutoconfiguration leads to ignored parameters in db-config.conf		type: bug
+null	May 13, 2022	Allow spring-boot:build-image to accept publishRegistry parameters over the command line		for: team-attention	status: waiting-for-triage
+2.7.0	May 12, 2022	Upgrade to Spring AMQP 2.4.5		type: dependency-upgrade
+2.7.0	May 12, 2022	Upgrade to Spring Session Bom 2021.2.0		type: dependency-upgrade
+2.7.0	May 12, 2022	Upgrade to Spring Batch 4.3.6		type: dependency-upgrade
+2.7.0	May 12, 2022	Upgrade to Spring Security 5.7.0		type: dependency-upgrade
+2.7.0	May 12, 2022	Upgrade to Spring Kafka 2.8.6		type: dependency-upgrade
+2.6.8	May 12, 2022	Upgrade to Spring Security 5.6.4		type: dependency-upgrade
+2.6.8	May 12, 2022	Upgrade to Spring Batch 4.3.6		type: dependency-upgrade
+2.6.8	May 12, 2022	Upgrade to Spring Kafka 2.8.6		type: dependency-upgrade
+2.6.8	May 12, 2022	Upgrade to Spring AMQP 2.4.5		type: dependency-upgrade
+2.5.14	May 12, 2022	Upgrade to Spring Security 5.5.7		type: dependency-upgrade
+2.5.14	May 12, 2022	Upgrade to Spring Kafka 2.7.14		type: dependency-upgrade
+2.5.14	May 12, 2022	Upgrade to Spring Batch 4.3.6		type: dependency-upgrade
+2.5.x	May 12, 2022	Document ordering of Lombok and spring-boot-configuration-processor annotation processors		status: ideal-for-contribution	type: documentation
+3.0.x	May 11, 2022	Deleting existing output before running AOT processing		type: task
+null	May 11, 2022	Integration of spring-boot into OSS-Fuzz		for: team-meeting	status: waiting-for-triage
+2.5.x	May 11, 2022	A failure when an instrumented WebClient records metrics causes the request to fail		type: bug
+null	May 11, 2022	AbstractHandlerMethodMapping.registerHandlerMethod throw a NullPointerException		status: waiting-for-feedback	status: waiting-for-triage
+2.7.x	May 9, 2022	Review @Deprecated for removal in 2.x		for: team-meeting	type: task
+2.5.x	May 8, 2022	Add tests to verify that every config setting for each auto-configured meter registry is exposed as a configuration property		type: task
+2.5.x	May 8, 2022	@RestControllerAdvice @ExceptionHandler Inconsistent behavior with @RestControllerEndpoint		for: team-meeting	type: bug
+2.5.x	May 6, 2022	MimeMappings does not include all of Tomcat's default mappings		for: team-meeting	type: bug
+2.7.0	May 4, 2022	Upgrade to Spring for GraphQL 1.0.0		type: dependency-upgrade
+3.x	May 3, 2022	Support registry mirrors when building images		status: pending-design-work	type: enhancement
+null	May 3, 2022	Support Mongo's Stable API in MongoHealthIndicator		for: team-attention	status: feedback-provided	status: waiting-for-triage
+3.0.x	Apr 29, 2022	Integration test AOT source generation using the Gradle plugin		type: task
+null	Apr 28, 2022	Add initial-keys-to-sanitize		for: team-attention	status: waiting-for-triage
+2.7.x	Apr 20, 2022	Document how RequestAttributeSecurityContextRepository can be used		type: documentation
+3.x	Apr 20, 2022	Auto-configure jOOQ with R2DBC		type: enhancement
+null	Apr 15, 2022	Spring Boot Actuator caching for health groups doesn't work		for: team-attention	status: waiting-for-triage
+3.0.x	Apr 14, 2022	Adapt to Spring Session Data Redis switching to an unindexed repository by default		for: team-attention	type: enhancement
+null	Apr 14, 2022	Gradle task bootBuildInfo doesn't work with Gradle's configuration cache		status: waiting-for-triage
+3.0.x	Apr 14, 2022	Add documentation for micrometer-tracing		type: documentation
+3.0.x	Apr 13, 2022	Use spring.application.name consistently		type: enhancement
+3.0.x	Apr 12, 2022	Remove support for RestHighLevelClient		type: enhancement
+3.0.0-M3	Apr 12, 2022	Upgrade to Spring Kafka 3.0.0-M4		type: dependency-upgrade
+3.0.0-M3	Apr 11, 2022	Upgrade to Spring Session 2022.0.0-M2		type: dependency-upgrade
+3.0.0-M3	Apr 11, 2022	Upgrade to Spring Security 6.0.0-M4		type: dependency-upgrade
+null	Apr 9, 2022	@MockBean is not always resetting the mock after each test		status: waiting-for-internal-feedback	status: waiting-for-triage
+3.0.x	Apr 8, 2022	Improve SpringApplication to provide a streamline setup for Native image		theme: aot	type: enhancement
+2.6.x	Apr 8, 2022	management.endpoint.health.probes.add-additional-paths has no effect when configuration properties have already created the liveness and/or readiness groups		type: bug
+2.5.x	Apr 8, 2022	Dependency task can fail and artifact files are resolved eagerly due to BootJar afterResolve hook		type: bug
+2.x	Apr 7, 2022	"cacheManager" tag in cache metrics does not convey its purpose		type: enhancement
+3.0.x	Apr 6, 2022	Add a configuration option for running a SpringApplication with AOT optimizations		theme: aot	type: enhancement
+null	Apr 6, 2022	Docs: Graceful shutdown for @Async not working without setting await-termination-period		for: team-attention	status: waiting-for-triage
+3.0.x	Apr 4, 2022	Allow entity classes to be scanned at build-time		theme: aot	type: enhancement
+2.5.x	Apr 3, 2022	Clarifying documentation on including a top-level @TestConfiguration class in a test		type: documentation
+3.0.0-M3	Mar 29, 2022	Upgrade to Spring Batch 5.0.0-M3		type: dependency-upgrade
+2.5.x	Mar 25, 2022	Break build if entries in additional-spring-configuration-metadata.json are not sorted		type: task
+2.5.x	Mar 25, 2022	For consistency with Spring Security's reference documentation, use Lambda-based APIs in Spring Security examples		type: documentation
+3.0.0-M3	Mar 25, 2022	Upgrade to Spring REST Docs 3.0.0-M3		type: dependency-upgrade
+3.0.x	Mar 23, 2022	Refine @ConstructorBinding detection logic to support @Bean methods		type: task
+2.x	Mar 22, 2022	Provide configuration properties for the refresh policy and indices options of ReactiveElasticsearchTemplate		status: pending-design-work	type: enhancement
+3.0.x	Mar 18, 2022	Report that an auto-configuration using the old registration format is no longer considered		type: enhancement
+2.5.x	Mar 18, 2022	Refine wait period in bomr upgrades to avoid secondary rate limit		type: task
+null	Mar 10, 2022	Ability to set systemEnvironment in ApplicationContextRunner		for: team-attention	status: waiting-for-triage
+2.5.x	Mar 9, 2022	Remove checkstyle exclusion for MyRoutingConfiguration samples		status: blocked	type: task
+2.7.x	Mar 9, 2022	Allow customization of single logout in auto-configured SAML relying party registration		type: enhancement
+2.x	Mar 9, 2022	Support multiple JWT issuer-uris		type: enhancement
+2.x	Mar 6, 2022	Reduce the possibility of an entry in the additional configuration properties metadata accidentally declaring a new property		type: enhancement
+null	Mar 3, 2022	Allow adding packages to entity scanning without disabling the default scanning		for: team-meeting	status: waiting-for-triage
+2.5.x	Feb 21, 2022	Fix Bomr's same minor version upgrade policy to handle Oracle Database's version numbers		type: task
+2.5.x	Feb 21, 2022	PortInUseException is not thrown if system language is not english		type: bug
+2.5.x	Feb 21, 2022	NPE on missing status in reactive DefaultErrorAttributes		type: bug
+2.6.x	Feb 16, 2022	Document that @AutoConfigureWebTestClient binds WebTestClient to MOCK infrastructure		type: documentation
+2.5.x	Feb 12, 2022	Docker publishRegistry in Maven plugin configuration is validated when publish option is false		type: bug
+3.0.0-M4	Feb 9, 2022	Remove spring.factories auto-configuration support		status: on-hold	type: task
+2.5.x	Feb 9, 2022	Rework Working with NoSQL Technologies to clarify which stores are supported by Spring Data		type: documentation
+2.x	Feb 7, 2022	Add non-transactable configure method to DefaultJmsListenerContainerFactoryConfigurer		type: enhancement
+2.5.x	Feb 3, 2022	HealthContributor beans managed by a CompositeHealthContributor are recreated on each call		type: bug
+3.x	Jan 28, 2022	Publish a Gradle version catalog for Spring Boot's own modules		type: enhancement
+2.6.x	Jan 25, 2022	Add integration test to ensure ErrorPageSecurityFilter works with custom endpoint matchers		status: blocked	type: task
+General Backlog	Jan 24, 2022	Allow custom RSocket WebsocketServerSpecs to be defined		type: enhancement
+2.x	Jan 24, 2022	Allow customizing rabbitmq metrics prefix		for: team-attention	status: waiting-for-triage	type: enhancement
+General Backlog	Jan 21, 2022	Add wiki page about bugs reported by tools		type: wiki-documentation
+General Backlog	Jan 21, 2022	Add wiki page for how to raise a good issue		type: wiki-documentation
+2.5.x	Jan 21, 2022	Using devtools with Reactive application results in slower restarts		type: bug
+2.5.x	Jan 21, 2022	@DeprecatedConfigurationProperty has no effect when declared on a record component's accessor method		type: bug
+3.x	Jan 20, 2022	Declared defaults do not get property references replace		type: enhancement
+3.0.x	Jan 19, 2022	Review Spring Batch auto-configuration now that spring-jdbc is a required dependency		type: task
+3.x	Jan 19, 2022	Investigate local development with devtools and testcontainers		type: enhancement
+2.x	Jan 14, 2022	Add option for spring-boot-maven-plugin:repackage goal to always generate filenames using group and artifact name		status: pending-design-work	type: enhancement
+null	Jan 14, 2022	Warning in build about json dependencies		for: team-attention	status: waiting-for-triage
+2.x	Jan 13, 2022	Apply 'server.max-http-header-size' consistently across all servlet containers		status: blocked	type: enhancement
+2.5.x	Jan 12, 2022	Unpacked jars are still wrapped by our handler		type: bug
+2.x	Jan 11, 2022	Auto-registration of max query complexity/depth instrumentations if property is set		status: pending-design-work	type: enhancement
+2.5.x	Jan 10, 2022	Improve project setup for IntelliJ IDEA		type: task
+2.5.x	Jan 10, 2022	Http server metrics counts twice for Jersey endpoints		type: bug
+3.x	Jan 7, 2022	Pre-process GraphQL schema resources at build time		status: blocked	theme: native	type: enhancement
+null	Jan 6, 2022	task 'bootBuildImage' (of spring-boot-gradle-plugin) push image to docker.io even when specified private repo with docker.publishRegistry.url		for: team-attention	status: waiting-for-triage
+null	Jan 1, 2022	Allow custom ClassPathBeanDefinitionScanner on AnnotationConfigServletWebServerApplicationContext		for: team-attention	status: waiting-for-triage
+2.5.x	Dec 24, 2021	Documentation for Maven Plugin classifier has an unresolved external reference		type: documentation
+3.0.x	Dec 20, 2021	Revisit ScriptDatabaseInitializer configuration		type: enhancement
+3.x	Dec 16, 2021	Add support for Reactor Kafka		status: pending-design-work	type: enhancement
+2.x	Dec 6, 2021	Enable Cassandra Driver Metrics Via Properties		type: enhancement
+null	Dec 6, 2021	Provide compatibility or replace the need for the Log4j-Spring-Boot Module		status: waiting-for-triage
+2.x	Dec 3, 2021	Spring Boot Test @SpyBean should be able to create a spy based on an interface class that is passed.		type: enhancement
+General Backlog	Dec 3, 2021	Should springboot provide a plug-in to solve the problem that the dependent software versions are not matched in the large version upgrade of springboot？		type: enhancement
+3.0.x	Nov 30, 2021	Enable ISO date and time binding by default for WebMVC and WebFlux		status: blocked	type: enhancement
+2.x	Nov 29, 2021	Update ConfigDataEnvironmentContributors to allow imports to access previous contributions		type: enhancement
+2.x	Nov 29, 2021	JDBC SQLExceptionTranslator is always lazily initialized, requiring an available datababse connection for it		type: enhancement
+2.x	Nov 29, 2021	Include information about the scanned packages in failure analysis for NoSuchBeanDefinitionException		type: enhancement
+2.5.x	Nov 29, 2021	Bouncy Castle Jar verification fails from a fat Jar under Oracle Java 17		for: team-meeting	type: bug
+2.5.x	Nov 24, 2021	Headless mode is forced when banner.* file is present.		type: bug
+2.x	Nov 24, 2021	Set docker image creation time to current timestamp		status: pending-design-work	type: enhancement
+3.0.x	Nov 23, 2021	Reinstate NoSuchMethodFailureAnalyzerTests#parseJavaOpenJ9ErrorMessage once an OpenJ9 build of JDK 17 is available		type: task
+2.5.x	Nov 18, 2021	Make the build fail if a package contains public API but no package-info.java		type: task
+2.x	Nov 17, 2021	Attempt to improve performance with SpringIterableConfigurationPropertySource		theme: performance	type: enhancement
+General Backlog	Nov 17, 2021	Add a utility for resolving NPM resources from webjars and CDNs		status: pending-design-work	type: enhancement
+null	Nov 17, 2021	Allow property binding of resource to be defined as a raw string / resource content		for: team-meeting	status: waiting-for-triage
+2.5.x	Nov 16, 2021	Align Tomcat multiple connectors example with recommendation to configure SSL declaratively		type: documentation
+2.x	Nov 16, 2021	Short circuit @Value injection when using a source already covered by ConfigurationPropertySourcesPropertySource		type: enhancement
+null	Nov 15, 2021	No logs during Spring Boot config import		for: team-attention	status: waiting-for-triage
+null	Nov 14, 2021	Update release notes for ApplicationConversionService.getSharedInstance() being unmodifiable		type: wiki-documentation
+2.x	Nov 13, 2021	Provide a configuration option to load properties config data files as UTF-8		status: pending-design-work	type: enhancement
+3.0.x	Nov 12, 2021	Upgrade to Jersey 3.1.x		status: blocked	type: dependency-upgrade
+3.0.x	Nov 10, 2021	Support new ElasticsearchClient		type: enhancement
+2.7.x	Nov 10, 2021	Custom Converter annotated with @ConfigurationPropertiesBinding does not get selected if targetType has a static factory method from sourceType		type: regression
+General Backlog	Nov 8, 2021	Add annotation filter hook to ImportsContextCustomizer		type: enhancement
+2.5.x	Nov 5, 2021	Dev tools causes misconfigured command-line application to exit with 0		type: bug
+null	Nov 4, 2021	Unable to log exception if dir in SPRING_CONFIG_ADDITIONAL_LOCATION environment not exists.		for: team-attention	status: waiting-for-triage
+2.6.x	Oct 29, 2021	Run tests in parallel when multiple workers are available		status: forward-port	type: task
+2.5.x	Oct 29, 2021	Run tests in parallel when multiple workers are available		type: task
+2.5.x	Oct 28, 2021	Add .gitattributes		type: task
+2.6.x	Oct 28, 2021	Add .gitattributes		status: forward-port	type: task
+null	Oct 28, 2021	Default inclusion of AprLifecycleListener, configured APR connector and spring-boot-starter-actuator crashes the JVM at shutdown time		status: feedback-provided	status: waiting-for-triage
+2.5.x	Oct 27, 2021	Please improve systemd configuration documentation		type: documentation
+2.x	Oct 27, 2021	Consider providing testing beans for @SpringBootTest when used with mock web apps		type: enhancement
+2.5.x	Oct 22, 2021	Actuator document is misleading about k8s startup probe		type: documentation
+2.x	Oct 19, 2021	Support caching build layers to a bind mount		type: enhancement
+2.x	Oct 19, 2021	Support caching build layers to an image		type: enhancement
+null	Oct 18, 2021	SpringBootMockResolver use of ultimateTargetObject could be more conditional		status: waiting-for-triage
+3.0.x	Oct 12, 2021	Consider reducing the number of static resource locations that are configured by default		type: task
+2.x	Oct 7, 2021	Automatically package version-specific classes beneath BOOT-INF/classes/META-INF/versions/		type: enhancement
+3.0.x	Oct 6, 2021	Use InputStream.transferTo when possible		status: blocked	theme: java-17	type: task
+2.5.x	Oct 6, 2021	Example SpringApplication log output is inconsistent		type: documentation
+2.5.x	Oct 5, 2021	Clarify how nested directories are treated for configtree with wildcards		type: documentation
+3.0.x	Oct 2, 2021	Use text blocks where appropriate		status: blocked	theme: java-17	type: task
+3.0.x	Oct 2, 2021	Use pattern matching for instanceof where appropriate		status: blocked	theme: java-17	type: task
+3.0.x	Oct 2, 2021	Use switch expressions where appropriate		status: blocked	theme: java-17	type: task
+3.0.x	Oct 2, 2021	Use Files.readString and Files.writeString when reading and writing string data		status: blocked	theme: java-17	type: task
+3.0.x	Oct 2, 2021	Use Stream.toList to turn a Stream into an unmodifiable List		status: blocked	theme: java-17	type: task
+3.0.x	Oct 2, 2021	Use Map.of for creation of unmodifiable maps		status: blocked	theme: java-17	type: task
+3.0.x	Oct 2, 2021	Use java.util.Set.of for creation of unmodifiable sets		status: blocked	theme: java-17	type: task
+3.0.x	Oct 2, 2021	Use java.util.List.of for creation of unmodifiable lists		status: blocked	theme: java-17	type: task
+3.0.x	Sep 30, 2021	Consider where to adopt sealed classes		status: blocked	status: pending-design-work	theme: java-17	type: task
+3.0.x	Sep 30, 2021	Consider where to adopt records		status: blocked	status: pending-design-work	theme: java-17	type: task
+3.0.x	Sep 30, 2021	Adopt java.util.HexFormat		status: blocked	theme: java-17	type: task
+2.5.x	Sep 21, 2021	Configuration property descriptions may be lost when building incrementally		type: bug
+3.0.x	Sep 20, 2021	Move auto-configuration for reactive Elasticsearch client into o.s.b.autoconfigure.elasticsearch		type: enhancement
+2.x	Sep 17, 2021	Allow ConfigurationProcessor to work with Kotlin Symbol Processor		type: enhancement
+2.x	Sep 16, 2021	Fail or generate a warning when a property has a default value that the annotation processor cannot extract, and there's no additional metadata providing a default value		type: enhancement
+null	Sep 16, 2021	@MockBean "ignores" @PreAuthorize annotation on interface method while Mockito.mock(...) does not		status: feedback-provided	status: waiting-for-triage
+2.x	Sep 9, 2021	Edit documentation for consistency		type: epic
+2.5.x	Sep 2, 2021	Properties Migrator does not detect properties of Map type that are marked as deprecated		type: bug
+2.5.x	Sep 1, 2021	ConditionalOnClass not working for Bean methods on Java 8		type: documentation
+General Backlog	Aug 23, 2021	Consider if we want to add an additional asciidoctor block around source code for callouts		type: task
+3.0.x	Aug 18, 2021	Remove spring.session.store-type in favor of a defined order for which implementation will win when multiple are available		type: enhancement
+2.5.x	Aug 17, 2021	Align the version of UnboundID LDAPSDK with Spring Security		type: task
+General Backlog	Aug 16, 2021	Support custom scalar types with MapBinder		status: pending-design-work	type: enhancement
+2.x	Aug 16, 2021	Treat Duration and DataSize as scalar values in MapBinder		type: enhancement
+2.x	Aug 16, 2021	Add support for Elliptic key as relaying party signing credentials' private key		type: enhancement
+2.x	Aug 6, 2021	@ConfigurationProperties creates mutable collections, even on immutable classes		type: enhancement
+General Backlog	Aug 4, 2021	Support client side routing out of the box		type: enhancement
+2.5.x	Aug 3, 2021	Document how to customize the basePackages that auto-configurations consider (for example Spring Data Repositories)		type: documentation
+3.0.x	Jul 30, 2021	Rework HeapDumper strategy interface to be less HotSpot-specific		status: pending-design-work	type: enhancement
+General Backlog	Jul 27, 2021	When a WebFlux-based management server is running on a separate port, the error infrastructure is not used		type: bug
+2.x	Jul 23, 2021	Allow for timeline event traversal honouring the parent - child relationship		type: enhancement
+2.x	Jul 21, 2021	Automatically filter additional-spring-configuration-metadata.json from Spring Boot-built archives		type: enhancement
+3.x	Jul 20, 2021	Allow configuring build info properties using an opt-in approach		for: team-meeting	status: blocked	type: enhancement
+2.5.x	Jul 19, 2021	Document defaults for spring.mvc.format.* and spring.webflux.format.* properties		type: documentation
+General Backlog	Jul 16, 2021	Disable redirects by default in TestRestTemplate for all HTTP clients		type: enhancement
+2.5.x	Jul 13, 2021	In a non-reactive application, health indicators in a parent context are not found		type: bug
+General Backlog	Jul 5, 2021	Allow @DataNeo4jTest to autoconfigure an embedded test instance		theme: testing	type: enhancement
+null	Jun 28, 2021	Allow to customize WebSessionManager's SessionStore		status: feedback-provided	status: waiting-for-triage
+null	Jun 23, 2021	WelcomePage not found in ServletContext		status: waiting-for-triage
+2.x	Jun 23, 2021	TaskExecutorMetricsAutoConfiguration cannot support recording task execution time		type: enhancement
+2.5.x	Jun 21, 2021	Add a Bomr option to move to SNAPSHOTs		type: task
+2.x	Jun 14, 2021	Add simple API to JacksonTester for direct instantiation		status: on-hold	type: enhancement
+2.5.x	Jun 14, 2021	Unexpected behavior with DevTools when main throws an exception		for: team-attention	type: bug
+2.5.x	Jun 8, 2021	Document additional user configuration that's required after setting spring.hateoas.use-hal-as-default-json-media-type to false		type: documentation
+2.5.x	Jun 7, 2021	Add how-to documentation for test-only database migrations with Flyway/Liquibase		type: documentation
+2.x	Jun 3, 2021	Refactor JarFile and support classes		type: task
+2.5.x	May 31, 2021	mvn spring-boot:build-image fails when 'classifier' is set to non-default value		type: bug
+3.0.x	May 31, 2021	ResponseStatusException threw on method with @ExceptionHandler annotation always return status 500		theme: web-error-handling	type: enhancement
+null	May 25, 2021	Loaded JARs require an additional read permissions on the main java when used with a SecurityManager		for: team-attention	status: waiting-for-triage
+2.5.x	May 20, 2021	Add spring-asciidoctor-extensions-section-ids to maven-plugin		type: task
+null	May 14, 2021	AspectJ proxy bean gives IllegalAccessException in Java 16		status: pending-design-work	status: waiting-for-triage
+2.x	May 13, 2021	Maven goal spring-boot:build-image runs package phase twice		type: enhancement
+2.x	May 5, 2021	Allow management server to run on same port but different address		type: enhancement
+null	May 4, 2021	Spring Security AuthenticationException message inconsistency		status: waiting-for-triage
+2.5.x	Apr 28, 2021	IncrementalBuildMetadataGenerationTests#incrementalBuildTypeRenamed does not test what it's supposed to		type: task
+2.5.x	Apr 16, 2021	Missing AutoConfigureWebTestClient in "Testing with a running server"		type: documentation
+2.5.x	Apr 15, 2021	Staging builds don't start Docker		type: task
+2.x	Apr 13, 2021	Don't register ConfigurationPropertiesBinding beans as web converters		status: pending-design-work	type: enhancement
+2.x	Apr 13, 2021	Consider generics on ConfigurationPropertiesBinding beans		type: enhancement
+2.x	Apr 12, 2021	Provide SNI functionality for SSL autoconfiguration		theme: ssl	type: enhancement
+2.x	Apr 12, 2021	Document Log4j2's log4j-spring-boot module and its spring lookup as an alternative to our Logback <springProperty> extension		status: on-hold	type: documentation
+2.x	Apr 9, 2021	Allow build image caches to use the container file system instead of volumes		theme: kubernetes	type: enhancement
+2.x	Apr 9, 2021	A functional command line runner		type: enhancement
+2.x	Apr 7, 2021	Update DockerApi to support configured authentication		status: pending-design-work	type: enhancement
+null	Apr 6, 2021	Default for server.tomcat.basedir shoudn't be /tmp		status: waiting-for-triage
+2.x	Apr 2, 2021	Add builder docker host option for image building		type: enhancement
+2.5.x	Apr 1, 2021	Potential memory leak in MetricsClientHttpRequestInterceptor		type: bug
+2.5.x	Apr 1, 2021	Update documentation on using H2C to consider running behind a proxy that's performing TLS termination		type: documentation
+General Backlog	Mar 31, 2021	Provide a hook for configuring Logback programatically		type: enhancement
+2.x	Mar 30, 2021	Url query param sanitization		type: enhancement
+2.x	Mar 30, 2021	Use a local builder image when the image does not exist in the remote repository		type: enhancement
+null	Mar 17, 2021	spring.profiles.include overrides other profiles being activate		status: feedback-provided	status: waiting-for-triage
+2.5.x	Mar 16, 2021	Stale pid file may cause the launch script to incorrectly report that the service is running if a new process has been allocated the same pid		type: bug
+2.x	Mar 16, 2021	Make it easier to configure DefaultPartHttpMessageReader's max headers size		type: enhancement
+2.x	Mar 11, 2021	Unable to specify trustStore details for Cassandra SSL configuration with spring-boot-autoconfigure:2.4.2		theme: ssl	type: enhancement
+2.x	Mar 8, 2021	Improve minimal auto-configuration for OIDC login with Okta		type: enhancement
+2.x	Mar 2, 2021	Enhanced Observability		theme: observability	type: epic
+2.x	Feb 28, 2021	Allow health indicators to be run asynchronously with the health endpoint providing a view of their current state		status: pending-design-work	type: enhancement
+2.x	Feb 24, 2021	Stop packaging optional dependencies by default in our Maven plugin and provide an option to opt back in		type: enhancement
+General Backlog	Feb 23, 2021	Graceful shutdown for RSockets		status: blocked	type: enhancement
+3.0.x	Feb 19, 2021	Remove support for running multiple Spring Batch jobs		type: enhancement
+General Backlog	Feb 9, 2021	Actuator - support optional downstream services		status: pending-design-work	type: enhancement
+2.x	Feb 5, 2021	SslConfigurationValidator should check if the configured key alias is for a key and certificate		theme: ssl	type: enhancement
+2.x	Feb 4, 2021	Provide SpringApplication.exit alternative		status: on-hold	type: enhancement
+null	Jan 30, 2021	Clarifying change in config file ordering particularly with respect to spring.config.location and profile-specific files		type: wiki-documentation
+General Backlog	Jan 25, 2021	Allow addition of custom logback Actions		type: enhancement
+2.5.x	Jan 25, 2021	Document how to use cloudfoundry specific actuators with a custom base path for webflux applications		type: documentation
+General Backlog	Jan 20, 2021	Allow spring.factory instances to be changed, configured or removed		status: pending-design-work	type: enhancement
+2.x	Jan 20, 2021	Support Netty's TCP server resources eager initialization		status: pending-design-work	type: enhancement
+2.5.x	Jan 19, 2021	Application Context initialized twice during test when exception thrown during initialization		status: pending-design-work	type: bug
+2.x	Jan 15, 2021	During annotation processing, check that property types declared in additional-spring-configuration-metadata.json can be loaded		type: enhancement
+3.x	Jan 8, 2021	Declaring a user-defined WebServerFactory should make sure the auto-configuration backs off		for: team-meeting	status: blocked	type: enhancement
+2.5.x	Jan 8, 2021	Use Maven Help Plugin 3.3.0 to generate effective bom as it produces reproducible output		status: blocked	type: task
+General Backlog	Jan 7, 2021	Allow application properties to be contributed from module jars		status: pending-design-work	theme: config-data	type: enhancement
+General Backlog	Jan 6, 2021	Investigate CSRF alternative for actuator endpoints		status: pending-design-work	type: enhancement
+2.x	Jan 6, 2021	Provide convenience methods to disable actuator CSRF		type: enhancement
+2.x	Dec 17, 2020	Support pulling images from different registries with authentication		status: pending-design-work	type: enhancement
+2.x	Dec 8, 2020	Request RSocket Metrics Actuator Autoconfiguration		type: enhancement
+2.5.x	Dec 7, 2020	Review launch script integration tests docker images		type: task
+2.x	Nov 29, 2020	Support SSH protocol for communication with Docker daemon for image building		type: enhancement
+2.x	Nov 25, 2020	Generalize spring.data.jpa.repositories.bootstrap-mode		status: pending-design-work	type: enhancement
+2.x	Nov 24, 2020	Add auto-configuration for kotlinx.serialization		type: enhancement
+2.x	Nov 24, 2020	ConditionEvaluationReportLoggingListener registered in ApplicationContextRunner should log the report if the context fails to start		type: enhancement
+General Backlog	Nov 22, 2020	Support .env file for configuration properties		status: pending-design-work	type: enhancement
+General Backlog	Nov 19, 2020	Missing the login/logout URIs in the actuator metrics		status: pending-design-work	type: enhancement
+General Backlog	Nov 12, 2020	Support null values when binding properties		type: enhancement
+2.x	Nov 5, 2020	Improve the jOOQ transaction experience		type: enhancement
+2.5.x	Nov 5, 2020	Diagnostics are poor when the JMX port used by the Maven start goal is in use		type: bug
+2.5.x	Oct 29, 2020	Externalize configuration property section configuration		type: task
+2.5.x	Oct 28, 2020	Update Java conventions so that projects creating jars from jars don't have to exclude duplicate LICENSE and NOTICE files		type: task
+General Backlog	Oct 28, 2020	Introduce additional @Nested tests in test suite		type: task
+2.x	Oct 27, 2020	Reloading Saml2RelyingPartyRegistrations with help of Saml2RelyingPartyRegistrationConfiguration		for: team-attention	type: enhancement
+2.5.x	Oct 25, 2020	Hard-coded uses of src/main/webapp preclude any other project layouts from working		type: bug
+3.x	Oct 21, 2020	Exceptions caught by @ExceptionHandler are not recorded by MetricsWebFilter		status: blocked	status: noteworthy	theme: web-error-handling	type: enhancement
+3.x	Oct 15, 2020	Investigate reflection free binder options		status: blocked	theme: native	type: enhancement
+General Backlog	Oct 7, 2020	Support constructor binding on 3rd party classes		type: enhancement
+2.x	Sep 30, 2020	Create our own bindable properties objects for datasource binding		type: epic
+General Backlog	Sep 24, 2020	Extend changelog with "Removals" and "Deprecations" sections		type: task
+3.x	Sep 8, 2020	Make strategies in EnvironmentPostProcessorApplicationListener pluggable		status: blocked	theme: native	type: enhancement
+2.x	Aug 28, 2020	Add auto-configuration for Hibernate query metrics		status: pending-design-work	type: enhancement
+General Backlog	Aug 27, 2020	Use RouterFunction or plain Controller for BasicErrorController instead of @Controller		theme: native	type: enhancement
+2.x	Aug 20, 2020	EmbeddedLdapContextConfiguration LdapContextSource bean creation not populating base property		type: bug
+2.x	Aug 19, 2020	Consider offering a way to compare legacy against new config data processing		theme: config-data	type: enhancement
+2.x	Aug 19, 2020	Consider allowlist for import locations		theme: config-data	type: enhancement
+2.x	Aug 19, 2020	Investigate pluggable config data activation		theme: config-data	type: enhancement
+2.x	Aug 14, 2020	Make it easier to control how the keys in the basic error controller's response are formatted		type: enhancement
+General Backlog	Aug 12, 2020	Spring Boot Actuator "manifest" endpoint		status: pending-design-work	type: enhancement
+3.x	Aug 7, 2020	Enable readiness and liveness probe endpoints by default		status: blocked	status: noteworthy	type: enhancement
+2.x	Aug 7, 2020	Provide metrics for an AbstractRoutingDataSource's resolved targets		status: pending-design-work	type: enhancement
+2.x	Aug 5, 2020	When using @MockBean and @SpyBean make it easier to inject any underlying proxy target as well as the mock or spy		status: pending-design-work	type: enhancement
+3.x	Aug 5, 2020	Ensure data.sql / schema.sql support is disabled automatically when using Flyway/Liquibase		status: blocked	status: pending-design-work	theme: datasource	type: enhancement
+2.x	Jul 31, 2020	Make it more obvious that the user intends to build a full reactive app		status: pending-design-work	type: enhancement
+General Backlog	Jul 31, 2020	Provide API/hook for enhancing fat jar in build plugins		type: enhancement
+General Backlog	Jul 21, 2020	Consider bringing back the full table of contents		status: pending-design-work	type: documentation
+2.x	Jul 21, 2020	Investigate a SpringApplication variant of ApplicationContextRunner		status: pending-design-work	type: enhancement
+3.x	Jul 20, 2020	Make it easier to apply customisations to the SpringApplication created by @SpringBootTest		status: blocked	status: pending-design-work	type: enhancement
+3.x	Jul 20, 2020	Make it easier to define a bean in addition to an auto-configured bean of the same type		status: blocked	type: enhancement
+3.x	Jul 17, 2020	Provide an API/Event so that library authors can detect when user has modified SpringApplication		status: blocked	type: enhancement
+2.x	Jul 13, 2020	Source file must be provided failure when running spring-boot:repackage from the command-line		type: enhancement
+General Backlog	Jul 13, 2020	Provide autoconfiguration option for pure RouterFunction apps		status: blocked	type: enhancement
+2.x	Jul 10, 2020	Refactor EntryWriter logic so SizeCalculatingEntryWriter can be closed		status: pending-design-work	type: enhancement
+3.x	Jun 29, 2020	Investigate impact of switching default logging system to log4j2		status: blocked	type: enhancement
+null	Jun 25, 2020	Make it easier to enable Hibernate bytecode enhancement		status: waiting-for-triage
+General Backlog	Jun 24, 2020	Investigate documenting which starters contain which classes		type: enhancement
+General Backlog	Jun 7, 2020	Timeout for defaulting log levels		status: pending-design-work	type: enhancement
+2.5.x	May 30, 2020	Some properties on inheritance relationship class cannot be render to configuration metadata		type: bug
+2.x	May 28, 2020	Add Property origin information to environment		status: on-hold	type: enhancement
+3.0.x	May 20, 2020	Conversion of Duration and Period uses ISO-8601, but other temporal accessors are converted using the current locale		type: enhancement
+General Backlog	May 20, 2020	Review use of File.createTempFile		type: enhancement
+2.6.x	May 18, 2020	Allow anyone on the team to generate the configuration changelog		type: task
+2.x	May 13, 2020	Update spring security documentation link		status: blocked	type: documentation
+2.5.x	May 12, 2020	An active request indefinitely delays the shutdown of an app that is using Reactor Netty		type: bug
+2.x	May 7, 2020	Provide some default dependency substitutions in Spring Boot's Gradle plugin		type: enhancement
+General Backlog	May 5, 2020	Investigate service binding automation		status: pending-design-work	theme: kubernetes	type: task
+General Backlog	May 4, 2020	Add support for streaming responses from actuator web endpoints		type: enhancement
+2.x	Apr 30, 2020	Add support to Bomr for aligning a dependency version with the one pulled in by an external dependency		status: blocked	type: task
+2.x	Apr 29, 2020	Allow custom ErrorReportValve to be used with Tomcat and provide whitelabel version		theme: web-error-handling	type: enhancement
+General Backlog	Apr 24, 2020	Test against Gradle nightly		type: task
+2.5.x	Apr 23, 2020	Spring test context reloaded when MockBean and ContextHierarchy (on single class) are mixed		type: bug
+3.x	Apr 21, 2020	Auto-configure OpenTSDBMeterRegistry		theme: observability	type: enhancement
+General Backlog	Apr 20, 2020	Automate link checking for generated documentation		type: task
+2.x	Apr 19, 2020	Consider adding "since" attribute on DeprecatedConfigurationProperty		type: enhancement
+2.5.x	Apr 17, 2020	Apply consistent timestamps to files added to a fat archive		type: task
+2.x	Apr 16, 2020	Investigate shutdown delay option		status: pending-design-work	theme: kubernetes	type: enhancement
+General Backlog	Apr 14, 2020	Check if it's possible to start Spring Boot on a JVM that doesn't have JMX		type: enhancement
+2.x	Apr 9, 2020	buildSrc's PluginXmlParser will NPE if a parameter has no description		type: task
+2.x	Apr 1, 2020	Make it easier to map MessageSourceProperties onto a user-provided AbstractResourceBasedMessageSource		type: enhancement
+2.x	Mar 31, 2020	Provide a mechanism for customising the auto-configured NimbusJwtDecoders		status: blocked	type: enhancement
+2.x	Mar 30, 2020	Provide diagnostic information about the ordering of auto-configuration classes		status: pending-design-work	type: enhancement
+General Backlog	Mar 28, 2020	Support mustache template caching		type: enhancement
+2.x	Mar 27, 2020	Auto-configure Spring Data's reactive method argument resolvers in a reactive web application		status: blocked	type: enhancement
+2.x	Mar 19, 2020	Make tests disabled by @DisabledIfDockerUnavailable more visible in build output		type: task
+2.5.x	Mar 13, 2020	Deploy XSDs automatically		type: task
+3.x	Mar 11, 2020	Make it easier for the error controller and the error attributes to be sure that they agree on the status of the response		status: blocked	theme: web-error-handling	type: enhancement
+2.x	Mar 6, 2020	Make DefaultErrorAttributes more extensible		status: pending-design-work	theme: web-error-handling	type: enhancement
+2.x	Mar 5, 2020	Allow JSON keys containing non-canonical characters from CF environment to be handled as a single path segment		type: enhancement
+2.x	Feb 24, 2020	Provide a configuration option to disable transferring logging.* properties from the environment to system properties		type: enhancement
+2.x	Feb 21, 2020	Add actuator specific ObjectMapper		status: pending-design-work	type: enhancement
+General Backlog	Feb 21, 2020	Rewrite Actuator MVC adapter layer for Servlet Functional Endpoints		status: pending-design-work	type: task
+General Backlog	Feb 21, 2020	Allow a snapshot of the classpath to be used to restrict the entries that affect auto-configuration		type: enhancement
+2.5.x	Feb 13, 2020	Add Maven smoke tests		type: task
+2.x	Jan 29, 2020	Provide more information, such as the bean name, in health check failure messages		status: pending-design-work	type: enhancement
+2.x	Jan 22, 2020	Server tests can pick up incorrect loader classes		type: task
+2.x	Jan 16, 2020	Starter projects should verify that their runtime classpath can be resolved		type: task
+2.5.x	Jan 15, 2020	Conf file cannot be used to configure JAVA_OPTS with values that contain spaces		type: bug
+2.x	Jan 10, 2020	Prevent Servlet filter re-registration		type: enhancement
+3.x	Jan 3, 2020	Consider using RFC 7807 problem details for error responses		status: blocked	status: noteworthy	theme: web-error-handling	type: enhancement
+2.x	Jan 2, 2020	Add list of effective PropertySources in EnvironmentEndpoint		type: enhancement
+2.x	Dec 26, 2019	Provide easier way to configure view controllers		type: enhancement
+2.x	Dec 16, 2019	Offer a way for MockitoTestExecutionListener to enable strict stubbing		type: enhancement
+2.x	Dec 13, 2019	Add debug logging to help when a repository uses classes that are missing annotations		status: blocked	type: enhancement
+2.5.x	Dec 13, 2019	Log4J2LoggingSystemTests loggingThatUsesJulIsCaptured unintentionally uses Logback		type: task
+2.x	Nov 25, 2019	Consider adding support for version ranges for actuator apiVersion		type: task
+2.x	Nov 20, 2019	Provide a public API to replace ConfigurationPropertiesBindingPostProcessorRegistrar		type: enhancement
+2.x	Nov 17, 2019	Allow to use TestContainers with @AutoConfigureTestDatabase		status: pending-design-work	theme: testing	type: enhancement
+2.x	Oct 31, 2019	Write HTTP response headers contributed by exceptions in WebFlux error handling		theme: web-error-handling	type: enhancement
+2.x	Oct 30, 2019	@ConfigurationProperties should have an option to fail fast for unresolvable properties		theme: config-data	type: enhancement
+2.x	Oct 15, 2019	Remove workaround for #18440 once spring-projects/spring-framework#23795 has been fixed		status: blocked	type: task
+2.x	Oct 11, 2019	Improve response message on DecodingException		theme: web-error-handling	type: enhancement
+2.x	Oct 10, 2019	Simplify configuration for a custom trust store or a trusted certificate(s) for outgoing HTTPS connections		status: pending-design-work	theme: ssl	type: enhancement
+2.5.x	Oct 8, 2019	Escaped and quoted arguments are treated differently by the launch script depending on how it is invoked		status: on-hold	type: bug
+2.x	Oct 6, 2019	No metadata is generated with meta-annotated @ConfigurationProperties		type: enhancement
+2.x	Sep 28, 2019	Allow metadata hint values to be contributed by multiple components		status: pending-design-work	type: enhancement
+2.x	Sep 27, 2019	Configure RSocket standalone servers with a local transport for tests		type: enhancement
+null	Sep 26, 2019	Resource loading of message bundles always needs classpath prefix		status: waiting-for-triage
+2.x	Sep 26, 2019	ConfigurationProcessor : description missing from dependency		type: enhancement
+null	Sep 23, 2019	Don't require actuator to customize MeterRegistry		status: pending-design-work	status: waiting-for-triage
+2.x	Sep 19, 2019	Support multipart uploads with @RestControllerEndpoint when the management server is running on a separate port		type: enhancement
+2.x	Sep 13, 2019	Migrate @Import classes to use constructor injection		type: task
+General Backlog	Sep 12, 2019	Add developer centric documentation for test slice annotations		type: documentation
+2.x	Sep 4, 2019	Allow forcing DataSourceClosingSpringLiquibase when manually defining a @LiquibaseDataSource		type: enhancement
+2.x	Aug 29, 2019	Consider how to support case sensitive key names with environment varaiables		status: pending-design-work
+2.x	Aug 28, 2019	Update getting started with start.spring.io instructions		status: pending-design-work	type: documentation
+2.5.x	Aug 26, 2019	ApplicationContextRunner has inconsistent behaviour with duplicate auto-configuration class names		type: bug
+2.x	Aug 2, 2019	Support mvn spring-boot:run with classpaths that exceeds Windows' length limits		type: enhancement
+General Backlog	Aug 1, 2019	Document how to import and run a smoke tests in the IDE		type: wiki-documentation
+General Backlog	Jul 25, 2019	Jolokia Actuator Endpoint is not available when using Reactive/WebFlux Web Application		type: enhancement
+2.x	Jul 19, 2019	Consider unifying SSL support		status: pending-design-work	theme: ssl
+General Backlog	Jul 19, 2019	Spring Boot Actuator Endpoints for Scheduled Tasks		status: blocked	type: enhancement
+General Backlog	Jul 16, 2019	Add RabbitMQ auto-configuration support when camel-rabbit is used instead of rabbit-amqp		type: enhancement
+2.x	Jul 15, 2019	Review messages used in Assert calls		type: task
+General Backlog	Jul 3, 2019	Provide first-class support for all Kafka configuration options		type: enhancement
+2.x	Jul 2, 2019	Document that the shutdown endpoint is not intended for use when deploying a war to a servlet container		type: documentation
+3.x	Jul 2, 2019	Consider restructuring Spring Session configuration properties		type: enhancement
+General Backlog	Jun 29, 2019	Provide configuration properties for configuring an ActiveMQ connection factory that uses SSL		status: on-hold	theme: ssl	type: enhancement
+2.x	Jun 28, 2019	Investigate simplifying WebMvcAutoConfiguration if templating isn't being used		type: enhancement
+2.x	Jun 24, 2019	Investigate using archunit in our own build		type: task
+2.x	Jun 20, 2019	Configuration metadata - Improve camelCaseToDash for nicer configuration names		type: enhancement
+2.x	Jun 19, 2019	AutoConfiguration for Declarative Counter API in Micrometer		type: enhancement
+2.x	Jun 17, 2019	Merge script does not deal with multiple fixes		type: task
+General Backlog	Jun 13, 2019	Document adding multiple connectors for Jetty and Undertow		type: documentation
+3.x	Jun 5, 2019	Embedded web servers behave inconsistently when server.port is set to -1		for: team-meeting	status: blocked	status: pending-design-work	type: task
+2.x	May 31, 2019	Add a property for specifying authentication scheme for introspection endpoint		status: blocked	type: enhancement
+2.x	May 22, 2019	Perform failure analysis of sliced tests that fail to bootstrap due to an IllegalStateException: No ServletContext set caused by an unwanted or misplaced @EnableWebMvc		type: enhancement
+General Backlog	May 16, 2019	Pseudo-meta-annotation for @ImportAutoConfiguration		status: blocked	type: enhancement
+General Backlog	May 14, 2019	Debug Spring Boot Logging Configuration		type: enhancement
+2.x	Apr 27, 2019	Consider adding a switch to disable JMX completely		theme: performance	type: enhancement
+General Backlog	Apr 26, 2019	Investigate devtools restart with a single classloader		type: enhancement
+2.x	Apr 15, 2019	Improve repackage exclude to be able to specify a pattern		type: enhancement
+2.x	Apr 11, 2019	Use LogMessage.format when possible		status: pending-design-work	type: task
+2.x	Apr 9, 2019	Add an annotation to exclude Filter @Beans from registration		type: enhancement
+General Backlog	Apr 5, 2019	Provide fat jar aware implementations of Tomcat's Resource and ResourceSet to speed up resource loading from executable wars		type: enhancement
+2.x	Apr 4, 2019	Extract generic information for nested group		type: enhancement
+General Backlog	Apr 2, 2019	Revisit Reactive context hierarchy		type: enhancement
+2.x	Mar 22, 2019	Detect primary constructor to generate metadata for Kotlin immutable types		theme: config-data	type: enhancement
+2.x	Mar 21, 2019	Add actuator support for RSocket		status: pending-design-work	type: enhancement
+2.x	Mar 21, 2019	Consider Protobuf codecs auto-configuration for RSocket support		type: enhancement
+2.x	Mar 18, 2019	Include link to running web application in startup log output		type: enhancement
+2.x	Mar 14, 2019	Ability to customize log file name when logging.path is set		status: pending-design-work	type: enhancement
+2.x	Mar 11, 2019	Use Kotlin metadata to retrieve parameter names of Endpoints		type: enhancement
+2.x	Mar 5, 2019	Filters are not applied to Actuator endpoints when management port is different		type: bug
+2.x	Feb 22, 2019	Provide auto-configuration for Spring HATEOAS's new WebFlux integration		status: blocked	type: enhancement
+2.x	Feb 2, 2019	Does not work 'classpath*:' for Resource[] property on configuration properties since 2.x		status: blocked	status: pending-design-work	type: regression
+2.x	Feb 1, 2019	Allow Hibernate to use Spring Boot's validator		type: enhancement
+2.x	Jan 31, 2019	Add support for customized Cassandra keyspace creations		type: enhancement
+General Backlog	Jan 24, 2019	Spring CLI: not work well with spring-data-jpa		type: bug
+2.x	Jan 17, 2019	Provide support for auto-configuring multiple datasources		status: pending-design-work	type: enhancement
+2.x	Jan 14, 2019	Add "How to get help" page		type: wiki-documentation
+2.x	Jan 10, 2019	Tomcat and HTTP metrics missing if managment.server.port is set to a different port than server.port		type: bug
+2.x	Dec 26, 2018	Add more MustacheAutoConfiguration compiler options		status: pending-design-work	type: enhancement
+2.x	Dec 17, 2018	Suggestion to support LazyConnectionDataSourceProxy		status: pending-design-work	type: enhancement
+null	Dec 15, 2018	Test slices behave differently with @ImportAutoConfiguration and @EnableAutoConfiguration		status: on-hold	status: pending-design-work	status: waiting-for-triage
+2.x	Dec 10, 2018	Support enable/disabling SSL client authentication on the management port without overriding SSL parameters		theme: ssl	type: enhancement
+General Backlog	Dec 5, 2018	Provide a URI tag for HTTP requests handled by MessageDispatcherServlet		status: blocked	type: enhancement
+General Backlog	Dec 3, 2018	Add support for micrometer metrics with reactor schedulers		type: enhancement
+2.x	Nov 30, 2018	Could not initialize Hazelcast with a dependency on a JPA repository		type: bug
+2.x	Nov 28, 2018	Make it easier to use the auto-configured EntityManagerFactoryBuilder with Hibernate-specific properties		type: enhancement
+2.x	Nov 21, 2018	Provide a 'parsable' details information about 'predicate' in RM Actuator JSON for functional RM		status: pending-design-work	type: enhancement
+General Backlog	Nov 21, 2018	Add bean id to Actuator (mappings) JSON data for functional routes		status: pending-design-work	type: enhancement
+General Backlog	Nov 21, 2018	launch.script should not get in the way of sigterm propagation		type: enhancement
+2.x	Nov 15, 2018	Make it easier to configure micrometer predicate for use with TimedAspect		type: enhancement
+2.x	Nov 2, 2018	Allow proper replacement of @SpringBootTest and extension of SpringBootTestContextBootstrapper		theme: testing	type: enhancement
+2.x	Oct 31, 2018	Investigate access log to logging system		type: enhancement
+2.x	Oct 29, 2018	Provide parseable version / details for actuator 'env' endpoint 'origin'		type: enhancement
+General Backlog	Oct 29, 2018	Add support for auto-configuring a ReloadableResourceBundleMessageSource		type: enhancement
+2.x	Oct 24, 2018	Allow specifying a different management access log prefix		type: enhancement
+3.0.x	Oct 24, 2018	Relocate ConditionalOnWebApplication and ConditionalOnNotWebApplication		type: enhancement
+General Backlog	Oct 23, 2018	Configuring of shutdownTimeout of AbstractMessageListenerContainer in amqp.rabbit		status: pending-design-work	type: enhancement
+3.0.x	Oct 17, 2018	Move JerseyServerMetricsAutoConfiguration to web package		for: team-attention	type: task
+2.x	Oct 12, 2018	Allow to define that a binding target represents a scalar value		type: enhancement
+2.x	Oct 3, 2018	Replace POJO used as nested namespace in spring-boot by an immutable contract		type: enhancement
+2.x	Oct 2, 2018	Review asynchronous EntityManagerFactory bootstrapping and DataSource initialisation		status: blocked	theme: datasource	type: task
+2.x	Sep 26, 2018	Allow Undertow's HTTPS listener to be configured with an SSLContext that uses a custom TrustManager		type: enhancement
+General Backlog	Sep 23, 2018	Add support for configuring Hibernate L2 Cache		type: enhancement
+General Backlog	Sep 21, 2018	Automatically create metrics for caches that are created on-the-fly		status: blocked	type: enhancement
+3.0.x	Sep 11, 2018	Refactor org.springframework.boot.autoconfigure.security structure		type: task
+General Backlog	Sep 6, 2018	Stop disabling metrics export auto-configuration when related enable flag is disabled		status: on-hold
+2.x	Sep 4, 2018	Embedded servlet customizer unavailable to management webserver		type: enhancement
+General Backlog	Aug 28, 2018	Provide MockWebServer Integration		type: enhancement
+General Backlog	Aug 27, 2018	Add CI setup for Graal		status: blocked	theme: native	type: task
+2.x	Aug 17, 2018	GC pressure from SpringConfigurationPropertySource		theme: performance	type: task
+General Backlog	Aug 7, 2018	Custom reactive HandlerMappings are available on the management port		type: enhancement
+2.x	Jul 31, 2018	Review and document dependency exclusion process		type: enhancement
+2.x	Jul 19, 2018	Make it easy to control bean definition loader		theme: performance	type: enhancement
+2.x	Jul 13, 2018	Provide support for actuators and /error rendering with Gson		type: enhancement
+2.x	Jul 10, 2018	EndpointRequest should provide matcher regardless of endpoint exposure		type: enhancement
+General Backlog	Jul 10, 2018	Provide links to the javadoc of referenced classes in the documentation		type: documentation
+General Backlog	Jul 4, 2018	Support loading Servlet container static resources from META-INF/resources of jars referenced in a jar’s Class-Path manifest attribute		type: enhancement
+2.x	Jun 18, 2018	Inconsistent configuration report with bean registration phase checks		status: blocked	type: bug
+2.x	Jun 11, 2018	Make Actuator endpoint metrics distinguishable		status: blocked	type: enhancement
+General Backlog	Jun 8, 2018	Views for different contenttypes cannot be resolved anymore.		status: feedback-provided
+2.x	Jun 7, 2018	Reduce GC pressure of ConditionMessage creation		theme: performance	type: enhancement
+2.x	Jun 7, 2018	Allow map binding to work with unescaped characters		theme: config-data	type: enhancement
+General Backlog	Jun 5, 2018	Update ManagementContextConfigurationImportSelector to use optimized conditions evaluation		theme: performance	type: enhancement
+General Backlog	Jun 4, 2018	Perform failure analysis when a unique CacheManager bean cannot be found		status: blocked	type: enhancement
+General Backlog	Jun 1, 2018	Support DevTools override properties from custom starters		type: enhancement
+2.5.x	May 30, 2018	WebMvcMetricsFilter records a 500 response status for any NestedServletException irrespective of response's actual status		type: bug
+2.x	May 29, 2018	Allow provided and optional dependencies to be exclude when building a fat jar with Maven		type: enhancement
+2.x	May 29, 2018	Custom Converter flagged with @ConfigurationPropertiesBinding potentially ignored		type: enhancement
+General Backlog	May 9, 2018	Add JUnit 5 parameter resolver for @MockBean		theme: testing	type: enhancement
+General Backlog	May 8, 2018	Support DevTools remote update in reactive web applications		type: enhancement
+2.x	May 4, 2018	Rework WebMvcMetricsFilter to be general purpose with tech strategies		type: enhancement
+2.x	Apr 25, 2018	Find a better way to detect when to start embedded servers		status: on-hold	type: enhancement
+2.x	Apr 11, 2018	Provide mappings and ExtractingResponseErrorHandler configuration for ErrorAttributes responses		theme: web-error-handling	type: enhancement
+2.x	Apr 11, 2018	Support Devtools with Java 9+ modulepath		type: enhancement
+General Backlog	Apr 11, 2018	Add include/exclude filters to @EntityScan		type: enhancement
+3.x	Apr 2, 2018	Prune samples tests		type: task
+3.x	Mar 27, 2018	Support SLF4J 2.0 and Logback 1.3		status: blocked	type: enhancement
+2.x	Mar 27, 2018	Debug report for exposed / not exposed Actuator endpoints		type: enhancement
+General Backlog	Feb 22, 2018	Use HikariConfig as a builder for creating the auto-configured HikariDataSource		type: enhancement
+General Backlog	Jan 29, 2018	RabbitAutoConfiguration does not have properties for channel transacted		type: enhancement
+2.x	Jan 26, 2018	Decide how to deal with response when handling errors in RouterFunctionMetrics		type: enhancement
+General Backlog	Jan 19, 2018	Formatting and links in configuration properties metadata		type: enhancement
+2.x	Jan 17, 2018	Investigate CI integration with sonarcloud.io		type: task
+3.0.x	Jan 8, 2018	Review all data properties		type: enhancement
+General Backlog	Jan 4, 2018	Consider automating fly set-pipeline using the concourse-pipeline-resource		type: task
+General Backlog	Dec 28, 2017	Consider adding a provider.base-url property under OAuth client properties		type: enhancement
+2.x	Dec 15, 2017	Move .applyTo methods from Properties		theme: config-data	type: task
+3.x	Dec 12, 2017	Ensure that all data store auto-configurations have consistent default connection behaviour		theme: datasource	type: enhancement
+General Backlog	Dec 6, 2017	Environment Report when running with -Ddebug=true		type: enhancement
+2.x	Nov 29, 2017	Check unsupported configuration properties in Freemarker WebFlux		type: enhancement
+General Backlog	Oct 30, 2017	Provide an Actuator endpoint for reactive sessions		status: blocked	type: enhancement
+2.x	Oct 20, 2017	Add null-safety annotations on Spring Boot APIs		type: enhancement
+General Backlog	Oct 13, 2017	Investigate design level 1 package tangles		status: on-hold	type: enhancement
+General Backlog	Aug 29, 2017	AuthorizationAuditListener.onAuthorizationFailureEvent() should store accessed resource into event data		type: enhancement
+General Backlog	Aug 23, 2017	Allow Spring Boot to be used in environments where the security policy prohibits read access to certain parts of the file system		type: enhancement
+General Backlog	Aug 18, 2017	Prevent debug logs during the environment preparation phase with logback-spring.xml		type: enhancement
+2.x	Aug 17, 2017	Provide a configuration validation mechanism		theme: config-data	type: enhancement
+2.x	Aug 8, 2017	Delete Tomcat's temporary directories when the context is closed		type: enhancement
+2.x	Aug 3, 2017	Provide configuration property metadata for binding to Map<String, RichType> and List<RichType>		theme: config-data	type: enhancement
+General Backlog	Jul 27, 2017	Provide a more memory-efficient NIO-based file system watcher in DevTools		theme: devtools	type: enhancement
+General Backlog	Jun 23, 2017	Support non-blocking XML Marshalling with jackson-dataformat-xml		status: blocked	type: enhancement
+2.x	Jun 20, 2017	Management endpoint Tomcat connector picks up general server properties		type: bug
+General Backlog	Jun 14, 2017	Add support for loading META-INF/resources from jars referenced via a Class-Path manifest entry		type: enhancement
+2.6.x	Jun 12, 2017	JUL-based logging performed during close of application context is lost		type: bug
+General Backlog	May 5, 2017	Support @NestedConfigurationProperty at targets other than field		theme: config-data	type: enhancement
+2.x	May 4, 2017	Provide additional data in debug report for @ConditionalOnBean		type: enhancement
+General Backlog	Apr 28, 2017	@WebMvcTest should also auto-configure Spring Data web integration		status: blocked	type: enhancement
+2.x	Apr 21, 2017	Provide a callback for customising the auto-configured FreeMarkerConfigurer		status: blocked	type: enhancement
+General Backlog	Apr 18, 2017	BackgroundPreinitializer breaks initialization of DefaultFormattingConversionService		type: bug
+General Backlog	Mar 24, 2017	Consider sending timing header in responses when using DevTools		type: enhancement
+General Backlog	Feb 17, 2017	Remote Spring Boot devtools unable to restart application if a dependency has autowire candidates that the main application uses		type: bug
+General Backlog	Jan 26, 2017	Expose the functional bean registration API via SpringApplication		theme: performance	type: enhancement
+2.x	Jan 19, 2017	Optimize startup time: Jackson		theme: performance	type: enhancement
+General Backlog	Jan 10, 2017	Gather @Condition performance metrics		type: task
+2.x	Jan 9, 2017	Allow supported locales to be configured via the environment		type: enhancement
+General Backlog	Dec 28, 2016	Some logs are dismissed during context creation		type: enhancement
+General Backlog	Dec 18, 2016	Support @MockBean on test fields with TestNG		type: enhancement
+2.x	Dec 15, 2016	No easy way to share response customisation logic for both sendError and exception handling		theme: web-error-handling	type: enhancement
+2.x	Dec 6, 2016	Optimize startup time: Make Actuator features lazy		theme: performance	type: enhancement
+General Backlog	Dec 6, 2016	Optimize startup time: cache configuration		theme: performance	type: enhancement
+2.x	Dec 3, 2016	Add support for enum default values in configuration processor		theme: config-data	type: enhancement
+General Backlog	Nov 28, 2016	Extract static resources from JARs at runtime in production		type: enhancement
+2.x	Nov 8, 2016	Provide mechanism for just mapping an exception to a status code and use the default error handling afterwards		theme: web-error-handling	type: enhancement
+2.x	Nov 8, 2016	Use ResourceLoader when rendering asset links in thymeleaf error pages		type: enhancement
+3.x	Oct 31, 2016	@EnableBatchProcessing does not reuse the auto-configured PlatformTransactionManager		status: blocked	type: bug
+2.x	Oct 13, 2016	Support java.nio.file Paths and FileSystems with fat jars		type: enhancement
+2.x	Sep 5, 2016	Improve documentation about enforcing HTTPS		type: documentation
+2.x	Aug 24, 2016	Update auto-configuration report OnClass with the source jar		type: enhancement
+2.x	Aug 24, 2016	Track DevTools' auto-configuration delta across JVM restarts		type: enhancement
+General Backlog	Aug 19, 2016	Logged auto-configuration report doesn't include conditions evaluated in child contexts		type: bug
+2.x	Aug 19, 2016	Recommend the use of RepositoryRestConfigurer when we detect a RepositoryRestConfiguration subclass in the context		type: enhancement
+General Backlog	Aug 11, 2016	Make it easier to package certain content in the root of a fat jar		type: enhancement
+2.x	Aug 10, 2016	Perform failure analysis of AbstractMethodErrors		type: enhancement
+General Backlog	Aug 3, 2016	/trace filter misses requests that are handled by other filters (especially Spring Security)		type: enhancement
+General Backlog	Jun 24, 2016	Try to avoid scanning some locations twice for TLDs when starting an executable war		type: enhancement
+General Backlog	Jun 15, 2016	Support crlFile in SSL configuration		theme: ssl	type: enhancement
+General Backlog	Jun 12, 2016	Let's encrypt integration		theme: ssl	type: enhancement
+General Backlog	Jun 6, 2016	@ConfigurationProperties - Grab javadoc from setter/getter if no field javadoc exists		type: enhancement
+General Backlog	Apr 12, 2016	Investigate JarFileEntries index entry		theme: performance	type: enhancement
+General Backlog	Mar 31, 2016	More helpful 404 error page		type: enhancement
+General Backlog	Mar 31, 2016	HibernateJpaAutoConfiguration does not back off despite LocalContainerEntityManagerFactory beans being declared manually		type: enhancement
+2.x	Mar 24, 2016	JSON logging as alternative to pattern layout logging		type: enhancement
+General Backlog	Feb 18, 2016	Investigate wiremock		type: enhancement
+General Backlog	Feb 13, 2016	/shutdown and spring integration orderly shutdown		type: enhancement
+General Backlog	Jan 31, 2016	Improve documentation regarding plugins inherited by the starter-parent		type: documentation
+2.x	Jan 12, 2016	Actuator with management.port takes the same WebMvcConfigurerAdapter		status: pending-design-work	type: bug
+General Backlog	Dec 15, 2015	Allow an app to start when its DataSource is unable to connect to the DB		status: pending-design-work	type: enhancement
+General Backlog	Sep 18, 2015	Spring bootRun daemon option		status: blocked	type: enhancement
+General Backlog	Aug 3, 2015	EntityManagerFactoryBuilder does not apply spring.jpa.hibernate customizations automatically		type: enhancement
+2.x	Jul 14, 2015	Configuration processor does not detect default value defined in parent class		theme: config-data	type: enhancement
+2.x	Jul 10, 2015	Improve documentation showing how to use two different databases		type: documentation
+General Backlog	Jun 25, 2015	Make use of RabbitConnectionFactoryBean.setUri()		type: enhancement
+General Backlog	May 20, 2015	Make the structure of the Undertow support and the structure of the Tomcat and Jetty support consistent		type: task
+General Backlog	Mar 14, 2015	Composite HealthIndicator that runs them in parallel		type: enhancement
+General Backlog	Feb 24, 2015	Make @ConditionalOnProperty @Repeatable		status: blocked	type: enhancement
+General Backlog	Jan 27, 2015	Provide a mechanism to hide properties in the metadata		type: enhancement
+General Backlog	Jan 6, 2015	FieldValuesParser implementation for the eclipse compiler		type: enhancement
+General Backlog	Jan 5, 2015	Make @ConfigurationProperties available in conditions		type: enhancement
+2.x	Nov 25, 2014	Suppress "Circular view path [error]" error message		type: enhancement
+General Backlog	Sep 17, 2014	Add a failure analyzer for Hibernate bootstrap failure		type: enhancement
+2.x	May 20, 2014	Support for JSP taglibs in freemarker		type: enhancement
+General Backlog	Apr 27, 2014	AspectJ based load time weaving using an LTW aware classloader without Java agent on "java -jar app.jar"		type: enhancement
+General Backlog	Jan 22, 2014	@ConfigurationProperties should have an option to have properties read each time from Environment		theme: config-data	type: enhancement

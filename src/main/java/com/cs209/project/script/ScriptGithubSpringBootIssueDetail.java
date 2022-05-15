@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 public class ScriptGithubSpringBootIssueDetail {
     public static void main(String[] args) throws Exception {
-        File f = new File("src/test/java/com/cs209/project/file/SpringBootIssueDetail.txt");
+        File f = new File("src/test/java/com/cs209/project/file/SpringBootOpenIssueDetail.txt");
         BufferedReader br = new BufferedReader(new FileReader(f));
         String ans = "";
         String s;
@@ -25,12 +25,9 @@ public class ScriptGithubSpringBootIssueDetail {
         BufferedWriter bw = new BufferedWriter(new FileWriter(f));
         try (bw) {
             bw.write(ans);
-            for (int i = 965; i < 1002; i++) {
-                /**
-                 * TvT被github给ban了
-                 * 爬到这页
-                 */
-                String str = "https://github.com/spring-projects/spring-boot/issues?page=" + i + "&q=is%3Aissue+is%3Aclosed";
+            for (int i = 1; i < 23; i++) {
+
+                String str = "https://github.com/spring-projects/spring-boot/issues?page="+i+"&q=is%3Aopen+is%3Aissue";
                 URL url = new URL(str);
                 String urlsource = ReadHTML.getURLSource(url);
                 Document d = Jsoup.parseBodyFragment(urlsource);
