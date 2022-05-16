@@ -1,10 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
+    <meta charset="utf-8">
+    <title>SpringBoot Version</title>
+    <link rel="shortcut icon" href="#"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+    <script src='../js/prefixfree.min.js'></script>
+    <script src="../bootstrap3/js/holder.js"></script>
+    <script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.js"></script>
+</head>
+<body style="height: 100%; margin: 0">
+<div id="container" style="height: 100%"></div>
+
+
+<script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+        renderer: 'canvas',
+        useDirtyRect: false
+    });
+    var app = {};
+
+    var option;
+
+    var versiondata;
+    $.ajax(
+        {
+            async: false,
+            type: 'GET',
+            url: "/springboot/version",
+            dataType: 'json',
+            success: function (result) {
+                versiondata = result.data;
+            }
+        }
+    );
+    let data = [];
+    for (var i = 0; i < versiondata.length; i++) {
+        var y = versiondata[i].year;
+        var m = versiondata[i].month;
+        var d = versiondata[i].day;
+        var now = new Date(y, m, d);
+        data.push({
+            name: now.toString(),
+            value: [[now.getFullYear(), now.getMonth() + 1, now.getDate()].join('/'),
+                parseFloat(versiondata[i].version)]
+        });
+    }
+
+    option = {
+        title: {
+            text: 'Dynamic Data & Time Axis'
+        },
+        tooltip: {
+            trigger: 'axis',
+            formatter: function (params) {
+                params = params[0];
+                var date = new Date(params.name);
+                return (
+                    date.getDate() +
+                    '/' +
+                    (date.getMonth() + 1) +
+                    '/' +
+                    date.getFullYear() +
+                    ' : ' +
+                    params.value[1]
+                );
+            },
+            axisPointer: {
+                animation: false
+            }
+        },
+        xAxis: {
+            type: 'category',
+            splitLine: {
+                show: false
+            }
+        },
+        yAxis: {
+            type: 'value',
+            boundaryGap: [0, '100%'],
+            splitLine: {
+                show: false
+            }
+        },
+        series: [
+            {
+                name: 'Fake Data',
+                type: 'line',
+                showSymbol: false,
+                data: data
+            }
+        ]
+    };
+    setInterval(function () {
+        // for (var i = 0; i < 5; i++) {
+        //     data.shift();
+        //     var y = versiondata[i].year;
+        //     var m = versiondata[i].month;
+        //     var d = versiondata[i].day;
+        //     var now = new Date(y, m, d);
+        //     data.push({
+        //         name: now.toString(),
+        //         value: [[now.getFullYear(), now.getMonth() + 1, now.getDate()].join('/'),
+        //             parseFloat(versiondata[i].version)]
+        //     });
+        // }
+        myChart.setOption({
+            series: [
+                {
+                    data: data
+                }
+            ]
+        });
+    }, versiondata.length);
+
+    if (option && typeof option === 'object') {
+        myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+
+</script>
 </body>
 </html>
