@@ -4,20 +4,17 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cs209.project.mapper.StackOverFlowAllTagMapper">
     <insert id="insert" useGeneratedKeys="true" keyProperty="id">
-    insert into tag (
-        tag,
-        allquestion,
-        today,
-        month,
-        week,
-        year
-    )values (
-                    #{tag},
-                    #{AllQuestion},
-                    #{today},
-                    #{month},
-                    #{week},
-                    #{year}
-                )
+        insert into tag (tag,
+                         allquestion,
+                         today,
+                         month,
+                         week,
+                         year)
+        values (#{tag},
+                #{AllQuestion},
+                #{today},
+                #{month},
+                #{week},
+                #{year})
     </insert>
 </mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cs209.project.mapper.SpringBootIssueMapper">
+    <select id="selectClosedIssue" resultType="com.cs209.project.entity.SpringBootIssueVersion">
+        select version, year, month, count(*)
+        from springboot_closed_issue
+        group by version, year, month
+        order by year, month;
+    </select>
+    <select id="selectOpenIssue" resultType="com.cs209.project.entity.SpringBootIssueVersion">
+        select version, year, month, count(*)
+        from springboot_open_issue
+        group by version, year, month
+        order by year, month;
+    </select>
+</mapper>

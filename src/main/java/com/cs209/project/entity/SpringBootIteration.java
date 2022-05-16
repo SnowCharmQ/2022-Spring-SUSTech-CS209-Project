@@ -1,10 +1,15 @@
 package com.cs209.project.entity;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 public class SpringBootIteration implements Serializable {
     private String version;
     private String time;
+
+    private int year;
+    private int month;
+    private int day;
 
     public String getVersion() {
         return version;
@@ -22,22 +27,41 @@ public class SpringBootIteration implements Serializable {
         this.time = time;
     }
 
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getDay() {
+        return day;
+    }
+
+    public void setDay(int day) {
+        this.day = day;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof SpringBootIteration)) return false;
-
+        if (o == null || getClass() != o.getClass()) return false;
         SpringBootIteration that = (SpringBootIteration) o;
-
-        if (getVersion() != null ? !getVersion().equals(that.getVersion()) : that.getVersion() != null) return false;
-        return getTime() != null ? getTime().equals(that.getTime()) : that.getTime() == null;
+        return year == that.year && month == that.month && day == that.day && Objects.equals(version, that.version) && Objects.equals(time, that.time);
     }
 
     @Override
     public int hashCode() {
-        int result = getVersion() != null ? getVersion().hashCode() : 0;
-        result = 31 * result + (getTime() != null ? getTime().hashCode() : 0);
-        return result;
+        return Objects.hash(version, time, year, month, day);
     }
 
     @Override
@@ -45,6 +69,9 @@ public class SpringBootIteration implements Serializable {
         return "SpringBootIteration{" +
                 "version='" + version + '\'' +
                 ", time='" + time + '\'' +
+                ", year=" + year +
+                ", month=" + month +
+                ", day=" + day +
                 '}';
     }
 }
