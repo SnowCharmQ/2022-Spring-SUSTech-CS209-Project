@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 
 public class ScriptStackoverflowSpringBootDetail {
     public static void main(String []args) throws Exception {
-        File f = new File("C:\\Users\\HP\\Desktop\\java2_proj\\src\\test\\java\\com\\cs209\\project\\file\\SpringBootQuestion.txt");
+        File f = new File("src/test/java/com/cs209/project/file/SpringBootQuestion.txt");
         BufferedReader br = new BufferedReader(new FileReader(f));
         String ans = "";
         String s;
