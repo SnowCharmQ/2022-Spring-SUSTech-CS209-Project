@@ -1,4 +1,4 @@
-package com.cs209.project.script;
+package com.cs209.project.script.Github;
 
 import com.cs209.project.entity.SpringBootBug;
 import com.cs209.project.mapper.SpringBootBugMapper;

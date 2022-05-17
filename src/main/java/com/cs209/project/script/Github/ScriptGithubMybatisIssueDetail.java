@@ -1,4 +1,4 @@
-package com.cs209.project.script;
+package com.cs209.project.script.Github;
 
 import com.cs209.project.utils.ReadHTML;
 import org.jsoup.Jsoup;
@@ -12,9 +12,9 @@ import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-public class ScriptGithubSpringBootIssueDetail {
+public class ScriptGithubMybatisIssueDetail {
     public static void main(String[] args) throws Exception {
-        File f = new File("src/test/java/com/cs209/project/file/SpringBootOpenIssueDetail.txt");
+        File f = new File("src/test/java/com/cs209/project/file/MybatisClosedIssueDetail.txt");
         BufferedReader br = new BufferedReader(new FileReader(f));
         String ans = "";
         String s;
@@ -25,9 +25,9 @@ public class ScriptGithubSpringBootIssueDetail {
         BufferedWriter bw = new BufferedWriter(new FileWriter(f));
         try (bw) {
             bw.write(ans);
-            for (int i = 1; i < 23; i++) {
+            for (int i = 1; i < 42; i++) {
 
-                String str = "https://github.com/spring-projects/spring-boot/issues?page="+i+"&q=is%3Aopen+is%3Aissue";
+                String str = "https://github.com/mybatis/mybatis-3/issues?page="+i+"&q=is%3Aissue+is%3Aclosed";
                 URL url = new URL(str);
                 String urlsource = ReadHTML.getURLSource(url);
                 Document d = Jsoup.parseBodyFragment(urlsource);
@@ -53,12 +53,12 @@ public class ScriptGithubSpringBootIssueDetail {
                     for (Element w : eee) {
                         if (w.attr("class").equals("css-truncate-target")) {
                             exits = true;
-//                            System.out.println(w.text());
+                            System.out.println(w.text());
                             ta = ta + w.text() + "\t";
                         }
                     }
                     if (!exits) {
-//                        System.out.println("null");
+                        System.out.println("null");
                         ta = ta + "null" + "\t";
                     }
                     ta = ta + time.get(j) + "\t" + context.get(j) + "\t\t" + label.get(j) + "\n";
