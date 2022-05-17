@@ -1,0 +1,136 @@
+null	Apr 20, 2022	[Help Wanted] The release pdf does not support non-Latin scripts		null
+null	Apr 17, 2022	Multithreading executes mapper query methods		waiting for feedback
+null	Mar 28, 2022	mybatis does not support N' for sql server		waiting for feedback
+null	Mar 25, 2022	Adds the ability to complement each other with attributes of annotations and XML tags		null
+null	Mar 23, 2022	Mapper参数构造bug		waiting for feedback
+null	Mar 11, 2022	SqlSession seems not trigger batch operation unless I use @Transactional		null
+null	Feb 7, 2022	support more statement in SQL Builder		null
+null	Feb 2, 2022	Support preventing and reporting feature for SQL injection		null
+null	Jan 17, 2022	TypeHandler incorrectly selects super classes/interfaces		waiting for feedback
+null	Dec 27, 2021	graalvm build failure		null
+null	Dec 23, 2021	Optimize MetaObject.setValue memory usage		waiting for feedback
+null	Dec 7, 2021	the simplified Chinese version of the document has a translation problem		waiting for feedback
+null	Nov 29, 2021	Consider supporting OptionalLong		waiting for feedback
+null	Nov 24, 2021	NullPointerException on first query		waiting for feedback
+null	Oct 22, 2021	DefaultSqlSession doesn't ROLLBACK on close after SELECT		waiting for feedback
+null	Oct 19, 2021	cannot use void for Postgres functions which return void		null
+null	Oct 14, 2021	cache feature request		null
+null	Oct 11, 2021	Consider adding some new java type alias, like 'localdate', 'localdate[]', 'localdatetime', 'localdatetime[]' in TypeAliasRegistry.class		null
+null	Sep 18, 2021	about databaseId		null
+null	Aug 26, 2021	Tag assocation and attribute extends in duplicate records		null
+null	Aug 26, 2021	The property with type Map.class not correctly assigned key-value, May be caused by reflector.findPropertyName(name) in MetaClass#buildProperty		null
+null	Aug 25, 2021	Proposed increase Cache translation function		waiting for feedback
+null	Aug 20, 2021	MyBatis silently hangs if XML mapper file is invalid		waiting for feedback
+null	Aug 20, 2021	Statement.closeOnCompletion result in MySql Server memory leak		bug on dependency library
+null	Aug 20, 2021	Use Cursor in long Transacion Result in Full GC		null
+null	Aug 3, 2021	For Custom VFS logging		null
+null	Jul 1, 2021	Find NPE in SqlRunner.java		waiting for feedback
+null	Jun 28, 2021	how to force a no-argument constructor		waiting for feedback
+null	Jun 23, 2021	insert on update error when using usegeneratedkeys as true		waiting for feedback
+null	Jun 8, 2021	SQL add AND("") for/after JOIN with string as parameter		waiting for feedback
+null	Jun 2, 2021	paging query		null
+null	May 21, 2021	in mybatis3.4.6: the class name TypeAliasRegistry's method resolveAlias should solve the parameter string like string.trim() to avoid the eroor happend when the programmer Wrong definition of parameterType which include Space In the end in mapper.xml		null
+null	May 11, 2021	Allow collection population by explicit method instead of whole setter		null
+null	Apr 6, 2021	Mapping into Map<String, Object> contains driver specific value classes		null
+null	Mar 25, 2021	Incorrect work with immutable objects		null
+null	Feb 25, 2021	TypeHandler lost information of actualTypeArguments when class is ParameterizedType		null
+null	Feb 24, 2021	MyBatis is ignoring setting of typeHandler in @Result annotation in Mapper		null
+null	Feb 5, 2021	Expose properties in DefaultParameterHandler.java		null
+null	Feb 4, 2021	When I changed the automatic commit of the connection, shouldn't I change the automatic commit of the corresponding transaction?		waiting for feedback
+null	Jan 15, 2021	Using PostgreSQL's returning doesn't mark session dirty		null
+null	Jan 6, 2021	XMLConfigBuilder class mapperElement method to determine optimization		waiting for feedback
+null	Nov 27, 2020	OWASP Scan still shows Vulnerability when spring-2.0.5 update to 2.0.6 and myBatis-3.5.5 to 3.5.6		null
+null	Nov 27, 2020	mybatis get LimitSegment.rowCount incorrectly		waiting for feedback
+null	Nov 10, 2020	mybatis can not parse #{list[0][0]} correctly		null
+null	Oct 13, 2020	Feature Request: resultMap Builder support		null
+null	Oct 5, 2020	XNode#toString() cannot display all information		bug
+null	Sep 16, 2020	when i use flink and mybatis, throw error JdbcTransactionFactory is not serializable.		waiting for feedback
+null	Jul 26, 2020	Interceptor optimization		null
+null	Jul 23, 2020	add xml label for that making the document clearer .		waiting for feedback
+null	Jul 1, 2020	Does not remove an ErrorContext from ThreadLocal when use the lazy loading		null
+null	Jul 1, 2020	'sql' subseciton missing in TOC		bug on dependency library
+null	Jun 13, 2020	Unexpected cache hit ratio is reported for a SELECT with flushCache enabled		bug
+null	Jun 11, 2020	The Bug Of SelectKeyGenerator		waiting for feedback
+null	Jun 11, 2020	Configuration.java should expose method removeMappedStatement(MappedStatement ms).		waiting for feedback
+null	Apr 23, 2020	How to make custom log queries with my own pattern in Mybatis3?		null
+null	Apr 18, 2020	Why not add an attribute value to the package sub element of the mappers element in the configuration file to identify the interface implemented by the interface?		null
+null	Mar 10, 2020	mybatis desperate needs nested select in dynamic [MARS stored procedure] combined		null
+null	Feb 7, 2020	Configurable ExceptionFactory		null
+null	Sep 15, 2019	Feature Request: Provide an intuitive way to insert escape column / table names in SQL builder		waiting for feedback
+null	Aug 8, 2019	is there something like OptionProvider, InsertProvider is not enough to support insert with dynamic identity id		null
+null	Jul 21, 2019	Support to construct result maps by using annotations with POJO model		null
+null	Jun 14, 2019	Custom implementation of CacheKey?		null
+null	Jun 3, 2019	Support the GraalVM		null
+null	May 16, 2019	Cache key collision when using AbstractRoutingDatasource		waiting for feedback
+null	Apr 24, 2019	Introduce the SqlSessionManager on documentation		documentation	polishing
+null	Jan 15, 2019	when we use @Param annotation, like this param.field, that cause my custom TypeHandler dosen't work		waiting for feedback
+null	Jan 15, 2019	Hope to add Reactive Relational Database Access		null
+null	Dec 22, 2018	Does not support ordering blocking on BlockingCache		null
+null	Oct 9, 2018	Does MyBatis want our source?		null
+null	May 17, 2018	Feature request: overriding sql fragments in mapper inheritance paradigm.		null
+null	May 11, 2018	Why not provide a configuration to close the first-level cache		null
+null	Apr 12, 2018	Cannot work a JDBC standard generated keys at <update>		null
+null	Mar 18, 2018	Support java.util.stream.Stream as return type of mapper method		null
+null	Mar 16, 2018	Add easier specification of columns in selects		null
+null	Mar 14, 2018	The configuration field of BaseTypeHandler is always null		null
+null	Feb 24, 2018	Configuring SQL statement using XSD		enhancement
+null	Feb 9, 2018	Unexpected auto-commit behaviour when performing "UPDATE... RETURNING *" on Postgres		null
+null	Dec 22, 2017	Use Connection.isValid() in PooledDataSource or PooledConnection		waiting for feedback
+null	Dec 16, 2017	Per-db file parsing support		null
+null	Nov 22, 2017	ORA-01461: can bind a LONG value only for insert into a LONG column		enhancement
+null	Nov 15, 2017	Need better documentation on complex parameters in stored procedure calls		documentation
+null	Nov 4, 2017	POJO modified in the 2nd level cache		null
+null	Oct 15, 2017	Add post processing Method in Configuration#addMappedStatement		null
+null	Aug 12, 2017	Can't use List<String[]> on foreach		null
+null	Jul 16, 2017	[Feedback] Why Rowbounds accept Integer, when we can limit using Long.?		documentation
+null	Jul 5, 2017	How about future plugins in Netbeans?		null
+null	May 12, 2017	Request for adding poolMaximumLifetime		null
+null	May 6, 2017	Constructor Args Map Incorrect Columns When Using resultMap property		bug
+null	May 2, 2017	BaseBuilder#resolveTypeHandler does not account javaType for caching handlers		waiting for feedback
+null	Mar 11, 2017	@MappedColumn		null
+null	Mar 3, 2017	Adding possibility to pass properties to SQL fragments via XML attributes		null
+null	Feb 24, 2017	SQL builder: add subclass support		null
+null	Jan 25, 2017	Sub-Query Support for SQL builder		null
+null	Jan 9, 2017	Support package scanning using wildcard		enhancement
+null	Jan 2, 2017	Change so that it can used a default value of placeholder as default feature		enhancement
+null	Dec 19, 2016	Request for adding explanation how to call static methods to MyBatis manual.		documentation	enhancement
+null	Dec 7, 2016	Add wiki page to introduce useful plugins		documentation	enhancement
+null	Nov 3, 2016	There is case that does not close pooled connections		bug
+null	Jun 24, 2016	Reusing JPA annotations to help results auto-mapping		null
+null	Apr 25, 2016	Add how to create a mapper interface using groovy in docs		null
+null	Feb 11, 2016	Merge Scripting and Parameterization phases in dynamic sql		enhancement
+null	Feb 9, 2016	Enable access to Cache Delegates		enhancement	waiting for feedback
+null	Feb 4, 2016	Javassist proxies cause marshaling frameworks (like Jackson) to fail		bug on dependency library	waiting for feedback
+null	Jan 30, 2016	Support of nested cursors		enhancement
+null	Jan 21, 2016	MySQL Replication Driver Support		enhancement
+null	Aug 8, 2015	BaseJdbcLogger.removeBreakingWhitespace strips whitespace in inline parameter constants		null
+null	Jul 21, 2015	How can I get column name when use map		question
+null	Jul 2, 2015	flushStatements() is not intercepted when it's called from commit method of executor		null
+null	May 29, 2015	Please support typeAliases of configuration on OgnlClassResolver		enhancement
+null	May 12, 2015	Add more code comments if possible		enhancement
+null	Apr 26, 2015	Can mybatis execute SQL directly?		question
+null	Apr 16, 2015	Is there a elegant way to get RoutingStatementHandler in multiple interceptors?		question
+null	Mar 2, 2015	SQLBuilder parentheses management question		null
+null	Feb 4, 2015	MyBatis MapKey for nested collection		enhancement
+null	Jan 19, 2015	How to custom my filed mapper，like "mapUnderscoreToCamelCase"		enhancement
+null	Jan 12, 2015	Extend DynamicContext for globally bind further vars		null
+null	Dec 18, 2014	Allow run-time exception to be thrown from within the xml		enhancement
+null	May 16, 2014	SQL parameter substitution functionality differs substantially from string substitution functionality		enhancement
+null	Apr 15, 2014	VendorDatabaseIdProvider should not return null databaseId		waiting for feedback
+null	Apr 1, 2014	Is LoggingCache thread safe?		enhancement
+null	Mar 27, 2014	EnumOrdinalTypeHandler.getRawType returns E		enhancement
+null	Mar 10, 2014	Field level annotations		enhancement
+null	Mar 10, 2014	Lazy loaded dependency from different connection		enhancement
+null	Jan 10, 2014	Cancelling long running select queries		enhancement
+null	Dec 9, 2013	Feature Request: Load additional configuration files or extend config.xml		enhancement
+null	Dec 9, 2013	Specifying a single parameter in a subselect as composite, causing typeMapper to be ignored in parameterType is specified.		null
+null	Dec 2, 2013	Handling Collection properties where getter returns unmodifiable collection		enhancement
+null	Nov 21, 2013	MyBatis Constructor Injection should support <collection> as well?		enhancement
+null	Oct 31, 2013	Lack of logging out parameters of stored procedures/functions		enhancement
+null	Oct 8, 2013	ResultMap annotation for domain class		enhancement
+null	Oct 2, 2013	Enable OSGI blueprint inyection for MyBatis consumers		enhancement
+null	Sep 12, 2013	Use <include> in <resultMap>		enhancement
+null	Aug 8, 2013	Mask parameters in log file		enhancement
+null	May 7, 2013	3.2.2 SAXParseException includes row and column of error, but should have filename too		enhancement
+null	Apr 19, 2013	Support for pluggable scripting engines in expression evaluation		enhancement
+null	Mar 8, 2013	Collections should handle lazy loading		enhancement
