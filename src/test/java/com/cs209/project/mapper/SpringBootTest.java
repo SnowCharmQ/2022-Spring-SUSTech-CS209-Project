@@ -157,4 +157,20 @@ public class SpringBootTest {
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void versionIterTest(){
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringBootIteration.txt")))) {
+            System.out.println("version,time");
+            String line;
+            while ((line = inline.readLine()) != null) {
+                String version = inline.readLine().trim();
+                String time = line.substring(0, 10).trim();
+                System.out.println(version + "," + time);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
