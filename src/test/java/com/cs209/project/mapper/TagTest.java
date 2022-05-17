@@ -17,7 +17,7 @@ public class TagTest {
 
     @Test
     public void insertTest() throws IOException {
-        File f = new File("src/test/java/com/cs209/project/file/2002_5_9stackoverflowtag数据.txt");
+        File f = new File("src/test/java/com/cs209/project/file/2002_5_9stackoverflowtag.txt");
         BufferedReader br = new BufferedReader(new FileReader(f));
         String s;
         while((s = br.readLine())!=null){
