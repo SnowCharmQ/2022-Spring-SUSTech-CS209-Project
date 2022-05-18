@@ -161,7 +161,6 @@ public class SpringBootTest {
     @Test
     public void versionIterTest(){
         try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringBootIteration.txt")))) {
-            System.out.println("version,time");
             String line;
             while ((line = inline.readLine()) != null) {
                 String version = inline.readLine().trim();

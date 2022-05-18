@@ -31,12 +31,44 @@
     <h2 class="subtitle">The number of Spring Boot GitHub Repository closed issues for each month</h2>
     <div id="container1"></div>
 
+    <span style="flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    /* 字间距 */
+    letter-spacing: 7px;
+    /* 转大写 */
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 76px;
+    margin: 30px;
+    outline: none;
+    /* 自定义属性--c，可通过var函数对其调用 */
+    --c:lightseagreen;
+    /* 调用自定义属性--c，设置文字阴影（发光效果） */
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    /* 执行动画：动画名 时长 线性的 无限次播放 */
+    animation: animate 5s linear infinite;
+    white-space: pre-line;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 70px;
+">The Total Number Of Open Issues: 544</span>
+
     <div class="btns" style="position: absolute; right: 40px; bottom: 30px;">
         <a href="springboot-menu.html"><img src="../img/return.jpg" alt=""></a>
     </div>
     <div class="btns" style="position: absolute; right: 40px; bottom: 80px;">
         <a href="#" id="save2"><img src="../img/save.png"
-                                    onclick="download(save_data, 'open_issue.js', 'text/plaintext')"
+                                    onclick="download(save_data, 'open_issue.csv', 'text/plaintext')"
                                     alt=""></a>
     </div>
 
@@ -64,13 +96,13 @@
 
         const issues_data = open_issue_history;
 
-        var save_data = '[';
+        var save_data = '';
 
-        for (var i = 1; i < issues_data.length; i++) {
+        for (var i = 0; i < issues_data.length; i++) {
             var d = issues_data[i];
-            save_data = save_data + '[' + d[0] + ',' + d[1] + ',' + d[2] + ']';
-            if (i !== issues_data.length - 1) save_data = save_data + ',';
-            else save_data = save_data + ']';
+            save_data = save_data + d[0] + ',' + d[1] + ',' + d[2] + '\n';
+            // if (i !== issues_data.length - 1) save_data = save_data + ',';
+            // else save_data = save_data + ']';
         }
 
         var version_name = new Set();
