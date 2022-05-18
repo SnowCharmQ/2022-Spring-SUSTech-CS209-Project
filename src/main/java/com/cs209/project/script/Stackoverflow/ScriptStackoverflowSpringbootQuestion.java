@@ -24,7 +24,7 @@ public class ScriptStackoverflowSpringbootQuestion {
         BufferedWriter bw = new BufferedWriter(new FileWriter(f));
         try (bw) {
             bw.write(ans);
-            for (int q = 23; q < 93; q++) {
+            for (int q = 1; q < 93; q++) {
                 String str = "https://api.stackexchange.com/2.3/tags/spring-boot/faq?page=" + q + "&pagesize=100&site=stackoverflow&key=*Q4hDtZ8bVAQZve4zcfkqw((";
                 URL url = new URL(str);
                 HttpURLConnection httpUrlConn = (HttpURLConnection) url.openConnection();
@@ -43,7 +43,7 @@ public class ScriptStackoverflowSpringbootQuestion {
                     JSONObject t = (JSONObject) o;
                     long date_temp = Long.parseLong(t.getString("creation_date"));
                     String date_string = sdf.format(new Date(date_temp * 1000));
-                    bw.write(t.getString("title") + "\t" + date_string + "\t" + t.getString("view_count") + "\t" + t.getString("answer_count") + "\n");
+                    bw.write(t.getString("title") + "\t" + date_string + "\t" + t.getString("view_count") + "\t" + t.getString("answer_count") + "\t" + t.getString("link")+"\n");
                     System.out.println(date_string);
                     System.out.println(t.getString("title"));
                 }
