@@ -46,7 +46,7 @@ public class ScriptStackoverflowMybatisQuestion {
                     JSONObject t = (JSONObject) o;
                     long date_temp = Long.parseLong(t.getString("creation_date"));
                     String date_string = sdf.format(new Date(date_temp * 1000));
-                    bw.write(t.getString("title") + "\t" + date_string + "\t" + t.getString("view_count") + "\t" + t.getString("answer_count") + "\n");
+                    bw.write(t.getString("title") + "\t" + date_string + "\t" + t.getString("view_count") + "\t" + t.getString("answer_count") + "\t" + t.getString("link") + "\n");
                     System.out.println(date_string);
                     System.out.println(t.getString("title"));
                 }
