@@ -23,15 +23,21 @@ create table if not exists springboot_closed_issue
     month        integer,
     info         text
 );
-
-drop table springboot_open_issue;
-drop table springboot_closed_issue;
-
-select *
-from springboot_open_issue;
-select *
-from springboot_closed_issue;
-
-select version,year,month,count(*) from springboot_closed_issue group by version,year,month order by year,month;
-select version,year,month,count(*) from springboot_open_issue group by version,year,month order by year,month;
-
+--
+-- drop table springboot_open_issue;
+-- drop table springboot_closed_issue;
+--
+-- select *
+-- from springboot_open_issue;
+-- select *
+-- from springboot_closed_issue;
+--
+-- select version,year,month,count(*) from springboot_closed_issue group by version,year,month order by year,month;
+-- select version,year,month,count(*) from springboot_open_issue group by version,year,month order by year,month;
+--
+-- select * from springboot_open_issue;
+-- select * from springboot_closed_issue;
+--
+--
+-- select count(*) from springboot_open_issue;
+-- select count(*) from springboot_closed_issue;
