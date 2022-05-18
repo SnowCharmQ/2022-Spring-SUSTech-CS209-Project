@@ -9,6 +9,7 @@ public class SpringBootQuestion implements Serializable {
     Date date;
     int views;
     int answers;
+    String href;
 
     public String getQuestion() {
         return question;
@@ -42,17 +43,25 @@ public class SpringBootQuestion implements Serializable {
         this.answers = answers;
     }
 
+    public String getHref() {
+        return href;
+    }
+
+    public void setHref(String href) {
+        this.href = href;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         SpringBootQuestion that = (SpringBootQuestion) o;
-        return views == that.views && answers == that.answers && Objects.equals(question, that.question) && Objects.equals(date, that.date);
+        return views == that.views && answers == that.answers && Objects.equals(question, that.question) && Objects.equals(date, that.date) && Objects.equals(href, that.href);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(question, date, views, answers);
+        return Objects.hash(question, date, views, answers, href);
     }
 
     @Override
@@ -62,6 +71,7 @@ public class SpringBootQuestion implements Serializable {
                 ", date=" + date +
                 ", views=" + views +
                 ", answers=" + answers +
+                ", href='" + href + '\'' +
                 '}';
     }
 }
