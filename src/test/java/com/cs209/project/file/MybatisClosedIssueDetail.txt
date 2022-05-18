@@ -1,0 +1,1025 @@
+null	May 14, 2022	The link of China Mailing List in blog website doesn't work		null
+null	May 6, 2022	Using var as a variable name is not appropriate		null
+3.5.10	May 11, 2022	Add aliases for char and Character		enhancement
+3.5.10	May 14, 2022	Constructor id arguments don't need to be listed first		enhancement
+null	Apr 25, 2022	The Source Code Build Failed with maven-pdf-plugin		null
+null	May 5, 2022	Use ResultHandler to obtain data and write the data to anthoer table, out of memory		null
+3.5.10	May 4, 2022	"ThreadLocal" variables should be cleaned up correctly		polishing
+null	Apr 2, 2022	There can cause NPE problem		null
+null	Apr 1, 2022	The interrupted status should return to caller		null
+null	Apr 8, 2022	CustomInterceptor to intercept @Provider linked method,but execute twice		null
+null	Apr 1, 2022	Is mybatis affected by spring's 0day rce vulnerability？		null
+null	Apr 8, 2022	Throw exception in DefaultResultSetHandler when more result set got returned than was expected		waiting for feedback
+null	Mar 29, 2022	README badge can't display maven central version in "svg".		null
+null	Mar 28, 2022	When I use 'DefaultObjectFactory' to create Queue,it's failed		null
+null	Mar 27, 2022	[urgency bug]The master branch code is compiling error		null
+null	Apr 19, 2022	When customized XML collection（use <collection>） query and cursor are used together Query result incorrect		waiting for feedback
+null	May 1, 2022	Should there be more in the "getting started" documentation?		null
+null	Apr 21, 2022	update the doc		null
+null	Apr 27, 2022	Skip SQL execution when any of the specified collection parameters is empty		null
+null	Feb 22, 2022	better to move 'org.apache.ibatis.exceptions.TooManyResultsException' to the package of 'org.apache.ibatis.session'		null
+null	Jan 26, 2022	The "PROJECT DOCUMENTATION" Chinese version is not translated completely		good first issue
+3.5.10	Apr 24, 2022	Allow skipping setAutoCommit() call in JdbcTransaction		enhancement
+null	Jan 10, 2022	Illegal reflective access warning when using "_parameter.containsKey() and Collections.singletonMap		bug on dependency library	duplicate
+null	Jan 2, 2022	Please consider adding "like" element to the Mapper XML files		null
+null	Dec 30, 2021	add a constructor for XMLConfigBuilder		wontfix
+3.5.10	Jan 26, 2022	SoftCache/WeakCache#removeObject() should return unwrapped object		bug
+null	Dec 18, 2021	upgrade log4j-core to release version 2.16		null
+3.5.10	Jan 10, 2022	WARNING: An illegal reflective access operation has occurred -> when using public method in non public class		bug on dependency library
+null	Dec 1, 2021	rollback Cause cache dirty reading		waiting for feedback
+null	Nov 17, 2021	MyBatis needs to access java.lang and java.util . Not working anymore by default in Java 17		waiting for feedback
+null	Nov 4, 2021	<->		null
+null	Dec 11, 2021	can we addMapper using parallel?		null
+null	Nov 3, 2021	Error getting generated key or setting result to parameter object - Too many keys are generated. There are only 1 target objects		null
+null	Nov 2, 2021	about mybatis cache		null
+null	Oct 29, 2021	unable to use dynamic sql to update value with dynamic column		null
+null	Oct 6, 2021	482		null
+null	Dec 11, 2021	About when Configuration's cacheEnabled is ture, SqlSession#select run later, other query-operation's result will be not accurate.		null
+3.5.8	Sep 16, 2021	MapUtil#computeIfAbsent Object repeated creation		polishing
+null	Sep 13, 2021	when will this code be valid?		null
+null	Sep 6, 2021	BigDecimal precision lossing when reusing prepared statement for INSERT / UPDATE queries in DB2		null
+null	Sep 1, 2021	MyBatis not mapping correct result to correct field		null
+null	Oct 22, 2021	Memory leak from BaseExecutor use of PerpetualCache in SESSION scope		null
+null	Dec 11, 2021	Need Mybatis related to NodeJs		null
+null	Dec 14, 2021	Bug when namespace starts with a space		null
+null	Jul 23, 2021	Map receive returned incorrect result		waiting for feedback
+3.5.8	Jul 25, 2021	concurrentHashMap get and with the same object put could lead to performance problem		polishing
+null	Jul 20, 2021	Cannot read configuration in a modular Java project.		waiting for feedback
+null	Mar 7, 2022	Mybatis always return null value to the last column on select list		null
+null	Jun 26, 2021	setting in localCacheScope as SESSION not working correct		waiting for feedback
+null	Jun 9, 2021	@Select select a record with null columns，these columns are filled with columns' value that are not null		waiting for feedback
+null	Jun 2, 2021	MapperAnnotationBuilder:: parseResultMap get Results Annotation instance is not correct in master branch		null
+null	May 24, 2021	Only using auto mapping in parent result map will cause nested result objects don't grouped		waiting for feedback
+null	May 17, 2021	select by id return null occasionlly		null
+null	Apr 14, 2021	MyBatis 3.5.2 can't get partial field values.		waiting for feedback
+null	Mar 22, 2021	Cannot initialize context because "Caches collection already contains value for Benefits"		null
+null	Mar 17, 2021	useGeneratedKeys does work unexpected after upgrading from 3.4.4 to 3.5.6		null
+null	Mar 14, 2021	A confusing "No enum constant" exception		null
+null	Mar 17, 2021	Oracle insertions - severe performance degradation when not specifying jdbcType in SQL XML		waiting for feedback
+null	Mar 17, 2021	type handler was null on parameter mapping for property '_ frch_element' for Timestamp		null
+3.5.10	Mar 26, 2022	IllegalAccessException when auto-mapping Records (JEP-359)		enhancement
+3.5.10	Apr 24, 2022	Use param names for constructor auto-mapping		enhancement
+null	Feb 27, 2021	SQL Server showing nvarchar implicit conversation causing significant performance issue		null
+null	Feb 2, 2021	useAffectedRows in sql server		null
+null	Jan 23, 2021	Why can't Mybatis dynamically switch DataSources during execution		null
+null	Jan 24, 2021	Support catch NoClassDefFoundError exception When use ClassLoaderWrapper load Class		waiting for feedback
+null	Dec 6, 2020	Can I join the MyBatis team?		null
+null	Dec 14, 2020	Two tests have the same code lines in MetaObjectTest.java		null
+null	Dec 2, 2020	About the oracle column value type		null
+null	Nov 25, 2020	How to Read Mybaits（i can use it ,but i can not understand it）=.=		null
+null	Dec 27, 2020	Failed to rollback at catch when cause exception(s)		waiting for feedback
+null	Nov 23, 2020	resultMap can not mapping <result column="d.id" property="id"/> when the field "fullColumnNameToIndex" contains “d.id”		null
+null	Nov 18, 2020	Union query union all operation cannot be executed		null
+null	Nov 14, 2020	plsql if		null
+null	Nov 10, 2020	parse xml sql fail		null
+null	Nov 5, 2020	Error querying database. Cause: java.lang.NullPointerException		null
+null	Oct 9, 2020	Regression with Mapper XML Parsing: ResultMap couldn't declare association anymore		null
+null	Sep 28, 2020	Is it wrong		null
+null	Sep 28, 2020	Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named '__frch_item_0' in 'class		null
+null	Dec 27, 2020	h2 CLOB (via TEXT column type in H2) is mapped to StringTypeHandler which is not returning the correct value when it's going into a generic value		waiting for feedback
+null	Sep 21, 2020	a <cache> and <cache-ref> sorting issues		waiting for feedback
+3.5.8	Jun 5, 2021	Document site Toc is not work		bug on dependency library	documentation
+null	Sep 28, 2020	Mybatis automatically adds a LIMIT clause to the statement		waiting for feedback
+null	Sep 8, 2020	Feature request: 1. provide ways to close PerpetualCache, 2. SynchronizedCache VS ConcurrentHashMap		null
+null	Sep 6, 2020	BlockingCache may produce OutOfMemoryError		null
+null	Sep 5, 2020	List not iterable		null
+null	Sep 11, 2020	It is recommended to add xmlconfigbuilder to support configuration construction parameters		waiting for feedback
+null	Aug 23, 2020	when i use mybatis foreach tag， and i get some wrong, what reason?		null
+null	Aug 20, 2020	Table with 306 Column while making Pojo passing 306 variable causing issue by Java - What is the work around?		null
+3.5.6	Aug 17, 2020	Annotation problem of a method		documentation
+null	Aug 18, 2020	Error with interface TypeHandler for enum with interface		null
+null	Aug 28, 2021	About UnkonwTypeHandler takes up too much memory space		waiting for feedback
+null	Aug 3, 2020	Use foreach to insert data into ms sql server database, and the auto increment field only returns the last data		null
+null	Jul 30, 2020	Returning Account object after inserting new value into Account table in db		null
+null	Jul 30, 2020	How to get saved object back after INSERT		null
+null	Aug 1, 2020	BatchInsert Annotation Support?		null
+null	Sep 28, 2020	npe when I call mapper in non main thread		waiting for feedback
+null	Jul 17, 2020	JacksonTypeHandler		null
+null	Jul 27, 2020	Mybatis 3.5.5 ResultMap Bug		waiting for feedback
+null	Jul 16, 2020	MyBatis Boolean type handler cannot proceed null value in Java 11		null
+3.5.6	Jul 11, 2020	InvalidPathException thrown when parsing typeAliases elements using package as sub-tag		bug
+null	Jul 2, 2020	I Don't Think It's Necessary To Keep The Cache System In Mybatis		null
+null	Jul 8, 2020	Support non-standard transaction isolation levels		null
+null	Sep 28, 2020	Offer configuration to disable autoMappingsCache in DefaultResultSetHandler		null
+null	Jun 26, 2020	The bug of MapperMethod.SqlCommand#resolveMappedStatement method		null
+null	Sep 28, 2020	Collection recursion needs to set recursion conditions		null
+null	Jun 12, 2020	ProviderSqlSource		null
+null	Jun 12, 2020	hi where spark hive use jdbc not use mybatis？		null
+null	Jun 7, 2020	only one parameter not use @param, may not work for DynamicSqlSource		null
+null	Jun 2, 2020	Why mybatis batchexecutor.doUpdate return Integer.MIN_VALUE + 1002?		null
+null	May 31, 2020	How can i set a property of type Interface ?		null
+null	Jun 12, 2020	add a tag like #{} ${} reopen! i have a new idea!		null
+null	Jun 1, 2020	change schema dynamicly not work sometimes		waiting for feedback
+null	May 26, 2020	TrimSqlNode bug		null
+null	May 21, 2020	unit test failling in UseActualParamNameTest::shouldMultipleParamsBeReferencedByActualNames		null
+3.5.5	May 19, 2020	Mapper method invocation should be non-blocking (work around JDK-8161372)		bug
+null	Sep 28, 2020	The maven-bundle-plugin not work on JDK 15-ea+23 (Travis CI is failed)		null
+null	May 16, 2020	Oracle begin...end block		null
+null	Jun 7, 2020	Mybatis mapper SQL does not support annotations?		null
+null	May 8, 2020	Console log [org.apache.ibatis.io.DefaultVFS]-Reader entry Chinese Garbled		null
+null	May 8, 2020	Empty ResultSet And ResultSetLog output Total: 1		waiting for feedback
+null	May 6, 2020	MySQL 8 json data type		waiting for feedback
+null	Apr 28, 2020	mybatis DSL support		null
+null	Apr 25, 2020	iBatis Cachemodel for custom type handler		null
+null	Jun 7, 2020	Association and collection no working		null
+null	Apr 26, 2020	AutoMappingUnknownColumnBehavior if it is an interface, it is more reasonable		waiting for feedback
+null	Apr 22, 2020	Why the mapping of entity class annotation to database field is not supported		null
+null	Apr 25, 2020	DatabaseId is not supported by mybatis annotation		null
+null	Sep 28, 2020	Inline parameter expression parser not support ? : operator		waiting for feedback
+null	Sep 28, 2020	spring boot mybatis cache		waiting for feedback
+null	Mar 26, 2020	Missing parentheses in <foreach> tag when collection is empty		waiting for feedback
+null	Apr 6, 2020	I have a question		null
+3.5.5	Mar 23, 2020	CacheNamespaceRef causes IllegalArgumentException		bug
+null	Sep 28, 2020	SQL Server | defaultStatementTimeout not working for jtds driver		waiting for feedback
+null	Mar 23, 2020	MetaObject.setValue tip error		waiting for feedback
+3.5.5	Mar 18, 2020	record missing in result		bug
+null	Mar 7, 2020	Custom TypeHandler doesn't work in Dynamic SQL		null
+null	Feb 24, 2020	missing prepared sql parameters when POJO's attribute is set to 0		null
+null	Feb 14, 2020	<association> with Nested <collection> Returns Unexpected Results		null
+null	Sep 28, 2020	Mybatis issuse with Map<String, Object> type while add new record		waiting for feedback
+3.5.4	Jan 23, 2020	Race Condition in TypeHandlerRegistry		bug
+null	Jan 17, 2020	Why @One/@Many supports only select?		null
+null	Jan 16, 2020	Hi @itdoer ,		null
+null	Sep 28, 2020	Why not preserve the flexibility and syntactic feel of SQL in Java?		waiting for feedback
+null	Sep 28, 2020	When I use batch update by ';'(allowMultiQueries=true),how can I get affected rows?		waiting for feedback
+null	Sep 28, 2020	sss		waiting for feedback
+null	Jan 11, 2020	batch insert with "on duplicate key" in mysql just return first primary key		null
+null	Jan 13, 2020	Does mybatis sqlProvider support batch insert using forEach tags		null
+3.5.4	Dec 31, 2019	Possible incorrect TypeVariable resolution in TypeParameterResolver		bug
+null	Sep 28, 2020	fullgc in 3.4.4		waiting for feedback
+null	Dec 30, 2019	ClassCastError from LinkedHashMap to my own class type #3.5.2		null
+null	Dec 26, 2019	Using <bind> tag causes other parameters to be empty(Null)		null
+3.5.4	Dec 18, 2019	BaseBuilder repeat code		polishing
+null	Dec 18, 2019	Is VFS singleton？		null
+null	May 6, 2022	Feature Request: Add SQL Comment globally for distributed tracing		null
+null	Sep 28, 2020	Very strange NullPointException for DefaultResultSetHandler in mybatis		null
+3.5.4	Dec 23, 2019	Unable to use a Class located in default package in OGNL expressions		bug on dependency library
+null	Dec 2, 2019	从oracle迁移到postgresql大小写问题		invalid
+null	Sep 28, 2020	L2 cache dirty read		waiting for feedback
+null	Nov 27, 2019	typeHandler don't work when use discriminator in a extends resultMap		null
+3.5.4	Dec 2, 2019	Cache MethodHandle instances used to invoke default methods		polishing
+null	Nov 27, 2019	Mybatis interceptor cannot intercept batch insert data		null
+null	Jan 2, 2020	OffsetDateTimeTypeHandler had a breaking change from 3.4.6 -> 3.5.3		null
+null	Dec 1, 2019	class reference conflict:org.apache.ibatis.type.ZonedDateTimeTypeHandler in [mybatis/mybatis-3] and [mybatis/typehandlers-jsr310]		null
+null	Jan 2, 2020	Several potential NullPointerException bugs.		null
+null	Nov 14, 2019	sys_guid() call always return same value		duplicate
+null	Nov 9, 2019	NPE while using selectOne(String statement, Object parameter)		null
+3.5.4	Nov 12, 2019	Possible NullPointerException when assigning generated keys to objects with custom hashCode() method		bug
+null	Jan 2, 2020	The <cache> configuration will invalidate the <cache-ref>		null
+null	Nov 7, 2019	ClassCastException, with mapper method that return generics.		null
+null	Jan 2, 2020	Error getting generated key or setting result to parameter object. Cause: java.lang.NullPointerException		duplicate
+null	Sep 28, 2020	LanguageDriver interface added method for scriptings sql source		waiting for feedback
+null	Nov 5, 2019	Cache Hit Ratio is 0.0 using 2nd level cache for select then you must execute session.commit		null
+3.5.4	Nov 12, 2019	field cache should be final in class org.apache.ibatis.cache.impl.PerpetualCache		good first issue	polishing
+null	Nov 4, 2019	Updating from 3.1.1 to 3.5.3 breaks due to the change of SqlSession		documentation
+null	Jan 2, 2020	In some cases, the null pointer exception will be reported when setting the parameters, causing the data insert to fail		null
+null	Nov 7, 2019	About method param name		null
+null	Jan 2, 2020	org.apache.ibatis.executor.ExecutorException: Too many keys are generated. There are only 1 target objects. You either specified a wrong 'keyProperty' or encountered a driver bug like #1523.		null
+null	Nov 1, 2019	Reflector#resolveGetterConflicts boolean.class and Boolean.class		wontfix
+null	Oct 31, 2019	bug or enhancement report --- expect to close real database connection		null
+null	Sep 28, 2020	some fileds should be final		waiting for feedback
+3.5.4	Oct 30, 2019	field id should be final in class org.apache.ibatis.mapping.Environment.Builder		polishing
+null	Oct 30, 2019	functionality enhancement request---add attribute location in mybatis-config.xml such as mapper location="xxx.yyy.mapper"		null
+null	Oct 28, 2019	Updating from 3.1.1 to 3.5.3 breaks		null
+null	Jan 2, 2020	should use try-with-resoures construct for java.sql.Connection in method org.apache.ibatis.mapping.VendorDatabaseIdProvider.getDatabaseName(DataSource dataSource) throws SQLException		null
+null	Sep 28, 2020	enhancement --- duplicate checking to key of HashMap in class org.apache.ibatis.type.TypeAliasRegistry		waiting for feedback
+null	Oct 28, 2019	Doesn't support batch count(if()) operations?		null
+null	Oct 28, 2019	is there no point to adding variables of configuration in method org.apache.ibatis.builder.xml.XMLConfigBuilder.propertiesElement(XNode context)		null
+3.5.4	Oct 24, 2019	no need to check equality for hash code of strings in method org.apache.ibatis.datasource.pooled.PooledConnection.invoke()		polishing
+null	Oct 21, 2019	ArrayList<HashMap<String, Object>> insert failure		null
+null	Oct 18, 2019	sql语句没问题，但是baosql语句的问题		null
+null	Oct 17, 2019	mybatis dynamic sql question		null
+null	Sep 28, 2020	Mybatis cannot retrieve data from Oracle with data type blob, clob to HashMap?		waiting for feedback
+null	Oct 11, 2019	mybatis3 problem on result is wrong when batch insert many times		null
+null	Oct 10, 2019	how to return Map<Key, List<Value>>？		null
+null	Jan 2, 2020	Customize object construction when select the raw. (Feature request)		waiting for feedback
+null	Oct 10, 2019	Mybatis supports asynchronous queries		null
+null	Sep 17, 2019	PropertyNamer class question		null
+null	Jan 2, 2020	Illegal reflective access by org.apache.ibatis.binding.MapperProxy Java 12		null
+null	Sep 16, 2019	<resultMap> does not work in a parameterized constructor		waiting for feedback
+null	Sep 28, 2020	MyBatis TransactionalCacheManager problem		waiting for feedback
+null	Sep 5, 2019	Why there is basically no comment in the source code of MyBatis.		null
+3.5.3	Sep 15, 2019	queryCusor() fails in streaming mode of MySQL Connector/J (fetchSize=Integer.MIN_VALUE)		bug on dependency library
+3.5.3	Sep 7, 2019	Unable to iterate Cursor if the next element is null		bug
+3.5.6	Aug 17, 2020	org.apache.ibatis.ognl.NoSuchPropertyException, java.lang.String with mybatis 5.0		bug on dependency library
+null	Aug 28, 2019	How to replace the database name of where condition of query according to Java configuration variables before generating SQL?		null
+null	Aug 26, 2019	LocalDateTimeTypeHandler failing with TIMESTAMPTZ		null
+null	Aug 28, 2019	name conventions: rename getExtensiveSubject to getExtensiveSubjects		null
+null	Aug 23, 2019	Bug From BlockingCache NullPointException		null
+3.5.3	Aug 22, 2019	Illegal reflective access when invoking default mapper method		enhancement
+null	Aug 12, 2019	localCache in BaseExecutor cached uncertain results.		null
+null	Sep 28, 2020	expand interface for customer scan mapper package		waiting for feedback
+null	Aug 6, 2019	where i can find org/mybatis/example/BlogMapper.xml and Blog.java code		null
+null	Aug 12, 2019	About the date field in the oracle database		null
+null	Jul 30, 2019	array.length is not 0, when array is empty		null
+null	Jul 28, 2019	the column atttribute of <collection> element does not work well		null
+null	Jul 26, 2019	WARNING: An illegal reflective access operation has occurred		null
+3.5.3	Jul 25, 2019	Occur infinite loop when throw Exception that hold cause from provider method		bug
+null	Jul 18, 2019	a simple question about org.apache.ibatis.parsing.XPathParser		null
+null	Jan 2, 2020	UUID native support		wontfix
+null	Jul 18, 2019	Does resultMap support return subclasses of a class		null
+null	Jul 24, 2019	Find a NullPointerException like issue #1050		null
+null	Jul 15, 2019	The contents of the 'caption' tag are garbled In the Korean translation document		documentation
+null	Jul 10, 2019	Two xml with same namespace interface, cache uncleared when invoke update in second xml		null
+null	Sep 28, 2020	Mybatis Mapper Interface extends Mapped,MappedStatement register twice		waiting for feedback
+3.5.2	Jul 5, 2019	NPE in DefaultResultSetHandler when using association on composite key		bug
+null	Jun 27, 2019	University project		null
+null	Jul 2, 2019	MyBatis 3.5.1 and JDK 11: Illegal reflective access		null
+null	Jul 5, 2019	selectOne cause OOM		null
+null	Jun 16, 2019	spell mistake in org.apache.ibatis.session.Configuration		null
+null	Jun 14, 2019	Insert list		null
+null	Jun 25, 2019	java.lang.IndexOutOfBoundsException: Index: 20, Size: 20		null
+null	Jun 13, 2019	Log printing is inconsistent with actual results		null
+null	Jul 10, 2019	In some case, a unmapped column name can not automapping to a similar property in the bean object.		null
+null	Sep 13, 2019	No dedicated secure source for DTDs		null
+null	Jun 5, 2019	mapper method thread no safe		null
+3.5.2	Jun 8, 2019	Typehandler's argument "columnName" is not column name, but is column label		documentation	polishing
+3.5.4	Oct 26, 2019	There is case that a TypeHandler is incorrectly selected for a nested select query parameter		bug
+null	Jul 5, 2019	why logImpl of settings doesn't support logack		null
+null	May 23, 2019	LocalDate Cause TypeException		null
+null	Jun 6, 2019	Interface naming is not standard		wontfix
+null	May 20, 2019	Criterion error for 3.5.1		null
+null	May 9, 2019	mybatis 3.5.1 mysql LocalDateTime wrong time zone mapping		null
+null	Jun 10, 2019	java.lang.NoClassDefFoundError: org/apache/ibatis/reflection/ExceptionUtil		null
+null	Apr 26, 2019	About the use of typeHandlers configuration		null
+null	Apr 24, 2019	Mybatis does not work in multithreaded programming		null
+null	Apr 24, 2019	No setter found for the keyProperty 'id' in 'java.lang.String'.		null
+3.5.2	May 6, 2019	Support networkTimeout on built-in DataSource classes		enhancement
+null	Apr 22, 2019	mybatis 3.5.1 mysql Conversion not supported for type java.time.ZonedDateTime		null
+null	Jun 8, 2019	The difference between Ognl 3.1.16 and 3.2.10		wontfix
+3.5.2	Apr 20, 2019	Error occurred when I try to "INSERT INTO ~ ON DUPLICATE KEY UPDATE" with useGeneratedKeys.		enhancement
+null	Jun 16, 2019	SQL can`t use LIMIT AND OFFSET		null
+null	Apr 9, 2019	Druid + JSR-310 type handlers = SQLFeatureNotSupportedException		null
+null	Apr 10, 2019	I had a Collection usage problem		null
+null	Mar 28, 2019	MyBatis looks like shit		null
+null	Mar 28, 2019	Does using example affect performance?		null
+null	Jun 8, 2019	Collection returns different form of data in version 3.4.6		null
+null	Mar 21, 2019	scan typeHandlersPackage cause many WARN messages		null
+null	Apr 14, 2019	ErrorContext		invalid
+null	Mar 14, 2019	Multiupdate query in mybaties mapper		null
+3.5.1	Mar 9, 2019	Auto-mapping fails in a result map referenced from a constructor arg with columnPrefix		bug
+3.5.1	Mar 10, 2019	Constructor auto mapping could fail when columnPrefix is specified in the parent resultMap		bug
+null	Mar 6, 2019	Doesn't work well with @lombok.Data		invalid
+3.5.1	Mar 4, 2019	cannot find type handler for enum when enum value has methods		bug
+null	Mar 2, 2019	Returns the subclass type of the generic type dynamically		null
+null	Jun 14, 2019	Why is this happening wrong?		null
+3.5.1	Feb 27, 2019	MyBatis 3.5.0 inconsistent handling of keyProperty		bug
+3.5.1	Mar 6, 2019	LONGVARCHAR is mapped to ClobTypeHandler		enhancement
+null	May 9, 2021	Support overloaded methods mapped to individual statements		null
+null	Feb 22, 2019	select bug on 3.4.6 , result contains other classes		null
+null	Mar 3, 2019	There may be some bugs in the CachingExecutor and SerializedCache		null
+null	Feb 7, 2019	The conversion to class java.time.ZonedDateTime is unsupported.		null
+null	Jan 21, 2019	property		duplicate
+null	Jun 10, 2019	property		null
+null	Jan 20, 2019	A bug in org.apache.ibatis.reflection.Reflector		null
+null	Nov 7, 2019	[Enhancement] can mapper.xml provide a better support for code reusing?		null
+null	Jan 14, 2019	Mysql sets the primary key increment, and when the step size is 2, mybatis inserts the returned primary key id in batches, there is an error.		null
+null	Jan 12, 2019	Cannot get all correct keys when insert batch data into sqlserver		null
+null	Jan 21, 2019	3.4.6 unsupport jdk11 in lazy proxy		wontfix
+3.5.0	Jan 4, 2019	ArrayTypeHandler doesn't call Array.free		enhancement
+3.5.0	Jan 7, 2019	Convert all tests to Junit 5		null
+null	Dec 30, 2018	Return one by code but find two by sql		invalid
+null	Mar 20, 2019	Hope to add JSON support		null
+null	Dec 27, 2018	Dead-Lock in BlockingCache		invalid
+null	Dec 23, 2018	when the 3.5.0 will be released?		null
+null	Dec 16, 2018	I want to ask a very simple question, why is SqlSessionFactoryBuilder not defined as a static class?		null
+null	Dec 13, 2018	java type erasure1		invalid
+null	Mar 5, 2019	About mapper interface method parameter		null
+null	Jan 20, 2019	Build is failed using JDK 6 on 3.4.x		null
+3.5.0	Nov 15, 2018	Slightly improved compatibility with drivers that only support JDBC 3 API		enhancement
+null	Nov 8, 2018	Interceptor Connection.class		null
+null	Nov 1, 2018	*		null
+null	Oct 31, 2018	My Batis Unable to create objects by constructor with collection as argument		duplicate
+3.5.0	Nov 5, 2018	Association javaType property not automatically resolved		bug
+null	Oct 30, 2018	let mapper build process fail when mapper file encountered an error		null
+3.5.0	Jan 9, 2019	Upgrade to mybatis-parent 31 GA		enhancement
+null	Oct 26, 2018	Maven build is failed because junit-engine.version property does not found		null
+null	Mar 13, 2019	the bug in 3.4.6		null
+3.5.0	Oct 24, 2018	Upgrade to Javassist 3.23.1-GA		enhancement
+null	Oct 31, 2018	missing property in xml file		null
+null	Oct 7, 2018	Mix of cursor + stream + intermediate operation seems to be broken		null
+null	Oct 4, 2018	TypeHandlers for the same type management on collection		null
+null	Sep 29, 2018	Maps multiple column on the same property object with existing typeHandler		null
+null	Sep 27, 2018	Mybatis delete returns negative value. Why is that?		question
+null	Mar 13, 2019	Why do we do this ,when I use @Param, I got an exception		null
+null	Oct 2, 2018	Bug that BlockingCache does not release lock properly		null
+null	Sep 15, 2018	Problem with if tag		null
+null	Oct 31, 2018	Bundle Reinstall dos't work in OSGi environment (Apache Karaf)		null
+3.5.0	Oct 6, 2018	Cursor.close() closes its statement even if the ExecutorType is REUSE		bug	no backward compatibility
+null	Sep 13, 2018	arg0 style not work with 3.4.6		null
+null	Sep 19, 2018	BaseExecutor queryStack properties may cause thread safety problem?		null
+null	Sep 14, 2018	I want to return promary key with @SelectKey,but throws com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: PROCEDURE neptune.identity does not exist		null
+3.5.0	Sep 24, 2018	JDK10 - XML mapper can not be found		enhancement
+3.5.0	Sep 17, 2018	SQLException when using selectCursor on DB2		bug
+null	Jan 2, 2020	[DefaultResultSetHandler.applyPropertyMappings] optimization		null
+null	Aug 30, 2018	3.3.1 java.lang.IllegalArgumentException: invalid comparison: java.util.Date and java.lang.String		null
+null	Aug 29, 2018	<select statementType="STATEMENT"> not support dynamic sql		null
+null	Aug 29, 2018	When SQL starts with use database; Batch insert can't get the keyProperty		null
+null	Aug 26, 2018	about BatchExecutor		null
+3.5.0	Sep 7, 2018	different default value between XMLStatementBuilder and MapperAnnotationBuilder		bug	no backward compatibility
+null	Aug 25, 2018	handle order of cache and cacheRef in XMLMapperBuilder.configurationElement?		null
+null	Aug 13, 2018	Exception when SQL comment text contains a parameter argument		null
+null	Jul 29, 2019	Feature Request: Pass JavaType to TypeHandler		waiting for feedback
+null	Aug 7, 2018	ClobTypeHandler does not work properly with Postgresql JDBC driver		null
+null	Oct 31, 2018	global mapper abstraction configuration request		null
+null	Oct 17, 2018	callSettersOnNulls true >> I want "part resultMap false"		null
+3.5.0	Sep 1, 2018	Jdbc Type handler does not match the website information		documentation
+null	Sep 27, 2018	messy code for logback		null
+null	Oct 30, 2018	mybatis3.4.6 bug		null
+null	Jul 18, 2018	The Collection doesn't work right with unordered data		null
+null	Jul 17, 2018	in ResultMapping resolveTypeHandler method, typeHandlerRegistry get typeHandler by a javaType(which is a java Interface) returns null. the reason is using different ClassLoader in registering and getting time.		null
+null	Oct 30, 2018	TypeParameterResolver.resolveFieldType gives incorrect result		null
+null	Oct 30, 2018	MySQL 8.0.11 Returns the id value after insert		null
+null	Oct 31, 2018	DefaultResultSetHandler createByConstructorSignature		null
+null	Jul 3, 2018	throw TooManyResultsException when use mutiple resultsets store procedure		null
+null	Jun 29, 2018	MyBatis CachingExecutor problem		null
+3.5.0	Sep 1, 2018	Empty Iterator returned on Cursor when it is already closed		enhancement
+null	Mar 13, 2019	Cause: java.lang.IllegalStateException: Cannot enable lazy loading because Javassist is not available. Add Javassist to your classpath.		null
+null	Nov 26, 2020	Using @Update or @Insert with PostgreSQL's RETURNING to get the updated object		enhancement
+null	Jul 24, 2018	Strange behavior with association ID if this ID in master table is null		null
+null	Jul 30, 2018	The Bug of Jdbc3KeyGenerator when use DB2 database and insertBatch Method		null
+null	May 18, 2018	Got null map while using map as resultType to store result with all null columns.		null
+null	May 17, 2018	Mapper String parsing bug		invalid
+3.5.1	Mar 24, 2019	Allow omit the 'method' attribute when provider method name is same with mapper method		enhancement
+null	May 8, 2018	PreparedStatementHandler query should check the prepared statement execute result.		null
+null	May 5, 2018	BaseExecutor may produce ClassCastException in multithread environment		null
+3.5.0	Dec 9, 2018	Cannot apply changes a logging implementation at some class		bug
+null	May 3, 2018	batch insert and get Generated Keys		null
+3.5.0	Dec 28, 2018	Add build using JDK11 on Travis CI		enhancement
+null	Apr 28, 2018	Bug on <insert keyProperty="">		null
+null	May 5, 2018	Annotation Mapping one to many with simple (not prepared) statement throws org.apache.ibatis.reflection.ReflectionException		null
+null	Sep 18, 2020	BlockingCache has a risk of OOM		null
+3.5.0	Apr 21, 2018	Generic type parameter is not correctly resolved when the class hierarchy is deeper than 3 levels.		bug
+3.5.0	Apr 25, 2018	Allow accessing private, package private and protected members on OGNL expression		enhancement
+null	Apr 27, 2018	SqlSessionFactoryBean Parse Exception But No log		null
+null	Apr 16, 2018	mybatis timestamp DEFAULT '0000-00-00 00:00:00' dont work		null
+null	Apr 12, 2018	If malicious data already present in DB, are we doing any sanitization while retrieving data		null
+null	Apr 6, 2018	Cannot found Type handler when use <constructor> element.		null
+null	Apr 10, 2018	Constructor based java.util.Date throws Exception, expects java.sql.TimeStamp		null
+3.5.5	Mar 21, 2020	Allow referencing single parameter using actual method argument name when compile with -parameters		enhancement
+null	Mar 28, 2018	throw ReflectionException when using #{array.length}		null
+null	Apr 6, 2018	Wiki FAQ - Add a better way for sql like.		null
+null	Mar 25, 2018	ScriptRunnerTest fails on Windows OS		enhancement
+3.5.0	Mar 24, 2018	mvn site is fail after mybatis-parent 31-SNAPSHOT		enhancement
+3.5.9	Dec 19, 2021	Deprecated Log4J 1.x		enhancement
+3.4.7	Mar 21, 2018	There is case that does not restore accessible state on Ognl		bug on dependency library
+3.5.0	Mar 24, 2018	Support concurrency on OgnlClassResolver		enhancement
+3.5.0	Mar 24, 2018	Upgrade to ognl 3.2.x(3.2.6)		enhancement
+3.5.0	Mar 19, 2018	Supports log4j-core 2.6+(2.11)		enhancement
+3.5.0	Mar 19, 2018	Drop support for JDK 1.6 and 1.7 at build definitions		enhancement	no backward compatibility
+null	Jan 29, 2019	ClobTypeHandler doesn't work properly with mariadb clob utf8mb4		null
+3.5.0	Dec 23, 2018	[RFC] add example to document, show how to pass table name in params		documentation
+3.5.3	Aug 15, 2019	Ambiguous getter/setter causes ReflectionException even when the property is not accessed		enhancement
+null	Oct 28, 2019	Bug: Constructor instantiation does not map data types correctly		waiting for feedback
+3.5.0	Dec 30, 2018	Add Automatic Module Name		enhancement
+3.5.0	Nov 17, 2018	Using @CacheNamespace with <cache-ref /> could cause exception		enhancement
+null	Apr 14, 2019	Sorting and Pagination		null
+null	Oct 30, 2018	Cascade Error with <Constructor> resulting in null value		duplicate
+null	Feb 9, 2018	Unexpected auto-commit when doing UPDATE... RETURNING *		null
+null	Feb 16, 2018	Can't get data from oracle stored procedure		null
+null	Feb 9, 2018	useGeneratedKeys=true seems not working properly with sybase ase 15.7		null
+null	Feb 5, 2018	About The inner class ParamMap of MapperMethod		null
+null	Jan 25, 2018	One to Many association in Lazy Loading mode		null
+null	Jan 24, 2018	ForEachSqlNode put unexpected key-value to DynamicContext		duplicate
+3.4.6	Jan 18, 2018	Can't register TypeHandler after using TypeHandlerRegistry.hasTypeHandler		bug
+3.5.0	Nov 17, 2018	Deeply nested (3+ levels) result map could cause IllegalArgumentException		bug
+null	Jan 5, 2018	issue #377, call setter on nulls, correct in 3.4.0 but error in 3.4.1-3.4.5		null
+null	Jan 16, 2018	OutOfMemoryException because PerpetualCache.cache is too big		null
+null	Dec 28, 2017	I maybe find a Bug		null
+null	Dec 26, 2017	fail		null
+null	Dec 27, 2017	Build Failure With Java 9		waiting for feedback
+null	Jan 16, 2018	can mapper namespace support alias，like typeAlias type		waiting for feedback
+null	Dec 22, 2017	OutOfMemoryError		null
+null	Dec 21, 2017	Improve documentation around caching and cache-ref		null
+3.5.0	Jan 7, 2019	MyBatis and JDK 9: Illegal reflective access		enhancement
+null	Oct 30, 2018	<where> does not automatically remove the and/or connector that starts with the and exists		waiting for feedback
+null	Dec 15, 2017	BaseTypeHandler may cause different meaning		null
+null	Dec 21, 2017	Struct cann't use Cache		null
+null	Dec 6, 2017	Run basetest fails.		null
+null	Dec 21, 2017	The Mathod of nodeHandlers need to be enhanced		null
+3.4.6	Nov 23, 2017	ExpressionEvaluator returns true for a double value 0.0d		bug
+null	Nov 23, 2017	asdfgbnm		null
+null	Oct 30, 2018	VARBINARY to byte[] and vise versa		null
+null	Nov 19, 2017	a bug in update process		null
+null	Nov 10, 2017	ON DUPLICATE KEY UPDATE during batch insert is broken after update from 3.4.4 to 3.4.5		invalid	question
+3.4.6	Nov 8, 2017	Supports CharSequence on SQL provider method		enhancement
+null	Nov 23, 2017	Upgrade to postgresql-embedded 2.5		enhancement
+null	Nov 9, 2017	Insert foreach - useGeneratedKeys Bug(?)		null
+null	Nov 8, 2017	Nested sql framgements are not searched from nesting elements		null
+3.5.5	May 18, 2020	Remove blank lines in SQL		enhancement
+null	Nov 8, 2017	Upgrade to mockito-core 2.12.0		enhancement
+3.4.6	Nov 8, 2017	Upgrade to javassist 3.22.0-GA		enhancement
+null	Oct 25, 2017	Broken backward compatibility. Parameter '0' not found		null
+null	Nov 1, 2017	Researching Build Breakage		null
+null	Nov 2, 2017	declared delimiter to take whole next token		null
+null	Mar 20, 2018	Can you provide general insert, update, delete, get method?		null
+null	Oct 16, 2017	A sample bug was found in the test class that caused the mvn test to fail		null
+null	Aug 16, 2018	BUG: Multi-row insert not assigning generated id into property		null
+null	Oct 12, 2017	Image Insertion Issue		invalid	question
+null	Oct 15, 2017	BatchExecutor should close statements immediately after execution		null
+null	Mar 4, 2018	Compile against JDK9		null
+3.5.0	Dec 11, 2018	StrictMap exceptions should be more clear		enhancement
+null	Sep 26, 2017	A select statement with both returnMap and returnType result in returning an one size List without an element		null
+null	Sep 26, 2017	Lazy loading not working when field getter is final		null
+null	Sep 22, 2017	resultMap Bug when SQL using "as" aliases for column names		null
+null	Sep 19, 2017	Mapping multiple result sets using only Java annotations.		null
+null	Sep 7, 2017	3.4.5, class org.apache.ibatis.executor.resultset.DefaultResultSetHandler getNextResultSet cause a stackoverflow exception?		null
+null	Nov 6, 2018	Column name ignored in Collection association unless the resultMap is complex.		null
+null	Aug 31, 2017	impossible to retrieve more than one object (same class) from a column with mybatis by using a typehandler		null
+3.4.6	Oct 4, 2017	Some params #{object.property} not accessible after 3.4.1		bug
+null	Aug 28, 2017	When the comment in *-mapper.xml include string #{XXX}, the #{XXX} looks like being resolved as a parameter of statement.		null
+null	Aug 24, 2017	Error setting Log implementation. with slfj4j-api-1.7.12.jar		invalid
+null	Aug 22, 2017	MyBatis Generator + Postgres + sequence + AnnotatedMapper = Insert-Exception		null
+null	Aug 28, 2017	use @Alias, the entity's property could not construct like @columnMap		null
+null	Apr 28, 2022	typeAliases+package doesn't work in non-unpacked .war		waiting for feedback
+3.5.0	Jan 13, 2019	OffsetDateTimeTypeHandler or ZonedDateTimeTypeHandler loses time zone information		bug
+null	Aug 13, 2017	Update to postgresql 42.1.4.jre6 (JDBC driver)		enhancement
+null	Aug 13, 2017	Update to postgresql-embedded 2.3		enhancement
+3.4.5	Aug 13, 2017	Upgrade to OGNL 3.1.15		enhancement
+null	Aug 12, 2017	Does Mybatis support kotlin?		null
+3.4.6	Sep 18, 2017	SQL include does not replace in attributes		enhancement
+null	Aug 7, 2017	Handler can not have an Spring injected attribute		waiting for feedback
+null	Aug 7, 2017	ORA-01461 when SQLXML field contains XML longer than 4K		null
+null	Oct 30, 2018	Mybatis do not find the correct handler for a class		null
+null	Jul 27, 2017	mybatis mapper scan in springboot		invalid
+null	Aug 5, 2017	RowBounds can not pass in values		null
+null	Oct 30, 2018	mysql multi-row insert ,return wrong id		null
+null	Jul 29, 2017	Allow replacing configuration properties on ProviderSqlSource		enhancement
+null	Jul 12, 2017	mybatis batch update(foreach) size		invalid
+null	Jul 26, 2017	NullPointerException for High concurrency		null
+null	Jul 6, 2017	flushInterval does not work		duplicate
+null	Oct 30, 2018	It's would be better if MapperMethod.executeForMany support any Type		null
+null	Jul 29, 2017	why not use java SPI to locate user's SqlSource implement		null
+null	Jun 24, 2017	Upgrade to mybatis-parent 29		enhancement
+null	Jun 24, 2017	Upgrade to javassist 3.22.0-CR2		enhancement
+null	Jun 24, 2017	Upgrade to mockito-core 2.8.47		enhancement
+null	Jun 24, 2017	New Chinese technical book: MyBatis 从入门到精通		null
+null	Jun 21, 2017	multipleResultsetSets lost resultset		bug
+null	Jun 18, 2017	Too smart TypeHandler		null
+null	Jun 16, 2018	mappers should support wildcards,eg * or **		null
+null	Jun 19, 2017	TransactionalCache Delay to send		null
+null	Jun 11, 2017	When the parameter name is "size", it is always mapped with integer		bug
+null	Jun 13, 2017	The Boolean type value error in a map.		null
+null	Jun 9, 2017	Invalid value "5" for parameter "parameterIndex" [90008-192]		null
+null	Jun 13, 2017	INSERT ... ON DUPLICATE KEY UPDATE Syntax can not work		null
+null	Jun 7, 2017	springboot+mybatis+druid配置sql执行空指针异常		null
+null	Jun 6, 2017	update neither columns		invalid	question
+null	Jun 2, 2017	Does mybatis support non-crud operations?		invalid	question
+null	Jun 5, 2017	Just generate the SQL based on a xml template so it can be used in custom JDBC call		null
+null	Jun 1, 2017	Cursor is closed.		invalid
+null	Oct 30, 2018	mybatis3.4.1 A large amount of thread access can be blocked		null
+null	Oct 4, 2017	频繁操作mybatis会这样		null
+null	Jun 14, 2017	spring boot2已经支持kotlin，希望mybatis也支持kotin		invalid
+null	Aug 21, 2017	No operations allowed after statement closed.		null
+null	Jul 27, 2017	Dynamic sql using @SelectProvider		enhancement
+null	May 25, 2017	Exception raised, when association object field value is used to insertion query		invalid
+null	May 20, 2017	Can Mybatis offer mapper extends feature now?		question
+null	May 15, 2017	java.lang.OutOfMemoryError: Java heap space		wontfix
+null	May 12, 2017	how to get comment of table		invalid	question
+null	May 3, 2017	Can not get Mapper name in LanguageDriver		null
+null	May 4, 2017	A serious bug about some methods in SqlSession		wontfix
+3.4.5	Apr 22, 2017	Lazy loading should not overwrite a property value set by user		bug
+null	Apr 13, 2017	How to parse oracle hints /*+ materialize */ in Mybatis3?		invalid	question
+null	Apr 11, 2017	multiple selectKey in one insert node		invalid	question
+null	Apr 11, 2017	Firebird clobs incompatible with mybatis 3.4.x		null
+null	Apr 10, 2017	Allow to customize default TypeHandler for Enum		enhancement
+3.4.4	Apr 8, 2017	3.4.3 does not work on Java 6 and 7		bug
+3.5.0	Jul 29, 2018	Constructor Args do not support columnPrefix		enhancement
+null	Apr 7, 2017	When i use mybatis with Quartz,		invalid
+null	Mar 28, 2017	How to pass a sql or parameter or property to super interface		question
+null	Mar 28, 2017	The if expression can't get variable value when giving a String.		invalid
+null	Mar 24, 2017	Update to Mockito 2.7.19		enhancement
+3.4.3	Mar 24, 2017	Update to CGLIB 3.2.5		enhancement
+3.4.3	Mar 24, 2017	Update to SLF4J 1.7.25		enhancement
+null	Mar 28, 2017	The "test condition" replace the paramter value		invalid
+null	Apr 12, 2017	DefaultVFS nullpointer exception in Websphere Liberty 8.5.5.9		invalid
+null	Feb 25, 2021	Issue returning empty cursor as Collection		waiting for feedback
+null	Mar 30, 2017	ScriptRunner must not commit if autoCommit is false		null
+null	Mar 30, 2017	Reg : Mybatis not support bigdata(impala,hive)		null
+null	Jun 7, 2017	getsession() NullPointerException		null
+null	Mar 2, 2017	Why mybatis columnNames and model properties also was null？		invalid	question
+null	Mar 4, 2017	BUG? The associaction object reference mybatis cached not readOnly has exception "org.apache.ibatis.executor.ExecutorException: Cannot get Configuration as configuration factory was not set."		null
+3.4.3	Mar 5, 2017	Update to OGNL 3.1.14		enhancement
+null	Mar 1, 2017	Update to Mockito 2.7.12		enhancement
+3.4.3	Mar 1, 2017	Update to SLF4J 1.7.24		enhancement
+null	Mar 1, 2017	Could not find parameter map java.util.Map		invalid
+3.4.6	Nov 16, 2017	Invalid error message 'Two methods with same method sigunature but not providing classes assignable?' in System.err		bug on dependency library
+null	Feb 28, 2017	@ResultType and @Params annotations doesn't work as expected		invalid
+null	Feb 23, 2017	may cache dirty data when update from another instance?		question
+null	Jun 7, 2017	Can't invoke the setter for the <collection> property when a bean (<resultMap> ) set a <collection> property		null
+null	Feb 18, 2017	typeHandler cannot find enum witch @override a abstract method		null
+null	Nov 17, 2018	incompleteMethods in Configuration keep non empty cause java.lang.IllegalArgumentException: Mapped Statements collection already contains value for****		null
+null	Jun 7, 2017	Dynamics results with dynamic columns only works with a 'stmt' bean getter (ParameterObject)		null
+null	Feb 15, 2017	regression: bean/model inheritance fails with ReflectionException with version 3.4.2 (was working with 3.2.8)		invalid
+null	Feb 10, 2017	useGeneratedKeys while Batch Insertion via List		null
+null	Feb 6, 2017	element "include" content must "EMPTY"。		invalid
+null	Feb 15, 2017	Add mappers via package name directory doesn't work		invalid
+null	Feb 4, 2017	Integration tests problems with mybatis and HSQLDB		invalid
+null	Feb 5, 2017	Creating an object through a constructor fails when using Enums		wontfix
+3.4.3	Feb 2, 2017	A boolean property should be able to have two getters: isX() and getX()		bug
+3.4.3	Jan 25, 2017	Default methods support on mappers, does not work for non-public mappers.		bug
+3.4.3	Feb 25, 2017	Building UPDATE JOIN statement by SQL Builder		enhancement
+3.4.5	Aug 13, 2017	ExecutorException: No setter found for the keyProperty 'id'		bug
+null	Jan 19, 2017	When user org.mybatis.spring.mapper.MapperScannerConfigurer Spring placeHolder can not place content		invalid
+null	Jan 19, 2017	The mybatis-3.4.2.jar (inside mybatis-3.4.2.zip provided at release page) is require Java 8 runtime		bug
+null	Feb 18, 2017	Please allow extend base Enum handlers - change type access to protected		null
+null	Jan 13, 2017	How to Pass Multiple Java POJO object from DAO to XML mapper		invalid	question
+null	Jan 18, 2017	Use Java 8 parameter names for constructing object post-query		duplicate
+null	Jan 13, 2017	how to query all the fields in resultmap fast when using left join?		invalid	question
+null	Jan 13, 2017	why sqlruuner.selectOne method return map key need upperCase		question
+null	Jan 12, 2017	About the sqlSession		invalid	question
+null	Jan 10, 2017	SelectKey for id not work?		invalid
+null	Jan 13, 2017	after insert into sql server, mybatis does not return generated key		wontfix
+null	Jan 7, 2017	mybatis-3/src/main/java/org/apache/ibatis/executor/loader/javassist/JavassistProxyFactory.java		invalid	question
+3.4.3	Jan 3, 2017	Improve to share Jdbc3KeyGenerator and NoKeyGenerator instance		enhancement
+null	Jan 5, 2017	Add tests for auto-detecting mybatis-typehandlers-jsr310		enhancement
+3.4.2	Dec 30, 2016	Support auto-detecting YearMonthTypeHandler		enhancement
+null	Dec 29, 2016	Problem with fetching data from table with NVARCHAR2		invalid
+null	Dec 26, 2016	Update to Mockito 2.4.2		enhancement
+null	Dec 21, 2016	Cache doesn't work in 1 mapper when 2 mappers are mapped to a same namespace		invalid
+null	Dec 20, 2016	Why repackage the ognl and when repackage with apache common-ognl?		question
+null	Dec 12, 2016	Can add physical paging feature?		wontfix
+null	Dec 13, 2016	mybatis batch insert oracle table ID use sequence return ID NULL		invalid
+null	Dec 12, 2016	@Intercepts PROCEDURE: throws ClientAbortException: java.io.IOException: Broken pipe		null
+3.4.2	Dec 1, 2016	Two typos in documents		bug	documentation
+3.4.2	Nov 27, 2016	Typo for SqlSessionFactoryBuilder in documents		bug	documentation
+3.4.2	Nov 27, 2016	Allow to specify a default value on placeholder		enhancement
+null	Nov 22, 2016	The docs page is down		invalid
+null	Nov 18, 2016	SQL contains '?' Fill Problem		invalid
+3.4.2	Nov 23, 2016	PropertyTokenizer causes Infinite Loop when used in enhanced for-loop		bug
+null	Nov 15, 2016	how to get @MapperScan annotationClass's custom arrtibute value		invalid
+3.4.2	Nov 23, 2016	Can't create a result object according constructor parameters		bug
+null	Nov 10, 2016	new line between "=" and "CALL" when calling store procedure parser error		invalid
+null	Nov 9, 2016	mybatis		invalid
+null	Nov 9, 2016	class not found com.mysql.jdbc.Driver		invalid
+null	Feb 13, 2017	I hope I can do not need to mybatis XML configuration file database operation, simply by javaBeanannotations.		null
+null	Nov 2, 2016	3.2.8 Official documentation typeHandlers question		question
+3.4.2	Nov 23, 2016	Pass configuration variables to Cache upon construction		enhancement
+null	Oct 26, 2016	PerpetualCache is thread-unsafe		invalid
+null	Oct 25, 2016	Can't insert data on h2 database		invalid
+null	Nov 5, 2016	mybatis lazy loading issue		duplicate
+null	Oct 19, 2016	how to use enum in tests		question
+3.4.3	Feb 24, 2017	Mybatis constructor automapping fails on primitive/wrapper		enhancement
+3.4.2	Oct 15, 2016	Wildcard type with upper bound is resolved as java.lang.Object.		bug
+3.4.2	Oct 9, 2016	Logger is wrong in VendorDatabaseIdProvider		bug
+null	Nov 3, 2016	Can change StatementHandler.query(Statement, ResultHandler) into StatementHandler.query(Statement0.		wontfix
+null	Sep 30, 2016	why the DefaultSqlSession's method wrapCollection has map.put("collection",object) and map.put("list",object)，this map may put two times		invalid
+null	Sep 30, 2016	mybatis3.4.0 and mybatis3.4.1 just suit the mybatis-spring1.3.0 ?		duplicate
+null	Nov 3, 2016	suggest changing StatementHandler.query(Statement,ResultHandler) interface into change StatementHandler.query(Statement)		duplicate
+null	Oct 10, 2016	why I can't open the website http://mybatis.github.io/mybatis-3/?		null
+null	Sep 23, 2016	custom typehandler occur error		null
+null	Sep 28, 2016	Mapper creation in an endless loop		null
+null	Nov 9, 2016	Why MyBatis don't support "readOnly" property in a DB connection?		invalid
+null	Sep 13, 2016	callSettersOnNulls does not work		null
+null	Nov 9, 2016	Why MyBatis don't support "import" function in mapper.xml		null
+null	Sep 11, 2016	CreateDB.sql		null
+null	Jul 4, 2017	"autoCommmit" spelling mistake in JdbcTransaction class		duplicate
+null	Nov 23, 2016	BRIDGE Method object maybe used to MapperProxy#invoke with Java 8 compiler		question
+null	Aug 19, 2016	For master branch, mybatis-parent 28-snapshot isn't available in maven repo		null
+null	Feb 18, 2017	Performance problem at 'BaseExecutor.createCacheKey' in instantaneous high concurrency environment		null
+null	Aug 18, 2016	mybatis缓存问题		null
+null	Aug 8, 2016	how can i dynamic change the sql		null
+null	Nov 9, 2016	ReuseExecutor reuses a still in-use PreparedStatement when a nested query result has the same prepared SQL		null
+null	Sep 12, 2016	Intermittent java.sql.SQLRecoverableException: Closed Connection		null
+null	Oct 8, 2016	Bug in DefaultResultSetHandler.java with null values and .isCallSettersOnNulls set to true		null
+3.4.2	Aug 4, 2016	Setter with generics and without a getter produces an exception		bug
+null	Jul 26, 2016	Parent child relationship insert		null
+null	Jul 22, 2016	How can I run a procedure and return a set result?		null
+3.4.2	Nov 9, 2016	Lazy loading should not be triggered by setter methods		bug
+3.4.2	Jul 21, 2016	poolMaximumCheckoutTime logic has problem when leaked a connection.		bug
+3.4.2	Jul 22, 2016	Accessing bound array parameter in a SQLMap fails		bug
+null	Oct 8, 2016	MS SQL 2008 - Multirow insert; returning of Key Generation failing.		null
+null	Jul 15, 2016	i have a dream		null
+null	Jun 1, 2017	3.4.0 Full-GC frequently		null
+null	Aug 7, 2016	Logging of Array parameters		null
+null	Aug 24, 2016	动态sql执行count结果异常		null
+null	Jul 8, 2016	NVARCHAR2 issue		null
+null	Jul 26, 2016	shows 'Invalid bound statement' in junit test with spring		null
+null	Sep 12, 2016	why after sqlsession.close(),the lazy load can do?		null
+null	Jul 1, 2016	Unable to use composite key in nested query		null
+null	Jul 4, 2016	bug report: empty table cause IndexOutOfBoundsException		null
+3.4.2	Jul 4, 2016	Cannot access properties in <setting /> since 3.3.1		bug
+3.4.3	Jan 24, 2017	Resolve POJO constructor arguments by name rather than position		enhancement
+null	Jul 8, 2016	Is possible add at GUICE the JDBCTypeForNull and CallSettersOnNulls configuration?		null
+null	Jun 27, 2016	Execute stored procedures with a lot of updates in SQL Server is too slow.		null
+null	Sep 12, 2016	useing ResultHandler result of sqlexception when query huge data		null
+null	Sep 12, 2016	Unable to process Jar entry SEVERE: Unable to process Jar entry [org/apache/ibatis/javassist/util/proxy/SerializedProxy.class		null
+null	Jun 22, 2016	tomcat error 报错		null
+null	Jun 20, 2016	about mybatis		null
+null	Jun 20, 2016	mybatis		null
+3.4.2	Jul 10, 2016	Support default methods on mapper interfaces		enhancement
+null	Sep 12, 2016	长时间频繁增删改时Mybatis错误：Error preparing statement		null
+null	Jun 18, 2016	how can i get generated timestamp by mysql		null
+3.4.1	Jun 23, 2016	mybatis-3.4.0.jar on IBM's Websphere Application Server 8.5.5.9		bug
+null	Nov 10, 2016	Handle overloaded mapper methods		wontfix
+null	Feb 18, 2017	Share configuration		null
+null	Jun 9, 2016	XML configuration for custom TypeHandlers is not being mapped to primitive type booleans from 3.3.x onwards		null
+3.4.1	Jun 3, 2016	NullPointException in ResultSetHandler when java type className is null.		bug
+null	Jun 1, 2016	mybatis 3.4.0 and mybatis-spring 1.3.0 #####Prepare Method BUG?		null
+null	Nov 23, 2016	Can mybatis support optimistic lock and pessimistic lock in future version?		question
+null	May 30, 2016	resultmap declaration programatically		null
+null	May 26, 2016	ScriptRunner解析sql脚本文件问题		null
+null	May 25, 2016	Make global variables available in dynamic SQL test expressions		null
+null	Jun 27, 2016	flushInterval for cache not work		null
+null	Oct 30, 2018	Add ability to skip read of concrete output parameter from callable statement using mapping.		waiting for feedback
+null	May 9, 2016	Parameter Maps collection does not contain value for java.util.List		null
+null	Jul 23, 2016	mybatis higt-version plugin Occasionally not execute?		null
+null	May 10, 2016	MsSQL Server Error with generatedKey and InsertTrigger on Table		wontfix
+3.4.2	Nov 9, 2016	Can not support child properties in ObjectWrapperFactory		bug
+null	Apr 28, 2016	Can not customize a ReflectorFactory using mybatis-config.xml		null
+null	Apr 27, 2016	please， review #663		null
+3.4.1	Apr 25, 2016	Support @Select with an array return type		enhancement
+3.4.1	Apr 23, 2016	Does not work Cursor using annotation based Mapper		bug
+null	Apr 25, 2016	Can not fetch an object from Cursor when a RowBounds is used		null
+null	Apr 23, 2016	maven repo has problem? there's no jar found @ maven path		null
+3.4.1	Apr 25, 2016	Association to mapped select that uses @Param arguments fails		bug
+null	Apr 20, 2016	mybatis3.4.0 error		null
+null	Apr 20, 2016	why removed #621 from the 3.4.0 milestone		null
+null	Apr 12, 2016	Mapping to wrong class when using one-to-many mapping and custom typeHandler		null
+3.4.0	Apr 9, 2016	New @Mapper marker annotation for DI frameworks		enhancement
+3.4.0	Apr 6, 2016	StatementLogger's equals/hashCode is maybe dead code.		enhancement
+null	Apr 4, 2016	RowBound not working		null
+null	Jan 21, 2017	Getting "NoSuchPropertyException" Randomly		null
+null	Apr 7, 2016	Error setting Log implementation.		null
+null	Mar 26, 2016	doc: In Getting started, add download link of the mybatis-x.x.x.jar file.		null
+null	Mar 29, 2016	vfsImpl in settings is not working		null
+null	Mar 17, 2016	useGeneratedKeys doesn't work with multiple parameters		null
+null	May 9, 2016	TypeHandler cannot support super classes or interfaces.		null
+null	Mar 3, 2016	Mybatis issue while generating Model Java file		null
+3.4.0	Mar 2, 2016	This may a spelling error but not a bug on ResulSet		bug
+null	Mar 11, 2016	Can mybatis support a list or an array as a parameter and there is no need to use <forEach>？		null
+null	Mar 3, 2016	Bug with collection select on HashMap.entrySet()		null
+3.4.0	Mar 7, 2016	TypeHandler with @MappedJdbcTypes causes exception in mapper configuration		enhancement
+null	Feb 22, 2016	OgnlOps#isEqual comparison of two enum thrown IllegalArgumentException		null
+null	Feb 22, 2016	java.sql.SQLException: Exhausted Resultset		null
+null	Feb 21, 2016	Error deploying in TomEE 1.7.3 since migration from 3.2.8 to 3.3.1		null
+3.4.0	Apr 13, 2016	Property type fetching should process generic.		enhancement
+null	Oct 30, 2018	Some records are missing in result		null
+null	May 9, 2016	collection in ResultMap get only one row and can't set list attribute correctly		null
+null	Feb 25, 2016	Request posgrSQL for generatedKey		null
+3.3.1	Feb 10, 2016	Update performance by caching automapped mappings		enhancement
+null	Sep 16, 2016	Querying the existing cache in a particular session		null
+null	Apr 14, 2016	collection of type List<String>		null
+null	Feb 25, 2016	how to call oracle function in mybatis		null
+null	Jan 30, 2016	Spring mybatis insert can't return primary key		null
+null	Jan 29, 2016	1		null
+null	Feb 10, 2016	Mybatis defind a generic sql provider?		null
+null	Apr 14, 2016	pom.xml should save in utf-8 without BOM.		null
+null	Jan 23, 2016	lombok support		null
+null	Mar 9, 2016	Create TypeHandlers for Java 8 Date and Time API		null
+3.4.0	Jan 18, 2016	Registered custom TypeHandler is not applied to generated key if jdbcType is specified		enhancement
+3.4.2	Nov 14, 2016	primitive array resultType throws exception		enhancement
+null	Jan 16, 2016	org.apache.ibatis.binding.MapperRegistry.addMapper Exceptions are ignored		null
+null	Jan 15, 2016	Part of result records MISSED when using ResultMap with COLLECTION		null
+null	Apr 14, 2016	Mybatis cache result not right		null
+null	Jan 22, 2016	Custom cache flushInterval not working		null
+3.4.1	May 11, 2016	Obtain formal parameter names using Java reflection		enhancement
+null	Aug 29, 2017	Default namespace for mappers?		enhancement
+null	Apr 14, 2016	Bad connection issue if autoCommit = false		null
+null	Dec 29, 2015	一对多级联查询，多端有重复数据，只能查出一条是为什么呢？		null
+null	Feb 6, 2017	a Improvement for TypeHandler		wontfix
+null	Dec 23, 2015	Your README.md file is lacking proper keywords		null
+null	Dec 16, 2015	TypeHandler was not used when parsing @SelectKey result		null
+null	Jan 22, 2016	Under certain conditions mybatis took a previous value of a variable it was passed.		null
+null	Apr 20, 2016	Add filename in BuilderException		enhancement
+null	Feb 18, 2017	Can mybatis and mybatis add a aop function to mapperproxy		enhancement
+null	Dec 5, 2015	The MyBatis OGNL doesn't support special set/get method		null
+null	Dec 4, 2015	mybatis doesn't support two same column names		null
+null	Dec 23, 2015	Problem with useGeneratedKeys and postgresql on multiple insert		null
+null	Dec 11, 2015	question PropertyTokenizer on java 8 ;		null
+null	Feb 4, 2016	MySQL DELIMITER does not work		null
+null	Dec 23, 2015	Neo4j Syntax Error		null
+3.4.3	Feb 4, 2017	foreignColumns with multiple columns validation error		bug
+null	Feb 18, 2017	Use @Intercepts. set AdditionalParameter, can't set value, it's issue?		null
+null	Dec 5, 2015	MyBatis JNDI with JBoss gets expired records		null
+null	Nov 11, 2015	mybatis lose duplicated rows when using association		null
+null	Nov 19, 2015	Can I insert one to one mapping in a single xml configuration?		null
+null	Jan 22, 2016	Ignore association when there is no result (Nested Results for Collection)		null
+3.4.2	Nov 8, 2016	aggressiveLazyLoading doesn't work as document says		bug	documentation
+null	Nov 5, 2015	mybatis <if> error		null
+null	Dec 18, 2015	About ResultMap.idResultMappings		null
+null	Nov 10, 2015	is this bug?		null
+null	Nov 6, 2015	not support overload?		null
+null	Oct 30, 2015	'insert' method in the mapper class does't flush 2nd cache		null
+null	Oct 28, 2015	About mybatis3.2 log ooo Using Connection [jdbc:mysql://localhost:3306/.........		null
+3.4.3	Mar 10, 2017	Explanation of configurationFactory setting is not exist in reference page		documentation	enhancement
+3.3.1	Oct 26, 2015	Improve handling of defaultStatementTimeout		enhancement
+null	Nov 23, 2016	Change to select valid setting name in mybatis-config.xml		wontfix
+null	Nov 8, 2015	Mybatis @Select annotation support cache configuration?		null
+null	Oct 23, 2015	DefaultVFS can't cope with self-booting JARs		null
+null	May 11, 2016	Error inserting list of objects with identity column using mybatis.		null
+null	Dec 15, 2015	not support ntext ?		null
+3.3.1	Oct 21, 2015	ONGL Expression can't support char '}' ecscape		enhancement
+3.4.6	Nov 11, 2017	Apply custom ResultHandler to CURSOR type OUT parameter		enhancement
+3.3.1	Nov 12, 2015	NPE when ResultSet is null		bug
+3.5.0	Nov 5, 2018	ResultMap, discriminator association, NullPointerException when no resultType set		enhancement
+null	Jan 22, 2016	flushInterval="10000" dosn't work		null
+null	Oct 7, 2015	Support batch inserts		question
+null	Oct 12, 2015	The foreach mapper can't direct to process the "java.util.List"		null
+3.3.1	Dec 9, 2015	NStringTypeHandler handles only String and not NString		enhancement
+null	Oct 9, 2015	parameterType of list has throwing MyBatisSystemException.		null
+null	Sep 30, 2015	Missing annotation to scan Alias		null
+null	Sep 22, 2015	Custom primitive TypeHandlers are ignored in MyBatis 3.3		null
+null	Jan 22, 2016	How to avoid non-English word's messy code in mapper.xml?		null
+null	Oct 11, 2015	How to concat a number type in a select sql in Mybatis?		null
+null	Sep 7, 2015	foreach collection can't be list		null
+null	Aug 26, 2015	select LIKE		null
+null	Aug 24, 2015	mybatis dynamic sql bug		bug on dependency library
+null	Nov 10, 2016	No se ejecuta ResultHandler con cursores en parámetros de salida.		duplicate
+null	Aug 6, 2015	MyBatis Generator and PostgreSQL sequence		null
+null	Aug 4, 2015	How can I map a LocalDateTime field ?		null
+null	Aug 19, 2015	downloading maven plugins ,help help help		null
+null	Jun 23, 2017	Cache error		null
+null	Jan 22, 2016	ErrorContext.store() method		null
+null	Aug 1, 2015	Why does not UnpooledDataSourceFactory behave like a common factory?		null
+null	Aug 19, 2015	how to Table values function call in mybatis ?		null
+null	Aug 19, 2015	Detail Data show in table		null
+null	Aug 24, 2015	Use @MapperScan annotation in springboot container result in a IllegalArgumentException: Cannot subclass final class class com.sun.proxy.$Proxy57		null
+null	Aug 20, 2015	java.util.RandomAccessSubList and java.lang.String		null
+null	Nov 8, 2015	EnumOrdinalTypeHandler annotation configuration error		null
+null	Aug 19, 2015	MySQL's GROUP_CONCAT with special separator not tokenized correctly		null
+null	Aug 19, 2015	Dynamic SQL judgment		null
+null	Aug 19, 2015	Override Automapping is not correct		null
+null	Oct 30, 2018	DB server closed connection error		null
+null	Oct 9, 2015	mapUnderscoreToCamelCase=true setting does not work in some cases		null
+null	Aug 19, 2015	Mybatis unable to log queries with log4j2		null
+null	Oct 9, 2015	entity Have only one valid parameter and the value is id was wrong!!!		null
+null	Feb 3, 2017	How to get to every case sql from complex dynamic query?		question
+null	Aug 19, 2015	How to Improve mybtis dynamid sql performance?		null
+3.3.1	Jan 16, 2016	Objects instantiated when all fields in a ResultMap are null		bug
+null	Jan 17, 2016	callSettersOnNulls=true doesn't work in version 3.3.0 anymore		bug	wontfix
+null	Apr 14, 2016	Using mybatis with SAP HANA		null
+null	Jun 2, 2015	Not fully supported about generic TypeHandler		null
+null	Aug 25, 2015	BindingException: Parameter 'a' not found. Available parameters are [param1, b] for the case when I use xml query building and one query for several Mapper-methods.		null
+null	May 28, 2015	<foreach> does not properly close IN-clause if the collection is empty.		null
+null	May 26, 2015	LogFactory dependency on cobertura in 3.3.0		null
+null	Oct 9, 2015	about method DefaultResultSetHandler.createRowKeyForMappedProperties		null
+3.3.1	Aug 25, 2015	the ERROR prompt is not very clear!		enhancement
+null	Feb 14, 2017	Setting custom variables per environment		question
+null	May 19, 2015	foreach collection is a list in a map-parameter		null
+null	Aug 20, 2015	cross mapper use sql		null
+3.4.0	Jan 27, 2016	Need explicitly configure flushCache manully once using the Options annotation		bug
+null	May 8, 2015	org.apache.ibatis.builder.BuilderException caused by java.lang.StringIndexOutOfBoundsException		null
+null	Aug 20, 2015	List<X> in mapper doesn't work when using resultMap with association		null
+null	May 19, 2015	TransactionalCacheManager nullpointerException for rollback ?		null
+null	Apr 26, 2015	work		null
+null	Apr 25, 2015	NPE if mapper namespace not provided		null
+3.3.0	Apr 25, 2015	IllegalArgumentException in resultMap that contains a collection with javaType List		bug
+null	Apr 7, 2015	mybatis 3.2.8 question about if tag		null
+null	Apr 25, 2015	Wrong column value applied to collection		null
+null	Apr 1, 2015	How to return generated ID when using batch insert?		question
+null	Mar 20, 2015	Support the defaultFetchSize in config.xml		null
+null	Apr 25, 2015	mybatis + spring use aop:pointcut not rollback		null
+null	Mar 16, 2015	problem :Error querying database.		null
+3.3.0	Apr 25, 2015	Divide the class repository (Reflector) for different SqlSession Config		enhancement
+null	Mar 11, 2015	Modify to use Log#isDebugEnabled()		null
+null	Jan 2, 2016	Use MyBatis execute direct Sql		enhancement
+null	Apr 14, 2016	FreeMarker plugin for MyBatis		null
+null	May 3, 2015	Unwanted trailing whitespace is readed from @Select annotation		null
+3.5.0	Nov 6, 2018	Mapping a list of strings as <collection> in XML could be more intuitive		enhancement
+null	Feb 28, 2015	MapperRegistry is thread-unsafe		null
+null	Mar 2, 2015	Support for invoke the flushStatements via Mapper interface.		null
+null	Mar 6, 2015	PL/SQL is not fully supported		null
+null	Oct 9, 2015	Nested Result Set automatically ignored if typeHandler in registry		null
+null	Aug 19, 2015	Is there a way to check parameter for a specific character		null
+null	May 12, 2015	Must I make my xxMapper.xml ' s name and interface.java's name as like as two peas?		null
+3.3.0	Feb 3, 2015	Accessing dynamic variable could cause BindingException when null is bound		bug
+3.3.0	Apr 25, 2015	Cannot register language driver instance		enhancement
+null	Jan 30, 2015	__frch_key_0		null
+null	Jan 30, 2015	How to use a simple @Select correctly		null
+null	Aug 19, 2015	DefaultSqlSession returned by DefaultSqlSessionFactory is not Thread-Safe		null
+null	Apr 25, 2015	Exception occurs when MyBatisBatchItemWriter is used with oracle database.		null
+null	Jan 16, 2015	RowBounds do not work as expected ?		question
+null	Jan 16, 2015	Maybe it is a bug. Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'id' in 'class java.lang.Integer'		null
+null	Apr 14, 2016	Mybatis 3.2.8 ERROR: Mapped Statements collection does not contain value		null
+3.3.1	Aug 18, 2015	typeHandlersPackage scanning not working when custom TypeHandler is in other (nested) jar than the SqlSessionFactoryBean definition		enhancement
+null	Apr 25, 2015	java.sql.sqlrecoverableexception closed statement in BatchExecutor		null
+3.4.0	Feb 10, 2016	Mybatis doesn't get correct return type when the mapper interface extends another one.		bug
+null	Apr 14, 2016	More Scalable @SelectProvider		null
+3.3.0	Apr 5, 2015	ScriptRunner log writter doesn't work when the full script is sent		bug
+null	Dec 16, 2014	NPE in PropertyTokenizer during startup with multiple threads		duplicate
+null	Jul 7, 2019	Mybatis Annotation problems		null
+null	Dec 17, 2014	I found a bug about TypeHandler		null
+null	Dec 9, 2014	GenerationConfiguration file		question
+null	Oct 30, 2018	DefaultParameterHandler need to pass JdbcTypeName to TypeHandler		null
+3.3.0	Dec 22, 2014	null value returned by DefaultResultSetHandler		bug
+3.3.0	Dec 22, 2014	autoMapping part in manual		documentation
+null	Dec 22, 2014	map in foreach		null
+null	Dec 1, 2014	How to add condition to collection		null
+null	Dec 22, 2014	org.postgresql.util.PSQLException: ERROR: syntax error at or near "."		null
+null	Dec 22, 2014	useCache flag is not checked in SimpleExecutor		null
+null	Nov 27, 2014	how to manage nested queries (LAZY)		invalid
+null	Nov 26, 2014	Issue in update***SelectiveMapper		null
+null	Nov 26, 2014	dynamic result type		null
+null	Nov 26, 2014	How stop queries		invalid
+null	Feb 25, 2017	Enums with implementations incorrectly use String even if you specify ordinal TypeHandler		bug
+null	Nov 10, 2014	Mybatis 3.2.8 's logs are not correct.		null
+null	Dec 22, 2014	NullPointerException in BaseExecutor during high load		null
+null	Dec 22, 2014	The property is null if the column is using in Result transformation		null
+null	Nov 1, 2014	spring ignoring bean creation exception on FactoryBean type check		null
+null	Oct 28, 2014	SqlSessionInterceptor committing INSERT statement even when autocommit is false and before session.commit()		null
+null	Oct 22, 2014	Bug on get native Connection By SqlSessionTemplate		null
+null	Dec 28, 2016	jdbcType LONGNVARCHAR cannot be resolved		null
+null	Dec 22, 2014	MyBatis cache is not working		null
+null	Oct 21, 2014	when resultType is map,the jdbctype is mismatched		null
+null	Dec 22, 2014	bug in class SqlSourceBuilder		null
+null	Dec 22, 2014	Element type "bind" must be declared.		null
+null	Oct 11, 2014	In usage of "stored procedure", is not wrote about statementType="CALLABLE"		null
+null	Oct 11, 2014	How to set jdbcTypeForNull using java config?		null
+null	Oct 7, 2014	Set lazy loading in xml		invalid
+null	Feb 7, 2017	How to wrap multiple select queries into one query		null
+3.2.8	Sep 29, 2014	Does not work correctly the RowBonds mechanism when use the ResultHandler to nested result map		bug
+3.3.0	Sep 24, 2014	@CacheNamespace default values are inconsistent		bug
+null	Sep 25, 2014	check cache after get connection.		null
+null	Sep 25, 2014	Sonar Related Issues		wontfix
+null	Oct 11, 2014	duplicate collection entities when having multiple one-to-many relations		null
+null	Dec 22, 2014	ava.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.Long		bug
+null	Aug 29, 2014	Mybatis does not find the correct property setter.		duplicate
+3.2.8	Sep 4, 2014	associations broken for primitive types		bug
+null	Aug 21, 2014	中文文档中存在文字错误		null
+null	Sep 25, 2014	mybatis not closing oracle cursor		null
+null	Aug 6, 2014	Upgraded to 3.2.7 and now get java.math.BigDecimal cannot be cast to java.lang.Integer when using NUMERIC type		null
+null	Aug 5, 2014	unable to use annotation based mapper to set fuzzy search SQL		null
+3.4.0	Feb 16, 2016	BaseTypeHandler<T extends Enum<T>> is ignored when @MappedJdbcTypes is specified		enhancement
+null	Jul 25, 2014	could you recommend a guide book to me for study mybatis		null
+null	Jul 25, 2014	could you recommend a guide book to me for study mybatis		null
+null	Jul 19, 2014	Maven Surefire Plugin: Error building SqlSession		null
+3.3.0	Jul 17, 2014	Support of Set.java as collection		enhancement
+null	Jul 16, 2014	nullvalue in result tag		null
+3.2.8	Jul 15, 2014	MapperAnnotationBuilder doesn't handle Java 8 compiler change for generic interfaces		bug
+null	Sep 25, 2014	Mybatis 3.2.x / MyBatis-Spring 1.2.0 BindingException when use single word for database table column name		null
+null	Jul 6, 2014	Log4j2 API change in 2.0-rc2 causes ClassNotFoundEx with MyBatis-3.2.7		null
+3.2.8	Jul 5, 2014	Log4j2 integration broken with rc2 release		bug
+null	Jul 4, 2014	mybatis-spring-1.1.1.jar bug..		null
+null	Jun 26, 2014	problem with ${}		null
+null	Jun 26, 2014	problem with ${}		null
+null	Sep 25, 2014	Passing multiple parameters on @Many annotation		null
+null	Feb 5, 2020	Support for Java's Optional<T>		enhancement
+null	Jun 25, 2014	Error inserting a list of objects with collection type list with MyBatis 3.2.7		null
+3.3.0	Jul 5, 2014	OGNL 2.6.9 bug is affecting mybatis when there is a heavy load on startup.		bug
+null	Jun 17, 2014	Provide facilities for EJB programming		null
+null	Jun 23, 2014	How to use complicated JavaBean in parametertype?		null
+null	Jul 30, 2014	CustomTypeHandler trouble with "is" prepend		null
+null	Jun 9, 2014	No Getter Property		null
+3.4.1	May 17, 2016	Circularly referenced resultMap is filled with ancestor object even when columnPrefix is specified.		bug
+null	Jun 5, 2014	Lazy load default value in documentation is incorrect		null
+null	Jun 4, 2014	Lazy Loading using MyBatis 3 with Java		null
+null	May 23, 2014	About annotation @SelectProvider		null
+null	May 23, 2014	About annotation @Results		null
+3.2.8	May 21, 2014	Lazy loading documentation		documentation
+null	May 21, 2014	Error when using HashMap.Entry inside sql mapping		null
+null	May 16, 2014	Documentation in Russian		null
+null	Sep 24, 2014	SqlSession select cache result is empty		null
+null	Dec 22, 2014	foreach collection does not honor method returns.		null
+null	Jun 11, 2014	OGNL parser does not allow "}" in constant string litteral when making a function call using $, but works with bind		null
+null	Jun 22, 2014	Getting nullPointerException randomly		null
+null	May 13, 2014	Cause Spring stuck on "Pre-instantiating singletons ....."		null
+null	May 12, 2014	Cause Spring stuck in "Pre-instantiating singletons ....."		null
+null	Oct 11, 2014	Type aliases package resolution problem in WAS 8.5.5 Full Profile		enhancement
+3.2.8	May 10, 2014	Empty foreach regression in MyBatis 3.2.x, compared to iBATIS 2.3.x		bug
+3.2.8	May 9, 2014	GenericTokenParser Skipped Vaiables bug		bug
+null	Apr 29, 2014	Cache problems		question
+null	Apr 29, 2014	mybatis does not support postgresql？		null
+null	May 1, 2014	ORA-01000 : maximum open cursors exceeded when using ExecutorType.BATCH		question
+null	Apr 24, 2014	XMLStatementBuilder.databaseIdMatchesCurrent issue		null
+null	Apr 22, 2014	Support for oracle refcursors		invalid
+3.4.1	Mar 11, 2017	It's a problem abount MyBatis-3's docs		documentation
+null	Apr 19, 2014	Null configuration factory when object was deserialized using lazy load		null
+null	Apr 17, 2014	Reserved words in literal strings		null
+null	Apr 14, 2016	Using OGNL in includes for better routing.		enhancement
+null	Apr 14, 2014	Using expressions in foreach arguments		null
+null	Apr 12, 2014	Null in DB to String in Java		null
+3.3.0	Apr 9, 2014	Cache crosses datastore boundry		bug
+null	Feb 26, 2016	Extended mapper cannot get result map from parent		null
+null	Mar 30, 2014	Maven repository		null
+3.2.7	Mar 30, 2014	Apply logging to caches by default		enhancement
+3.2.7	Mar 30, 2014	Wrong name for fetchType property in @One and @Many		bug
+3.2.7	Mar 29, 2014	MyBatis 3.2.6 not work annotation @One		bug
+3.3.0	Apr 7, 2014	Wrapper TypeHandler overrides Primitive companion		bug
+null	May 7, 2014	Ognl classloading issue		null
+3.2.6	Mar 11, 2014	Remove external cache locking		enhancement
+3.2.6	Mar 11, 2014	Use the namespace for cache logging		enhancement
+3.3.1	Sep 8, 2015	Reusing @Results annotation		enhancement
+null	Mar 12, 2014	Optimistic concurrency control		enhancement
+3.2.6	Mar 6, 2014	Nested select logging indentation		enhancement
+null	Mar 10, 2014	the RowBounds is not used		null
+3.2.6	Mar 6, 2014	Selective lazy loading		enhancement
+null	Mar 1, 2014	Can't run scripts that have PL/SQL blocks for Oracle		null
+null	Feb 27, 2014	How can we get the sql statements(may be from the annotations or from the relative mapper file about the interface) in one mapper interface ?		null
+3.2.6	Feb 26, 2014	Avoid using only "dirty" caches but use the rest		enhancement
+null	Feb 23, 2014	MyBatis Callable Statement - java Date Issue - Upgrade to 3.2.5 Issue		wontfix
+null	Feb 22, 2014	can SelectKey supports dynamic statement		null
+3.2.6	Feb 25, 2014	selectKey not executed		bug
+3.2.6	Feb 19, 2014	NoClassDefFoundError		null
+3.2.6	Feb 16, 2014	NoKeyGenerator is called for every statement when using batch		enhancement
+3.3.1	Apr 9, 2016	TypeHandler Scanning is not working in an Eclipse/OSGI environment		enhancement
+null	Feb 11, 2014	MyBatis it wont override the JdbcType if i specify the JdbcType in the paramete		null
+3.2.5	Jan 31, 2014	NullPointer in FIFOCache.java in the clear() method		bug
+3.2.5	Jan 27, 2014	Incomplete methods are not processed in Configuration.buildAllStatements		bug
+3.2.5	Jan 25, 2014	TypeHandler to Map inappropriately invoked when method has multiple parameters		bug
+null	Jan 30, 2014	Heavy load on logging autodiscover reflection.		null
+null	Jan 23, 2014	hi, how to selectprovider to query in sql		null
+3.2.5	Jan 22, 2014	Null Pointer Exception with multiple result sets		bug
+null	Jan 23, 2014	select * with partial resultmap in association		null
+null	Jan 19, 2014	Batch inserts for multiple tables		null
+3.2.5	Jan 18, 2014	Regression: extra \n and spaces when using 3.2.4		bug
+3.2.5	Jan 18, 2014	Regression: missing space separator when using <include> in one line in 3.2.4		bug
+3.2.5	Jan 20, 2014	SQL defined in annotation cannot use the global variable defined in the MyBatis configuration file/object		bug
+null	Jan 14, 2014	Problem with <collection> mapping when parent's id is VARBINARY		null
+3.2.4	Jan 15, 2014	Problem with <collection> mapping when parent's id is VARBINARY		bug
+null	May 1, 2018	org.apache.ibatis.io.Resources as a singleton instead of static methods		null
+3.2.4	Jan 3, 2014	MapperAnnotationBuilder getLanguageDriver return null		bug
+null	Feb 27, 2014	Reloading mappers on-demand		enhancement
+null	Dec 15, 2013	Nested resultMap bug		null
+3.2.4	Dec 16, 2013	Collections with parent reference don't work with columnPrefix		bug
+null	Apr 25, 2015	Feature Request: Input Processor/Sanitizer for insert and update statements		enhancement
+3.3.0	May 16, 2015	Major bottleneck during cache refresh in Mybatis v3.2.2		enhancement
+null	Dec 7, 2013	mybatis 3.1.0 migrations does not work with variable substitution		null
+null	Dec 7, 2013	AutoMapping doesn't work with ColumnPrefix		null
+null	Jan 3, 2014	ErrorContext.reset() method		null
+null	Jan 3, 2014	NullPointerException		null
+null	Dec 4, 2013	NullPointerException		invalid
+null	Dec 3, 2013	NullPointerException		null
+3.2.4	Dec 3, 2013	columnPrefix is not treated as case insesitive		bug
+null	Mar 3, 2014	Second level cache only works if you call commit or close in between statements		enhancement
+null	Nov 28, 2013	Result Map passed to constrcutor args can result in missing values		null
+3.2.4	Nov 22, 2013	MyBatis Constructor Injection with resultMap does not map nested object properties		bug
+null	Nov 21, 2013	Use of parameterType attribute in select statement		null
+3.2.4	Dec 4, 2013	Cache settings (decorators) not applied to 3rd party cache implementations.		documentation
+null	Dec 4, 2013	An inline nested resultmap needs no column attribute		invalid
+3.2.4	Nov 17, 2013	Batch Insert & Select Performance on Mybatis vs Jdbc (comes from Issue 580 on google)		enhancement
+null	Nov 10, 2013	ibatis 2.3.4 bug		null
+null	Nov 2, 2013	foreach bug with single letter item name		duplicate
+3.2.4	Oct 21, 2013	Change log level in BaseExecutor.close() to WARN		enhancement
+3.2.4	Oct 9, 2013	When autoMapping="true", auto-mapping should be applied to the nested collection/association.		bug
+null	Oct 9, 2013	Return -2147482646 when execute update(3.2.2)		null
+3.2.4	Oct 7, 2013	MyBatis 3.2.3 - OSGi MANIFEST.MF problem		null
+3.2.4	Oct 2, 2013	Wrong OSGI imports make some optional dependencies mandatory		bug
+null	Sep 26, 2013	Column 'DEFAULT2.DEFAULT_CUTOFF_IND' is either not in any table in the FROM list or appears within a join specification and is outside the scope of the join specification or appears in a HAVING clause and is not in the GROUP BY list. If this is a CREATE o		null
+null	Sep 24, 2013	Lazy load function doesn't work in MyBatis 3.2.2		null
+null	Apr 12, 2018	Stored Procedure result mapping column name vs column index		null
+null	Oct 21, 2013	Mapper.class JDBC type convertion problem for Simple Java Objects (String, Long and etc.)		bug
+null	Oct 2, 2018	SpringEL		enhancement	waiting for feedback
+null	Sep 4, 2013	Is it possible to support multiple <package..> for element <typeAliases> in mybatis-config.xml file		null
+null	Sep 2, 2013	Undescriptive error message in case of overloaded mapper method		null
+null	Aug 12, 2013	About asm and cglib error!		null
+null	Aug 8, 2013	Mapper.xml <bind> element is not available under <sql> <if> <when>...		null
+null	Aug 7, 2013	TypeHandler cannot find inner enums		null
+3.2.3	Sep 1, 2013	NullpointerException thrown in BaseExecutor.queryFromDatabase()		bug
+null	Jul 7, 2013	MyBatis has problem with 'package' at 'mappers'		invalid
+null	Aug 19, 2013	MyBatis has problems assembling resultsets to entities.		null
+3.2.3	Aug 20, 2013	VENDOR alias collision - Tomcat startup fails		bug
+3.2.3	Jun 22, 2013	MyBatis 3.2.2 / MyBatis-Spring 1.2.0 causing BindingException inside foreach blocks, when receiving a null element inside collection		bug
+null	Jun 17, 2013	Why the OGNL included in the project? What good would it have done		null
+3.2.3	Jun 17, 2013	3.2.x / MyBatis-Spring 1.2.0 causing BindingException when translating parameters inside foreach blocks		bug
+3.2.3	Jun 20, 2013	Problem with the trim in 'where' tag		enhancement
+null	Jun 13, 2013	3rd party caches prevent JavaFX from shutting down		null
+null	Aug 19, 2013	A row with null column values is mapped to null instead of an object with null fields		null
+3.2.3	Jun 13, 2013	Parameter Mapping issue with Mybatis 3.2.2		bug
+null	Jun 10, 2013	Ignore		null
+3.2.3	Aug 16, 2013	UnPooledDataSource driverProperties not work		bug
+null	Jun 8, 2013	Cannot find sqlmap file in jar		null
+null	Jun 4, 2013	List insertion using foreach loop through mybatis		invalid
+null	May 31, 2013	mybatis-spring OSGi imports - Spring batch should be optional #2		null
+null	May 30, 2013	Generation With "Long" As Column Not Working		null
+3.2.3	May 30, 2013	Empty namespace is allowed in mapper XML		bug
+null	Feb 15, 2014	PooledDataSource does not retry acquiring a real connection if an SQLException occurs during connection establishment		bug
+null	May 28, 2013	Mapping Oracle SPs using Association		null
+null	Oct 3, 2013	Method applyItem(DynamicContext context, Object o, int i) in class ForEachSqlNode pollute the context specified		null
+3.2.6	Feb 27, 2014	Nested queries should use namespace cache		enhancement
+null	Aug 19, 2013	NullPointerException when use 'bind' Element		null
+null	May 1, 2013	Performance optimization on ResultFlag(s)		null
+3.2.3	May 1, 2013	More than one result set with @ResultMap		enhancement
+null	May 9, 2013	Proposal for an enum type handler which persists specified value rather than ordinal or name.		enhancement
+null	May 30, 2013	Escape in queries (<update>, <insert>...) property name which are named like operators (lt, gt, ...)		null
+null	May 11, 2013	Space in typeAlias results in the IllegalArgumentException: "Result Maps collection already contains value for"		bug
+3.3.1	May 29, 2013	3.2.x release: NestedResultSetHandler.handleRowValues discarding row.		bug
+null	Apr 29, 2013	Make bean-class configurabe in MapperScannerConfigurer		null
+null	Apr 29, 2013	SqlSessionTemplate/SqlSessionInterceptor should use public get-methdos		null
+null	May 1, 2013	Giving an option to save and restore parsed MappedStatement in binary data		enhancement
+3.2.3	May 1, 2013	Can mybatis support mapper xml extend feature?		enhancement
+3.2.3	Apr 24, 2013	Logging improvements		enhancement
+3.2.3	Apr 19, 2013	raw language does not support includes		bug
+null	Dec 5, 2015	Fail when a mapped column does not exist		enhancement
+null	Apr 12, 2013	Problem abount generated keys with batch executor		null
+3.2.3	Apr 10, 2013	Add support for log4j 2		enhancement
+3.2.3	Apr 6, 2013	UnPooledDatasource sets autocommit to false if no autocommit was specified.		bug
+3.2.2	Apr 1, 2013	IndexOutOfBounds when a select key returns no data		bug
+3.2.2	Mar 23, 2013	Performance optimization on lang=raw statements.		enhancement
+null	Apr 4, 2013	ResultSet problem.		bug	wontfix
+3.5.0	Oct 30, 2018	Allow <set> to trim comma prefix		enhancement
+3.2.2	Mar 26, 2013	Maps inside <foreach> - ${index} is replaced as 0,1,2... not map key		bug
+null	Mar 15, 2013	support for two-level model classes generation (abstract base class and stub class)		invalid
+3.2.2	Mar 14, 2013	JdbcType cannot be resolved!		bug
+null	Mar 26, 2013	Column names with a period messes up name mapping		wontfix
+null	Mar 28, 2013	Mybatis tries to instantiate an interface		duplicate
+null	Mar 31, 2013	3.2.x zip bundle includes the .tar.gz file		bug
+3.2.1	Mar 10, 2013	Index variable is not reset when multiple foreach loops are used in a single insert		bug
+3.2.2	Mar 26, 2013	Missing TypeHandler returns null return than throwing an exception		bug
+null	Mar 7, 2013	MyBatis 3.2.0 - Disabled lazy loading but CGLIB is still required to be on classpath		duplicate
+3.2.1	Mar 10, 2013	Enum name collision when using typeAliases for packages in mybatis 3.2.0		bug
+3.2.1	Mar 6, 2013	Wrong java type with one-to-one association element		bug
+3.2.1	Mar 1, 2013	Cglib should not be required if lazy loading is not enabled		bug
+3.2.1	Feb 25, 2013	"less than" in Select annotations		bug
+3.2.1	Feb 24, 2013	StackOverflow when using databaseId		bug
+3.2.1	Feb 23, 2013	Wrong dependency on Log4j in MyBatis 3.2		bug
