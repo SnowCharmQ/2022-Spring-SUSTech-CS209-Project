@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cs209.project.mapper.SpringBootQuestionMapper">
+
+    <select id="selectByTimeAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        ORDER BY date ASC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByTimeDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        ORDER BY date DESC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByViewsAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        ORDER BY views ASC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByViewsDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        ORDER BY views DESC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByAnswersAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        ORDER BY answers ASC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByAnswersDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        ORDER BY answers DESC
+        OFFSET #{offset};
+    </select>
+
+
+    <select id="selectByKeyTimeAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        WHERE question LIKE #{key}
+        ORDER BY date ASC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByKeyTimeDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        WHERE question LIKE #{key}
+        ORDER BY date DESC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByKeyViewsAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        WHERE question LIKE #{key}
+        ORDER BY views ASC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByKeyViewsDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        WHERE question LIKE #{key}
+        ORDER BY views DESC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByKeyAnswersAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        WHERE question LIKE #{key}
+        ORDER BY answers ASC
+        OFFSET #{offset};
+    </select>
+
+    <select id="selectByKeyAnswersDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        WHERE question LIKE #{key}
+        ORDER BY answers DESC
+        OFFSET #{offset};
+    </select>
+</mapper>

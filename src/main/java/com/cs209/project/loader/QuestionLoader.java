@@ -5,7 +5,6 @@ import com.cs209.project.entity.SpringBootQuestion;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.*;
 import java.util.HashSet;
@@ -67,14 +66,16 @@ public class QuestionLoader {
                 sqb.setDate(Date.valueOf(content[1]));
                 sqb.setViews(Integer.parseInt(content[2]));
                 sqb.setAnswers(Integer.parseInt(content[3]));
+                sqb.setHref(content[4]);
                 springBootQuestions.add(sqb);
             }
-            stmt = con.prepareStatement("insert into springboot_question (question, date, views, answers) values(?,?,?,?);");
+            stmt = con.prepareStatement("insert into springboot_question (question, date, views, answers, href) values(?,?,?,?,?);");
             for (SpringBootQuestion sbq: springBootQuestions) {
                 stmt.setString(1, sbq.getQuestion());
                 stmt.setDate(2, sbq.getDate());
                 stmt.setInt(3, sbq.getViews());
                 stmt.setInt(4, sbq.getAnswers());
+                stmt.setString(5, sbq.getHref());
                 stmt.addBatch();
             }
             stmt.executeBatch();

@@ -29,8 +29,10 @@ create table if not exists springboot_question
     question varchar(200),
     date     date,
     views    integer,
-    answers  integer
+    answers  integer,
+    href varchar(100)
 );
+
 
 select * from springboot_question;
 --
