@@ -23,6 +23,16 @@ create table if not exists springboot_closed_issue
     month        integer,
     info         text
 );
+
+create table if not exists springboot_question
+(
+    question varchar(200),
+    date     date,
+    views    integer,
+    answers  integer
+);
+
+select * from springboot_question;
 --
 -- drop table springboot_open_issue;
 -- drop table springboot_closed_issue;
