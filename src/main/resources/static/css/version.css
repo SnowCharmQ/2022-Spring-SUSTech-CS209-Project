@@ -1,0 +1,253 @@
+body {
+    line-height: 1.15;
+    font-size: 0.5rem;
+    margin: 0;
+    padding: 0;
+    /*background: url("../img/border.jpg") no-repeat;*/
+}
+
+h1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    /* 字间距 */
+    letter-spacing: 7px;
+    /* 转大写 */
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 76px;
+    margin: 30px;
+    outline: none;
+    /* 自定义属性--c，可通过var函数对其调用 */
+    --c:lightseagreen;
+    /* 调用自定义属性--c，设置文字阴影（发光效果） */
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    /* 执行动画：动画名 时长 线性的 无限次播放 */
+    animation: animate 5s linear infinite;
+    white-space: pre-line;
+    position: absolute;
+    top: 34px;
+    left: 180px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+.column {
+    flex: 3;
+    position: relative;
+}
+
+.column:nth-child(2) {
+    flex: 4;
+    margin: 1.333rem 0.833rem 0;
+}
+
+/*.panel {*/
+/*    !* 边框 *!*/
+/*    box-sizing: border-box;*/
+/*    !*border: 2px solid red;*!*/
+/*    !*border-image: url(../img/border.png) 51 38 21 132;*!*/
+/*    !*border-width: 2.125rem 1.583rem 0.875rem 5.5rem;*!*/
+/*    position: relative;*/
+/*    margin-bottom: 0.833rem;*/
+
+/*}*/
+
+.inner {
+    /* 装内容 */
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    /*top: -2.125rem;*/
+    /*right: -1.583rem;*/
+    /*bottom: -0.875rem;*/
+    /*left: -5.5rem;*/
+    padding: 1rem 1.5rem;
+}
+
+.monitor {
+    height: 20rem;
+    width: 1400px;
+    left: 100px;
+    top: 62px;
+    position: absolute;
+}
+
+.monitor .inner {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    top: 60px;
+    position: relative;
+}
+
+/*.monitor .tabs a {*/
+/*    color: #1950c4;*/
+/*    font-size: 0.75rem;*/
+/*    padding: 0 1.125rem;*/
+/*}*/
+
+/*.monitor .tabs a:first-child {*/
+/*    border-right: 0.083rem solid #00f2f1;*/
+/*    padding-left: 0;*/
+/*}*/
+
+/*.monitor .tabs a.active {*/
+/*    color: #fff;*/
+/*}*/
+
+.monitor .content {
+    flex: 1;
+    display: none;
+    position: relative;
+    left: 200px;
+}
+
+.monitor .head {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1.5rem;
+    color: #68d8fe;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.05;
+    width: 740px;
+    height: 60px;
+    position: absolute;
+    /*left: 20px;*/
+}
+
+.monitor .col:nth-child(1) {
+    width: 3.2rem;
+    left: 30px;
+}
+
+.monitor .col:nth-child(2) {
+    width: 20rem;
+    /* 不换行  一行省略*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.monitor .col {
+    font-size: 40px;
+}
+
+.monitor .marquee-view {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    overflow: hidden;
+    left: 30px;
+}
+
+.monitor .row {
+    line-height: 1.05;
+    padding: 0.5rem 1.5rem;
+    color: #61a8ff;
+    font-size: 0.5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.monitor .row:hover {
+    color: #68d8ff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.monitor .row:hover .icon-dot {
+    opacity: 1;
+}
+
+.monitor .icon-dot {
+    position: absolute;
+    left: 0.64rem;
+    opacity: 0;
+}
+
+.monitor .marquee-view {
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.monitor .row {
+    line-height: 1.05;
+    padding: 0.5rem 1.5rem;
+    color: #61a8ff;
+    font-size: 0.5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.monitor .row:hover {
+    color: #68d8ff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.monitor .row:hover .icon-dot {
+    opacity: 1;
+}
+
+.monitor .icon-dot {
+    position: absolute;
+    left: 0.64rem;
+    opacity: 0;
+}
+
+/* 动画 */
+@keyframes scroll-top {
+    0% {
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+.monitor .marquee {
+    animation: scroll-top 120s linear infinite;
+    font-size: 20px;
+}
+
+.monitor .marquee:hover {
+    animation-play-state: paused;
+}
+
+#version {
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+
+#time {
+    position: relative;
+    left: 140px;
+    top: 5px;
+}
+
+@keyframes animate {
+    to{
+        filter: hue-rotate(360deg);
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cs209.project.mapper.SpringBootIterMapper">
+    <resultMap id="SpringBootIterEntity" type="com.cs209.project.entity.SpringBootIteration">
+        <result column="version" property="version"/>
+        <result column="time" property="time"/>
+        <result column="year" property="year"/>
+        <result column="month" property="month"/>
+        <result column="day" property="day"/>
+    </resultMap>
+
+    <select id="selectIter" resultMap="SpringBootIterEntity">
+        select * from springboot_iteration order by version;
+    </select>
+</mapper>

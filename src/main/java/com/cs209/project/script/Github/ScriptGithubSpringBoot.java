@@ -63,7 +63,7 @@ public class ScriptGithubSpringBoot {
             }
             return c;
         });
-        File f = new File("C:\\Users\\HP\\Desktop\\java2_proj\\src\\test\\java\\com\\cs209\\project\\file\\SpringBootIteration.txt");
+        File f = new File("src/test/java/com/cs209/project/file/SpringBootIteration.txt");
         BufferedWriter bw = new BufferedWriter(new FileWriter(f));
         for(SpringBootIteration t : temp){
             bw.write(t.getTime() + "\n");

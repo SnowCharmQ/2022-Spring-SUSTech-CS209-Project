@@ -1,0 +1,270 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/zh/editor.html?c=bar-race-country
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+    <meta charset="utf-8">
+    <title>SpringBoot Closed Issue</title>
+    <link rel="stylesheet" type="text/css" href="../css/issue.css">
+    <style type="text/css">
+        .title {
+            margin: 0;
+            text-align: center;
+            color: #00fffc;
+            font-style: italic;
+            font-size: 50px;
+            top: 50px;
+        }
+
+        .subtitle {
+            margin: 0;
+            text-align: center;
+            color: rgb(160, 160, 160);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="height: 100%; margin: 0">
+<div class="total_page">
+    <h1 class="title">Spring Boot GitHub Closed Issues</h1>
+    <h2 class="subtitle">The number of Spring Boot GitHub Repository closed issues for each month</h2>
+    <div id="container2"></div>
+
+    <span style="flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    /* 字间距 */
+    letter-spacing: 7px;
+    /* 转大写 */
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 76px;
+    margin: 30px;
+    outline: none;
+    /* 自定义属性--c，可通过var函数对其调用 */
+    --c:lightseagreen;
+    /* 调用自定义属性--c，设置文字阴影（发光效果） */
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    /* 执行动画：动画名 时长 线性的 无限次播放 */
+    animation: animate 5s linear infinite;
+    white-space: pre-line;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 70px;
+">The Total Number Of Closed Issues: 25515</span>
+
+    <div class="btns" style="position: absolute; right: 40px; bottom: 30px;">
+        <a href="springboot-menu.html"><img src="../img/return.jpg" alt=""></a>
+    </div>
+    <div class="btns" style="position: absolute; right: 40px; bottom: 80px;">
+        <a href="#" id="save1"><img src="../img/save.png"
+                                    onclick="download(save_data, 'closed_issue.csv', 'text/plaintext')"
+                                    alt=""></a>
+    </div>
+
+    <script src="../js/SpringBootClosedIssue.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+
+    <script>
+        function download(text, name, type) {
+            var a = document.getElementById("save1");
+            var file = new Blob([text], {type: type});
+            a.href = URL.createObjectURL(file);
+            a.download = name;
+            // a.dispatchEvent(new MouseEvent('click', {'bubbles': false, 'cancelable': true}));
+        }
+    </script>
+
+    <script type="text/javascript">
+        function color16() {
+            var r = Math.floor(Math.random() * 256);
+            var g = Math.floor(Math.random() * 256);
+            var b = Math.floor(Math.random() * 256);
+            return '#' + r.toString(16) + g.toString(16) + b.toString(16);
+        }
+
+        const issues_data = closed_issue_history;
+
+        var save_data = '';
+
+        for (var i = 0; i < issues_data.length; i++) {
+            var d = issues_data[i];
+            save_data = save_data + d[0] + ',' + d[1] + ',' + d[2] + '\n';
+            // if (i !== issues_data.length - 1) save_data = save_data + ',';
+            // else save_data = save_data + ']';
+        }
+
+        var version_name = new Set();
+        issues_data.slice(1).forEach((v) => {
+            version_name.add(v[1]);
+        })
+        var version_name = [...version_name];
+
+        const version_colors = {};
+        for (var n in version_name) {
+            version_colors[version_name[n]] = color16();
+        }
+
+        var dom = document.getElementById('container2');
+        var myChart = echarts.init(dom, null, {
+            renderer: 'canvas',
+            useDirtyRect: false
+        });
+        var app = {};
+        var option;
+
+        const updateFrequency = 2000;
+        const dimension = 0;
+
+        $.when(
+            $.getJSON('https://cdn.jsdelivr.net/npm/emoji-flags@1.3.0/data.json'),
+            $.getJSON('../js/SpringBootClosedIssue.json')
+        ).done(function (res0, res1) {
+            const data = res1[0];
+            const years = [];
+            for (let i = 0; i < data.length; ++i) {
+                if (years.length === 0 || years[years.length - 1] !== data[i][2]) {
+                    years.push(data[i][2]);
+                }
+            }
+            let startIndex = 0;
+            let startYear = years[startIndex];
+            option = {
+                grid: {
+                    top: 20,
+                    bottom: 30,
+                    left: 150,
+                    right: 80
+                },
+                xAxis: {
+                    max: 'dataMax',
+                    splitLine: {
+                        show: false
+                    },
+                    axisLabel: {
+                        formatter: function (n) {
+                            return Math.round(n) + '';
+                        }
+                    }
+                },
+                dataset: {
+                    source: data.slice(0).filter(function (d) {
+                        return d[2] === startYear;
+                    })
+                },
+                yAxis: {
+                    type: 'category',
+                    inverse: true,
+                    max: 9,
+                    axisLabel: {
+                        show: true,
+                        fontSize: 14,
+                        // color: 'white',
+                        formatter: function (value) {
+                            // return value + '{flag|' + getFlag(value) + '}';
+                            return value + '';
+                        },
+                        // rich: {
+                        //     // a:{
+                        //     //     color:'#03a9f4',
+                        //     //     padding:[0,10],
+                        //     //     fontSize:15
+                        //     // },
+                        //     flag: {
+                        //         fontSize: 25,
+                        //         padding: 5
+                        //     }
+                        // }
+                    },
+                    // splitLine:{
+                    //     show:false
+                    // },
+                    axisTick: 'auto',
+                    animationDuration: 300,
+                    animationDurationUpdate: 300
+                },
+                series: [
+                    {
+                        realtimeSort: true,
+                        seriesLayoutBy: 'column',
+                        type: 'bar',
+                        itemStyle: {
+                            color: function (param) {
+                                return version_colors[param.value[1]] || '#5470c6';
+                            }
+                        },
+                        encode: {
+                            x: dimension,
+                            y: 3
+                        },
+                        label: {
+                            show: true,
+                            precision: 1,
+                            position: 'right',
+                            valueAnimation: true,
+                            // fontFamily: 'monospace',
+                            fontFamily: 'Times New Roman',
+                            color: 'white'
+                        },
+                        smooth: true
+                    }
+                ],
+                animationDuration: 0,
+                animationDurationUpdate: updateFrequency,
+                animationEasing: 'linear',
+                animationEasingUpdate: 'linear',
+                graphic: {
+                    elements: [
+                        {
+                            type: 'text',
+                            right: 60,
+                            bottom: 60,
+                            style: {
+                                text: startYear,
+                                font: 'bolder 80px monospace',
+                                fill: 'rgba(193, 210, 240, 0.5)',
+                            },
+                            z: 100
+                        }
+                    ]
+                }
+            };
+            myChart.setOption(option);
+            for (let i = startIndex; i < 104; ++i) {
+                (function (i) {
+                    setTimeout(function () {
+                        updateYear(years[i + 1]);
+                    }, (i - startIndex) * updateFrequency);
+                })(i);
+            }
+
+            function updateYear(year) {
+                let source = data.slice(1).filter(function (d) {
+                    return d[2] === year;
+                });
+                option.series[0].data = source;
+                option.graphic.elements[0].style.text = year;
+                myChart.setOption(option);
+            }
+        });
+
+        if (option && typeof option === 'object') {
+            myChart.setOption(option);
+        }
+
+        window.addEventListener('resize', myChart.resize);
+    </script>
+</div>
+</body>
+</html>
