@@ -13,8 +13,11 @@ public class ScriptcorrectStackoverflow {
             s = s.replaceAll("&#39;", "'");
             s = s.replaceAll("amp;", "");
             s = s.replaceAll("&quot;", "\"");
-
+            s = s.replaceAll("&gt;", ">");
+            s = s.replaceAll("&lt;", "<");
             bw.write(s + "\n");
+            if(s.contains("&#39;"))
+                System.out.println(s);
         }
     }
 }
