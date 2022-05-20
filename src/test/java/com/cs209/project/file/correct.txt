@@ -10,7 +10,7 @@ JSON Java 8 LocalDateTime format in Spring Boot	2015-04-30	241405	16	https://sta
 Filter invoke twice when register as Spring bean	2016-09-04	7398	1	https://stackoverflow.com/questions/39314176/filter-invoke-twice-when-register-as-spring-bean
 Spring Boot - Loading Initial Data	2016-06-27	364525	21	https://stackoverflow.com/questions/38040572/spring-boot-loading-initial-data
 How to add a dependency to a Spring Boot Jar in another project?	2016-10-17	103318	12	https://stackoverflow.com/questions/40089443/how-to-add-a-dependency-to-a-spring-boot-jar-in-another-project
-Serving static web resources in Spring Boot & Spring Security application	2014-07-24	147187	8	https://stackoverflow.com/questions/24916894/serving-static-web-resources-in-spring-boot-spring-security-application
+Serving static web resources in Spring Boot  Spring Security application	2014-07-24	147187	8	https://stackoverflow.com/questions/24916894/serving-static-web-resources-in-spring-boot-spring-security-application
 Spring Boot not serving static content	2014-07-10	210232	26	https://stackoverflow.com/questions/24661289/spring-boot-not-serving-static-content
 CORS with spring-boot and angularjs not working	2015-09-01	237210	20	https://stackoverflow.com/questions/32319396/cors-with-spring-boot-and-angularjs-not-working
 How can I add a filter class in Spring Boot?	2013-11-07	355903	24	https://stackoverflow.com/questions/19825946/how-can-i-add-a-filter-class-in-spring-boot
@@ -73,7 +73,7 @@ Spring boot - Not a managed type	2015-02-23	379531	27	https://stackoverflow.com/
 SpringBoot: Large Streaming File Upload Using Apache Commons FileUpload	2015-09-25	47798	5	https://stackoverflow.com/questions/32782026/springboot-large-streaming-file-upload-using-apache-commons-fileupload
 How to maintain bi-directional relationships with Spring Data REST and JPA?	2015-05-27	17365	3	https://stackoverflow.com/questions/30464782/how-to-maintain-bi-directional-relationships-with-spring-data-rest-and-jpa
 ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean	2018-05-08	264882	25	https://stackoverflow.com/questions/50231736/applicationcontextexception-unable-to-start-servletwebserverapplicationcontext
-Spring Boot & JPA: Implementing search queries with optional, ranged criteria	2018-01-20	36939	4	https://stackoverflow.com/questions/48346341/spring-boot-jpa-implementing-search-queries-with-optional-ranged-criteria
+Spring Boot  JPA: Implementing search queries with optional, ranged criteria	2018-01-20	36939	4	https://stackoverflow.com/questions/48346341/spring-boot-jpa-implementing-search-queries-with-optional-ranged-criteria
 Unable to connect to Postgres DB due to the authentication type 10 is not supported	2020-10-05	82066	14	https://stackoverflow.com/questions/64210167/unable-to-connect-to-postgres-db-due-to-the-authentication-type-10-is-not-suppor
 Cannot see Log information in Kibana running in Docker Container in my Spring Boot App (ELK)	2022-04-14	112	1	https://stackoverflow.com/questions/71863930/cannot-see-log-information-in-kibana-running-in-docker-container-in-my-spring-bo
 Spring Boot application as a Service	2014-02-02	158190	20	https://stackoverflow.com/questions/21503883/spring-boot-application-as-a-service
@@ -135,7 +135,7 @@ Configure Jackson to omit lazy-loading attributes in Spring Boot	2015-11-16	1458
 Spring Boot without the web server	2014-09-30	137807	16	https://stackoverflow.com/questions/26105061/spring-boot-without-the-web-server
 Spring-Boot: How do I set JDBC pool properties like maximum number of connections?	2014-08-30	246887	5	https://stackoverflow.com/questions/25573034/spring-boot-how-do-i-set-jdbc-pool-properties-like-maximum-number-of-connection
 spring boot hotswap with Intellij IDE	2014-04-18	65123	8	https://stackoverflow.com/questions/23155244/spring-boot-hotswap-with-intellij-ide
-Spring Boot & Spring Data: how are Hibernate Sessions managed?	2014-09-07	35212	1	https://stackoverflow.com/questions/25709976/spring-boot-spring-data-how-are-hibernate-sessions-managed
+Spring Boot  Spring Data: how are Hibernate Sessions managed?	2014-09-07	35212	1	https://stackoverflow.com/questions/25709976/spring-boot-spring-data-how-are-hibernate-sessions-managed
 spring mvc rest service redirect / forward / proxy	2013-02-06	83569	8	https://stackoverflow.com/questions/14726082/spring-mvc-rest-service-redirect-forward-proxy
 Spring catch all route for index.html	2016-09-05	37434	8	https://stackoverflow.com/questions/39331929/spring-catch-all-route-for-index-html
 Spring: overriding one application.property from command line	2016-05-05	88761	7	https://stackoverflow.com/questions/37052857/spring-overriding-one-application-property-from-command-line
@@ -529,7 +529,7 @@ Spring Boot Hibernate 5 Ignoring @Table and @Column	2017-01-29	5722	2	https://st
 Spring data Match and Filter Nested Array	2017-06-10	13625	1	https://stackoverflow.com/questions/44471800/spring-data-match-and-filter-nested-array
 Spring Boot with Embedded Undertow behind AWS ELB - HTTP to HTTPS redirect	2017-03-12	2202	2	https://stackoverflow.com/questions/42741194/spring-boot-with-embedded-undertow-behind-aws-elb-http-to-https-redirect
 What is the easiest way in Maven pom.xml to upgrade all usages of log4j2 to 2.15.0, including dependencies using log4j2? See CVE-2021-44228	2021-12-13	5548	5	https://stackoverflow.com/questions/70331597/what-is-the-easiest-way-in-maven-pom-xml-to-upgrade-all-usages-of-log4j2-to-2-15
-SpringBoot: Consume & Produce XML with a Custom Serializer + Deserializer	2019-10-01	1707	1	https://stackoverflow.com/questions/58184442/springboot-consume-produce-xml-with-a-custom-serializer-deserializer
+SpringBoot: Consume  Produce XML with a Custom Serializer + Deserializer	2019-10-01	1707	1	https://stackoverflow.com/questions/58184442/springboot-consume-produce-xml-with-a-custom-serializer-deserializer
 in xhtml page jsf attribute are not rendering	2022-02-19	140	1	https://stackoverflow.com/questions/71176805/in-xhtml-page-jsf-attribute-are-not-rendering
 spring boot multi module spring-boot-maven-plugin compilation failure	2022-01-24	600	2	https://stackoverflow.com/questions/70833195/spring-boot-multi-module-spring-boot-maven-plugin-compilation-failure
 How to bypass or skip CustomFilter in Mockito with springboot applicaiton	2018-12-14	2231	1	https://stackoverflow.com/questions/53774909/how-to-bypass-or-skip-customfilter-in-mockito-with-springboot-applicaiton
@@ -550,7 +550,7 @@ Using Zuul as an authentication gateway	2016-05-12	28711	3	https://stackoverflow
 How to override application.properties during production in Spring-Boot?	2014-05-09	161788	8	https://stackoverflow.com/questions/23563363/how-to-override-application-properties-during-production-in-spring-boot
 Can I use SpringMvc and webflux together?	2018-12-21	15884	1	https://stackoverflow.com/questions/53883037/can-i-use-springmvc-and-webflux-together
 Spring Boot + Spring-Loaded (IntelliJ, Gradle)	2014-06-24	34932	5	https://stackoverflow.com/questions/24371111/spring-boot-spring-loaded-intellij-gradle
-How to properly convert domain entities to DTOs while considering scalability & testability	2017-12-16	31340	5	https://stackoverflow.com/questions/47843039/how-to-properly-convert-domain-entities-to-dtos-while-considering-scalability
+How to properly convert domain entities to DTOs while considering scalability  testability	2017-12-16	31340	5	https://stackoverflow.com/questions/47843039/how-to-properly-convert-domain-entities-to-dtos-while-considering-scalability
 Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1	2017-10-11	75283	7	https://stackoverflow.com/questions/46671472/illegal-reflective-access-by-org-springframework-cglib-core-reflectutils1
 Spring Boot enabling CORS by application.properties	2017-03-18	67877	10	https://stackoverflow.com/questions/42874351/spring-boot-enabling-cors-by-application-properties
 Spring Data JPA - "could not initialize proxy - no Session" - With Methods marked as transactional	2016-04-13	88049	4	https://stackoverflow.com/questions/36583185/spring-data-jpa-could-not-initialize-proxy-no-session-with-methods-marke
@@ -616,7 +616,7 @@ Precedence order among properties file, YAML file, and Command Line arguments in
 How to get local server host and port in Spring Boot?	2015-04-29	122412	10	https://stackoverflow.com/questions/29929896/how-to-get-local-server-host-and-port-in-spring-boot
 Disconnect client session from Spring websocket stomp server	2015-02-17	28766	7	https://stackoverflow.com/questions/28552033/disconnect-client-session-from-spring-websocket-stomp-server
 Spring Boot Programmatically setting profiles	2015-07-07	16908	6	https://stackoverflow.com/questions/31267274/spring-boot-programmatically-setting-profiles
-Maven configuration with Spring Boot & multi modules - run application in Intellij	2015-03-25	45535	3	https://stackoverflow.com/questions/29257409/maven-configuration-with-spring-boot-multi-modules-run-application-in-intell
+Maven configuration with Spring Boot  multi modules - run application in Intellij	2015-03-25	45535	3	https://stackoverflow.com/questions/29257409/maven-configuration-with-spring-boot-multi-modules-run-application-in-intell
 Async timeout downloading a large file using StreamingResponseBody on Spring Boot	2017-03-19	16595	2	https://stackoverflow.com/questions/42877498/async-timeout-downloading-a-large-file-using-streamingresponsebody-on-spring-boo
 Spring-Boot: Handle multiple requests concurrently	2017-09-14	14438	1	https://stackoverflow.com/questions/46223363/spring-boot-handle-multiple-requests-concurrently
 Customize auth error from Spring Security using OAuth2	2017-08-31	10581	4	https://stackoverflow.com/questions/45985310/customize-auth-error-from-spring-security-using-oauth2
@@ -639,7 +639,7 @@ JAX-RS does not work with Spring Boot 1.4.1	2016-10-07	11614	3	https://stackover
 Circular View path error Spring boot	2016-04-18	111870	11	https://stackoverflow.com/questions/36697663/circular-view-path-error-spring-boot
 @ConfigurationProperties prefix not working	2014-12-11	93735	5	https://stackoverflow.com/questions/27416327/configurationproperties-prefix-not-working
 How to define a custom AuthenticationEntryPoint without XML configuration	2014-07-11	41442	1	https://stackoverflow.com/questions/24684806/how-to-define-a-custom-authenticationentrypoint-without-xml-configuration
-How to extract response header & status code from Spring 5 WebClient ClientResponse	2018-05-08	60751	8	https://stackoverflow.com/questions/50223891/how-to-extract-response-header-status-code-from-spring-5-webclient-clientrespo
+How to extract response header  status code from Spring 5 WebClient ClientResponse	2018-05-08	60751	8	https://stackoverflow.com/questions/50223891/how-to-extract-response-header-status-code-from-spring-5-webclient-clientrespo
 SpringBoot 401 UnAuthorized even with out security	2017-07-21	93465	9	https://stackoverflow.com/questions/45232071/springboot-401-unauthorized-even-with-out-security
 How to make default time zone apply in Spring Boot Jackson Date serialization	2017-09-11	53613	4	https://stackoverflow.com/questions/46151633/how-to-make-default-time-zone-apply-in-spring-boot-jackson-date-serialization
 Example keycloak spring-boot app fails to find bean KeycloakSpringBootConfigResolver	2019-09-04	14505	3	https://stackoverflow.com/questions/57787768/example-keycloak-spring-boot-app-fails-to-find-bean-keycloakspringbootconfigreso
@@ -685,7 +685,7 @@ Spring-boot thymeleaf load HTML file from classpath	2015-04-07	20689	1	https://s
 How to configure a MongoDB cluster which supports sessions?	2018-05-09	19373	6	https://stackoverflow.com/questions/50255195/how-to-configure-a-mongodb-cluster-which-supports-sessions
 How to intercept a request when using SpringBoot WebClient	2018-08-07	15678	3	https://stackoverflow.com/questions/51726943/how-to-intercept-a-request-when-using-springboot-webclient
 Please use 'MongoMappingContext#setAutoIndexCreation(boolean)' or override 'MongoConfigurationSupport#autoIndexCreation()' to be explicit	2020-01-31	13147	4	https://stackoverflow.com/questions/60003179/please-use-mongomappingcontextsetautoindexcreationboolean-or-override-mong
-Exporting Spring Boot Actuator Metrics (& Dropwizard Metrics) to Statsd	2015-08-26	16405	4	https://stackoverflow.com/questions/32215723/exporting-spring-boot-actuator-metrics-dropwizard-metrics-to-statsd
+Exporting Spring Boot Actuator Metrics ( Dropwizard Metrics) to Statsd	2015-08-26	16405	4	https://stackoverflow.com/questions/32215723/exporting-spring-boot-actuator-metrics-dropwizard-metrics-to-statsd
 Change Spring framework log level in simple example project?	2014-04-24	10806	1	https://stackoverflow.com/questions/23252743/change-spring-framework-log-level-in-simple-example-project
 Can't load image with spring boot thymeleaf	2018-06-28	37457	7	https://stackoverflow.com/questions/51083414/cant-load-image-with-spring-boot-thymeleaf
 Spring Boot enable <async-supported> like in web.xml	2014-10-06	12480	4	https://stackoverflow.com/questions/26213050/spring-boot-enable-async-supported-like-in-web-xml
@@ -812,7 +812,7 @@ Can Spring Boot application handle multiple requests simultaneously?	2017-10-23	
 Method org.postgresql.jdbc.PgConnection.createClob() is not yet implemented	2018-03-05	71798	8	https://stackoverflow.com/questions/49110818/method-org-postgresql-jdbc-pgconnection-createclob-is-not-yet-implemented
 SQL JPA - Multiple columns as primary key	2016-12-14	79690	5	https://stackoverflow.com/questions/41143913/sql-jpa-multiple-columns-as-primary-key
 Spring Scheduling - Cron expression for everyday at midnight not working?	2017-07-16	118524	5	https://stackoverflow.com/questions/45124756/spring-scheduling-cron-expression-for-everyday-at-midnight-not-working
-Spring Boot & Swagger UI. Set JWT token	2018-05-27	57776	5	https://stackoverflow.com/questions/50545286/spring-boot-swagger-ui-set-jwt-token
+Spring Boot  Swagger UI. Set JWT token	2018-05-27	57776	5	https://stackoverflow.com/questions/50545286/spring-boot-swagger-ui-set-jwt-token
 SpringBoot: Unable to find a single main class from the following candidates	2017-03-17	66772	13	https://stackoverflow.com/questions/42840576/springboot-unable-to-find-a-single-main-class-from-the-following-candidates
 What is the replacement for the deprecated AuthorizationServer in Spring Security?	2019-12-11	26903	1	https://stackoverflow.com/questions/59273338/what-is-the-replacement-for-the-deprecated-authorizationserver-in-spring-securit
 Spring Boot Unit Test ignores logging.level	2016-02-06	42860	6	https://stackoverflow.com/questions/35232827/spring-boot-unit-test-ignores-logging-level
@@ -1091,7 +1091,7 @@ Spring boot yml ResourceBundle file	2017-04-27	7530	2	https://stackoverflow.com/
 Spring Boot - How to disable Keycloak?	2017-12-18	13205	5	https://stackoverflow.com/questions/47861513/spring-boot-how-to-disable-keycloak
 Register a CustomConverter in a MongoTemplate with Spring Boot	2016-10-06	12291	3	https://stackoverflow.com/questions/39883134/register-a-customconverter-in-a-mongotemplate-with-spring-boot
 Spring Boot WebClient.Builder bean usage in traditional servlet multi threaded application	2019-01-11	17138	1	https://stackoverflow.com/questions/54136085/spring-boot-webclient-builder-bean-usage-in-traditional-servlet-multi-threaded-a
-QueryDSL, spring-boot & Gradle	2014-04-01	10572	2	https://stackoverflow.com/questions/22773639/querydsl-spring-boot-gradle
+QueryDSL, spring-boot  Gradle	2014-04-01	10572	2	https://stackoverflow.com/questions/22773639/querydsl-spring-boot-gradle
 /api-url has an empty filter list in Spring Boot Security	2016-04-08	9160	2	https://stackoverflow.com/questions/36489253/api-url-has-an-empty-filter-list-in-spring-boot-security
 Spring Boot, Java Config - No mapping found for HTTP request with URI [/...] in DispatcherServlet with name 'dispatcherServlet'	2015-05-23	56272	3	https://stackoverflow.com/questions/30406186/spring-boot-java-config-no-mapping-found-for-http-request-with-uri-in
 Spring Boot with datasource when testing	2016-01-13	15095	1	https://stackoverflow.com/questions/34756264/spring-boot-with-datasource-when-testing
@@ -1261,7 +1261,7 @@ How to parse different ISO date/time formats with Jackson and java.time?	2018-03
 Perform Http get method in Angular with no retries and wait until server sends the response?	2017-12-29	574	2	https://stackoverflow.com/questions/48013154/perform-http-get-method-in-angular-with-no-retries-and-wait-until-server-sends-t
 Spring-Kafka : Issue while deserialising kafka message - class not in a "trusted package"?	2018-12-29	1554	1	https://stackoverflow.com/questions/53964530/spring-kafka-issue-while-deserialising-kafka-message-class-not-in-a-trusted
 Spring boot Embedded Tomcat "application/json" post request restriction to 10KB	2016-07-27	5829	1	https://stackoverflow.com/questions/38607159/spring-boot-embedded-tomcat-application-json-post-request-restriction-to-10kb
-How to call secured rest api using .pfx certificate & password in spring boot rest template?	2020-08-15	4185	1	https://stackoverflow.com/questions/63424055/how-to-call-secured-rest-api-using-pfx-certificate-password-in-spring-boot-re
+How to call secured rest api using .pfx certificate  password in spring boot rest template?	2020-08-15	4185	1	https://stackoverflow.com/questions/63424055/how-to-call-secured-rest-api-using-pfx-certificate-password-in-spring-boot-re
 Unable to fetch property value from the config server	2021-04-03	511	1	https://stackoverflow.com/questions/66922674/unable-to-fetch-property-value-from-the-config-server
 Send two Serialized Java objects under one Kafka Topic	2021-01-24	599	2	https://stackoverflow.com/questions/65866763/send-two-serialized-java-objects-under-one-kafka-topic
 Get XML from HttpServletRequest and use into endpoint	2018-11-25	1426	2	https://stackoverflow.com/questions/53461617/get-xml-from-httpservletrequest-and-use-into-endpoint
@@ -1510,7 +1510,7 @@ Multiple Spring boot CommandLineRunner based on command line argument	2017-06-11
 Spring Boot - require api key AND x509, but not for all endpoints	2019-09-10	4252	1	https://stackoverflow.com/questions/57858875/spring-boot-require-api-key-and-x509-but-not-for-all-endpoints
 Configuring 0-legged OAuth 1.0 in Spring Boot	2014-07-08	6550	1	https://stackoverflow.com/questions/24616708/configuring-0-legged-oauth-1-0-in-spring-boot
 Maven is not using Java 11 - Fatal error compiling: invalid target release: 11	2020-07-29	147902	10	https://stackoverflow.com/questions/63154787/maven-is-not-using-java-11-fatal-error-compiling-invalid-target-release-11
-Kotlin & Spring Boot @ConfigurationProperties	2017-08-30	46790	9	https://stackoverflow.com/questions/45953118/kotlin-spring-boot-configurationproperties
+Kotlin  Spring Boot @ConfigurationProperties	2017-08-30	46790	9	https://stackoverflow.com/questions/45953118/kotlin-spring-boot-configurationproperties
 Spring Boot project shows the Login page	2017-09-17	48063	9	https://stackoverflow.com/questions/46265775/spring-boot-project-shows-the-login-page
 @Value "Could not resolve placeholder" in Spring Boot Test	2015-10-21	96003	3	https://stackoverflow.com/questions/33256702/value-could-not-resolve-placeholder-in-spring-boot-test
 Why does the H2 console in Spring Boot show a blank screen after logging in?	2016-10-21	19834	4	https://stackoverflow.com/questions/40165915/why-does-the-h2-console-in-spring-boot-show-a-blank-screen-after-logging-in
@@ -1522,7 +1522,7 @@ Spring Data JPA Unable to locate Attribute with the given name	2018-03-16	73951	
 SpringBoot with LogBack creating LOG_PATH_IS_UNDEFINED folder	2014-08-12	65806	21	https://stackoverflow.com/questions/25251983/springboot-with-logback-creating-log-path-is-undefined-folder
 How to change basePath for Springfox Swagger 2.0	2016-03-24	22415	3	https://stackoverflow.com/questions/36198827/how-to-change-basepath-for-springfox-swagger-2-0
 Mono class in Java: what is, and when to use?	2020-03-16	33852	1	https://stackoverflow.com/questions/60705382/mono-class-in-java-what-is-and-when-to-use
-Failed Autowired of BuildProperties Spring Boot 2.1.5 & eclipse	2019-06-17	41401	14	https://stackoverflow.com/questions/56634081/failed-autowired-of-buildproperties-spring-boot-2-1-5-eclipse
+Failed Autowired of BuildProperties Spring Boot 2.1.5  eclipse	2019-06-17	41401	14	https://stackoverflow.com/questions/56634081/failed-autowired-of-buildproperties-spring-boot-2-1-5-eclipse
 Spring Security, Method Security annotation (@Secured ) is not working (java config)	2015-07-02	41683	7	https://stackoverflow.com/questions/31186826/spring-security-method-security-annotation-secured-is-not-working-java-con
 testing spring boot rest application with restAssured	2016-11-18	17737	9	https://stackoverflow.com/questions/40665315/testing-spring-boot-rest-application-with-restassured
 Unable to start spring boot server	2014-09-26	38616	10	https://stackoverflow.com/questions/26061860/unable-to-start-spring-boot-server
@@ -1897,9 +1897,9 @@ How configure Spring-Boot app to continue to use RestEasy?	2015-07-30	5840	2	htt
 Spring Security LDAP authentication user must be a member of an AD group	2016-07-12	11963	3	https://stackoverflow.com/questions/38319309/spring-security-ldap-authentication-user-must-be-a-member-of-an-ad-group
 Spring Boot Upload Multipart 413 Request Entity Too Large	2019-09-12	13411	1	https://stackoverflow.com/questions/57897803/spring-boot-upload-multipart-413-request-entity-too-large
 How to use Spring WebSocketClient with SSL?	2015-08-24	10975	2	https://stackoverflow.com/questions/32177803/how-to-use-spring-websocketclient-with-ssl
-Gradle processResources - file contains $&#160;character	2015-11-13	9276	2	https://stackoverflow.com/questions/33696246/gradle-processresources-file-contains-character
-Gradle processResources - file contains $&#160;character	2015-11-13	9276	2	https://stackoverflow.com/questions/33696246/gradle-processresources-file-contains-character
-Spring Boot 2.0.0.M4 & Hibernate 5.2.11.Final could not find bean of type EntityManagerFactoryBuilder	2017-10-05	11510	2	https://stackoverflow.com/questions/46574686/spring-boot-2-0-0-m4-hibernate-5-2-11-final-could-not-find-bean-of-type-entity
+Gradle processResources - file contains $character	2015-11-13	9276	2	https://stackoverflow.com/questions/33696246/gradle-processresources-file-contains-character
+Gradle processResources - file contains $character	2015-11-13	9276	2	https://stackoverflow.com/questions/33696246/gradle-processresources-file-contains-character
+Spring Boot 2.0.0.M4  Hibernate 5.2.11.Final could not find bean of type EntityManagerFactoryBuilder	2017-10-05	11510	2	https://stackoverflow.com/questions/46574686/spring-boot-2-0-0-m4-hibernate-5-2-11-final-could-not-find-bean-of-type-entity
 How to send map(key-value pair) as request parameter in a GET call	2018-02-16	21041	1	https://stackoverflow.com/questions/48823378/how-to-send-mapkey-value-pair-as-request-parameter-in-a-get-call
 Adding classpath to SpringBoot command line start when using maven-spring-boot-plugin	2017-08-16	10836	2	https://stackoverflow.com/questions/45710051/adding-classpath-to-springboot-command-line-start-when-using-maven-spring-boot-p
 Spring Boot Upload Multipart 413 Request Entity Too Large	2019-09-12	13411	1	https://stackoverflow.com/questions/57897803/spring-boot-upload-multipart-413-request-entity-too-large
@@ -2047,7 +2047,7 @@ Spring Boot: RequestRejectedException: The request was rejected because the URL 
 Inheritance and REST API Controllers - Dealing with Subclasses	2018-06-05	5059	3	https://stackoverflow.com/questions/50688285/inheritance-and-rest-api-controllers-dealing-with-subclasses
 how to use Spring-EL in @Value when using constants to resolve a property	2015-06-02	12515	2	https://stackoverflow.com/questions/30595757/how-to-use-spring-el-in-value-when-using-constants-to-resolve-a-property
 Swagger UI redirecting to /swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config	2020-05-27	17314	4	https://stackoverflow.com/questions/62044228/swagger-ui-redirecting-to-swagger-ui-index-htmlconfigurl-v3-api-docs-swagger
-Is there a means to set the host & port for the Spring HATEOAS `ControllerLinkBuilder`?	2014-06-12	5615	2	https://stackoverflow.com/questions/24179807/is-there-a-means-to-set-the-host-port-for-the-spring-hateoas-controllerlinkbu
+Is there a means to set the host  port for the Spring HATEOAS `ControllerLinkBuilder`?	2014-06-12	5615	2	https://stackoverflow.com/questions/24179807/is-there-a-means-to-set-the-host-port-for-the-spring-hateoas-controllerlinkbu
 Spring Boot Upgrade Error - Invalid bean definition with name org.springframework.transaction.config.internalTransactionalEventListenerFactory	2018-12-18	16112	2	https://stackoverflow.com/questions/53834643/spring-boot-upgrade-error-invalid-bean-definition-with-name-org-springframewor
 How to remove Spring Data CustomConversions warnings from application startup?	2020-01-31	7124	3	https://stackoverflow.com/questions/60001034/how-to-remove-spring-data-customconversions-warnings-from-application-startup
 Enable HTTP Request POST in Spring Boot	2014-07-09	16483	4	https://stackoverflow.com/questions/24655203/enable-http-request-post-in-spring-boot
@@ -2277,7 +2277,7 @@ how to configure spring-data-rest search method path with @PathVariable	2016-10-
 Disabling a filter for only a few paths in spring security	2021-07-28	928	1	https://stackoverflow.com/questions/68553077/disabling-a-filter-for-only-a-few-paths-in-spring-security
 Error trying call method from view Thymeleaf Spring	2018-01-23	9535	2	https://stackoverflow.com/questions/48402821/error-trying-call-method-from-view-thymeleaf-spring
 Spring AOP around controllers does not work when request input are invalid	2020-01-20	1729	1	https://stackoverflow.com/questions/59817236/spring-aop-around-controllers-does-not-work-when-request-input-are-invalid
-Spring boot war doesn&#180;t work on Jboss 7.1	2014-04-25	14768	2	https://stackoverflow.com/questions/23279213/spring-boot-war-doesn%c2%b4t-work-on-jboss-7-1
+Spring boot war doesn't work on Jboss 7.1	2014-04-25	14768	2	https://stackoverflow.com/questions/23279213/spring-boot-war-doesn%c2%b4t-work-on-jboss-7-1
 Can Spring security SAML be used to configure IDPs at Runtime	2018-02-20	1170	0	https://stackoverflow.com/questions/48883432/can-spring-security-saml-be-used-to-configure-idps-at-runtime
 How to read request body in HandlerInterceptor?	2020-03-06	13532	4	https://stackoverflow.com/questions/60556148/how-to-read-request-body-in-handlerinterceptor
 oracle.jdbc.OracleDatabaseException: ORA-00972: identifier is too long	2020-04-03	751	1	https://stackoverflow.com/questions/61010482/oracle-jdbc-oracledatabaseexception-ora-00972-identifier-is-too-long
@@ -2390,7 +2390,7 @@ spring boot 2 + feign + eureka client wont resolve service-name to URL	2018-10-0
 Are there anyway to disable annotation in spring4?	2016-08-17	4312	2	https://stackoverflow.com/questions/38986067/are-there-anyway-to-disable-annotation-in-spring4
 Spring Boot 2.0.3 Oauth2 Security: Getting 401 error even when using access token in header	2018-08-13	11704	1	https://stackoverflow.com/questions/51823052/spring-boot-2-0-3-oauth2-security-getting-401-error-even-when-using-access-toke
 Liquibase Rollback Spring boot	2018-04-03	7967	1	https://stackoverflow.com/questions/49634064/liquibase-rollback-spring-boot
-How to give minute in fixedDelay & initialDelay in @scheduled spring boot?	2020-05-12	8121	2	https://stackoverflow.com/questions/61749805/how-to-give-minute-in-fixeddelay-initialdelay-in-scheduled-spring-boot
+How to give minute in fixedDelay  initialDelay in @scheduled spring boot?	2020-05-12	8121	2	https://stackoverflow.com/questions/61749805/how-to-give-minute-in-fixeddelay-initialdelay-in-scheduled-spring-boot
 Thymeleaf 3.0 Spring Boot + Security integration does not work	2016-12-30	6766	3	https://stackoverflow.com/questions/41388332/thymeleaf-3-0-spring-boot-security-integration-does-not-work
 Spring Boot 2, Spring Security 5 and @WithMockUser	2018-10-02	2087	1	https://stackoverflow.com/questions/52604164/spring-boot-2-spring-security-5-and-withmockuser
 How resolve problem with tomcat ? Spring-Boot " Failed to scan"	2019-12-12	4966	4	https://stackoverflow.com/questions/59301363/how-resolve-problem-with-tomcat-spring-boot-failed-to-scan
@@ -2474,7 +2474,7 @@ Setting Spring boot actuator with oAuth2 in the Authorisation server	2017-04-21	
 @AuthenticationPrincipal with Spring Boot not working	2016-02-02	4050	1	https://stackoverflow.com/questions/35156390/authenticationprincipal-with-spring-boot-not-working
 How to add external JARs to Spring application without restarting JVM?	2021-01-23	2003	1	https://stackoverflow.com/questions/65859403/how-to-add-external-jars-to-spring-application-without-restarting-jvm
 Spring Boot 2.0 Not Registering Custom Actuator Endpoint	2018-04-07	2166	3	https://stackoverflow.com/questions/49700803/spring-boot-2-0-not-registering-custom-actuator-endpoint
-Spring Boot 2.0.0 & static resources with different domains for the same app	2018-04-10	1213	2	https://stackoverflow.com/questions/49742053/spring-boot-2-0-0-static-resources-with-different-domains-for-the-same-app
+Spring Boot 2.0.0  static resources with different domains for the same app	2018-04-10	1213	2	https://stackoverflow.com/questions/49742053/spring-boot-2-0-0-static-resources-with-different-domains-for-the-same-app
 Spring Boot error: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean	2015-12-01	8910	2	https://stackoverflow.com/questions/34022580/spring-boot-error-unable-to-start-embeddedwebapplicationcontext-due-to-missing
 Null principal when get security context in parallelStream	2018-01-03	3414	1	https://stackoverflow.com/questions/48076410/null-principal-when-get-security-context-in-parallelstream
 Can we use @autowired on an entity object in spring?	2019-01-03	8410	4	https://stackoverflow.com/questions/54014047/can-we-use-autowired-on-an-entity-object-in-spring
@@ -2508,7 +2508,7 @@ Spring Thymeleaf TemplateProcessingException in SpringInputGeneralFieldTagProces
 RestTemplate--> Exchange produces: 422 Unprocessable Entity	2018-11-24	11742	2	https://stackoverflow.com/questions/53455972/resttemplate-exchange-produces-422-unprocessable-entity
 Compatible versions of Spring boot,elasticsearch and spring data elasticsearch	2017-02-09	7271	2	https://stackoverflow.com/questions/42135906/compatible-versions-of-spring-boot-elasticsearch-and-spring-data-elasticsearch
 IntelliJ Spring Boot project can't find my CSS files with Thymeleaf	2016-11-07	5244	2	https://stackoverflow.com/questions/40452365/intellij-spring-boot-project-cant-find-my-css-files-with-thymeleaf
-Spring Boot 2.0.0 & static resources with different domains for the same app	2018-04-10	1213	2	https://stackoverflow.com/questions/49742053/spring-boot-2-0-0-static-resources-with-different-domains-for-the-same-app
+Spring Boot 2.0.0  static resources with different domains for the same app	2018-04-10	1213	2	https://stackoverflow.com/questions/49742053/spring-boot-2-0-0-static-resources-with-different-domains-for-the-same-app
 @AuthenticationPrincipal with Spring Boot not working	2016-02-02	4050	1	https://stackoverflow.com/questions/35156390/authenticationprincipal-with-spring-boot-not-working
 Override spring bean without an alias that is also the parent	2018-12-04	2923	2	https://stackoverflow.com/questions/53606472/override-spring-bean-without-an-alias-that-is-also-the-parent
 Post-upgrade, @MapsId is throwing an error when saving an existing entity, but otherwise works fine	2019-10-25	1493	1	https://stackoverflow.com/questions/58561156/post-upgrade-mapsid-is-throwing-an-error-when-saving-an-existing-entity-but-o
@@ -2529,7 +2529,7 @@ How to create a working TCP Server socket in spring boot and how to handle the i
 spring-boot basic JSP 404 Not Found	2015-03-08	8294	4	https://stackoverflow.com/questions/28922248/spring-boot-basic-jsp-404-not-found
 403 error for CORS preflight OPTIONS request. How to fix?	2019-05-24	9521	2	https://stackoverflow.com/questions/56289162/403-error-for-cors-preflight-options-request-how-to-fix
 Cannot read file within jar file	2017-06-07	3325	3	https://stackoverflow.com/questions/44411680/cannot-read-file-within-jar-file
-Entities not persisting. Are RepositoryItemWriter & SimpleJpaWriter thread-safe?	2015-11-24	4444	1	https://stackoverflow.com/questions/33883470/entities-not-persisting-are-repositoryitemwriter-simplejpawriter-thread-safe
+Entities not persisting. Are RepositoryItemWriter  SimpleJpaWriter thread-safe?	2015-11-24	4444	1	https://stackoverflow.com/questions/33883470/entities-not-persisting-are-repositoryitemwriter-simplejpawriter-thread-safe
 javax.validation.ValidationException: HV000064: Unable to instantiate ConstraintValidator	2019-07-25	6031	4	https://stackoverflow.com/questions/57204548/javax-validation-validationexception-hv000064-unable-to-instantiate-constraint
 Spring framework unable to start embedded container	2015-06-21	41114	2	https://stackoverflow.com/questions/30958968/spring-framework-unable-to-start-embedded-container
 Spring rest resource change path	2016-10-15	1832	1	https://stackoverflow.com/questions/40060650/spring-rest-resource-change-path
@@ -2798,7 +2798,7 @@ Reactive spring security context	2022-03-19	172	1	https://stackoverflow.com/ques
 Spingboot CORS error only for Multipart POST	2018-12-20	2562	2	https://stackoverflow.com/questions/53863529/spingboot-cors-error-only-for-multipart-post
 Spring - AOP: @within Exception: java.lang.IllegalArgumentException: error Type referred to is not an annotation type	2021-01-03	416	1	https://stackoverflow.com/questions/65542071/spring-aop-within-exception-java-lang-illegalargumentexception-error-type
 Umarshalling MonthDay spring jackson json	2019-03-15	405	2	https://stackoverflow.com/questions/55180301/umarshalling-monthday-spring-jackson-json
-There is no PasswordEncoder mapped for the id "null" in Spring Security	2020-07-07	557	1	https://stackoverflow.com/questions/62770105/there-is-no-passwordencoder-mapped-for-the-id-quotnullquot-in-spring-securit
+There is no PasswordEncoder mapped for the id quot;nullquot; in Spring Security	2020-07-07	557	1	https://stackoverflow.com/questions/62770105/there-is-no-passwordencoder-mapped-for-the-id-quotnullquot-in-spring-securit
 Springfox - change path of swagger-ui	2020-01-27	1128	1	https://stackoverflow.com/questions/59929856/springfox-change-path-of-swagger-ui
 SpringBatch- How to process files itself as a Item?	2021-04-22	307	1	https://stackoverflow.com/questions/67202085/springbatch-how-to-process-files-itself-as-a-item
 How to configure SpringBoot authentication for RestController	2021-10-23	205	1	https://stackoverflow.com/questions/69681254/how-to-configure-springboot-authentication-for-restcontroller
@@ -2820,21 +2820,21 @@ Create users in Oracle, MySQL databases using Springboot - Spring Data JPA	2019-
 Maven Spring boot and Spring Cloud pom dependency not found	2021-05-02	290	1	https://stackoverflow.com/questions/67353462/maven-spring-boot-and-spring-cloud-pom-dependency-not-found
 Spring Batch - Read a byte stream, process, write to 2 different csv files convert them to Input stream and store it to ECS and then write to Database	2020-12-31	600	1	https://stackoverflow.com/questions/65515206/spring-batch-read-a-byte-stream-process-write-to-2-different-csv-files-conve
 Use @Profile to decide to execute test class	2018-11-15	1551	1	https://stackoverflow.com/questions/53313489/use-profile-to-decide-to-execute-test-class
-Alternatives to Guava&#39;s EvictingQueue, which is annotated with @Beta	2020-08-20	511	1	https://stackoverflow.com/questions/63506943/alternatives-to-guava39s-evictingqueue-which-is-annotated-with-beta
+Alternatives to Guava's EvictingQueue, which is annotated with @Beta	2020-08-20	511	1	https://stackoverflow.com/questions/63506943/alternatives-to-guava39s-evictingqueue-which-is-annotated-with-beta
 Can't override java.util.logging.LogManager in a Spring Boot web application: Getting java.lang.ClassNotFoundException on already loaded class	2022-04-24	43	1	https://stackoverflow.com/questions/71985174/cant-override-java-util-logging-logmanager-in-a-spring-boot-web-application-ge
-Spring Boot caching feature doesn&#39;t require spring-boot-starter-cache	2021-07-19	185	1	https://stackoverflow.com/questions/68433218/spring-boot-caching-feature-doesn39t-require-spring-boot-starter-cache
+Spring Boot caching feature doesn't require spring-boot-starter-cache	2021-07-19	185	1	https://stackoverflow.com/questions/68433218/spring-boot-caching-feature-doesn39t-require-spring-boot-starter-cache
 Return some object in my Json	2016-03-11	172	1	https://stackoverflow.com/questions/35941952/return-some-object-in-my-json
 Thymeleaf form submit with ArrayList Object	2019-07-20	648	1	https://stackoverflow.com/questions/57119063/thymeleaf-form-submit-with-arraylist-object
 Springboot tomcat 405 but it works fine within eclipse tomcat	2021-09-20	78	1	https://stackoverflow.com/questions/69250332/springboot-tomcat-405-but-it-works-fine-within-eclipse-tomcat
 How to list all files from a specific S3 Bucket?	2021-07-22	1137	2	https://stackoverflow.com/questions/68480357/how-to-list-all-files-from-a-specific-s3-bucket
 Umarshalling MonthDay spring jackson json	2019-03-15	405	2	https://stackoverflow.com/questions/55180301/umarshalling-monthday-spring-jackson-json
-Simple spring-boot jar doesn&#39;t work except build/target folder	2020-04-22	4896	2	https://stackoverflow.com/questions/61359718/simple-spring-boot-jar-doesn39t-work-except-build-target-folder
+Simple spring-boot jar doesn't work except build/target folder	2020-04-22	4896	2	https://stackoverflow.com/questions/61359718/simple-spring-boot-jar-doesn39t-work-except-build-target-folder
 How can I read Excel data in batches in springboot	2021-01-14	64	0	https://stackoverflow.com/questions/65717319/how-can-i-read-excel-data-in-batches-in-springboot
 Spingboot CORS error only for Multipart POST	2018-12-20	2562	2	https://stackoverflow.com/questions/53863529/spingboot-cors-error-only-for-multipart-post
 No qualifying bean of type 'javax.sql.DataSource' available: more than one 'primary' bean found among candidates:	2019-11-23	4188	1	https://stackoverflow.com/questions/59002892/no-qualifying-bean-of-type-javax-sql-datasource-available-more-than-one-prim
 Showing a loader while waiting for server-side code (without a blank page)	2021-06-16	198	1	https://stackoverflow.com/questions/67995791/showing-a-loader-while-waiting-for-server-side-code-without-a-blank-page
 Performance issues with ActiveMQ Artemis and Spring JmsTemplate	2020-12-09	797	1	https://stackoverflow.com/questions/65202900/performance-issues-with-activemq-artemis-and-spring-jmstemplate
-500 Internal Server Error: [{"errors":["Unexpected character encountered while parsing value: %. Path &#39;&#39;, line 0, position 0."]}]	2021-07-05	261	1	https://stackoverflow.com/questions/68253983/500-internal-server-error-quoterrorsquotquotunexpected-character-enco
+500 Internal Server Error: [{quot;errorsquot;:[quot;Unexpected character encountered while parsing value: %. Path '', line 0, position 0.quot;]}]	2021-07-05	261	1	https://stackoverflow.com/questions/68253983/500-internal-server-error-quoterrorsquotquotunexpected-character-enco
 Best way to integrate Spring boot with the Elastic search	2020-06-12	1896	1	https://stackoverflow.com/questions/62337314/best-way-to-integrate-spring-boot-with-the-elastic-search
 Elasticsearch analizer working when created throw Springdata but failing when creating straight from Postman/curl	2020-04-11	252	1	https://stackoverflow.com/questions/61158504/elasticsearch-analizer-working-when-created-throw-springdata-but-failing-when-cr
 How to provide custom security configuration for oauth2 with spring-boot 1.3.0.RC1	2015-10-27	2279	2	https://stackoverflow.com/questions/33352661/how-to-provide-custom-security-configuration-for-oauth2-with-spring-boot-1-3-0-r
@@ -3224,7 +3224,7 @@ Spring Boot + Elastic Beanstalk .ebextensions in JAR	2017-03-17	8182	5	https://s
 Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref master cannot be resolved	2021-05-03	4462	2	https://stackoverflow.com/questions/67371256/caused-by-org-eclipse-jgit-api-errors-refnotfoundexception-ref-master-cannot-b
 Cannot import org.h2.server.web.WebServlet	2016-07-02	13208	5	https://stackoverflow.com/questions/38151447/cannot-import-org-h2-server-web-webservlet
 Spring serving static content while having wildcard controller route	2014-07-03	4801	1	https://stackoverflow.com/questions/24537877/spring-serving-static-content-while-having-wildcard-controller-route
-Create instance of Spring&#180;s ParameterizedTypeReference in Kotlin	2018-10-01	6176	2	https://stackoverflow.com/questions/52581729/create-instance-of-spring%c2%b4s-parameterizedtypereference-in-kotlin
+Create instance of Spring's ParameterizedTypeReference in Kotlin	2018-10-01	6176	2	https://stackoverflow.com/questions/52581729/create-instance-of-spring%c2%b4s-parameterizedtypereference-in-kotlin
 How does Spring Boot control Tomcat cache?	2016-08-25	14296	3	https://stackoverflow.com/questions/39146476/how-does-spring-boot-control-tomcat-cache
 Unauthorized in spring boot admin	2017-03-07	21001	4	https://stackoverflow.com/questions/42648060/unauthorized-in-spring-boot-admin
 Http status code for Exceptions	2018-01-08	61891	4	https://stackoverflow.com/questions/48139728/http-status-code-for-exceptions
@@ -3318,9 +3318,9 @@ Eclipse Spring Boot Build Path Contains Duplicate Entry	2016-04-09	15982	1	https
 How to create a non-blocking @RestController webservice in spring?	2019-05-09	3037	2	https://stackoverflow.com/questions/56055148/how-to-create-a-non-blocking-restcontroller-webservice-in-spring
 Is really necessary to use Hystrix with reactive spring boot 2 application?	2018-11-13	1744	1	https://stackoverflow.com/questions/53282413/is-really-necessary-to-use-hystrix-with-reactive-spring-boot-2-application
 Spring Security 5.1 - Get Token for Client Credentials Flow with WebClient	2018-11-07	10291	1	https://stackoverflow.com/questions/53190850/spring-security-5-1-get-token-for-client-credentials-flow-with-webclient
-Spring boot & Swagger 2 UI & custom requestmappinghandlermapping - mapping issue	2016-04-20	5240	6	https://stackoverflow.com/questions/36744678/spring-boot-swagger-2-ui-custom-requestmappinghandlermapping-mapping-issue
+Spring boot  Swagger 2 UI  custom requestmappinghandlermapping - mapping issue	2016-04-20	5240	6	https://stackoverflow.com/questions/36744678/spring-boot-swagger-2-ui-custom-requestmappinghandlermapping-mapping-issue
 Why filter chain is called twice for an asynchronous endpoint	2017-06-21	1681	2	https://stackoverflow.com/questions/44680072/why-filter-chain-is-called-twice-for-an-asynchronous-endpoint
-Spring sleuth with SpringBoot (log correlation) - Traceid & SpanId Not displayed	2020-04-24	7808	2	https://stackoverflow.com/questions/61411091/spring-sleuth-with-springboot-log-correlation-traceid-spanid-not-displayed
+Spring sleuth with SpringBoot (log correlation) - Traceid  SpanId Not displayed	2020-04-24	7808	2	https://stackoverflow.com/questions/61411091/spring-sleuth-with-springboot-log-correlation-traceid-spanid-not-displayed
 How Rest Controller handle multiple request at same time for a single instance application?	2019-05-26	5188	1	https://stackoverflow.com/questions/56311512/how-rest-controller-handle-multiple-request-at-same-time-for-a-single-instance-a
 Spring Boot Gradle app on Heroku: Unable to access jarfile	2015-12-12	6162	4	https://stackoverflow.com/questions/34228907/spring-boot-gradle-app-on-heroku-unable-to-access-jarfile
 Rabbitmq concurrent consumers in Spring boot	2018-02-28	13164	2	https://stackoverflow.com/questions/49017401/rabbitmq-concurrent-consumers-in-spring-boot
@@ -3355,7 +3355,7 @@ How to replace deprecated MultipleHiLoPerTableGenerator with TableGenerator in H
 ElasticBeanstalk Java, spring active profile	2016-08-18	8877	4	https://stackoverflow.com/questions/39021711/elasticbeanstalk-java-spring-active-profile
 Spring Security Error: java.lang.IllegalStateException: Can't configure anyRequest after itself	2019-11-23	15043	1	https://stackoverflow.com/questions/59004025/spring-security-error-java-lang-illegalstateexception-cant-configure-anyreque
 How to get past the Authentication Required Spring-boot Security	2015-08-08	23810	5	https://stackoverflow.com/questions/31891344/how-to-get-past-the-authentication-required-spring-boot-security
-Spring Boot & MongoDB how to remove the '_class' column?	2014-05-07	28679	9	https://stackoverflow.com/questions/23517977/spring-boot-mongodb-how-to-remove-the-class-column
+Spring Boot  MongoDB how to remove the '_class' column?	2014-05-07	28679	9	https://stackoverflow.com/questions/23517977/spring-boot-mongodb-how-to-remove-the-class-column
 HTTP Response Exception Handling in Spring 5 Reactive	2018-04-04	27596	2	https://stackoverflow.com/questions/49648435/http-response-exception-handling-in-spring-5-reactive
 The following method did not exist: 'org.springframework.plugin.core.PluginRegistry org.springframework.plugin.core.PluginRegistry.of(java.util.List)'	2020-03-17	19763	5	https://stackoverflow.com/questions/60710084/the-following-method-did-not-exist-org-springframework-plugin-core-pluginregis
 Is there a way to use Spring Cloud {cipher} in Spring Boot application config?	2015-02-10	23107	3	https://stackoverflow.com/questions/28421252/is-there-a-way-to-use-spring-cloud-cipher-in-spring-boot-application-config
@@ -3366,7 +3366,7 @@ Spring boot MVC: can't find JSP	2015-01-15	28171	5	https://stackoverflow.com/que
 Trouble with Fetch in React with CORS	2018-02-01	47431	1	https://stackoverflow.com/questions/48562406/trouble-with-fetch-in-react-with-cors
 Unable to start embedded Tomcat org.springframework.context.ApplicationContextException	2019-07-05	125085	5	https://stackoverflow.com/questions/56899871/unable-to-start-embedded-tomcat-org-springframework-context-applicationcontextex
 Can not set field to com.sun.proxy.$Proxy	2016-06-09	39950	2	https://stackoverflow.com/questions/37726351/can-not-set-field-to-com-sun-proxy-proxy
-CTRL+C w/ Spring Boot & Gradle Kills Gradle Daemon	2016-08-24	5581	6	https://stackoverflow.com/questions/39123416/ctrlc-w-spring-boot-gradle-kills-gradle-daemon
+CTRL+C w/ Spring Boot  Gradle Kills Gradle Daemon	2016-08-24	5581	6	https://stackoverflow.com/questions/39123416/ctrlc-w-spring-boot-gradle-kills-gradle-daemon
 Spring JavaConfig for java.util.Properties field	2013-03-13	18709	6	https://stackoverflow.com/questions/15387282/spring-javaconfig-for-java-util-properties-field
 External library folder for Spring Boot	2015-06-10	32075	3	https://stackoverflow.com/questions/30745132/external-library-folder-for-spring-boot
 Spring Profiles application properties order	2018-07-28	8640	3	https://stackoverflow.com/questions/51565409/spring-profiles-application-properties-order
@@ -3404,7 +3404,7 @@ Spring Security using HTTP headers	2017-05-22	28838	4	https://stackoverflow.com/
 Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'test.spring_session' doesn't exist - Spring Boot	2016-08-30	5610	3	https://stackoverflow.com/questions/39211369/caused-by-com-mysql-jdbc-exceptions-jdbc4-mysqlsyntaxerrorexception-table-tes
 Spring Kafka Producer not sending to Kafka 1.0.0 (Magic v1 does not support record headers)	2017-12-23	18447	4	https://stackoverflow.com/questions/47953901/spring-kafka-producer-not-sending-to-kafka-1-0-0-magic-v1-does-not-support-reco
 Java 11 + QueryDSL 4 + Gradle 5 + SpringBoot 2.1- not generating QClasses	2019-01-11	10000	5	https://stackoverflow.com/questions/54134455/java-11-querydsl-4-gradle-5-springboot-2-1-not-generating-qclasses
-What's the difference between static and templates folder under resources in a springboot & thymeleaf project?	2017-01-21	11404	2	https://stackoverflow.com/questions/41780531/whats-the-difference-between-static-and-templates-folder-under-resources-in-a-s
+What's the difference between static and templates folder under resources in a springboot  thymeleaf project?	2017-01-21	11404	2	https://stackoverflow.com/questions/41780531/whats-the-difference-between-static-and-templates-folder-under-resources-in-a-s
 Spring @ControllerAdvice vs ErrorController	2016-11-08	5075	1	https://stackoverflow.com/questions/40489606/spring-controlleradvice-vs-errorcontroller
 Spring Boot - can't start with embedded tomcat error	2017-04-30	58372	3	https://stackoverflow.com/questions/43701983/spring-boot-cant-start-with-embedded-tomcat-error
 The correct way for creation of KafkaTemplate in spring boot	2019-03-21	13362	3	https://stackoverflow.com/questions/55280173/the-correct-way-for-creation-of-kafkatemplate-in-spring-boot
@@ -3657,7 +3657,7 @@ Why does my flapdoodle Embedded MongoDB test fail to run? (creating 'embeddedMon
 Create a spring boot application with multiple child contexts	2015-08-19	11412	1	https://stackoverflow.com/questions/32097421/create-a-spring-boot-application-with-multiple-child-contexts
 Creating custom ErrorWebExceptionHandler fails	2018-09-25	6108	4	https://stackoverflow.com/questions/52497901/creating-custom-errorwebexceptionhandler-fails
 Controller mapping are not logging at startup	2018-11-16	7498	1	https://stackoverflow.com/questions/53327836/controller-mapping-are-not-logging-at-startup
-Catching & Handling Jackson Exceptions with a custom message	2018-07-25	21733	4	https://stackoverflow.com/questions/51519381/catching-handling-jackson-exceptions-with-a-custom-message
+Catching  Handling Jackson Exceptions with a custom message	2018-07-25	21733	4	https://stackoverflow.com/questions/51519381/catching-handling-jackson-exceptions-with-a-custom-message
 Spring Data: JPA repository findAll() to return *Map instead of List?	2017-01-26	50539	3	https://stackoverflow.com/questions/41876122/spring-data-jpa-repository-findall-to-return-map-instead-of-list
 How to bind a string array of properties in Spring?	2016-08-17	34338	3	https://stackoverflow.com/questions/38986127/how-to-bind-a-string-array-of-properties-in-spring
 sending udp broadcast from a docker container	2018-05-24	5340	2	https://stackoverflow.com/questions/50508833/sending-udp-broadcast-from-a-docker-container
@@ -3909,9 +3909,9 @@ Dependency not found in Spring Boot project	2017-01-03	12517	1	https://stackover
 Unable to build spring based project for authentication using keycloak	2019-09-16	2430	3	https://stackoverflow.com/questions/57957006/unable-to-build-spring-based-project-for-authentication-using-keycloak
 SpringBoot with a single domain object and multiple datasources	2019-01-10	2470	1	https://stackoverflow.com/questions/54131562/springboot-with-a-single-domain-object-and-multiple-datasources
 Spring Boot - RestController Deserializing YAML Uploads?	2016-05-19	4566	2	https://stackoverflow.com/questions/37328314/spring-boot-restcontroller-deserializing-yaml-uploads
-Logback - Layout & Pattern in logback.xml	2017-10-04	7229	1	https://stackoverflow.com/questions/46560939/logback-layout-pattern-in-logback-xml
+Logback - Layout  Pattern in logback.xml	2017-10-04	7229	1	https://stackoverflow.com/questions/46560939/logback-layout-pattern-in-logback-xml
 Spring MVC web app behind zuul redirect issue	2016-04-27	2291	0	https://stackoverflow.com/questions/36881835/spring-mvc-web-app-behind-zuul-redirect-issue
-Spring Boot & Kafka, Producer thrown exception with key='null'	2018-01-12	15833	4	https://stackoverflow.com/questions/48227857/spring-boot-kafka-producer-thrown-exception-with-key-null
+Spring Boot  Kafka, Producer thrown exception with key='null'	2018-01-12	15833	4	https://stackoverflow.com/questions/48227857/spring-boot-kafka-producer-thrown-exception-with-key-null
 Is there a way to prevent bean overriding with Spring Boot?	2016-08-06	6786	2	https://stackoverflow.com/questions/38794460/is-there-a-way-to-prevent-bean-overriding-with-spring-boot
 Microservices - RestTemplate UnknownHostException	2016-05-11	19178	3	https://stackoverflow.com/questions/37159662/microservices-resttemplate-unknownhostexception
 How to load an external configuration with Spring Boot?	2017-05-03	15727	2	https://stackoverflow.com/questions/43755380/how-to-load-an-external-configuration-with-spring-boot
@@ -4121,7 +4121,7 @@ Not able to load external properties files with springboot in weblogic	2016-12-2
 Connect to MySQL through SSH and by using Spring Boot	2018-01-17	8921	3	https://stackoverflow.com/questions/48296313/connect-to-mysql-through-ssh-and-by-using-spring-boot
 Spring Boot doesn't pick spring.datasource.tomcat.* while programmatically configuring datasources?	2017-08-06	5050	3	https://stackoverflow.com/questions/45532532/spring-boot-doesnt-pick-spring-datasource-tomcat-while-programmatically-confi
 How to set acknowledgement in case when retry gets exhausted in Kafka consumer	2019-04-03	1673	1	https://stackoverflow.com/questions/55493989/how-to-set-acknowledgement-in-case-when-retry-gets-exhausted-in-kafka-consumer
-Gradle with QueryDSL 4.1.4 & Intellij	2017-10-31	5148	2	https://stackoverflow.com/questions/47023874/gradle-with-querydsl-4-1-4-intellij
+Gradle with QueryDSL 4.1.4  Intellij	2017-10-31	5148	2	https://stackoverflow.com/questions/47023874/gradle-with-querydsl-4-1-4-intellij
 spring boot actuator connect jmx programmatically	2018-05-17	3247	2	https://stackoverflow.com/questions/50392589/spring-boot-actuator-connect-jmx-programmatically
 Initialise H2 database for spring batch application	2018-10-03	10887	3	https://stackoverflow.com/questions/52621792/initialise-h2-database-for-spring-batch-application
 How to call appropriate Item Processor for different records?	2019-10-13	900	1	https://stackoverflow.com/questions/58361678/how-to-call-appropriate-item-processor-for-different-records
@@ -4598,7 +4598,7 @@ How can I tell whether my Spring boot application is in debug mode?	2017-06-19	4
 Referring to ConfigurationProperties Beans in SpEL expression in @Configuration bean	2015-07-19	5689	3	https://stackoverflow.com/questions/31500794/referring-to-configurationproperties-beans-in-spel-expression-in-configuration
 Spring Boot @ControllerAdvice Exception Handler not returning HTTP Status Text	2016-08-03	3519	2	https://stackoverflow.com/questions/38746717/spring-boot-controlleradvice-exception-handler-not-returning-http-status-text
 How to render JSP using Spring Boot application	2017-09-24	5678	1	https://stackoverflow.com/questions/46391915/how-to-render-jsp-using-spring-boot-application
-Spring Data JPA "Couldn&#39;t find PersistentEntity" for List<String>	2018-01-18	14362	1	https://stackoverflow.com/questions/48323714/spring-data-jpa-quotcouldn39t-find-persistententityquot-for-listltstrin
+Spring Data JPA quot;Couldn't find PersistentEntityquot; for Listlt;Stringgt;	2018-01-18	14362	1	https://stackoverflow.com/questions/48323714/spring-data-jpa-quotcouldn39t-find-persistententityquot-for-listltstrin
 Spring Actuator + Kafka Streams - Add kafka stream status to health check endpoint	2019-09-19	7530	2	https://stackoverflow.com/questions/58007302/spring-actuator-kafka-streams-add-kafka-stream-status-to-health-check-endpoi
 Spring Framework application.properties vs logback.xml	2017-01-19	3187	2	https://stackoverflow.com/questions/41734999/spring-framework-application-properties-vs-logback-xml
 Deprecated java.security.egd=file:/dev/./urandom for Spring Boot applications?	2020-01-02	2117	1	https://stackoverflow.com/questions/59564269/deprecated-java-security-egd-file-dev-urandom-for-spring-boot-applications
@@ -4613,7 +4613,7 @@ how to route to an external url using zuul proxy filter	2018-04-30	4032	1	https:
 @PreAuthorize not working with prePostEnabled = true	2018-11-03	1946	0	https://stackoverflow.com/questions/53125388/preauthorize-not-working-with-prepostenabled-true
 File download error only in file name with Comma	2018-02-27	8505	3	https://stackoverflow.com/questions/49003459/file-download-error-only-in-file-name-with-comma
 Thymeleaf stopped resolving layout templates after migrating to Thymeleaf 3	2018-03-12	3341	2	https://stackoverflow.com/questions/49231742/thymeleaf-stopped-resolving-layout-templates-after-migrating-to-thymeleaf-3
-JBoss EAP 7.1 + Spring Boot Application: No validator could be found for constraint &#39;javax.validation.constraints.NotBlank&#39;	2018-06-08	2440	3	https://stackoverflow.com/questions/50751653/jboss-eap-7-1-spring-boot-application-no-validator-could-be-found-for-constra
+JBoss EAP 7.1 + Spring Boot Application: No validator could be found for constraint 'javax.validation.constraints.NotBlank'	2018-06-08	2440	3	https://stackoverflow.com/questions/50751653/jboss-eap-7-1-spring-boot-application-no-validator-could-be-found-for-constra
 Test spring rest controller secured with https	2015-12-22	9585	1	https://stackoverflow.com/questions/34408713/test-spring-rest-controller-secured-with-https
 SpringBoot "not an entity"	2018-10-14	4599	3	https://stackoverflow.com/questions/52799706/springboot-not-an-entity
 INVALID is not a valid start token	2018-09-26	8806	1	https://stackoverflow.com/questions/52519541/invalid-is-not-a-valid-start-token
@@ -4622,7 +4622,7 @@ Graceful shutdown fails	2020-12-01	2473	2	https://stackoverflow.com/questions/65
 issue with spring boot while upgrading to 1.3.0.RELEASE	2015-11-19	7660	2	https://stackoverflow.com/questions/33799743/issue-with-spring-boot-while-upgrading-to-1-3-0-release
 How to bind yaml list to a java list in springboot?	2016-06-10	12562	2	https://stackoverflow.com/questions/37734469/how-to-bind-yaml-list-to-a-java-list-in-springboot
 Failed to disable decryption server side in spring cloud config server	2017-11-24	1726	1	https://stackoverflow.com/questions/47470031/failed-to-disable-decryption-server-side-in-spring-cloud-config-server
-Rest Assured doesn&#39;t use custom ObjectMapper	2017-03-31	4496	1	https://stackoverflow.com/questions/43127485/rest-assured-doesn39t-use-custom-objectmapper
+Rest Assured doesn't use custom ObjectMapper	2017-03-31	4496	1	https://stackoverflow.com/questions/43127485/rest-assured-doesn39t-use-custom-objectmapper
 How to render JSP using Spring Boot application	2017-09-24	5678	1	https://stackoverflow.com/questions/46391915/how-to-render-jsp-using-spring-boot-application
 Spring Boot + Batch : Injected/Autowired beans are null in ItemReader	2017-10-19	6738	1	https://stackoverflow.com/questions/46828464/spring-boot-batch-injected-autowired-beans-are-null-in-itemreader
 Running Only Once A Schedule Job Across Multiple Instances	2020-07-20	4840	3	https://stackoverflow.com/questions/62994659/running-only-once-a-schedule-job-across-multiple-instances
@@ -4740,7 +4740,7 @@ How to insert Integer array into postgresql table using jdbcTemplate in Java Spr
 JPA - Spanning a transaction over multiple JpaRepository method calls	2018-12-16	2446	2	https://stackoverflow.com/questions/53802031/jpa-spanning-a-transaction-over-multiple-jparepository-method-calls
 @Autowire MockMvc - Spring Data Rest	2018-02-03	7275	1	https://stackoverflow.com/questions/48589893/autowire-mockmvc-spring-data-rest
 Registering an instance as 'singleton' bean at application startup	2016-11-29	11994	2	https://stackoverflow.com/questions/40869870/registering-an-instance-as-singleton-bean-at-application-startup
-spring boot doesn&#39;t shows custom error pages	2020-07-04	1639	3	https://stackoverflow.com/questions/62727660/spring-boot-doesn39t-shows-custom-error-pages
+spring boot doesn't shows custom error pages	2020-07-04	1639	3	https://stackoverflow.com/questions/62727660/spring-boot-doesn39t-shows-custom-error-pages
 Spring boot and apache spark - container conflict	2015-03-03	3377	2	https://stackoverflow.com/questions/28820250/spring-boot-and-apache-spark-container-conflict
 Generate Code Coverage with JaCoCo and spring-boot-maven-plugin	2020-02-03	19763	1	https://stackoverflow.com/questions/60037013/generate-code-coverage-with-jacoco-and-spring-boot-maven-plugin
 How to validate Mono when using Spring Reactive	2017-11-12	8070	1	https://stackoverflow.com/questions/47244769/how-to-validate-mono-when-using-spring-reactive
@@ -4830,7 +4830,7 @@ Make Jackson Subtypes extensible without editing the Supertypes java-file	2019-0
 Enable CORS origin graphql	2019-09-20	4489	3	https://stackoverflow.com/questions/58026768/enable-cors-origin-graphql
 org.springframework.core.task.TaskRejectedException while listening for SQS queue?	2019-03-18	2547	1	https://stackoverflow.com/questions/55216527/org-springframework-core-task-taskrejectedexception-while-listening-for-sqs-queu
 Sharing same MQTT Client instance between MqttPahoMessageHandler and MqttPahoMessageDrivenChannelAdapter in Spring Boot Integration	2019-10-15	439	0	https://stackoverflow.com/questions/58392900/sharing-same-mqtt-client-instance-between-mqttpahomessagehandler-and-mqttpahomes
-Spring Boot & Thymeleaf with XML Templates	2015-02-28	6098	2	https://stackoverflow.com/questions/28774903/spring-boot-thymeleaf-with-xml-templates
+Spring Boot  Thymeleaf with XML Templates	2015-02-28	6098	2	https://stackoverflow.com/questions/28774903/spring-boot-thymeleaf-with-xml-templates
 Spring Boot with multiple datasources Oracle and H2	2016-11-22	4864	1	https://stackoverflow.com/questions/40743889/spring-boot-with-multiple-datasources-oracle-and-h2
 Kafka Avro Deserializer is not able to deserialize the Kafka message to Specific Avro Record	2020-08-25	4977	1	https://stackoverflow.com/questions/63569470/kafka-avro-deserializer-is-not-able-to-deserialize-the-kafka-message-to-specific
 Running multiple SpringBootApplication classes from a single maven project	2016-05-16	2935	2	https://stackoverflow.com/questions/37245820/running-multiple-springbootapplication-classes-from-a-single-maven-project
@@ -4934,10 +4934,10 @@ Spring Boot deferred Flyway inizialization circular dependency	2019-10-22	1296	2
 Error using XStream in Spring context: DuplicateFieldException	2019-12-04	654	1	https://stackoverflow.com/questions/59176413/error-using-xstream-in-spring-context-duplicatefieldexception
 @Service and @Scope("prototype") together	2018-03-30	7337	1	https://stackoverflow.com/questions/49575345/service-and-scopeprototype-together
 Migrating Spring Boot Applications to the Latest Java Version (Java 15)	2020-11-20	2208	2	https://stackoverflow.com/questions/64924862/migrating-spring-boot-applications-to-the-latest-java-version-java-15
-Jackson&#39;s Access.WRITE_ONLY during test null	2017-08-15	2144	3	https://stackoverflow.com/questions/45679561/jackson39s-access-write-only-during-test-null
+Jackson's Access.WRITE_ONLY during test null	2017-08-15	2144	3	https://stackoverflow.com/questions/45679561/jackson39s-access-write-only-during-test-null
 Spring Boot Gradle bootBuildImage task with private repo	2020-12-03	2829	3	https://stackoverflow.com/questions/65118519/spring-boot-gradle-bootbuildimage-task-with-private-repo
 How to debug a Spring Boot application in Spring Tool Suite	2016-04-13	24489	1	https://stackoverflow.com/questions/36583947/how-to-debug-a-spring-boot-application-in-spring-tool-suite
-maven-shade-plugin error: Cannot find setter, adder nor field in org.apache.maven.plugins.shade.resource.ManifestResourceTransformer for &#39;resource&#39;	2014-04-11	7069	2	https://stackoverflow.com/questions/22999399/maven-shade-plugin-error-cannot-find-setter-adder-nor-field-in-org-apache-mave
+maven-shade-plugin error: Cannot find setter, adder nor field in org.apache.maven.plugins.shade.resource.ManifestResourceTransformer for 'resource'	2014-04-11	7069	2	https://stackoverflow.com/questions/22999399/maven-shade-plugin-error-cannot-find-setter-adder-nor-field-in-org-apache-mave
 How to remove/disable Spring boot logo on web browser completely?	2020-01-29	3177	3	https://stackoverflow.com/questions/59955039/how-to-remove-disable-spring-boot-logo-on-web-browser-completely
 Intellij+Springboot+Thymeleaf+gradle - autoreload html resources	2017-04-14	1986	2	https://stackoverflow.com/questions/43402551/intellijspringbootthymeleafgradle-autoreload-html-resources
 hystrix @EnableCircuitBreaker in a non spring boot application	2017-04-27	5284	2	https://stackoverflow.com/questions/43655063/hystrix-enablecircuitbreaker-in-a-non-spring-boot-application
@@ -4961,7 +4961,7 @@ Read Spring boot property inside listener	2015-08-20	4013	2	https://stackoverflo
 Spring Data Rest repositories occasionally not exported	2020-05-27	239	1	https://stackoverflow.com/questions/62036378/spring-data-rest-repositories-occasionally-not-exported
 Spring Boot 2.1 duplicate reactiveMongoTemplate bean	2019-09-03	1536	2	https://stackoverflow.com/questions/57761228/spring-boot-2-1-duplicate-reactivemongotemplate-bean
 How to get server port in spring boot test	2018-09-13	1970	0	https://stackoverflow.com/questions/52301056/how-to-get-server-port-in-spring-boot-test
-Using Spring Boot & Spring Integration with database backed Configuration	2015-10-29	1877	1	https://stackoverflow.com/questions/33403056/using-spring-boot-spring-integration-with-database-backed-configuration
+Using Spring Boot  Spring Integration with database backed Configuration	2015-10-29	1877	1	https://stackoverflow.com/questions/33403056/using-spring-boot-spring-integration-with-database-backed-configuration
 Issue with Spring Data (Spring Boot) and Joda Time field mapping	2017-01-27	2959	3	https://stackoverflow.com/questions/41880292/issue-with-spring-data-spring-boot-and-joda-time-field-mapping
 How do I use Spring's @Cacheable with Aerospike as the cache?	2019-08-21	784	2	https://stackoverflow.com/questions/57579772/how-do-i-use-springs-cacheable-with-aerospike-as-the-cache
 Hystrix metrics in the actuator/metrics endpoint [spring-boot 2.0]	2018-06-07	2394	1	https://stackoverflow.com/questions/50728750/hystrix-metrics-in-the-actuator-metrics-endpoint-spring-boot-2-0
@@ -5040,7 +5040,7 @@ How to Audit Spring data jpa @Query?	2018-08-21	2305	1	https://stackoverflow.com
 How to select between dates Spring data MongoDB using @Query	2017-04-30	8668	2	https://stackoverflow.com/questions/43698985/how-to-select-between-dates-spring-data-mongodb-using-query
 Spring Data Rest repositories occasionally not exported	2020-05-27	239	1	https://stackoverflow.com/questions/62036378/spring-data-rest-repositories-occasionally-not-exported
 hide runtime exception in RabbitMQ listener	2018-05-15	1280	1	https://stackoverflow.com/questions/50350377/hide-runtime-exception-in-rabbitmq-listener
-Docker: can't connect Spring Boot & MYSQL	2020-04-12	1420	1	https://stackoverflow.com/questions/61167859/docker-cant-connect-spring-boot-mysql
+Docker: can't connect Spring Boot  MYSQL	2020-04-12	1420	1	https://stackoverflow.com/questions/61167859/docker-cant-connect-spring-boot-mysql
 Reset Spring-Boot During Integration Tests	2017-05-29	2611	2	https://stackoverflow.com/questions/44241936/reset-spring-boot-during-integration-tests
 Avoid showing Spring Framework specific services as part of Swagger interface	2016-10-25	1006	2	https://stackoverflow.com/questions/40238166/avoid-showing-spring-framework-specific-services-as-part-of-swagger-interface
 Configure Spring @DataJpaTest with custom base repository	2020-04-03	810	2	https://stackoverflow.com/questions/61014009/configure-spring-datajpatest-with-custom-base-repository
@@ -5350,7 +5350,7 @@ Handling empty results on findAll(): Is there a orElseThrow() for lists?	2019-09
 Spring-boot ErrorPage not working with standalone Tomcat	2015-01-08	4476	1	https://stackoverflow.com/questions/27825148/spring-boot-errorpage-not-working-with-standalone-tomcat
 Hibernate Validator in Spring Boot using different ConstraintValidatorManager	2019-06-11	1248	2	https://stackoverflow.com/questions/56542699/hibernate-validator-in-spring-boot-using-different-constraintvalidatormanager
 Spring Cloud Streams application throwing nested exception is java.lang.ClassCastException for a domain model class	2021-06-27	1326	1	https://stackoverflow.com/questions/68149288/spring-cloud-streams-application-throwing-nested-exception-is-java-lang-classcas
-Spring boot custom starter , application doesn&#39;t find required bean	2018-02-20	859	0	https://stackoverflow.com/questions/48880240/spring-boot-custom-starter-application-doesn39t-find-required-bean
+Spring boot custom starter , application doesn't find required bean	2018-02-20	859	0	https://stackoverflow.com/questions/48880240/spring-boot-custom-starter-application-doesn39t-find-required-bean
 AuthenticationVoters has not valid attribute. SpringSecurity	2020-05-05	93	0	https://stackoverflow.com/questions/61616638/authenticationvoters-has-not-valid-attribute-springsecurity
 Spring Boot embedded Tomcat server not starting in intellij idea	2021-04-25	3476	2	https://stackoverflow.com/questions/67250494/spring-boot-embedded-tomcat-server-not-starting-in-intellij-idea
 Spring Boot Microservices are unable to connect to Axon Server	2021-07-10	342	2	https://stackoverflow.com/questions/68328914/spring-boot-microservices-are-unable-to-connect-to-axon-server
@@ -5388,7 +5388,7 @@ Multiple Kafka Producer Instance for each Http Request	2021-06-18	323	1	https://
 Spring Boot JPA how to select specific column from table with the entity class?	2019-09-13	4015	3	https://stackoverflow.com/questions/57910712/spring-boot-jpa-how-to-select-specific-column-from-table-with-the-entity-class
 Understanding Spring Boot 2's default logback configuration	2019-03-26	2400	1	https://stackoverflow.com/questions/55348674/understanding-spring-boot-2s-default-logback-configuration
 Does Transactional.TxType.REQUIRES_NEW start a new transaction when called from the same bean?	2021-07-01	415	1	https://stackoverflow.com/questions/68199750/does-transactional-txtype-requires-new-start-a-new-transaction-when-called-from
-Why if (arg0.length > 0 && arg0[0].equals("exitcode"))?	2019-10-30	154	0	https://stackoverflow.com/questions/58618988/why-if-arg0-length-0-arg00-equalsexitcode
+Why if (arg0.length > 0  arg0[0].equals("exitcode"))?	2019-10-30	154	0	https://stackoverflow.com/questions/58618988/why-if-arg0-length-0-arg00-equalsexitcode
 Spring Boot Zuul hateoas REST response has direct service links in resource	2019-07-18	502	2	https://stackoverflow.com/questions/57094913/spring-boot-zuul-hateoas-rest-response-has-direct-service-links-in-resource
 how to serve static content in springboot 2.2.6?	2020-04-24	4013	2	https://stackoverflow.com/questions/61393769/how-to-serve-static-content-in-springboot-2-2-6
 How to deploy java application in a cloud instance from the scratch to an advanced architecture?	2018-12-27	1299	1	https://stackoverflow.com/questions/53946704/how-to-deploy-java-application-in-a-cloud-instance-from-the-scratch-to-an-advanc
@@ -5417,7 +5417,7 @@ Spring Boot remote configuration?	2015-01-24	2801	1	https://stackoverflow.com/qu
 Bind a String value to an enum in a @RequestBody entity in Spring Boot	2017-06-09	2364	1	https://stackoverflow.com/questions/44446110/bind-a-string-value-to-an-enum-in-a-requestbody-entity-in-spring-boot
 Swagger UI does not display response models from custom annotation interface	2020-10-07	1287	1	https://stackoverflow.com/questions/64236324/swagger-ui-does-not-display-response-models-from-custom-annotation-interface
 Unexpected token (START_OBJECT), expected VALUE_STRING: need JSON String that contains type id (for subtype of java.lang.Object)	2018-08-05	8877	1	https://stackoverflow.com/questions/51688838/unexpected-token-start-object-expected-value-string-need-json-string-that-co
-Why if (arg0.length > 0 && arg0[0].equals("exitcode"))?	2019-10-30	154	0	https://stackoverflow.com/questions/58618988/why-if-arg0-length-0-arg00-equalsexitcode
+Why if (arg0.length > 0  arg0[0].equals("exitcode"))?	2019-10-30	154	0	https://stackoverflow.com/questions/58618988/why-if-arg0-length-0-arg00-equalsexitcode
 Spring Cloud Config - Encrypt Password	2016-05-28	4325	1	https://stackoverflow.com/questions/37488311/spring-cloud-config-encrypt-password
 spring cloud config versioning	2016-06-01	1061	1	https://stackoverflow.com/questions/37554205/spring-cloud-config-versioning
 Getting secret from Azure key vault	2019-09-03	1322	1	https://stackoverflow.com/questions/57764432/getting-secret-from-azure-key-vault
@@ -5481,7 +5481,7 @@ Spring integration what if server close connection, how handle it and open while
 Eureka server and UnknownHostException	2020-08-08	1770	3	https://stackoverflow.com/questions/63307851/eureka-server-and-unknownhostexception
 ConnectionFactory get destroyed before camel	2017-05-05	916	3	https://stackoverflow.com/questions/43788249/connectionfactory-get-destroyed-before-camel
 Reason for sudden JVM crash	2016-05-28	823	2	https://stackoverflow.com/questions/37497680/reason-for-sudden-jvm-crash
-How to use Rest Service while using Spring Boot & Spring Data Jpa	2019-04-28	57	1	https://stackoverflow.com/questions/55884907/how-to-use-rest-service-while-using-spring-boot-spring-data-jpa
+How to use Rest Service while using Spring Boot  Spring Data Jpa	2019-04-28	57	1	https://stackoverflow.com/questions/55884907/how-to-use-rest-service-while-using-spring-boot-spring-data-jpa
 Error creating bean with name 'XXX: Unsatisfied dependency expressed through field 'XXX'	2016-12-31	15992	1	https://stackoverflow.com/questions/41408757/error-creating-bean-with-name-xxx-unsatisfied-dependency-expressed-through-fie
 how to configure ssl certificate in spring boot 2.1.9	2019-10-29	771	1	https://stackoverflow.com/questions/58600430/how-to-configure-ssl-certificate-in-spring-boot-2-1-9
 Spring validator does not detect errors	2021-04-06	848	2	https://stackoverflow.com/questions/66972086/spring-validator-does-not-detect-errors
@@ -5545,7 +5545,7 @@ how to write Onload function using angular 4?	2018-01-01	8623	1	https://stackove
 Modifying the OAuth2ClientAuthenticationProcessingFilter in Spring Boot	2016-02-25	1084	1	https://stackoverflow.com/questions/35617718/modifying-the-oauth2clientauthenticationprocessingfilter-in-spring-boot
 Cannot make GET request to service from angular pod on kubernetes cluster	2020-04-09	1105	1	https://stackoverflow.com/questions/61118238/cannot-make-get-request-to-service-from-angular-pod-on-kubernetes-cluster
 Find all embedded documents from manual reference in MongoDB	2020-04-12	1085	1	https://stackoverflow.com/questions/61161589/find-all-embedded-documents-from-manual-reference-in-mongodb
-Access to XMLHttpRequest at 'https://...' from origin 'http://...' has been blocked by CORS policy(Spring Boot & Angular 7)	2019-01-23	13060	3	https://stackoverflow.com/questions/54327963/access-to-xmlhttprequest-at-https-from-origin-http-has-been-bloc
+Access to XMLHttpRequest at 'https://...' from origin 'http://...' has been blocked by CORS policy(Spring Boot  Angular 7)	2019-01-23	13060	3	https://stackoverflow.com/questions/54327963/access-to-xmlhttprequest-at-https-from-origin-http-has-been-bloc
 No instance(s) of type variable(s) T exist so that Flux<T> confirms to Mono<? extend R)	2018-09-14	9894	2	https://stackoverflow.com/questions/52331418/no-instances-of-type-variables-t-exist-so-that-fluxt-confirms-to-mono-ex
 Spring boot-Exception in thread "main" java.lang.NoSuchMethodError: org.springframew..(Version Issue)	2019-01-30	4516	2	https://stackoverflow.com/questions/54441203/spring-boot-exception-in-thread-main-java-lang-nosuchmethoderror-org-springfr
 404 Not found Spring boot war to Tomcat	2018-05-24	3767	2	https://stackoverflow.com/questions/50506960/404-not-found-spring-boot-war-to-tomcat
@@ -5573,7 +5573,7 @@ Understanding Hibernate Junction Table	2020-01-02	562	1	https://stackoverflow.co
 Save the data to table and save it to database even if empty rows in EXCEL java POI Apache	2019-11-21	372	1	https://stackoverflow.com/questions/58974646/save-the-data-to-table-and-save-it-to-database-even-if-empty-rows-in-excel-java
 SpingREST: Could not open JPA EntityManager for transaction; nested exception is org.hiberna	2017-10-03	14146	1	https://stackoverflow.com/questions/46530896/spingrest-could-not-open-jpa-entitymanager-for-transaction-nested-exception-is
 SockJS Java Client Implementation for non-web application	2017-01-26	5567	1	https://stackoverflow.com/questions/41870207/sockjs-java-client-implementation-for-non-web-application
-How to find no more messages in kafka topic/partition & reading only after writing to topic is done	2020-03-12	749	1	https://stackoverflow.com/questions/60656704/how-to-find-no-more-messages-in-kafka-topic-partition-reading-only-after-writi
+How to find no more messages in kafka topic/partition  reading only after writing to topic is done	2020-03-12	749	1	https://stackoverflow.com/questions/60656704/how-to-find-no-more-messages-in-kafka-topic-partition-reading-only-after-writi
 How to set the access token once during the instanciation of the webClient in spring webflux?	2020-03-03	5470	2	https://stackoverflow.com/questions/60498791/how-to-set-the-access-token-once-during-the-instanciation-of-the-webclient-in-sp
 Consume tensor-flow serving inception model using java client	2018-08-06	677	2	https://stackoverflow.com/questions/51705349/consume-tensor-flow-serving-inception-model-using-java-client
 How to create a Spring Boot test that runs with specific JVM arguments	2020-03-11	3952	2	https://stackoverflow.com/questions/60637867/how-to-create-a-spring-boot-test-that-runs-with-specific-jvm-arguments
@@ -5582,7 +5582,7 @@ How to by default execute the latest version of endpoint in Spring Boot REST?	20
 Spring (boot) Security preauthentication with permitted resources still authenticated	2017-08-31	4948	1	https://stackoverflow.com/questions/45971407/spring-boot-security-preauthentication-with-permitted-resources-still-authenti
 Springfox swagger - content type multipart/form-data	2021-03-04	4171	1	https://stackoverflow.com/questions/66461655/springfox-swagger-content-type-multipart-form-data
 CORS support in spring boot and security	2020-02-14	200	1	https://stackoverflow.com/questions/60219951/cors-support-in-spring-boot-and-security
-OpenAPI & spring-doc not finding all mappings in a controller class	2021-03-11	2973	1	https://stackoverflow.com/questions/66570344/openapi-spring-doc-not-finding-all-mappings-in-a-controller-class
+OpenAPI  spring-doc not finding all mappings in a controller class	2021-03-11	2973	1	https://stackoverflow.com/questions/66570344/openapi-spring-doc-not-finding-all-mappings-in-a-controller-class
 How to implement multitenancy for redis in spring boot	2020-01-09	1143	1	https://stackoverflow.com/questions/59661914/how-to-implement-multitenancy-for-redis-in-spring-boot
 Tomcat deploy application issue (HTTP Status 403 – Forbidden)	2017-08-24	11883	1	https://stackoverflow.com/questions/45857732/tomcat-deploy-application-issue-http-status-403-forbidden
 How to send events to all instances of the application in PCF	2020-02-03	1174	2	https://stackoverflow.com/questions/60042784/how-to-send-events-to-all-instances-of-the-application-in-pcf
@@ -5591,14 +5591,14 @@ Spring Boot - Run project error: Waiting to acquire shared lock on daemon addres
 Failed to look up JNDI DataSource In Spring Boot Application	2017-02-08	11996	2	https://stackoverflow.com/questions/42100891/failed-to-look-up-jndi-datasource-in-spring-boot-application
 Flyway repair throws FlywaySqlException with Oracle DB	2020-01-09	338	1	https://stackoverflow.com/questions/59666601/flyway-repair-throws-flywaysqlexception-with-oracle-db
 Customize DELETE method in Spring Data repository	2015-03-09	2944	1	https://stackoverflow.com/questions/28945306/customize-delete-method-in-spring-data-repository
-Spring Boot web app w/ both session + CSRF & stateless Basic Auth w/o CSRF	2015-07-01	1069	1	https://stackoverflow.com/questions/31145518/spring-boot-web-app-w-both-session-csrf-stateless-basic-auth-w-o-csrf
+Spring Boot web app w/ both session + CSRF  stateless Basic Auth w/o CSRF	2015-07-01	1069	1	https://stackoverflow.com/questions/31145518/spring-boot-web-app-w-both-session-csrf-stateless-basic-auth-w-o-csrf
 Spring Boot Management Port and Spring Security	2015-07-01	3735	1	https://stackoverflow.com/questions/31143703/spring-boot-management-port-and-spring-security
 Spring MVC: Get i18n message for reason in @RequestStatus on a @ExceptionHandler	2015-03-26	1011	2	https://stackoverflow.com/questions/29273419/spring-mvc-get-i18n-message-for-reason-in-requeststatus-on-a-exceptionhandler
 spring-boot restricted url	2014-07-29	2062	1	https://stackoverflow.com/questions/25014489/spring-boot-restricted-url
 Forcing Spring Boot to NOT use EmbeddedWebApplicationContext?	2014-08-12	1042	2	https://stackoverflow.com/questions/25253893/forcing-spring-boot-to-not-use-embeddedwebapplicationcontext
 Execute sth. after or before bean is created	2015-04-20	2363	1	https://stackoverflow.com/questions/29745995/execute-sth-after-or-before-bean-is-created
 Running Jar does not use jars from lib/* when packaged with mvn clean package	2015-04-24	863	1	https://stackoverflow.com/questions/29847508/running-jar-does-not-use-jars-from-lib-when-packaged-with-mvn-clean-package
-Spring Boot web app w/ both session + CSRF & stateless Basic Auth w/o CSRF	2015-07-01	1069	1	https://stackoverflow.com/questions/31145518/spring-boot-web-app-w-both-session-csrf-stateless-basic-auth-w-o-csrf
+Spring Boot web app w/ both session + CSRF  stateless Basic Auth w/o CSRF	2015-07-01	1069	1	https://stackoverflow.com/questions/31145518/spring-boot-web-app-w-both-session-csrf-stateless-basic-auth-w-o-csrf
 how to access mysql docker container in spring boot docker container	2019-01-16	1570	1	https://stackoverflow.com/questions/54218824/how-to-access-mysql-docker-container-in-spring-boot-docker-container
 Fastest way to execute a delete query in large table in PostgreSQL	2020-09-23	749	1	https://stackoverflow.com/questions/64025309/fastest-way-to-execute-a-delete-query-in-large-table-in-postgresql
 Spring Boot REST API Endpoint Mapping best practice	2018-06-26	1595	2	https://stackoverflow.com/questions/51035930/spring-boot-rest-api-endpoint-mapping-best-practice
@@ -5629,7 +5629,7 @@ No primary or default constructor found for interface java.util.List Rest API Sp
 how to compare a password text with the bcrypt hashes?	2019-02-09	9368	3	https://stackoverflow.com/questions/54597495/how-to-compare-a-password-text-with-the-bcrypt-hashes
 Required request part 'file' is not present - Angular2 Post request	2017-05-24	4212	4	https://stackoverflow.com/questions/44139831/required-request-part-file-is-not-present-angular2-post-request
 Spring Security Caused by: org.springframework.security.config.annotation.AlreadyBuiltException: This object has already been built	2015-04-23	5467	2	https://stackoverflow.com/questions/29822892/spring-security-caused-by-org-springframework-security-config-annotation-alread
-GZip Compression Not working in internet explorer 11, but working fine in Chrome & Firefox	2015-12-01	8750	2	https://stackoverflow.com/questions/34006215/gzip-compression-not-working-in-internet-explorer-11-but-working-fine-in-chrome
+GZip Compression Not working in internet explorer 11, but working fine in Chrome  Firefox	2015-12-01	8750	2	https://stackoverflow.com/questions/34006215/gzip-compression-not-working-in-internet-explorer-11-but-working-fine-in-chrome
 Spring boot Rest responding with empty body for exceptions other than the ones overridden in my @ControllerAdvice	2019-06-10	9810	3	https://stackoverflow.com/questions/56527952/spring-boot-rest-responding-with-empty-body-for-exceptions-other-than-the-ones-o
 Getting the user home path in application.properties in Spring Boot	2015-05-25	23126	5	https://stackoverflow.com/questions/30432473/getting-the-user-home-path-in-application-properties-in-spring-boot
 Spring boot: How to add interceptors to static resources?	2017-09-27	2335	2	https://stackoverflow.com/questions/46446115/spring-boot-how-to-add-interceptors-to-static-resources
@@ -5772,7 +5772,7 @@ SpringBoot - Can't resolve @RunWith - cannot find symbol	2020-09-11	8784	3	https
 How to exclude certain classes from being included in the code coverage? (Java)	2019-05-07	27636	4	https://stackoverflow.com/questions/56016409/how-to-exclude-certain-classes-from-being-included-in-the-code-coverage-java
 Java creating Redis key and content with strange characters	2018-10-20	2872	2	https://stackoverflow.com/questions/52906919/java-creating-redis-key-and-content-with-strange-characters
 I am getting an exception: java.lang.IllegalStateException: getOutputStream() has already been called for this response	2015-06-01	25375	4	https://stackoverflow.com/questions/30560360/i-am-getting-an-exception-java-lang-illegalstateexception-getoutputstream-ha
-Multiple SOAP endpoints with one namespace & localpart	2019-09-12	5099	1	https://stackoverflow.com/questions/57901622/multiple-soap-endpoints-with-one-namespace-localpart
+Multiple SOAP endpoints with one namespace  localpart	2019-09-12	5099	1	https://stackoverflow.com/questions/57901622/multiple-soap-endpoints-with-one-namespace-localpart
 Dealing with parallel flux in Reactor	2019-08-17	9113	4	https://stackoverflow.com/questions/57534772/dealing-with-parallel-flux-in-reactor
 WEB-INF not included in WebApp using SpringBoot, Spring-MVC and Maven	2018-10-06	7070	3	https://stackoverflow.com/questions/52670491/web-inf-not-included-in-webapp-using-springboot-spring-mvc-and-maven
 Spring Boot: Default serialization for java.time.Duration changed from String to Number	2019-11-12	2027	1	https://stackoverflow.com/questions/58814711/spring-boot-default-serialization-for-java-time-duration-changed-from-string-to
@@ -6008,7 +6008,7 @@ Spring boot - Evicting Cache with dynamic TTL period	2020-09-25	6390	3	https://s
 How can I disable creating bean with @Component annotation in Spring?	2020-08-26	7625	5	https://stackoverflow.com/questions/63586118/how-can-i-disable-creating-bean-with-component-annotation-in-spring
 @Valid annotation is not working in spring boot	2015-07-02	18270	2	https://stackoverflow.com/questions/31175009/valid-annotation-is-not-working-in-spring-boot
 Tomcat - Further occurrences of HTTP header parsing errors will be logged at DEBUG level	2018-03-09	1896	1	https://stackoverflow.com/questions/49190811/tomcat-further-occurrences-of-http-header-parsing-errors-will-be-logged-at-deb
-Why do I always get Whitelabel Error Page with status "404" while running a simple Spring Boot Application	2016-09-22	48319	5	https://stackoverflow.com/questions/39628930/why-do-i-always-get-whitelabel-error-page-with-status-quot404quot-while-runn
+Why do I always get Whitelabel Error Page with status quot;404quot; while running a simple Spring Boot Application	2016-09-22	48319	5	https://stackoverflow.com/questions/39628930/why-do-i-always-get-whitelabel-error-page-with-status-quot404quot-while-runn
 problem with spring boot 2.x kebab-case format	2018-09-12	10794	2	https://stackoverflow.com/questions/52282608/problem-with-spring-boot-2-x-kebab-case-format
 How to implement JWT based authentication and authorization in Spring Security	2018-03-17	10688	2	https://stackoverflow.com/questions/49325692/how-to-implement-jwt-based-authentication-and-authorization-in-spring-security
 Rename Liquibase changelog tables with spring boot	2018-04-14	2616	2	https://stackoverflow.com/questions/49830507/rename-liquibase-changelog-tables-with-spring-boot
@@ -6018,11 +6018,11 @@ Access sensitive Spring boot actuator endpoints via tokens in browser	2017-10-03
 How to send @Requestbody and @Requestpart together in spring	2018-10-26	12227	2	https://stackoverflow.com/questions/53005240/how-to-send-requestbody-and-requestpart-together-in-spring
 Class cast exception in JWT	2018-04-22	3136	2	https://stackoverflow.com/questions/49964955/class-cast-exception-in-jwt
 Exclude ApplicationStartup Event listener when testing	2017-10-06	6500	2	https://stackoverflow.com/questions/46597149/exclude-applicationstartup-event-listener-when-testing
-Routing multiple URLs to Spring Boot Actuator&#39;s health endpoint	2015-09-10	3889	1	https://stackoverflow.com/questions/32502908/routing-multiple-urls-to-spring-boot-actuator39s-health-endpoint
+Routing multiple URLs to Spring Boot Actuator's health endpoint	2015-09-10	3889	1	https://stackoverflow.com/questions/32502908/routing-multiple-urls-to-spring-boot-actuator39s-health-endpoint
 spring mvc catch all route but only unknown routes	2015-02-18	4465	4	https://stackoverflow.com/questions/28585913/spring-mvc-catch-all-route-but-only-unknown-routes
 spring-boot-starter-web hibernate-validator dependency missing on Mac	2017-09-29	14586	1	https://stackoverflow.com/questions/46482088/spring-boot-starter-web-hibernate-validator-dependency-missing-on-mac
 How can I disable HTTP TRACE in embedded untertow of a Spring boot application	2018-04-19	4258	2	https://stackoverflow.com/questions/49914316/how-can-i-disable-http-trace-in-embedded-untertow-of-a-spring-boot-application
-Sprint-data-Cassandra Mapping of Map with User Defined Type fails with "not of type of the persistent entity"	2016-12-08	1711	1	https://stackoverflow.com/questions/41027241/sprint-data-cassandra-mapping-of-map-with-user-defined-type-fails-with-quotnot
+Sprint-data-Cassandra Mapping of Map with User Defined Type fails with quot;not of type of the persistent entityquot;	2016-12-08	1711	1	https://stackoverflow.com/questions/41027241/sprint-data-cassandra-mapping-of-map-with-user-defined-type-fails-with-quotnot
 How to enable translatation support after creating JHipster Application	2015-10-15	1603	1	https://stackoverflow.com/questions/33135986/how-to-enable-translatation-support-after-creating-jhipster-application
 Unit Testing - Wiremock verify failing with connection error	2019-02-27	4712	1	https://stackoverflow.com/questions/54900364/unit-testing-wiremock-verify-failing-with-connection-error
 Difference between ExitCodeGenerator and System.exit(0)	2018-02-02	2603	2	https://stackoverflow.com/questions/48572612/difference-between-exitcodegenerator-and-system-exit0
@@ -6046,10 +6046,10 @@ Spring Cloud @StreamListener condition deprecated what is the alternative	2021-0
 Spring Boot OAuth 2.0 and OAuth 1.0a clients in same app	2018-04-03	1825	2	https://stackoverflow.com/questions/49633210/spring-boot-oauth-2-0-and-oauth-1-0a-clients-in-same-app
 Spring Boot 2.1 with Java 11: Unable to resolve persistence unit root URL	2018-12-02	1576	2	https://stackoverflow.com/questions/53572630/spring-boot-2-1-with-java-11-unable-to-resolve-persistence-unit-root-url
 Spring boot Autowired repository not working with SpringRunner and JPA data	2017-06-12	5967	1	https://stackoverflow.com/questions/44498044/spring-boot-autowired-repository-not-working-with-springrunner-and-jpa-data
-Is Spring&#39;s @Profile on methods a good practice	2016-08-12	4804	3	https://stackoverflow.com/questions/38920369/is-spring39s-profile-on-methods-a-good-practice
+Is Spring's @Profile on methods a good practice	2016-08-12	4804	3	https://stackoverflow.com/questions/38920369/is-spring39s-profile-on-methods-a-good-practice
 Spring + PostgreSQL > Multiple SLF4J bindings	2015-02-23	1205	2	https://stackoverflow.com/questions/28661189/spring-postgresql-multiple-slf4j-bindings
 Hibernate -validator group sequence provider getDefaultSequenceProvider gets null as input	2017-06-13	995	0	https://stackoverflow.com/questions/44520306/hibernate-validator-group-sequence-provider-getdefaultsequenceprovider-gets-nul
-Spring WebFlux - Content type &#39;application/xml&#39; not supported for bodyType=org.springframework.web.multipart.MultipartFile	2019-04-11	4825	1	https://stackoverflow.com/questions/55632633/spring-webflux-content-type-39application-xml39-not-supported-for-bodyty
+Spring WebFlux - Content type 'application/xml' not supported for bodyType=org.springframework.web.multipart.MultipartFile	2019-04-11	4825	1	https://stackoverflow.com/questions/55632633/spring-webflux-content-type-39application-xml39-not-supported-for-bodyty
 Spring @ConditionalOnProperty annotation not working as expected	2018-11-14	13511	1	https://stackoverflow.com/questions/53297465/spring-conditionalonproperty-annotation-not-working-as-expected
 Spring Data JPA not using AttributeConverter in Spring Boot Application	2018-04-07	6857	1	https://stackoverflow.com/questions/49701819/spring-data-jpa-not-using-attributeconverter-in-spring-boot-application
 Spring Boot application freezes after a day	2017-06-12	2999	1	https://stackoverflow.com/questions/44486788/spring-boot-application-freezes-after-a-day
@@ -6075,7 +6075,7 @@ Spring boot handle type mismatch errors	2019-09-15	5212	5	https://stackoverflow.
 @DataJpaTest how to specify repositories and entities to scan	2018-09-10	2211	1	https://stackoverflow.com/questions/52258838/datajpatest-how-to-specify-repositories-and-entities-to-scan
 How to timeout a Spring Boot @Scheduled Thread	2015-07-31	5698	1	https://stackoverflow.com/questions/31738755/how-to-timeout-a-spring-boot-scheduled-thread
 Get Maven basedir from a properties file in a SpringBoot project	2019-05-17	7254	1	https://stackoverflow.com/questions/56173541/get-maven-basedir-from-a-properties-file-in-a-springboot-project
-Can&#39;t decrypt property from spring cloud config or environment variable	2019-09-18	1154	1	https://stackoverflow.com/questions/57984457/can39t-decrypt-property-from-spring-cloud-config-or-environment-variable
+Can't decrypt property from spring cloud config or environment variable	2019-09-18	1154	1	https://stackoverflow.com/questions/57984457/can39t-decrypt-property-from-spring-cloud-config-or-environment-variable
 graphql-spring-boot upload binary	2018-01-01	3223	1	https://stackoverflow.com/questions/48050509/graphql-spring-boot-upload-binary
 spring boot which 'slice' to use for testing service component	2019-11-29	1211	1	https://stackoverflow.com/questions/59102896/spring-boot-which-slice-to-use-for-testing-service-component
 Error creating bean with name 'entityManagerFactory' defined in class path resource	2015-07-26	28398	1	https://stackoverflow.com/questions/31635943/error-creating-bean-with-name-entitymanagerfactory-defined-in-class-path-resou
@@ -6095,7 +6095,7 @@ Query interceptor for spring-data-mongodb for soft deletions	2017-05-05	733	1	ht
 spring boot: separate REST from static content	2017-05-12	1417	1	https://stackoverflow.com/questions/43940856/spring-boot-separate-rest-from-static-content
 How to unit testing spring boot rest controller and exception handler using power mock	2017-05-11	14700	2	https://stackoverflow.com/questions/43911326/how-to-unit-testing-spring-boot-rest-controller-and-exception-handler-using-powe
 how to achieve Ldap Authentication using spring security(spring boot)	2015-09-24	17140	1	https://stackoverflow.com/questions/32757440/how-to-achieve-ldap-authentication-using-spring-securityspring-boot
-LEAK: ByteBuf.release() was not called in before it&#39;s garbage-collected. Spring Reactor TcpServer	2015-04-23	2707	0	https://stackoverflow.com/questions/29805270/leak-bytebuf-release-was-not-called-in-before-it39s-garbage-collected-spr
+LEAK: ByteBuf.release() was not called in before it's garbage-collected. Spring Reactor TcpServer	2015-04-23	2707	0	https://stackoverflow.com/questions/29805270/leak-bytebuf-release-was-not-called-in-before-it39s-garbage-collected-spr
 Spring Mvc and MediaType for consumes in @RequestMapping for a get rest request	2015-08-25	11946	4	https://stackoverflow.com/questions/32189152/spring-mvc-and-mediatype-for-consumes-in-requestmapping-for-a-get-rest-request
 unable to decrypt from spring config server / cleint	2016-09-01	1936	1	https://stackoverflow.com/questions/39256589/unable-to-decrypt-from-spring-config-server-cleint
 rabbitmq channel shutdown with PRECONDITION_FAILED - fast reply consumer does not exist	2018-02-16	4328	3	https://stackoverflow.com/questions/48821935/rabbitmq-channel-shutdown-with-precondition-failed-fast-reply-consumer-does-no
@@ -6230,12 +6230,12 @@ When trying to start my Spring Boot application, I get google credentials needed
 Create admin account by default in Spring boot	2018-09-17	4691	2	https://stackoverflow.com/questions/52370437/create-admin-account-by-default-in-spring-boot
 Multiple application.yml not merged in Spring Boot	2018-06-03	587	1	https://stackoverflow.com/questions/50667281/multiple-application-yml-not-merged-in-spring-boot
 How to replace default SortArgumentResolver	2017-06-12	1928	3	https://stackoverflow.com/questions/44501511/how-to-replace-default-sortargumentresolver
-Eureka service always registers instances with host name even though i put "prefer-ip-address: true"	2020-06-06	6419	2	https://stackoverflow.com/questions/62229903/eureka-service-always-registers-instances-with-host-name-even-though-i-put-quot
+Eureka service always registers instances with host name even though i put quot;prefer-ip-address: truequot;	2020-06-06	6419	2	https://stackoverflow.com/questions/62229903/eureka-service-always-registers-instances-with-host-name-even-though-i-put-quot
 Can log4jdbc be used with spring boot?	2018-09-18	2405	3	https://stackoverflow.com/questions/52376778/can-log4jdbc-be-used-with-spring-boot
-Spring HATEOAS RepresentationModel, Cannot set property links because no setter, no wither and it&#39;s not part of the persistence constructor	2020-09-02	3433	2	https://stackoverflow.com/questions/63693623/spring-hateoas-representationmodel-cannot-set-property-links-because-no-setter
+Spring HATEOAS RepresentationModel, Cannot set property links because no setter, no wither and it's not part of the persistence constructor	2020-09-02	3433	2	https://stackoverflow.com/questions/63693623/spring-hateoas-representationmodel-cannot-set-property-links-because-no-setter
 Pivotal Cloud Foundry - Connecting to external oracle database	2017-06-12	7237	1	https://stackoverflow.com/questions/44500674/pivotal-cloud-foundry-connecting-to-external-oracle-database
 How to declare binary data response content-type correctly?	2020-09-27	1015	0	https://stackoverflow.com/questions/64080432/how-to-declare-binary-data-response-content-type-correctly
-Spring Data Rest: "Unable to configure LocalContainerEntityManagerFactoryBean from @EntityScan"	2016-07-27	702	2	https://stackoverflow.com/questions/38609791/spring-data-rest-quotunable-to-configure-localcontainerentitymanagerfactorybe
+Spring Data Rest: quot;Unable to configure LocalContainerEntityManagerFactoryBean from @EntityScanquot;	2016-07-27	702	2	https://stackoverflow.com/questions/38609791/spring-data-rest-quotunable-to-configure-localcontainerentitymanagerfactorybe
 Caused by: com.datastax.driver.core.exceptions.InvalidQueryException: Expected 8 or 0 byte long for date (13)	2017-06-27	7357	1	https://stackoverflow.com/questions/44772444/caused-by-com-datastax-driver-core-exceptions-invalidqueryexception-expected-8
 how to set system property in spring boot application	2018-08-16	25280	3	https://stackoverflow.com/questions/51867161/how-to-set-system-property-in-spring-boot-application
 Bind .m2 file to docker on build stage	2018-08-25	2289	2	https://stackoverflow.com/questions/52015939/bind-m2-file-to-docker-on-build-stage
@@ -6293,7 +6293,7 @@ WildFly not logging after deploying app with Logback	2016-12-01	890	0	https://st
 How to make Javamelody use different port (Spring Boot+two HTTP ports exposed)	2016-12-14	2245	3	https://stackoverflow.com/questions/41145640/how-to-make-javamelody-use-different-port-spring-boottwo-http-ports-exposed
 How to change response_type on Spring OAuth2	2016-12-18	2858	2	https://stackoverflow.com/questions/41208178/how-to-change-response-type-on-spring-oauth2
 Spring boot not reading environment specific YAML file	2016-12-08	5999	3	https://stackoverflow.com/questions/41034087/spring-boot-not-reading-environment-specific-yaml-file
-How to get username from mono<user> on spring boot webflux?	2019-07-01	1934	2	https://stackoverflow.com/questions/56830594/how-to-get-username-from-monoltusergt-on-spring-boot-webflux
+How to get username from monolt;usergt; on spring boot webflux?	2019-07-01	1934	2	https://stackoverflow.com/questions/56830594/how-to-get-username-from-monoltusergt-on-spring-boot-webflux
 Spring boot and Spock integration test	2014-10-30	3402	0	https://stackoverflow.com/questions/26654842/spring-boot-and-spock-integration-test
 How to send body as a Json in RestTemplate to get data from API	2019-06-11	3845	0	https://stackoverflow.com/questions/56544432/how-to-send-body-as-a-json-in-resttemplate-to-get-data-from-api
 Spring Batch JAXB XML unmarshal targeting multiple XML nodes	2016-12-20	2541	1	https://stackoverflow.com/questions/41245452/spring-batch-jaxb-xml-unmarshal-targeting-multiple-xml-nodes
@@ -6590,7 +6590,7 @@ Page redirecting depending on Role using Spring security and Thymeleaf - Spring	
 why can't spring find the @Source bean channel created by spring cloud stream?	2017-07-28	1515	1	https://stackoverflow.com/questions/45358914/why-cant-spring-find-the-source-bean-channel-created-by-spring-cloud-stream
 Spring Data JPA – @Query – Not supported for DML operations	2018-08-27	2792	1	https://stackoverflow.com/questions/52031911/spring-data-jpa-query-not-supported-for-dml-operations
 No appenders could be found for logger in local server but same application works fine in Production server- log4j	2018-09-10	1664	1	https://stackoverflow.com/questions/52259405/no-appenders-could-be-found-for-logger-in-local-server-but-same-application-work
-Specify JDK&#39;s version in pom.xml or manifest.yml?	2017-04-21	3279	2	https://stackoverflow.com/questions/43533252/specify-jdk39s-version-in-pom-xml-or-manifest-yml
+Specify JDK's version in pom.xml or manifest.yml?	2017-04-21	3279	2	https://stackoverflow.com/questions/43533252/specify-jdk39s-version-in-pom-xml-or-manifest-yml
 Spring Boot Webflux - Set UTF-8 Encoding	2018-02-19	3006	1	https://stackoverflow.com/questions/48864564/spring-boot-webflux-set-utf-8-encoding
 Spring Boot annotation @GetMapping can not be resolved to a type	2018-09-06	10997	3	https://stackoverflow.com/questions/52190102/spring-boot-annotation-getmapping-can-not-be-resolved-to-a-type
 Spring Boot and Spring Cloud Security OAUTH 2 SSO Failing with latest releases	2017-05-24	909	1	https://stackoverflow.com/questions/44148287/spring-boot-and-spring-cloud-security-oauth-2-sso-failing-with-latest-releases
@@ -6598,7 +6598,7 @@ NoSuchBeanDefinitionException while running unit test when using @Configuration	
 Spring Boot GUI Testing Selenium WebDriver	2017-05-19	5145	1	https://stackoverflow.com/questions/44072400/spring-boot-gui-testing-selenium-webdriver
 Spring boot and Gradle multi-modules project, failed to load dependencies correctly	2018-04-26	3532	1	https://stackoverflow.com/questions/50029812/spring-boot-and-gradle-multi-modules-project-failed-to-load-dependencies-correc
 Mocking service in Spring Boot	2018-05-10	112	1	https://stackoverflow.com/questions/50269825/mocking-service-in-spring-boot
-Consider defining a bean named &#39;entityManagerFactory&#39; in your configuration., mssqlserver after upgrade to spring boot 2	2018-07-25	1968	3	https://stackoverflow.com/questions/51509863/consider-defining-a-bean-named-39entitymanagerfactory39-in-your-configurat
+Consider defining a bean named 'entityManagerFactory' in your configuration., mssqlserver after upgrade to spring boot 2	2018-07-25	1968	3	https://stackoverflow.com/questions/51509863/consider-defining-a-bean-named-39entitymanagerfactory39-in-your-configurat
 Eureka Ribbon LoadBalancer Cache update delay	2017-02-16	1289	1	https://stackoverflow.com/questions/42265210/eureka-ribbon-loadbalancer-cache-update-delay
 Spring boot 2.0.2, using Spring data how do I get message from entity validation	2018-07-21	1296	2	https://stackoverflow.com/questions/51446480/spring-boot-2-0-2-using-spring-data-how-do-i-get-message-from-entity-validation
 NoSuchBeanDefinitionException while running unit test when using @Configuration	2018-07-27	6509	2	https://stackoverflow.com/questions/51560688/nosuchbeandefinitionexception-while-running-unit-test-when-using-configuration
@@ -6608,7 +6608,7 @@ Spring Security Facebook Oauth2 redirected too many times	2018-05-05	491	0	https
 Spring Boot with Thymeleaf post list	2017-02-20	1970	1	https://stackoverflow.com/questions/42341032/spring-boot-with-thymeleaf-post-list
 BindingException occurs when multiple datasources are configured in Spring Boot and MyBatis project	2018-07-13	685	0	https://stackoverflow.com/questions/51320198/bindingexception-occurs-when-multiple-datasources-are-configured-in-spring-boot
 JaxB not Unmarshalling due to SSL error on cloud foundry?	2017-02-23	858	3	https://stackoverflow.com/questions/42399137/jaxb-not-unmarshalling-due-to-ssl-error-on-cloud-foundry
-why can&#39;t spring find the @Source bean channel created by spring cloud stream?	2017-07-28	1515	1	https://stackoverflow.com/questions/45358914/why-can39t-spring-find-the-source-bean-channel-created-by-spring-cloud-strea
+why can't spring find the @Source bean channel created by spring cloud stream?	2017-07-28	1515	1	https://stackoverflow.com/questions/45358914/why-can39t-spring-find-the-source-bean-channel-created-by-spring-cloud-strea
 Pass spring locale variable to application.properties	2018-06-06	3171	3	https://stackoverflow.com/questions/50720604/pass-spring-locale-variable-to-application-properties
 Seeking advice on proper approach to development on Netflix Eureka discoverable Spring Boot services with minimal overheads	2017-02-28	277	1	https://stackoverflow.com/questions/42498516/seeking-advice-on-proper-approach-to-development-on-netflix-eureka-discoverable
 Spring Autoconfig order/precedence on Profiles	2018-01-02	990	2	https://stackoverflow.com/questions/48062754/spring-autoconfig-order-precedence-on-profiles
@@ -6676,7 +6676,7 @@ Spring async ConcurrentTaskExecutor not really working correctly?	2019-06-04	156
 How to write junit test cases for rest controller, service and dao layer using springboot?	2019-08-27	1034	1	https://stackoverflow.com/questions/57662014/how-to-write-junit-test-cases-for-rest-controller-service-and-dao-layer-using-s
 How to run a spring boot app in intellij?	2019-06-25	14952	1	https://stackoverflow.com/questions/56754495/how-to-run-a-spring-boot-app-in-intellij
 Why can't my class find "ContractVerifierUtil"?	2019-07-26	726	1	https://stackoverflow.com/questions/57216741/why-cant-my-class-find-contractverifierutil
-Spring(-Boot) & Vaadin - Set default-view in Vaadin navigator	2015-10-11	2542	1	https://stackoverflow.com/questions/33059365/spring-boot-vaadin-set-default-view-in-vaadin-navigator
+Spring(-Boot)  Vaadin - Set default-view in Vaadin navigator	2015-10-11	2542	1	https://stackoverflow.com/questions/33059365/spring-boot-vaadin-set-default-view-in-vaadin-navigator
 How to secure spring Boot API with API key and secret	2019-07-22	2732	1	https://stackoverflow.com/questions/57135288/how-to-secure-spring-boot-api-with-api-key-and-secret
 Intercept private methods with Spring and AspectJ	2014-04-28	3919	1	https://stackoverflow.com/questions/23327336/intercept-private-methods-with-spring-and-aspectj
 CXF Servlet Java config redirect to index.html	2015-04-01	2603	2	https://stackoverflow.com/questions/29375749/cxf-servlet-java-config-redirect-to-index-html
@@ -6814,7 +6814,7 @@ One entity class with two controllers (@RestController and @Controller)	2020-03-
 Run a Java class from Spring startup	2016-08-31	2509	1	https://stackoverflow.com/questions/39233115/run-a-java-class-from-spring-startup
 Spring Oauth2 returns 401 Unauthorized error with spring boot 2.0	2020-03-06	2977	0	https://stackoverflow.com/questions/60564009/spring-oauth2-returns-401-unauthorized-error-with-spring-boot-2-0
 How do protocol mappers work in Keycloak?	2021-03-31	441	1	https://stackoverflow.com/questions/66888145/how-do-protocol-mappers-work-in-keycloak
-Jawr & Springboot - Resources folders not resolved	2021-07-19	108	1	https://stackoverflow.com/questions/68435234/jawr-springboot-resources-folders-not-resolved
+Jawr  Springboot - Resources folders not resolved	2021-07-19	108	1	https://stackoverflow.com/questions/68435234/jawr-springboot-resources-folders-not-resolved
 @Profile cause Unable to start EmbeddedWebApplicationContext	2014-09-09	2180	1	https://stackoverflow.com/questions/25746080/profile-cause-unable-to-start-embeddedwebapplicationcontext
 Spring Web Security locks Neo4j embedded database	2015-07-29	160	1	https://stackoverflow.com/questions/31701307/spring-web-security-locks-neo4j-embedded-database
 Joing two tables in JPA repository	2021-07-01	497	3	https://stackoverflow.com/questions/68212371/joing-two-tables-in-jpa-repository
@@ -6937,7 +6937,7 @@ Joing two tables in JPA repository	2021-07-01	497	3	https://stackoverflow.com/qu
 H2GIS data in Springboot 2.6	2022-03-31	116	1	https://stackoverflow.com/questions/71691531/h2gis-data-in-springboot-2-6
 Spring Data JPA how to use sorting?	2014-04-08	1872	1	https://stackoverflow.com/questions/22931852/spring-data-jpa-how-to-use-sorting
 Swagger-ui.html is giving blank page	2021-12-12	2132	3	https://stackoverflow.com/questions/70320464/swagger-ui-html-is-giving-blank-page
-Spring Boot 1.2.5 & Jersey 2 ignore null fields	2015-08-12	1938	1	https://stackoverflow.com/questions/31953492/spring-boot-1-2-5-jersey-2-ignore-null-fields
+Spring Boot 1.2.5  Jersey 2 ignore null fields	2015-08-12	1938	1	https://stackoverflow.com/questions/31953492/spring-boot-1-2-5-jersey-2-ignore-null-fields
 RestTemplate: how to get generic List response	2016-03-07	2234	1	https://stackoverflow.com/questions/35834296/resttemplate-how-to-get-generic-list-response
 Spring webflux ReactiveMongoOperations find by elemMatch	2020-10-05	384	2	https://stackoverflow.com/questions/64206481/spring-webflux-reactivemongooperations-find-by-elemmatch
 Get rid of spring-boot-starter-data-mongodb dependency on vulnerable Log4J version	2021-12-13	403	1	https://stackoverflow.com/questions/70334555/get-rid-of-spring-boot-starter-data-mongodb-dependency-on-vulnerable-log4j-versi
@@ -7019,7 +7019,7 @@ How to use LDAP Authentication in a corporate environment	2018-12-14	829	1	https
 Springboot and maven: how to launch unit tests automatically with two profiles	2019-08-04	168	4	https://stackoverflow.com/questions/57340378/springboot-and-maven-how-to-launch-unit-tests-automatically-with-two-profiles
 Spring Repository nullpointerexception	2018-03-23	5911	1	https://stackoverflow.com/questions/49444965/spring-repository-nullpointerexception
 Spring Boot JPA "Validation failed for query" error for JPQL	2017-09-14	2859	1	https://stackoverflow.com/questions/46215781/spring-boot-jpa-validation-failed-for-query-error-for-jpql
-spring-data-redis with @Cachable & @Query gives a java.io.NotSerializableException on DefaultMethodInvokingMethodInterceptor	2017-09-19	1597	0	https://stackoverflow.com/questions/46287281/spring-data-redis-with-cachable-query-gives-a-java-io-notserializableexcepti
+spring-data-redis with @Cachable  @Query gives a java.io.NotSerializableException on DefaultMethodInvokingMethodInterceptor	2017-09-19	1597	0	https://stackoverflow.com/questions/46287281/spring-data-redis-with-cachable-query-gives-a-java-io-notserializableexcepti
 Consul on Docker Swarm with Spring Boot clients	2019-01-16	1675	1	https://stackoverflow.com/questions/54220374/consul-on-docker-swarm-with-spring-boot-clients
 JDBC prepared statement creates one extra database hit without any params	2019-12-03	264	1	https://stackoverflow.com/questions/59153072/jdbc-prepared-statement-creates-one-extra-database-hit-without-any-params
 Pattern confirmation consumer / producer without autostart of kafkalistener	2019-01-29	925	0	https://stackoverflow.com/questions/54406845/pattern-confirmation-consumer-producer-without-autostart-of-kafkalistener
@@ -7467,7 +7467,7 @@ Spring Boot, Security OAuth2 Google Logout and no Autologin	2020-06-12	390	1	htt
 Spring boot - slow method execution	2018-01-15	1015	0	https://stackoverflow.com/questions/48260078/spring-boot-slow-method-execution
 Webflux repeatWhenEmpty or retryWhen	2020-06-29	1492	1	https://stackoverflow.com/questions/62641880/webflux-repeatwhenempty-or-retrywhen
 Exception in thread "restartedMain" java.lang.reflect.InvocationTargetException Caused by: java.lang.NullPointerException	2020-06-07	1557	1	https://stackoverflow.com/questions/62238830/exception-in-thread-restartedmain-java-lang-reflect-invocationtargetexception
-Springboot upgrade 1.5.8 to 2.0 release getting exception "org.springframework.beans.factory.NoSuchBeanDefinitionException"	2018-04-04	1467	1	https://stackoverflow.com/questions/49641443/springboot-upgrade-1-5-8-to-2-0-release-getting-exception-quotorg-springframew
+Springboot upgrade 1.5.8 to 2.0 release getting exception quot;org.springframework.beans.factory.NoSuchBeanDefinitionExceptionquot;	2018-04-04	1467	1	https://stackoverflow.com/questions/49641443/springboot-upgrade-1-5-8-to-2-0-release-getting-exception-quotorg-springframew
 Jooq unable to find database when triggered via a gradle image on Dockerfile	2020-06-02	831	1	https://stackoverflow.com/questions/62140023/jooq-unable-to-find-database-when-triggered-via-a-gradle-image-on-dockerfile
 Spring batch launches SimpleJobLauncher run method before boot run method	2020-06-17	372	2	https://stackoverflow.com/questions/62424538/spring-batch-launches-simplejoblauncher-run-method-before-boot-run-method
 Ignore SSL certificate verfication while connecting to elasticsearch from SPRING BOOT via high level rest client	2020-06-09	1250	1	https://stackoverflow.com/questions/62270799/ignore-ssl-certificate-verfication-while-connecting-to-elasticsearch-from-spring
@@ -7599,7 +7599,7 @@ Persisting WAR Database Configuration?	2020-03-01	45	1	https://stackoverflow.com
 Can't connect to Bigtable from a Spring Boot application	2017-01-24	1068	1	https://stackoverflow.com/questions/41812627/cant-connect-to-bigtable-from-a-spring-boot-application
 Hibernate @Column annotation not work	2017-01-19	3705	4	https://stackoverflow.com/questions/41733010/hibernate-column-annotation-not-work
 Initialisation of Spring ConfigurationProperties	2019-12-30	1692	2	https://stackoverflow.com/questions/59526999/initialisation-of-spring-configurationproperties
-Couldn&#39;t retrieve remote JWK set: login.microsoftonline.com	2019-12-24	2131	2	https://stackoverflow.com/questions/59467932/couldn39t-retrieve-remote-jwk-set-login-microsoftonline-com
+Couldn't retrieve remote JWK set: login.microsoftonline.com	2019-12-24	2131	2	https://stackoverflow.com/questions/59467932/couldn39t-retrieve-remote-jwk-set-login-microsoftonline-com
 How to call service based classes from entity class in spring boot	2019-11-27	616	1	https://stackoverflow.com/questions/59067687/how-to-call-service-based-classes-from-entity-class-in-spring-boot
 Java - Spring Boot: Access-Control- Allow-Origin not working	2019-12-12	6573	4	https://stackoverflow.com/questions/59300723/java-spring-boot-access-control-allow-origin-not-working
 Unsatisfied dependency expressed through field 'springSecurityFilterChain'	2019-12-03	603	1	https://stackoverflow.com/questions/59157136/unsatisfied-dependency-expressed-through-field-springsecurityfilterchain
@@ -7689,7 +7689,7 @@ Paging SELECT query results from Cassandra in Spring Boot application	2016-12-30
 Missing schema module for spring-cloud-stream	2016-11-26	477	1	https://stackoverflow.com/questions/40813184/missing-schema-module-for-spring-cloud-stream
 NullPointerException: ProGuard, Spring Boot	2016-01-28	972	1	https://stackoverflow.com/questions/35065609/nullpointerexception-proguard-spring-boot
 Spring boot runtime add controller?	2016-03-08	3391	2	https://stackoverflow.com/questions/35863127/spring-boot-runtime-add-controller
-Two way relationship with JsonBackReference & JsonManagedReference	2016-10-27	6504	1	https://stackoverflow.com/questions/40268465/two-way-relationship-with-jsonbackreference-jsonmanagedreference
+Two way relationship with JsonBackReference  JsonManagedReference	2016-10-27	6504	1	https://stackoverflow.com/questions/40268465/two-way-relationship-with-jsonbackreference-jsonmanagedreference
 Bean validation specification prioritizing	2017-01-12	402	1	https://stackoverflow.com/questions/41596587/bean-validation-specification-prioritizing
 Can't connect to Bigtable from a Spring Boot application	2017-01-24	1068	1	https://stackoverflow.com/questions/41812627/cant-connect-to-bigtable-from-a-spring-boot-application
 Spring Context shutting down camel routes when activemq connection is lost	2017-01-20	1004	1	https://stackoverflow.com/questions/41755670/spring-context-shutting-down-camel-routes-when-activemq-connection-is-lost
@@ -7757,7 +7757,7 @@ How to load data with data.sql using JHipster and Spring Boot	2017-07-23	1569	1	
 Displaying pretty printed JSON from variable with Java Spring boot Thymeleaf	2020-07-10	1114	1	https://stackoverflow.com/questions/62822117/displaying-pretty-printed-json-from-variable-with-java-spring-boot-thymeleaf
 MULTIPLE SPRING BOOT FAT JAR	2020-07-08	121	1	https://stackoverflow.com/questions/62780328/multiple-spring-boot-fat-jar
 Cant pass "status" as HttpParameter to Spring Boot MVC Application	2017-04-03	1157	3	https://stackoverflow.com/questions/43180582/cant-pass-status-as-httpparameter-to-spring-boot-mvc-application
-Two way relationship with JsonBackReference & JsonManagedReference	2016-10-27	6504	1	https://stackoverflow.com/questions/40268465/two-way-relationship-with-jsonbackreference-jsonmanagedreference
+Two way relationship with JsonBackReference  JsonManagedReference	2016-10-27	6504	1	https://stackoverflow.com/questions/40268465/two-way-relationship-with-jsonbackreference-jsonmanagedreference
 Unable to render the JSP using Spring Boot	2017-08-07	3233	2	https://stackoverflow.com/questions/45533908/unable-to-render-the-jsp-using-spring-boot
 An attempt was made to call a method that does not exist. STS	2020-03-29	5434	2	https://stackoverflow.com/questions/60909834/an-attempt-was-made-to-call-a-method-that-does-not-exist-sts
 Spring security @Secured always need ROLE_ prefix, how we can remove the prefix	2020-02-26	583	1	https://stackoverflow.com/questions/60416766/spring-security-secured-always-need-role-prefix-how-we-can-remove-the-prefix
@@ -7839,7 +7839,7 @@ SQL Results Mapping to JSON Spring	2016-06-17	144	0	https://stackoverflow.com/qu
 Spring reactive streaming data from regular WebClient request	2017-11-02	2133	1	https://stackoverflow.com/questions/47063531/spring-reactive-streaming-data-from-regular-webclient-request
 Swagger 2 integration with Spring boot application	2016-08-08	7105	1	https://stackoverflow.com/questions/38827281/swagger-2-integration-with-spring-boot-application
 Spring boot embed tomcat - /pages/index.xhtml Not Found in ExternalContext as a Resource	2016-08-18	4511	1	https://stackoverflow.com/questions/39013112/spring-boot-embed-tomcat-pages-index-xhtml-not-found-in-externalcontext-as-a
-How can i loop over an ArrayList using thymeleaf & spring Boot?	2017-05-18	11306	1	https://stackoverflow.com/questions/44047053/how-can-i-loop-over-an-arraylist-using-thymeleaf-spring-boot
+How can i loop over an ArrayList using thymeleaf  spring Boot?	2017-05-18	11306	1	https://stackoverflow.com/questions/44047053/how-can-i-loop-over-an-arraylist-using-thymeleaf-spring-boot
 Springboot Request method 'POST' not supported	2017-06-11	4071	1	https://stackoverflow.com/questions/44476400/springboot-request-method-post-not-supported
 No value at JSON path "$.name", exception: json can not be null or empty, Using Mockmvc and Spring-boot	2017-10-25	11035	1	https://stackoverflow.com/questions/46930241/no-value-at-json-path-name-exception-json-can-not-be-null-or-empty-using
 Spring-boot: mongoDB date comparison not working	2017-10-11	3082	1	https://stackoverflow.com/questions/46674501/spring-boot-mongodb-date-comparison-not-working
@@ -7854,14 +7854,14 @@ DefaultMessageListenerContainer Not Reading Messages from IBM MQ	2017-06-15	1260
 "SLF4J: Class path contains multiple SLF4J bindings" error when deploying the Spring example application to Cloud Foundry	2016-05-09	8641	1	https://stackoverflow.com/questions/37108814/slf4j-class-path-contains-multiple-slf4j-bindings-error-when-deploying-the-sp
 How to register a servlet with enabled "async-supported" in Spring-Boot?	2015-07-30	4198	3	https://stackoverflow.com/questions/31720758/how-to-register-a-servlet-with-enabled-async-supported-in-spring-boot
 Cannot deploy Spring Boot on jBoss EAP 6.3.3	2015-09-30	1704	2	https://stackoverflow.com/questions/32870599/cannot-deploy-spring-boot-on-jboss-eap-6-3-3
-Duplicate session creation & duplicate threads in AuthenticationProvider? Why?	2017-05-18	640	1	https://stackoverflow.com/questions/44033738/duplicate-session-creation-duplicate-threads-in-authenticationprovider-why
+Duplicate session creation  duplicate threads in AuthenticationProvider? Why?	2017-05-18	640	1	https://stackoverflow.com/questions/44033738/duplicate-session-creation-duplicate-threads-in-authenticationprovider-why
 Spring boot war not working on EAP 6	2017-10-09	1014	1	https://stackoverflow.com/questions/46640434/spring-boot-war-not-working-on-eap-6
 Spring Boot war fails to deploy properly on Resin server	2014-03-13	2668	4	https://stackoverflow.com/questions/22365365/spring-boot-war-fails-to-deploy-properly-on-resin-server
 How to handle blob field in Spring Batch?	2020-05-07	440	2	https://stackoverflow.com/questions/61640537/how-to-handle-blob-field-in-spring-batch
 Logback rollingFileAppender xml not rolling over or deleting old archived logs	2016-01-14	3368	1	https://stackoverflow.com/questions/34772372/logback-rollingfileappender-xml-not-rolling-over-or-deleting-old-archived-logs
 Configuring catalog items through manifest.yml file	2016-02-26	795	1	https://stackoverflow.com/questions/35641240/configuring-catalog-items-through-manifest-yml-file
 Cannot use save() to insert when previously importing data using data.sql	2020-03-30	355	1	https://stackoverflow.com/questions/60932169/cannot-use-save-to-insert-when-previously-importing-data-using-data-sql
-antMatchers & permitAll doesn't let me visit the REST point	2020-04-05	655	2	https://stackoverflow.com/questions/61031784/antmatchers-permitall-doesnt-let-me-visit-the-rest-point
+antMatchers  permitAll doesn't let me visit the REST point	2020-04-05	655	2	https://stackoverflow.com/questions/61031784/antmatchers-permitall-doesnt-let-me-visit-the-rest-point
 Downloading byte array from Spring Boot to Vue frontend	2020-04-27	1153	1	https://stackoverflow.com/questions/61461094/downloading-byte-array-from-spring-boot-to-vue-frontend
 @Valid working with @ModelAttribute, not with @RequestAttribute	2020-04-21	426	1	https://stackoverflow.com/questions/61333008/valid-working-with-modelattribute-not-with-requestattribute
 How to replace flatFileItemReader with openCSV in spring batch	2020-04-21	424	1	https://stackoverflow.com/questions/61343233/how-to-replace-flatfileitemreader-with-opencsv-in-spring-batch
@@ -8055,7 +8055,7 @@ Reactive REST API pagination	2020-01-17	1977	1	https://stackoverflow.com/questio
 Getting qualifier names from initialized bean objects	2019-09-20	50	2	https://stackoverflow.com/questions/58022872/getting-qualifier-names-from-initialized-bean-objects
 How to find the togglz url when integrating with spring-boot and jersey	2016-03-30	552	1	https://stackoverflow.com/questions/36306510/how-to-find-the-togglz-url-when-integrating-with-spring-boot-and-jersey
 Several instances of a common @Configuration with different @PropertySource in Spring	2020-01-25	223	1	https://stackoverflow.com/questions/59905548/several-instances-of-a-common-configuration-with-different-propertysource-in-s
-Spring Boot & OAuth2.0: At least one redirect_uri must be registered with the client	2020-01-21	1833	1	https://stackoverflow.com/questions/59844841/spring-boot-oauth2-0-at-least-one-redirect-uri-must-be-registered-with-the-cl
+Spring Boot  OAuth2.0: At least one redirect_uri must be registered with the client	2020-01-21	1833	1	https://stackoverflow.com/questions/59844841/spring-boot-oauth2-0-at-least-one-redirect-uri-must-be-registered-with-the-cl
 File upload with params in angular	2019-10-31	1711	2	https://stackoverflow.com/questions/58640822/file-upload-with-params-in-angular
 Spring Boot @ManyToOne only Id @JsonProperty	2020-02-23	2122	3	https://stackoverflow.com/questions/60357405/spring-boot-manytoone-only-id-jsonproperty
 Debugger port not opening	2019-10-28	921	1	https://stackoverflow.com/questions/58581547/debugger-port-not-opening
@@ -8147,7 +8147,7 @@ How to implement multiple SFDC Outbound Message receivers in the same Spring ser
 Springboot H2 in memory database - cannot connect	2020-04-05	721	2	https://stackoverflow.com/questions/61033350/springboot-h2-in-memory-database-cannot-connect
 Configuring swagger for spring boot app	2016-08-21	2405	2	https://stackoverflow.com/questions/39058628/configuring-swagger-for-spring-boot-app
 @Valid working with @ModelAttribute, not with @RequestAttribute	2020-04-21	426	1	https://stackoverflow.com/questions/61333008/valid-working-with-modelattribute-not-with-requestattribute
-antMatchers & permitAll doesn't let me visit the REST point	2020-04-05	655	2	https://stackoverflow.com/questions/61031784/antmatchers-permitall-doesnt-let-me-visit-the-rest-point
+antMatchers  permitAll doesn't let me visit the REST point	2020-04-05	655	2	https://stackoverflow.com/questions/61031784/antmatchers-permitall-doesnt-let-me-visit-the-rest-point
 rabbitmq publish failed with PRECONDITION_FAILED - fast reply consumer does not exist	2018-02-16	1778	0	https://stackoverflow.com/questions/48823323/rabbitmq-publish-failed-with-precondition-failed-fast-reply-consumer-does-not
 Spring Boot GET request to API	2020-03-31	494	3	https://stackoverflow.com/questions/60954202/spring-boot-get-request-to-api
 Restrict access to Swagger UI	2016-08-24	9537	2	https://stackoverflow.com/questions/39112974/restrict-access-to-swagger-ui
@@ -8176,7 +8176,7 @@ Spring Boot/Kotlin ignore value field of @QueryParam	2020-03-17	1491	0	https://s
 Despite have a function for CORS, Spring application is responding with 406	2020-03-14	159	2	https://stackoverflow.com/questions/60683889/despite-have-a-function-for-cors-spring-application-is-responding-with-406
 @Transactional not working when i throw exception on next line	2020-04-03	704	1	https://stackoverflow.com/questions/60995945/transactional-not-working-when-i-throw-exception-on-next-line
 UriComponentsBuilder/MvcComponentsBuilder usage in a Spring Boot Test	2020-01-19	1286	1	https://stackoverflow.com/questions/59805642/uricomponentsbuilder-mvccomponentsbuilder-usage-in-a-spring-boot-test
-Spring Boot & OAuth2.0: At least one redirect_uri must be registered with the client	2020-01-21	1833	1	https://stackoverflow.com/questions/59844841/spring-boot-oauth2-0-at-least-one-redirect-uri-must-be-registered-with-the-cl
+Spring Boot  OAuth2.0: At least one redirect_uri must be registered with the client	2020-01-21	1833	1	https://stackoverflow.com/questions/59844841/spring-boot-oauth2-0-at-least-one-redirect-uri-must-be-registered-with-the-cl
 mvn test fails but running the test from IntelliJ IDEA pass	2019-11-19	136	1	https://stackoverflow.com/questions/58935046/mvn-test-fails-but-running-the-test-from-intellij-idea-pass
 Load RSA public key Error DerInputStream.getLength(): lengthTag=109, too big	2019-12-04	1286	1	https://stackoverflow.com/questions/59171252/load-rsa-public-key-error-derinputstream-getlength-lengthtag-109-too-big
 Docker compose error on mysql db connect for spring boot app Caused by: java.net.UnknownHostException:	2020-02-07	2004	1	https://stackoverflow.com/questions/60109913/docker-compose-error-on-mysql-db-connect-for-spring-boot-app-caused-by-java-net
@@ -8504,7 +8504,7 @@ Spring boot did not create datasource	2014-03-07	3083	1	https://stackoverflow.co
 setParameterList() does not return full result set	2017-09-11	467	2	https://stackoverflow.com/questions/46154813/setparameterlist-does-not-return-full-result-set
 Saving entity with @IdClass produces empty row	2020-10-14	53	1	https://stackoverflow.com/questions/64348075/saving-entity-with-idclass-produces-empty-row
 Can't read yaml's complex object using @ConfigurationProperties. Integer cannot be cast to String	2018-01-03	1544	2	https://stackoverflow.com/questions/48071057/cant-read-yamls-complex-object-using-configurationproperties-integer-cannot
-Process &#39;command &#39;C:/Program Files/Java/jdk-14.0.1/bin/java.exe&#39;&#39; finished with non-zero exit value 1 in Intellij IDE	2020-10-04	347	0	https://stackoverflow.com/questions/64191267/process-39command-39c-program-files-java-jdk-14-0-1-bin-java-exe3939
+Process 'command 'C:/Program Files/Java/jdk-14.0.1/bin/java.exe'' finished with non-zero exit value 1 in Intellij IDE	2020-10-04	347	0	https://stackoverflow.com/questions/64191267/process-39command-39c-program-files-java-jdk-14-0-1-bin-java-exe3939
 Throw WebServerException: Unable to start embedded Tomcat using Powermock and Springboot	2020-11-12	286	1	https://stackoverflow.com/questions/64797257/throw-webserverexception-unable-to-start-embedded-tomcat-using-powermock-and-sp
 available: expected at least 1 bean which qualifies as autowire candidate	2020-11-08	727	2	https://stackoverflow.com/questions/64739250/available-expected-at-least-1-bean-which-qualifies-as-autowire-candidate
 Create HTTP.PATCH request to firebase from JAVA Spring	2014-03-07	2450	1	https://stackoverflow.com/questions/22252636/create-http-patch-request-to-firebase-from-java-spring
@@ -8559,7 +8559,7 @@ Invoking a Stored procedure in spring boot application and assign the result to 
 How to generate swagger-ui from several yaml specifications?	2020-09-01	1573	1	https://stackoverflow.com/questions/63675072/how-to-generate-swagger-ui-from-several-yaml-specifications
 Configuring catalog items through manifest.yml file	2016-02-26	795	1	https://stackoverflow.com/questions/35641240/configuring-catalog-items-through-manifest-yml-file
 ClientAbortException in streaming video with spring-content and spring-boot	2020-09-06	386	1	https://stackoverflow.com/questions/63756547/clientabortexception-in-streaming-video-with-spring-content-and-spring-boot
-Unsatisfied dependency expressed through field &#39;userRepository&#39;	2020-09-04	982	1	https://stackoverflow.com/questions/63741524/unsatisfied-dependency-expressed-through-field-39userrepository39
+Unsatisfied dependency expressed through field 'userRepository'	2020-09-04	982	1	https://stackoverflow.com/questions/63741524/unsatisfied-dependency-expressed-through-field-39userrepository39
 Working fine with Spring JMS and getting problem with Apache camel route , IBM MQ Route	2020-08-13	235	0	https://stackoverflow.com/questions/63391439/working-fine-with-spring-jms-and-getting-problem-with-apache-camel-route-ibm-m
 How to watch ConfigMap with sharedInformer	2020-09-03	403	0	https://stackoverflow.com/questions/63719631/how-to-watch-configmap-with-sharedinformer
 How to set the database schema for the Quartz scheduler with Spring Boot and Flyway?	2020-09-24	3910	1	https://stackoverflow.com/questions/64045340/how-to-set-the-database-schema-for-the-quartz-scheduler-with-spring-boot-and-fly
@@ -8570,7 +8570,7 @@ org.postgresql.util.PSQLException: The column name start_value was not found in 
 Spring boot and tomcat connection pool: using embedded server, and without embedded server	2020-09-30	111	0	https://stackoverflow.com/questions/64138645/spring-boot-and-tomcat-connection-pool-using-embedded-server-and-without-embed
 Spring Security with Azure AD doesn't redirect	2020-10-09	853	1	https://stackoverflow.com/questions/64269391/spring-security-with-azure-ad-doesnt-redirect
 Failed to convert property value of type 'java.lang.String' to required type 'java.sql.Date'	2020-10-09	775	1	https://stackoverflow.com/questions/64270482/failed-to-convert-property-value-of-type-java-lang-string-to-required-type-ja
-Tomcat 9 can&#39;t load spring boot application	2020-10-07	1111	3	https://stackoverflow.com/questions/64232117/tomcat-9-can39t-load-spring-boot-application
+Tomcat 9 can't load spring boot application	2020-10-07	1111	3	https://stackoverflow.com/questions/64232117/tomcat-9-can39t-load-spring-boot-application
 Recreate DTO class without field property instead of having it null using Gson/Jackson and Spring Boot	2020-09-22	350	1	https://stackoverflow.com/questions/64006127/recreate-dto-class-without-field-property-instead-of-having-it-null-using-gson-j
 Adding a external Jar is not working, getting NoClassDefFoundError	2020-09-09	350	0	https://stackoverflow.com/questions/63810816/adding-a-external-jar-is-not-working-getting-noclassdeffounderror
 spring batch error NoSuchJobException: No such job (either in registry or in historical data)	2020-09-03	594	1	https://stackoverflow.com/questions/63713450/spring-batch-error-nosuchjobexception-no-such-job-either-in-registry-or-in-his
@@ -8655,7 +8655,7 @@ Running a executable JAR with external dependencies	2017-03-29	1040	1	https://st
 Spring boot - Rest Service - Getting random HTTP status 400	2018-04-18	495	1	https://stackoverflow.com/questions/49886610/spring-boot-rest-service-getting-random-http-status-400
 Variable datasource based on user	2018-05-23	184	1	https://stackoverflow.com/questions/50472097/variable-datasource-based-on-user
 Docker Swarm with springboot app	2018-06-27	2028	2	https://stackoverflow.com/questions/51053147/docker-swarm-with-springboot-app
-IgniteSpringBean & Ignite SpringTransactionManager do not work together anymore in 2.4	2018-05-25	898	1	https://stackoverflow.com/questions/50521421/ignitespringbean-ignite-springtransactionmanager-do-not-work-together-anymore
+IgniteSpringBean  Ignite SpringTransactionManager do not work together anymore in 2.4	2018-05-25	898	1	https://stackoverflow.com/questions/50521421/ignitespringbean-ignite-springtransactionmanager-do-not-work-together-anymore
 Where to create the folder?	2018-04-18	69	2	https://stackoverflow.com/questions/49884317/where-to-create-the-folder
 Fail to connect AWS-Postgres server with spring boot application with heroku hosting	2018-06-09	2414	1	https://stackoverflow.com/questions/50772559/fail-to-connect-aws-postgres-server-with-spring-boot-application-with-heroku-hos
 Spring Integration + SpringBoot JUnit tries to connect to DB unexpectedly	2018-05-27	70	2	https://stackoverflow.com/questions/50545304/spring-integration-springboot-junit-tries-to-connect-to-db-unexpectedly
@@ -8936,7 +8936,7 @@ Spring boot 1.3.3 is not building with gradle 3.0	2017-03-08	5404	1	https://stac
 is it possible to use OSGI with spring boot microservices? Please tell me in detail	2018-08-30	1907	2	https://stackoverflow.com/questions/52098061/is-it-possible-to-use-osgi-with-spring-boot-microservices-please-tell-me-in-det
 AOP: Able to Intercept JDBCTemplate calls but not NamedParameterJdbcTemplate calls	2018-10-04	401	0	https://stackoverflow.com/questions/52634043/aop-able-to-intercept-jdbctemplate-calls-but-not-namedparameterjdbctemplate-cal
 Spring Boot with MySQL is shutting down immedietly	2018-08-15	3493	1	https://stackoverflow.com/questions/51857478/spring-boot-with-mysql-is-shutting-down-immedietly
-Spring Boot 2 & Spring 5 Container confusion	2017-07-31	592	1	https://stackoverflow.com/questions/45404379/spring-boot-2-spring-5-container-confusion
+Spring Boot 2  Spring 5 Container confusion	2017-07-31	592	1	https://stackoverflow.com/questions/45404379/spring-boot-2-spring-5-container-confusion
 Testing Spring Data Rest endpoints using RestTemplate not working in SpringBoot 2.0.0.BUILD-SNAPSHOT	2017-05-16	732	0	https://stackoverflow.com/questions/43991995/testing-spring-data-rest-endpoints-using-resttemplate-not-working-in-springboot
 Spring Test: Exclude resources from ApplicationContext	2018-09-21	1280	1	https://stackoverflow.com/questions/52440760/spring-test-exclude-resources-from-applicationcontext
 Accesing spring boot's application.properties on weblogic 10.3.6	2017-05-15	2472	2	https://stackoverflow.com/questions/43975472/accesing-spring-boots-application-properties-on-weblogic-10-3-6
@@ -8985,7 +8985,7 @@ unable to read properties using configurationproperties annotation	2018-07-23	12
 Unsatisfied dependency expressed through field 'clientRepository';	2018-05-23	7742	1	https://stackoverflow.com/questions/50490252/unsatisfied-dependency-expressed-through-field-clientrepository
 Spring Batch - Could not @Autowired SimpleJobLauncher	2018-07-20	13857	1	https://stackoverflow.com/questions/51436301/spring-batch-could-not-autowired-simplejoblauncher
 SessionFactory not autowired even with Beans provided	2018-07-18	769	1	https://stackoverflow.com/questions/51401850/sessionfactory-not-autowired-even-with-beans-provided
-Spring-Boot-Admin is not loading the Admin page & UI is loaded for login page	2018-08-10	3584	2	https://stackoverflow.com/questions/51786821/spring-boot-admin-is-not-loading-the-admin-page-ui-is-loaded-for-login-page
+Spring-Boot-Admin is not loading the Admin page  UI is loaded for login page	2018-08-10	3584	2	https://stackoverflow.com/questions/51786821/spring-boot-admin-is-not-loading-the-admin-page-ui-is-loaded-for-login-page
 Spring circular reference error in OAuth2 configuration	2018-08-12	2948	1	https://stackoverflow.com/questions/51808075/spring-circular-reference-error-in-oauth2-configuration
 thymeleaf 3 spring 5 load css	2018-06-11	610	1	https://stackoverflow.com/questions/50792837/thymeleaf-3-spring-5-load-css
 Springboot multimodule project	2018-04-26	474	2	https://stackoverflow.com/questions/50044126/springboot-multimodule-project
@@ -9051,7 +9051,7 @@ java.lang.ClassNotFoundException: javax.ws.rs.ProcessingException	2018-06-30	448
 Springboot: Localhost:8080 results in Whitepage-Error instead of showing content	2018-07-25	459	1	https://stackoverflow.com/questions/51520924/springboot-localhost8080-results-in-whitepage-error-instead-of-showing-content
 Spring boot + Redis - Generating a strange key	2018-07-12	2562	2	https://stackoverflow.com/questions/51291548/spring-boot-redis-generating-a-strange-key
 server level logs in springboot	2018-06-20	144	0	https://stackoverflow.com/questions/50947910/server-level-logs-in-springboot
-Seemingly Random Test Failure With Maven & Spring Boot 2 When A WebFluxTest Is Introduced	2018-06-27	546	0	https://stackoverflow.com/questions/51048684/seemingly-random-test-failure-with-maven-spring-boot-2-when-a-webfluxtest-is-i
+Seemingly Random Test Failure With Maven  Spring Boot 2 When A WebFluxTest Is Introduced	2018-06-27	546	0	https://stackoverflow.com/questions/51048684/seemingly-random-test-failure-with-maven-spring-boot-2-when-a-webfluxtest-is-i
 Rest template getForObject() mapping only camel case fields	2018-06-04	656	2	https://stackoverflow.com/questions/50675870/rest-template-getforobject-mapping-only-camel-case-fields
 Implementing filter-based JWT authentication vs OAuth2 JWT authentication on Spring Boot 2	2018-06-20	950	1	https://stackoverflow.com/questions/50950059/implementing-filter-based-jwt-authentication-vs-oauth2-jwt-authentication-on-spr
 Values in the response of api are empty	2018-07-06	53	0	https://stackoverflow.com/questions/51212573/values-in-the-response-of-api-are-empty
@@ -9074,7 +9074,7 @@ Getting whitelabel error page when running springboot application	2018-10-09	714
 Spring Boot application with context hierarchy tries to start an embedded tomcat when deployed to an existing one	2018-10-14	514	0	https://stackoverflow.com/questions/52797602/spring-boot-application-with-context-hierarchy-tries-to-start-an-embedded-tomcat
 Implementing schema based multi tenancy in springboot application that is secured using keycloak	2018-10-09	823	0	https://stackoverflow.com/questions/52724191/implementing-schema-based-multi-tenancy-in-springboot-application-that-is-secure
 Spring Boot get name of main class at runtime	2018-10-15	2279	1	https://stackoverflow.com/questions/52806176/spring-boot-get-name-of-main-class-at-runtime
-Field todoService in com.springboot.todoController.TodoController required a bean of type &#39;com.springboot.todo.TodoService&#39; that could not be found	2018-10-08	156	2	https://stackoverflow.com/questions/52700496/field-todoservice-in-com-springboot-todocontroller-todocontroller-required-a-bea
+Field todoService in com.springboot.todoController.TodoController required a bean of type 'com.springboot.todo.TodoService' that could not be found	2018-10-08	156	2	https://stackoverflow.com/questions/52700496/field-todoservice-in-com-springboot-todocontroller-todocontroller-required-a-bea
 FileSystemAcceptOnceFilelistFilter is not working	2018-08-28	668	1	https://stackoverflow.com/questions/52047650/filesystemacceptoncefilelistfilter-is-not-working
 Spring Boot with MySQL is shutting down immedietly	2018-08-15	3493	1	https://stackoverflow.com/questions/51857478/spring-boot-with-mysql-is-shutting-down-immedietly
 Axon message receive but event handler not call	2018-08-06	1591	1	https://stackoverflow.com/questions/51706295/axon-message-receive-but-event-handler-not-call
@@ -9091,7 +9091,7 @@ Spring Test: Exclude resources from ApplicationContext	2018-09-21	1280	1	https:/
 Have a problem with sending a gmail message to a new registerd user	2018-09-29	51	2	https://stackoverflow.com/questions/52568991/have-a-problem-with-sending-a-gmail-message-to-a-new-registerd-user
 HTTPBeat installation on windows 8.1 issue	2018-09-15	50	1	https://stackoverflow.com/questions/52339853/httpbeat-installation-on-windows-8-1-issue
 SpringBoot retrieve existing prototype beans	2018-09-18	174	1	https://stackoverflow.com/questions/52376526/springboot-retrieve-existing-prototype-beans
-Spring Data repository can&#39;t autowire	2018-09-24	244	2	https://stackoverflow.com/questions/52481169/spring-data-repository-can39t-autowire
+Spring Data repository can't autowire	2018-09-24	244	2	https://stackoverflow.com/questions/52481169/spring-data-repository-can39t-autowire
 Refreshing Spring Cloud Config from filesystem not working once my app is deployed on docker	2018-09-20	252	0	https://stackoverflow.com/questions/52421946/refreshing-spring-cloud-config-from-filesystem-not-working-once-my-app-is-deploy
 Spring Boot: Testing custom MongoTemplate converters	2018-09-21	1050	1	https://stackoverflow.com/questions/52438558/spring-boot-testing-custom-mongotemplate-converters
 Error in setting up Jersey	2017-06-18	327	1	https://stackoverflow.com/questions/44616721/error-in-setting-up-jersey
@@ -9113,7 +9113,7 @@ Setting model attributes for every action within each controller	2017-06-05	1648
 Reference a jar file in the persistence.xml within a Spring Boot project	2017-05-30	321	0	https://stackoverflow.com/questions/44255023/reference-a-jar-file-in-the-persistence-xml-within-a-spring-boot-project
 springboot jta transaction rollback is not working	2017-05-30	2228	3	https://stackoverflow.com/questions/44264811/springboot-jta-transaction-rollback-is-not-working
 Springboot with Spring OAuth2	2017-07-30	1724	2	https://stackoverflow.com/questions/45395305/springboot-with-spring-oauth2
-Spring Boot 2 & Spring 5 Container confusion	2017-07-31	592	1	https://stackoverflow.com/questions/45404379/spring-boot-2-spring-5-container-confusion
+Spring Boot 2  Spring 5 Container confusion	2017-07-31	592	1	https://stackoverflow.com/questions/45404379/spring-boot-2-spring-5-container-confusion
 Spring @Query Remove Quote	2017-07-28	1329	1	https://stackoverflow.com/questions/45375370/spring-query-remove-quote
 Shared Config(at git) between SPring Boot Services	2017-08-04	509	1	https://stackoverflow.com/questions/45499251/shared-configat-git-between-spring-boot-services
 Redirecting to original page after successful login returns raw data instead of URL name	2017-05-12	644	2	https://stackoverflow.com/questions/43924104/redirecting-to-original-page-after-successful-login-returns-raw-data-instead-of
@@ -9134,7 +9134,7 @@ Avoid Controllers initialization when testing spring boot HandlerInterceptor	201
 Running a executable JAR with external dependencies	2017-03-29	1040	1	https://stackoverflow.com/questions/43089779/running-a-executable-jar-with-external-dependencies
 Cannot determine embedded database for tests. If you want an embedded database please put a supported one on the classpath	2016-12-26	2154	1	https://stackoverflow.com/questions/41325154/cannot-determine-embedded-database-for-tests-if-you-want-an-embedded-database-p
 SockJS + Stomp + SpringBoot = Issue	2017-04-06	926	1	https://stackoverflow.com/questions/43239624/sockjs-stomp-springboot-issue
-can&#39;t determine local email address : Spring boot	2017-04-17	2777	1	https://stackoverflow.com/questions/43452039/can39t-determine-local-email-address-spring-boot
+can't determine local email address : Spring boot	2017-04-17	2777	1	https://stackoverflow.com/questions/43452039/can39t-determine-local-email-address-spring-boot
 Spring Web Flow validator not found	2017-04-04	528	1	https://stackoverflow.com/questions/43206989/spring-web-flow-validator-not-found
 Json to pojo convertions	2017-04-12	117	4	https://stackoverflow.com/questions/43366958/json-to-pojo-convertions
 StaxItemReader to read and print the values	2017-03-16	316	1	https://stackoverflow.com/questions/42834093/staxitemreader-to-read-and-print-the-values
@@ -9142,13 +9142,13 @@ error while running integration test with spring boot and testng	2016-11-05	1534
 Spring boot 1.3.3 is not building with gradle 3.0	2017-03-08	5404	1	https://stackoverflow.com/questions/42675234/spring-boot-1-3-3-is-not-building-with-gradle-3-0
 Spring boot Oauth 2 configuration cause to 401 even with the permitall antMatchers	2017-03-18	1376	1	https://stackoverflow.com/questions/42872316/spring-boot-oauth-2-configuration-cause-to-401-even-with-the-permitall-antmatche
 Angular CLI with Spring Boot	2017-03-05	2516	2	https://stackoverflow.com/questions/42599176/angular-cli-with-spring-boot
-Spring Boot Thymeleaf static content doesn&#180;t load	2016-11-22	2314	2	https://stackoverflow.com/questions/40726626/spring-boot-thymeleaf-static-content-doesn%c2%b4t-load
+Spring Boot Thymeleaf static content doesn't load	2016-11-22	2314	2	https://stackoverflow.com/questions/40726626/spring-boot-thymeleaf-static-content-doesn%c2%b4t-load
 How can I deploy a spring-boot application on Windows Server 2012 R2?	2017-03-22	5184	2	https://stackoverflow.com/questions/42947251/how-can-i-deploy-a-spring-boot-application-on-windows-server-2012-r2
 Rest Template - XML Indentation	2017-03-21	763	2	https://stackoverflow.com/questions/42909465/rest-template-xml-indentation
 Unable to access Jhipster generated micro services on jhipster-registry in Aws Elastic Beanstalk	2017-05-10	410	0	https://stackoverflow.com/questions/43878735/unable-to-access-jhipster-generated-micro-services-on-jhipster-registry-in-aws-e
 Spring Boot 1.3.5 Tomcat Access Log Rotation	2017-04-27	1137	1	https://stackoverflow.com/questions/43653845/spring-boot-1-3-5-tomcat-access-log-rotation
 Error on running Grails project	2017-05-30	2236	1	https://stackoverflow.com/questions/44246993/error-on-running-grails-project
-Accesing spring boot&#39;s application.properties on weblogic 10.3.6	2017-05-15	2472	2	https://stackoverflow.com/questions/43975472/accesing-spring-boot39s-application-properties-on-weblogic-10-3-6
+Accesing spring boot's application.properties on weblogic 10.3.6	2017-05-15	2472	2	https://stackoverflow.com/questions/43975472/accesing-spring-boot39s-application-properties-on-weblogic-10-3-6
 Problems with Angular deploy-url switch	2017-05-23	1896	1	https://stackoverflow.com/questions/44132284/problems-with-angular-deploy-url-switch
 Testing Spring Data Rest endpoints using RestTemplate not working in SpringBoot 2.0.0.BUILD-SNAPSHOT	2017-05-16	732	0	https://stackoverflow.com/questions/43991995/testing-spring-data-rest-endpoints-using-resttemplate-not-working-in-springboot
 JavaFX gRPC Client Dependencies	2017-04-03	403	1	https://stackoverflow.com/questions/43188914/javafx-grpc-client-dependencies
@@ -9192,4 +9192,5 @@ Recommended template engine to reduce redundancy of dynamic content (Spring Boot
 Spring Boot Request mapping not loading static resources	2016-10-12	916	1	https://stackoverflow.com/questions/39997358/spring-boot-request-mapping-not-loading-static-resources
 WebSocket, authentication in Spring Boot	2016-12-22	958	1	https://stackoverflow.com/questions/41285171/websocket-authentication-in-spring-boot
 Entity update in EntityManager	2017-11-25	129	1	https://stackoverflow.com/questions/47487723/entity-update-in-entitymanager
-E
+Entity not null validation message	2017-09-27	4130	2	https://stackoverflow.com/questions/46444955/entity-not-null-validation-message
+Unable to register multiple 
