@@ -12,9 +12,9 @@ import java.util.Date;
 import java.util.zip.GZIPInputStream;
 
 public class ScriptStackoverflowMybatisQuestion {
-    public static void main(String[] args) throws Exception {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        File f = new File("src/test/java/com/cs209/project/file/MybatisStackoverflowQuestionDetail.txt");
+    public static void main(String []args) throws Exception {
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+        File f = new File("src/test/java/com/cs209/project/file/MybatisStackoveflowQuestionDetail.txt");
         BufferedReader bt = new BufferedReader(new FileReader(f));
         String ans = "";
         String ss;
@@ -26,14 +26,12 @@ public class ScriptStackoverflowMybatisQuestion {
         try (bw) {
             bw.write(ans);
             for (int q = 1; q < 4; q++) {
-                String str = "https://api.stackexchange.com/docs/faqs-by-tags#page=" + q + "&pagesize=100&tags=mybatis&filter=default&site=stackoverflow&run=true";
-//                String str = "https://stackoverflow.com/search?page=173&tab=Relevance&q=Mybatis&key=*Q4hDtZ8bVAQZve4zcfkqw((";
+                String str = "https://api.stackexchange.com/2.3/tags/mybatis/faq?page="+q+"&pagesize=100&site=stackoverflow&key=*Q4hDtZ8bVAQZve4zcfkqw((";
                 URL url = new URL(str);
                 HttpURLConnection httpUrlConn = (HttpURLConnection) url.openConnection();
                 httpUrlConn.setDoInput(true);
                 httpUrlConn.setRequestMethod("GET");
                 BufferedReader br = new BufferedReader(new InputStreamReader(new GZIPInputStream(httpUrlConn.getInputStream()), StandardCharsets.UTF_8));
-//                BufferedReader br = new BufferedReader(new InputStreamReader(httpUrlConn.getInputStream(), StandardCharsets.UTF_8));
                 StringBuilder s = new StringBuilder();
                 String p;
                 while ((p = br.readLine()) != null) {
