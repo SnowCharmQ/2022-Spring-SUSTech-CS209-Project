@@ -160,7 +160,7 @@ public class SpringBootTest {
 
     @Test
     public void versionIterTest(){
-        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/correct.txt")))) {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringBootStackoverflowQuestionDetail.txt")))) {
             String line;
             while ((line = inline.readLine()) != null) {
                 String version = inline.readLine().trim();
