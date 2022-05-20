@@ -5,6 +5,8 @@ import com.cs209.project.entity.SpringBootQuestion;
 import java.util.List;
 
 public interface SpringBootQuestionMapper {
+    List<SpringBootQuestion> selectAll();
+
     List<SpringBootQuestion> select(int offset);
 
     List<SpringBootQuestion> selectByTimeAsc(int offset);

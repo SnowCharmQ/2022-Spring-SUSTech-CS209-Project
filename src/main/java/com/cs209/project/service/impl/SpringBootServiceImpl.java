@@ -67,4 +67,9 @@ public class SpringBootServiceImpl implements ISpringBootService {
         }
     }
 
+    @Override
+    public List<SpringBootQuestion> selectAllSpringBootQuestion() {
+        return springBootQuestionMapper.selectAll();
+    }
+
 }
