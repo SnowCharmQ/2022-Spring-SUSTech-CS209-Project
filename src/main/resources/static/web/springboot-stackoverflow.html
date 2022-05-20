@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/search.css">
+    <script src='../js/prefixfree.min.js'></script>
+    <script src="../bootstrap3/js/holder.js"></script>
+    <script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/question.js"></script>
+</head>
+<body style="background-color: black">
+<h1>Search In Stack Overflow With Tag 'SpringBoot'</h1>
+<div class="top-boarder"></div>
+<form id="select-question">
+    <select name="sorting" id="sort-method" class="select_box">
+        <option value="0">Sorting Method</option>
+        <option value="1">Sort By Time ASC</option>
+        <option value="2">Sort By Time DESC</option>
+        <option value="3">Sort By View Number ASC</option>
+        <option value="4">Sort By View Number DESC</option>
+        <option value="5">Sort By Answer Number ASC</option>
+        <option value="6">Sort By Answer Number DESC</option>
+    </select>
+    <div class="page">Page:</div>
+    <input type="text" name="key" class="key" placeholder="key">
+    <input type="text" name="page" class="page-num" placeholder="1">
+    <button type="button" class="select-btn" onclick="selectQuestion()">SELECT</button>
+</form>
+<div class="occupy">none</div>
+<div class="occupy">none</div>
+<div class="occupy">none</div>
+<div class="panel">
+    <div class="head">
+        <span class="question-title">Question</span>
+        <span class="date-title">Date</span>
+        <span class="views-title">Views</span>
+        <span class="answers-title">Answers</span>
+        <span class="link-title">Link</span>
+    </div>
+    <div class="spacing">none</div>
+    <div class="row">
+        <span class="question">How to use Tomcat RemoteIpFilter in Spring Boot</span>
+        <span class="date">2021-10-01</span>
+        <span class="views">614</span>
+        <span class="answers">1</span>
+        <a href="https://stackoverflow.com/questions/69403837/how-to-use-tomcat-remoteipfilter-in-spring-boot"
+           class="link">The Link To This QUESTION</a>
+    </div>
+    <div class="row">
+        <span class="question">can @FeignClient extend - and @RestController implement - a common, fully-annotated Interface?</span>
+        <span class="date">2016-02-05</span>
+        <span class="views">3361</span>
+        <span class="answers">1</span>
+        <a href="https://stackoverflow.com/questions/35212960/can-feignclient-extend-and-restcontroller-implement-a-common-fully-annota"
+           class="link">The Link To This QUESTION</a>
+    </div>
+    <div class="row">
+        <span class="question">@ConfigurationProperties Spring Boot Configuration Annotation Processor not found in classpath</span>
+        <span class="date">2017-03-17</span>
+        <span class="views">115166</span>
+        <span class="answers">14</span>
+        <a href="https://stackoverflow.com/questions/42839126/configurationproperties-spring-boot-configuration-annotation-processor-not-foun"
+           class="link">The Link To This QUESTION</a>
+    </div>
+    <div class="row">
+        <span class="question">Spring Security Caused by: org.springframework.security.config.annotation.AlreadyBuiltException: This object has already been built</span>
+        <span class="date">2015-04-23</span>
+        <span class="views">5467</span>
+        <span class="answers">2</span>
+        <a href="https://stackoverflow.com/questions/29822892/spring-security-caused-by-org-springframework-security-config-annotation-alread"
+           class="link">The Link To This QUESTION</a>
+    </div>
+    <div class="row">
+        <span class="question">how to store as a blob the audio recoding from azure API SpeechSynthesizer and play it in angular</span>
+        <span class="date">2022-05-13</span>
+        <span class="views">37</span>
+        <span class="answers">0</span>
+        <a href="https://stackoverflow.com/questions/72223068/how-to-store-as-a-blob-the-audio-recoding-from-azure-api-speechsynthesizer-and-p"
+           class="link">The Link To This QUESTION</a>
+    </div>
+</div>
+
+</body>
+</html>

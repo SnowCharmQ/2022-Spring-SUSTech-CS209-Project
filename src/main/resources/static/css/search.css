@@ -1,0 +1,338 @@
+h1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    /* 字间距 */
+    letter-spacing: 7px;
+    /* 转大写 */
+    /*text-transform: uppercase;*/
+    text-align: center;
+    line-height: 34px;
+    margin: 30px;
+    outline: none;
+    /* 自定义属性--c，可通过var函数对其调用 */
+    --c: lightseagreen;
+    /* 调用自定义属性--c，设置文字阴影（发光效果） */
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    /* 执行动画：动画名 时长 线性的 无限次播放 */
+    animation: animate 5s linear infinite;
+    white-space: pre-line;
+    width: 500px;
+    height: 52px;
+    position: absolute;
+    left: 470px;
+    top: -20px;
+    z-index: -5;
+}
+
+h2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 48px;
+    /* 字间距 */
+    letter-spacing: 7px;
+    /* 转大写 */
+    /*text-transform: uppercase;*/
+    text-align: center;
+    line-height: 60px;
+    margin: 30px;
+    outline: none;
+    /* 自定义属性--c，可通过var函数对其调用 */
+    --c: lightseagreen;
+    /* 调用自定义属性--c，设置文字阴影（发光效果） */
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    /* 执行动画：动画名 时长 线性的 无限次播放 */
+    animation: animate 5s linear infinite;
+    white-space: pre-line;
+    width: 500px;
+    height: 52px;
+    padding-left: 400px;
+}
+
+.page {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    /* 字间距 */
+    letter-spacing: 7px;
+    /* 转大写 */
+    /*text-transform: uppercase;*/
+    text-align: center;
+    line-height: 34px;
+    margin: 30px;
+    outline: none;
+    /* 自定义属性--c，可通过var函数对其调用 */
+    --c: lightseagreen;
+    /* 调用自定义属性--c，设置文字阴影（发光效果） */
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    white-space: pre-line;
+    width: 500px;
+    position: absolute;
+    left: 360px;
+    top: 63px;
+}
+
+.top-boarder {
+    background: url("../img/bg.png") no-repeat;
+    position: absolute;
+    width: 1660px;
+    height: 90px;
+    top: 5px;
+    left: -210px;
+    z-index: -1;
+}
+
+input {
+    background: #222;
+    background: linear-gradient(#333333, #222222);
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 #000;
+    color: #888;
+    display: block;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 1.3rem;
+    height: 36px;
+    margin: 20px auto 10px;
+    padding: 0 10px;
+    text-shadow: 0 -1px 0 #000;
+}
+
+.key {
+    width: 160px;
+    position: absolute;
+    top: 75px;
+    left: 850px;
+}
+
+.page-num {
+    width: 30px;
+    position: absolute;
+    top: 75px;
+    left: 700px;
+}
+
+.select_box {
+    width: 210px;
+    height: 36px;
+    border: 1px solid #3CF;
+    position: absolute;
+    float: left;
+    margin-right: 50px;
+    background: #3c3c3c;
+    color: #2aabd2;
+    top: 94px;
+    left: 314px;
+    z-index: 5;
+}
+
+.select_box font {
+    position: absolute;
+    right: 10px;
+    font-size: 26px;
+    font-family: "微软雅黑", serif;
+    color: #3CF;
+    transform: rotate(90deg);
+}
+
+.select_box option {
+    background: #3c3c3c;
+    color: #2aabd2;
+}
+
+@keyframes animate {
+    to {
+        /* 色相旋转滤镜（设置度数可改变颜色） */
+        filter: hue-rotate(360deg);
+    }
+}
+
+.select-btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 42px;
+    top: 115px;
+    left: 1150px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 60px;
+}
+
+.panel {
+    /* 边框 */
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-image: url(../img/border.png) 51 38 21 132;
+    border-width: 1.2rem 3rem 3.3rem 3rem;
+    position: relative;
+    margin-bottom: 0.833rem;
+}
+
+.occupy {
+    visibility: hidden;
+    height: 46px;
+}
+
+.row {
+    line-height: 1.4;
+    /*padding: 6px 6px;*/
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    word-break: break-word;
+    height: 113px;
+}
+
+.question {
+    color: #61a8ff;
+    width: 700px;
+    font-size: 17px;
+    border: 2px #00fffd solid;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    color: #4cae4c;
+    width: 100px;
+    border: 2px #00fffd solid;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.views{
+    color: #d58512;
+    width: 105px;
+    border: 2px #00fffd solid;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.answers{
+    color: orchid;
+    width: 60px;
+    border: 2px #00fffd solid;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.link{
+    color: blue;
+    width: 300px;
+    border: 2px #00fffd solid;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+a:active{
+    color: red;
+}
+
+.head{
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 24px;
+    /*padding: 0.5rem 1.5rem;*/
+    padding-top: 10px;
+    color: #68d8fe;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.05;
+    height: 50px;
+}
+
+.spacing{
+    visibility: hidden;
+    height: 22px;
+}
+
+.question-title{
+    position: absolute;
+    font-size: 28px;
+    left: 280px;
+    top: 15px;
+}
+
+.date-title{
+    position: absolute;
+    font-size: 28px;
+    left: 723px;
+    top: 15px;
+}
+
+.answers-title{
+    position: absolute;
+    font-size: 28px;
+    left: 936px;
+    top: 15px;
+}
+
+.views-title{
+    position: absolute;
+    font-size: 28px;
+    left: 840px;
+    top: 15px;
+}
+
+.link-title{
+    position: absolute;
+    font-size: 28px;
+    left: 1140px;
+    top: 15px;
+}
