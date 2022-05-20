@@ -1,6 +1,7 @@
 package com.cs209.project.loader;
 
 
+import com.cs209.project.entity.MyBatisQuestion;
 import com.cs209.project.entity.SpringBootQuestion;
 
 import java.io.BufferedReader;
@@ -14,6 +15,7 @@ public class QuestionLoader {
     private static Connection con = null;
     private static PreparedStatement stmt = null;
     private static HashSet<SpringBootQuestion> springBootQuestions = new HashSet<>();
+    private static HashSet<MyBatisQuestion> mybatisQuestions = new HashSet<>();
 
     private static void openDB(String host, String dbname,
                                String user, String pwd) {
@@ -57,7 +59,7 @@ public class QuestionLoader {
     }
 
     private static void loadSpringBoot() {
-        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/correct.txt")))) {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringBootStackoverflowQuestionDetail.txt")))) {
             String line;
             while ((line = inline.readLine()) != null) {
                 String[] content = line.split("\t");
@@ -86,6 +88,36 @@ public class QuestionLoader {
         }
     }
 
+    private static void loadMybatis(){
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/MybatisStackoverflowQuestionDetail.txt")))) {
+            String line;
+            while ((line = inline.readLine()) != null){
+                String[] content = line.split("\t");
+                MyBatisQuestion mq = new MyBatisQuestion();
+                mq.setQuestion(content[0]);
+                mq.setDate(Date.valueOf(content[1]));
+                mq.setViews(Integer.parseInt(content[2]));
+                mq.setAnswers(Integer.parseInt(content[3]));
+                mq.setHref(content[4]);
+                mybatisQuestions.add(mq);
+            }
+            stmt = con.prepareStatement("insert into mybatis_question (question, date, views, answers, href) values (?,?,?,?,?);");
+            for (MyBatisQuestion mq:mybatisQuestions){
+                stmt.setString(1, mq.getQuestion());
+                stmt.setDate(2, mq.getDate());
+                stmt.setInt(3, mq.getViews());
+                stmt.setInt(4, mq.getAnswers());
+                stmt.setString(5, mq.getHref());
+                stmt.addBatch();
+            }
+            stmt.executeBatch();
+            stmt.clearBatch();
+            con.commit();
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+
     public static void main(String[] args) throws SQLException {
         Properties defprop = new Properties();
         defprop.put("host", "localhost");
@@ -98,11 +130,12 @@ public class QuestionLoader {
         Statement stmt0;
         if (con != null) {
             stmt0 = con.createStatement();
-            stmt0.execute("truncate table springboot_question cascade;");
+            stmt0.execute("truncate table springboot_question, mybatis_question cascade;");
             con.commit();
             stmt0.close();
         }
         loadSpringBoot();
+        loadMybatis();
         closeDB();
         System.out.println("LOAD DONE!");
     }
