@@ -28,7 +28,7 @@ public class SpringBootTest {
     public void closedIssueTest() throws IOException {
         File f = new File("src/main/resources/static/js/SpringBootClosedIssue.js");
         BufferedWriter bw = new BufferedWriter(new FileWriter(f));
-        bw.write("open_issue_history = [[\"issue_count\", \"version\", \"date\"],");
+        bw.write("closed_issue_history = [[\"issue_count\", \"version\", \"date\"],");
         List<SpringBootIssueVersion> list = springBootService.selectClosedIssueVersion();
         HashMap<String, Integer> map = new HashMap<>();
         TreeMap<String, List<SpringBootIssueVersion>> listHashMap = new TreeMap<>();
@@ -160,7 +160,7 @@ public class SpringBootTest {
 
     @Test
     public void versionIterTest(){
-        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringBootIteration.txt")))) {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/correct.txt")))) {
             String line;
             while ((line = inline.readLine()) != null) {
                 String version = inline.readLine().trim();
