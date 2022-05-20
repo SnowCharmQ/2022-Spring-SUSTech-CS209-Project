@@ -4,94 +4,106 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cs209.project.mapper.SpringBootQuestionMapper">
 
+    <select id="select" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        LIMIT 5 OFFSET #{offset};
+    </select>
+
     <select id="selectByTimeAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
         ORDER BY date ASC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByTimeDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
         ORDER BY date DESC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByViewsAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
         ORDER BY views ASC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByViewsDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
         ORDER BY views DESC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByAnswersAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
         ORDER BY answers ASC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByAnswersDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
         ORDER BY answers DESC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
+    <select id="selectByKey" resultType="com.cs209.project.entity.SpringBootQuestion">
+        SELECT *
+        FROM springboot_question
+        WHERE upper(question) LIKE concat('%', #{key}, '%')
+        LIMIT 5 OFFSET #{offset};
+    </select>
 
     <select id="selectByKeyTimeAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
-        WHERE question LIKE #{key}
+        WHERE upper(question) LIKE concat('%', #{key}, '%')
         ORDER BY date ASC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByKeyTimeDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
-        WHERE question LIKE #{key}
+        WHERE upper(question) LIKE concat('%', #{key}, '%')
         ORDER BY date DESC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByKeyViewsAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
-        WHERE question LIKE #{key}
+        WHERE upper(question) LIKE concat('%', #{key}, '%')
         ORDER BY views ASC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByKeyViewsDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
-        WHERE question LIKE #{key}
+        WHERE upper(question) LIKE concat('%', #{key}, '%')
         ORDER BY views DESC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByKeyAnswersAsc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
-        WHERE question LIKE #{key}
+        WHERE upper(question) LIKE concat('%', #{key}, '%')
         ORDER BY answers ASC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 
     <select id="selectByKeyAnswersDesc" resultType="com.cs209.project.entity.SpringBootQuestion">
         SELECT *
         FROM springboot_question
-        WHERE question LIKE #{key}
+        WHERE upper(question) LIKE concat('%', #{key}, '%')
         ORDER BY answers DESC
-        OFFSET #{offset};
+        LIMIT 5 OFFSET #{offset};
     </select>
 </mapper>

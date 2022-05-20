@@ -57,7 +57,7 @@ public class QuestionLoader {
     }
 
     private static void loadSpringBoot() {
-        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringBootStackoverflowQuestionDetail.txt")))) {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/correct.txt")))) {
             String line;
             while ((line = inline.readLine()) != null) {
                 String[] content = line.split("\t");

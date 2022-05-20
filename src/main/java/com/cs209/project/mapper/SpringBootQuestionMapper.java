@@ -5,6 +5,8 @@ import com.cs209.project.entity.SpringBootQuestion;
 import java.util.List;
 
 public interface SpringBootQuestionMapper {
+    List<SpringBootQuestion> select(int offset);
+
     List<SpringBootQuestion> selectByTimeAsc(int offset);
 
     List<SpringBootQuestion> selectByTimeDesc(int offset);
@@ -16,6 +18,8 @@ public interface SpringBootQuestionMapper {
     List<SpringBootQuestion> selectByAnswersAsc(int offset);
 
     List<SpringBootQuestion> selectByAnswersDesc(int offset);
+
+    List<SpringBootQuestion> selectByKey(String key, int offset);
 
     List<SpringBootQuestion> selectByKeyTimeAsc(String key, int offset);
 
