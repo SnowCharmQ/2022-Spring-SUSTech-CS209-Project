@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search In Stack Overflow With Tag 'MyBatis'</title>
+    <link rel="stylesheet" type="text/css" href="../css/search.css">
+    <script src='../js/prefixfree.min.js'></script>
+    <script src="../bootstrap3/js/holder.js"></script>
+    <script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/question.js"></script>
+</head>
+<body style="background-color: black">
+<h1>Search In Stack Overflow With Tag 'MyBatis'</h1>
+<div class="top-boarder"></div>
+
+<div class="btns" style="position:absolute;right: 45px;top:3px">
+    <a href="mybatis-menu.html"><img src="../img/return.jpg" alt=""></a>
+</div>
+
+<div class="btns" style="position:absolute;right: 100px;top:3px">
+    <a href="#" id="save2"><img src="../img/save.png"
+                                onclick="download(save_data, 'mybatis-stackoverflow-question.csv', 'text/plaintext')"
+                                alt=""></a>
+</div>
+
+<script>
+    function download(text, name, type) {
+        var a = document.getElementById("save2");
+        var file = new Blob([text], {type: type});
+        a.href = URL.createObjectURL(file);
+        a.download = name;
+    }
+</script>
+
+<script type="text/javascript">
+    var save_data = "Question,Date,View Number,Answer Number,Link\n";
+    var temp;
+    $(document).ready($.ajax({
+        url: "/mybatis/mybatis-select",
+        type: 'POST',
+        async: false,
+        success: function (json) {
+            temp = json.data;
+        }
+    }))
+
+    for (var i = 0; i < temp.length; i++) {
+        var d = temp[i];
+        save_data = save_data + d.question + "," + d.date + "," + d.views + "," + d.answers + "," + d.href + "\n";
+    }
+</script>
+
+<form id="mybatis-question">
+    <select name="sorting" id="sort-method" class="select_box">
+        <option value="0">Sorting Method</option>
+        <option value="1">Sort By Time ASC</option>
+        <option value="2">Sort By Time DESC</option>
+        <option value="3">Sort By View Number ASC</option>
+        <option value="4">Sort By View Number DESC</option>
+        <option value="5">Sort By Answer Number ASC</option>
+        <option value="6">Sort By Answer Number DESC</option>
+    </select>
+    <div class="page">Page:</div>
+    <input type="text" name="key" class="key" placeholder="key">
+    <input type="text" name="page" class="page-num" placeholder="1">
+    <button type="button" class="select-btn" onclick="selectMyBatisQuestion()">SELECT</button>
+</form>
+<div class="occupy">none</div>
+<div class="occupy">none</div>
+<div class="occupy">none</div>
+<div class="mybatis-panel">
+    <div class="head">
+        <span class="question-title">Question</span>
+        <span class="date-title">Date</span>
+        <span class="views-title">Views</span>
+        <span class="answers-title">Answers</span>
+        <span class="link-title">Link</span>
+    </div>
+    <div class="spacing">none</div>
+    <div class="row">
+        <span class="question">Error parsing Mapper XML. Cause: java.lang.NullPointerException</span>
+        <span class="date">2014-01-15</span>
+        <span class="views">15887</span>
+        <span class="answers">1</span>
+        <a href="https://stackoverflow.com/questions/21124796/error-parsing-mapper-xml-cause-java-lang-nullpointerexception"
+           class="link">The Link To This QUESTION</a>
+    </div>
+    <div class="row">
+        <span class="question">mybatis spring mvc application, getting Invalid bound statement (not found)</span>
+        <span class="date">2013-12-06</span>
+        <span class="views">77468</span>
+        <span class="answers">17</span>
+        <a href="https://stackoverflow.com/questions/20427210/mybatis-spring-mvc-application-getting-invalid-bound-statement-not-found"
+           class="link">The Link To This QUESTION</a>
+    </div>
+    <div class="row">
+        <span class="question">MyBatis oracle insert new row always return wrong primary id value</span>
+        <span class="date">2021-02-18</span>
+        <span class="views">308</span>
+        <span class="answers">2</span>
+        <a href="https://stackoverflow.com/questions/66252438/mybatis-oracle-insert-new-row-always-return-wrong-primary-id-value"
+           class="link">The Link To This QUESTION</a>
+    </div>
+    <div class="row">
+        <span class="question">how to configure log4j for Mybatis to print my SQL</span>
+        <span class="date">2011-09-01</span>
+        <span class="views">26851</span>
+        <span class="answers">3</span>
+        <a href="https://stackoverflow.com/questions/7267834/how-to-configure-log4j-for-mybatis-to-print-my-sql"
+           class="link">The Link To This QUESTION</a>
+    </div>
+    <div class="row">
+        <span class="question">How to use Annotations with iBatis (myBatis) for an IN query?</span>
+        <span class="date">2010-08-07</span>
+        <span class="views">43084</span>
+        <span class="answers">9</span>
+        <a href="https://stackoverflow.com/questions/3428742/how-to-use-annotations-with-ibatis-mybatis-for-an-in-query"
+           class="link">The Link To This QUESTION</a>
+    </div>
+</div>
+
+</body>
+</html>
