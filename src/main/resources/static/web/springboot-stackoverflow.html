@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Search In Stack Overflow With Tag 'SpringBoot'</title>
     <link rel="stylesheet" type="text/css" href="../css/search.css">
     <script src='../js/prefixfree.min.js'></script>
     <script src="../bootstrap3/js/holder.js"></script>
@@ -13,7 +13,45 @@
 <body style="background-color: black">
 <h1>Search In Stack Overflow With Tag 'SpringBoot'</h1>
 <div class="top-boarder"></div>
-<form id="select-question">
+
+<div class="btns" style="position:absolute;right: 45px;top:3px">
+    <a href="springboot-menu.html"><img src="../img/return.jpg" alt=""></a>
+</div>
+
+<div class="btns" style="position:absolute;right: 100px;top:3px">
+    <a href="#" id="save1"><img src="../img/save.png"
+                                onclick="download(save_data, 'springboot-stackoverflow-question.csv', 'text/plaintext')"
+                                alt=""></a>
+</div>
+
+<script>
+    function download(text, name, type) {
+        var a = document.getElementById("save1");
+        var file = new Blob([text], {type: type});
+        a.href = URL.createObjectURL(file);
+        a.download = name;
+    }
+</script>
+
+<script type="text/javascript">
+    var save_data = "Question,Date,View Number,Answer Number,Link\n";
+    var temp;
+    $(document).ready($.ajax({
+        url: "/springboot/springboot-select",
+        type: 'POST',
+        async: false,
+        success: function (json) {
+            temp = json.data;
+        }
+    }))
+
+    for (var i = 0; i < temp.length; i++) {
+        var d = temp[i];
+        save_data = save_data + d.question + "," + d.date + "," + d.views + "," + d.answers + "," + d.href + "\n";
+    }
+</script>
+
+<form id="springboot-question">
     <select name="sorting" id="sort-method" class="select_box">
         <option value="0">Sorting Method</option>
         <option value="1">Sort By Time ASC</option>
@@ -26,12 +64,12 @@
     <div class="page">Page:</div>
     <input type="text" name="key" class="key" placeholder="key">
     <input type="text" name="page" class="page-num" placeholder="1">
-    <button type="button" class="select-btn" onclick="selectQuestion()">SELECT</button>
+    <button type="button" class="select-btn" onclick="selectSpringBootQuestion()">SELECT</button>
 </form>
 <div class="occupy">none</div>
 <div class="occupy">none</div>
 <div class="occupy">none</div>
-<div class="panel">
+<div class="springboot-panel">
     <div class="head">
         <span class="question-title">Question</span>
         <span class="date-title">Date</span>

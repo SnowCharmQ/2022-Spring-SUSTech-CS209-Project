@@ -16,17 +16,23 @@ public class SpringBootController extends BaseController {
     @Autowired
     private ISpringBootService iSpringBootService;
 
-    @RequestMapping("version")
+    @RequestMapping("springboot-version")
     public JsonResult<List<SpringBootIteration>> getVersion() {
         List<SpringBootIteration> list = iSpringBootService.selectVersion();
         return new JsonResult<>(ok, list);
     }
 
-    @RequestMapping("question")
+    @RequestMapping("springboot-question")
     public JsonResult<List<SpringBootQuestion>> getQuestion(String sorting, String key, String page) {
         List<SpringBootQuestion> list = iSpringBootService.selectSpringBootQuestion(sorting, key, page);
         if (list == null) return new JsonResult<>(220);
         else if (list.isEmpty()) return new JsonResult<>(220);
+        return new JsonResult<>(ok, list);
+    }
+
+    @RequestMapping("springboot-select")
+    public JsonResult<List<SpringBootQuestion>> getAllQuestion() {
+        List<SpringBootQuestion> list = iSpringBootService.selectAllSpringBootQuestion();
         return new JsonResult<>(ok, list);
     }
 }

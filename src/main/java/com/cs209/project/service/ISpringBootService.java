@@ -8,7 +8,12 @@ import java.util.List;
 
 public interface ISpringBootService {
     List<SpringBootIteration> selectVersion();
+
     List<SpringBootIssueVersion> selectOpenIssueVersion();
+
     List<SpringBootIssueVersion> selectClosedIssueVersion();
+
     List<SpringBootQuestion> selectSpringBootQuestion(String sorting, String key, String page);
+
+    List<SpringBootQuestion> selectAllSpringBootQuestion();
 }
