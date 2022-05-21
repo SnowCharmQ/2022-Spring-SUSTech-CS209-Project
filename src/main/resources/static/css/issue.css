@@ -1,15 +1,22 @@
-.total_page{
+.total_page {
     width: 100%;
     height: 100%;
     background: url('../img/stars.jpg') no-repeat;
 }
 
-#container1{
+#container1 {
     width: 90%;
     height: 80%;
 }
 
-#container2{
+#container2 {
+    width: 90%;
+    height: 80%;
+    top: 140px;
+    position: absolute;
+}
+
+#container3 {
     width: 90%;
     height: 80%;
     top: 140px;
@@ -28,4 +35,91 @@
     border-radius: 50%;
     object-fit: cover;
     margin-right: 14px;
+}
+
+.year {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    /* 字间距 */
+    letter-spacing: 7px;
+    /* 转大写 */
+    text-transform: uppercase;
+    text-align: start;
+    line-height: 5px;
+    margin: 30px;
+    outline: none;
+    /* 自定义属性--c，可通过var函数对其调用 */
+    --c: lightseagreen;
+    /* 调用自定义属性--c，设置文字阴影（发光效果） */
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    /* 执行动画：动画名 时长 线性的 无限次播放 */
+    animation: animate 5s linear infinite;
+    white-space: pre-line;
+    position: absolute;
+}
+
+#y1 {
+    top: 180px;
+    right: 164px;
+}
+
+#y2 {
+    top: 220px;
+    right: 144px;
+}
+
+#y3 {
+    top: 260px;
+    right: 144px;
+}
+
+#y4 {
+    top: 300px;
+    right: 144px;
+}
+
+#y5 {
+    top: 340px;
+    right: 144px;
+}
+
+#y6 {
+    top: 380px;
+    right: 144px;
+}
+
+#y7 {
+    top: 420px;
+    right: 144px;
+}
+
+#y8 {
+    top: 460px;
+    right: 144px;
+}
+
+#y9 {
+    top: 500px;
+    right: 164px;
+}
+
+#y10{
+    top: 540px;
+    right: 164px;
+}
+
+@keyframes animate {
+    to {
+        /* 色相旋转滤镜（设置度数可改变颜色） */
+        filter: hue-rotate(360deg);
+    }
 }
