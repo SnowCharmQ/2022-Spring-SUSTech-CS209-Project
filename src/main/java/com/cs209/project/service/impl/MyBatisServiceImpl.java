@@ -1,6 +1,8 @@
 package com.cs209.project.service.impl;
 
+import com.cs209.project.entity.MyBatisIssue;
 import com.cs209.project.entity.MyBatisQuestion;
+import com.cs209.project.mapper.MyBatisIssueMapper;
 import com.cs209.project.mapper.MyBatisQuestionMapper;
 import com.cs209.project.service.IMyBatisService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,15 @@ import java.util.Objects;
 public class MyBatisServiceImpl implements IMyBatisService {
     @Autowired
     private MyBatisQuestionMapper myBatisQuestionMapper;
+
+    @Autowired
+    private MyBatisIssueMapper myBatisIssueMapper;
+
+
+    @Override
+    public List<MyBatisIssue> selectMyBatisIssue() {
+        return myBatisIssueMapper.selectIssue();
+    }
 
     @Override
     public List<MyBatisQuestion> selectMyBatisQuestion(String sorting, String key, String page) {
