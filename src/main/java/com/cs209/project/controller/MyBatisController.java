@@ -1,5 +1,6 @@
 package com.cs209.project.controller;
 
+import com.cs209.project.entity.MyBatisIssue;
 import com.cs209.project.entity.MyBatisQuestion;
 import com.cs209.project.service.IMyBatisService;
 import com.cs209.project.utils.JsonResult;
@@ -14,6 +15,12 @@ import java.util.List;
 public class MyBatisController extends BaseController {
     @Autowired
     private IMyBatisService iMyBatisService;
+
+    @RequestMapping("mybatis-issue")
+    public JsonResult<List<MyBatisIssue>> getIssue() {
+        List<MyBatisIssue> list = iMyBatisService.selectMyBatisIssue();
+        return new JsonResult<>(ok, list);
+    }
 
     @RequestMapping("mybatis-question")
     public JsonResult<List<MyBatisQuestion>> getQuestion(String sorting, String key, String page) {

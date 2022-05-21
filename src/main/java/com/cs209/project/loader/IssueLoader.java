@@ -1,5 +1,6 @@
 package com.cs209.project.loader;
 
+import com.cs209.project.entity.MyBatisIssue;
 import com.cs209.project.entity.SpringBootIssue;
 
 import java.io.BufferedReader;
@@ -12,7 +13,9 @@ import java.util.Properties;
 public class IssueLoader {
     private static Connection con = null;
     private static PreparedStatement stmt = null;
-    private static HashSet<SpringBootIssue> issues = new HashSet<>();
+    private static HashSet<SpringBootIssue> openIssues = new HashSet<>();
+    private static HashSet<SpringBootIssue> closedIssues = new HashSet<>();
+    private static HashSet<MyBatisIssue> issues = new HashSet<>();
 
     private static void openDB(String host, String dbname,
                                String user, String pwd) {
@@ -69,10 +72,10 @@ public class IssueLoader {
                 int month = judgeMonth(dates[0]) - 1;
                 int day = Integer.parseInt(dates[1].substring(0, dates[1].length() - 1));
                 Date d = new Date(year, month, day);
-                issues.add(new SpringBootIssue(version, d, year + 1900, month + 1, info));
+                openIssues.add(new SpringBootIssue(version, d, year + 1900, month + 1, info));
             }
             stmt = con.prepareStatement("insert into springboot_open_issue (version, publish_date, year, month, info) values(?,?,?,?,?);");
-            for (SpringBootIssue i : issues) {
+            for (SpringBootIssue i : openIssues) {
                 stmt.setString(1, i.getVersion());
                 stmt.setDate(2, i.getPublishDate());
                 stmt.setInt(3, i.getYear());
@@ -102,15 +105,62 @@ public class IssueLoader {
                 int month = judgeMonth(dates[0]) - 1;
                 int day = Integer.parseInt(dates[1].substring(0, dates[1].length() - 1));
                 Date d = new Date(year, month, day);
-                issues.add(new SpringBootIssue(version, d, year + 1900, month + 1, info));
+                closedIssues.add(new SpringBootIssue(version, d, year + 1900, month + 1, info));
             }
             stmt = con.prepareStatement("insert into springboot_closed_issue (version, publish_date, year, month, info) values(?,?,?,?,?);");
-            for (SpringBootIssue i : issues) {
+            for (SpringBootIssue i : closedIssues) {
                 stmt.setString(1, i.getVersion());
                 stmt.setDate(2, i.getPublishDate());
                 stmt.setInt(3, i.getYear());
                 stmt.setInt(4, i.getMonth());
                 stmt.setString(5, i.getInfo());
+                stmt.addBatch();
+            }
+            stmt.executeBatch();
+            stmt.clearBatch();
+            con.commit();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private static void loadMyBatisIssue() {
+        try {
+            BufferedReader in1 = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/MybatisOpenIssueDetail.txt")));
+            BufferedReader in2 = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/MybatisClosedIssueDetail.txt")));
+            String line;
+            while ((line = in1.readLine()) != null) {
+                String[] content = line.split("\t");
+                String version = content[0];
+                String date = content[1];
+                int index = line.indexOf(date);
+                String info = line.substring(index + date.length() + 1);
+                String[] dates = date.split(" ");
+                int year = Integer.parseInt(dates[2]) - 1900;
+                int month = judgeMonth(dates[0]) - 1;
+                int day = Integer.parseInt(dates[1].substring(0, dates[1].length() - 1));
+                Date d = new Date(year, month, day);
+                issues.add(new MyBatisIssue(version, d, year + 1900, info));
+            }
+            while ((line = in2.readLine()) != null) {
+                String[] content = line.split("\t");
+                String version = content[0];
+                String date = content[1];
+                int index = line.indexOf(date);
+                String info = line.substring(index + date.length() + 1);
+                String[] dates = date.split(" ");
+                int year = Integer.parseInt(dates[2]) - 1900;
+                int month = judgeMonth(dates[0]) - 1;
+                int day = Integer.parseInt(dates[1].substring(0, dates[1].length() - 1));
+                Date d = new Date(year, month, day);
+                issues.add(new MyBatisIssue(version, d, year + 1900, info));
+            }
+            stmt = con.prepareStatement("insert into mybatis_issue (version, date, year, info) values (?,?,?,?);");
+            for (MyBatisIssue mbi : issues) {
+                stmt.setString(1, mbi.getVersion());
+                stmt.setDate(2, mbi.getDate());
+                stmt.setInt(3, mbi.getYear());
+                stmt.setString(4, mbi.getInfo());
                 stmt.addBatch();
             }
             stmt.executeBatch();
@@ -151,12 +201,13 @@ public class IssueLoader {
         Statement stmt0;
         if (con != null) {
             stmt0 = con.createStatement();
-            stmt0.execute("truncate table springboot_open_issue, springboot_closed_issue cascade;");
+            stmt0.execute("truncate table springboot_open_issue, springboot_closed_issue, mybatis_issue cascade;");
             con.commit();
             stmt0.close();
         }
         loadSpringBootOpenIssue();
         loadSpringBootClosedIssue();
+        loadMyBatisIssue();
         closeDB();
         System.out.println("LOAD DONE!");
     }
