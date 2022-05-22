@@ -1,5 +1,6 @@
 package com.cs209.project.mapper;
 
+import com.cs209.project.entity.IssueWord;
 import com.cs209.project.entity.SpringBootIssueVersion;
 import com.cs209.project.service.ISpringBootService;
 import org.junit.Test;
@@ -159,7 +160,7 @@ public class SpringBootTest {
     }
 
     @Test
-    public void versionIterTest(){
+    public void versionIterTest() {
         try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringBootStackoverflowQuestionDetail.txt")))) {
             String line;
             while ((line = inline.readLine()) != null) {
@@ -171,5 +172,16 @@ public class SpringBootTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Test
+    public void issueWordTest() throws IOException {
+        List<IssueWord> list = springBootService.selectIssueWord();
+        BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("src/main/resources/static/js/issue-word.js")));
+        out.write("issue = [[\"word\",\"count\"],");
+        for (IssueWord iw : list) {
+            out.write(String.format("[\"%s\",%d],", iw.getWord(), iw.getCount()));
+        }
+        out.write("]");
     }
 }
