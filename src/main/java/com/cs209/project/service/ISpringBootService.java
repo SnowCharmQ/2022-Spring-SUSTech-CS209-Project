@@ -1,5 +1,6 @@
 package com.cs209.project.service;
 
+import com.cs209.project.entity.IssueWord;
 import com.cs209.project.entity.SpringBootIssueVersion;
 import com.cs209.project.entity.SpringBootIteration;
 import com.cs209.project.entity.SpringBootQuestion;
@@ -16,4 +17,6 @@ public interface ISpringBootService {
     List<SpringBootQuestion> selectSpringBootQuestion(String sorting, String key, String page);
 
     List<SpringBootQuestion> selectAllSpringBootQuestion();
+
+    List<IssueWord> selectIssueWord();
 }

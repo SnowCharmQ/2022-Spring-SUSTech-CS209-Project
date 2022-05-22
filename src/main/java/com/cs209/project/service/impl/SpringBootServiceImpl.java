@@ -1,11 +1,13 @@
 package com.cs209.project.service.impl;
 
+import com.cs209.project.entity.IssueWord;
 import com.cs209.project.entity.SpringBootIssueVersion;
 import com.cs209.project.entity.SpringBootIteration;
 import com.cs209.project.entity.SpringBootQuestion;
 import com.cs209.project.mapper.SpringBootIssueMapper;
 import com.cs209.project.mapper.SpringBootIterMapper;
 import com.cs209.project.mapper.SpringBootQuestionMapper;
+import com.cs209.project.mapper.WordMapper;
 import com.cs209.project.service.ISpringBootService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,6 +24,8 @@ public class SpringBootServiceImpl implements ISpringBootService {
     private SpringBootIssueMapper springBootIssueMapper;
     @Autowired
     private SpringBootQuestionMapper springBootQuestionMapper;
+    @Autowired
+    private WordMapper wordMapper;
 
     @Override
     public List<SpringBootIteration> selectVersion() {
@@ -70,6 +74,11 @@ public class SpringBootServiceImpl implements ISpringBootService {
     @Override
     public List<SpringBootQuestion> selectAllSpringBootQuestion() {
         return springBootQuestionMapper.selectAll();
+    }
+
+    @Override
+    public List<IssueWord> selectIssueWord() {
+        return wordMapper.selectIssueWord();
     }
 
 }

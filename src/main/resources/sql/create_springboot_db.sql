@@ -30,5 +30,11 @@ create table if not exists springboot_question
     date     date,
     views    integer,
     answers  integer,
-    href varchar(200)
+    href     varchar(200)
+);
+
+create table if not exists issue_word
+(
+    word  varchar(200),
+    count integer
 );

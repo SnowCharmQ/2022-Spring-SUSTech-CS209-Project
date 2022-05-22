@@ -1,5 +1,6 @@
 package com.cs209.project.controller;
 
+import com.cs209.project.entity.IssueWord;
 import com.cs209.project.entity.SpringBootIteration;
 import com.cs209.project.entity.SpringBootQuestion;
 import com.cs209.project.service.ISpringBootService;
@@ -33,6 +34,12 @@ public class SpringBootController extends BaseController {
     @RequestMapping("springboot-select")
     public JsonResult<List<SpringBootQuestion>> getAllQuestion() {
         List<SpringBootQuestion> list = iSpringBootService.selectAllSpringBootQuestion();
+        return new JsonResult<>(ok, list);
+    }
+
+    @RequestMapping("issue-NLP")
+    public JsonResult<List<IssueWord>> getIssueWord() {
+        List<IssueWord> list = iSpringBootService.selectIssueWord();
         return new JsonResult<>(ok, list);
     }
 }
