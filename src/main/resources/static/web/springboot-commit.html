@@ -1,0 +1,186 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/zh/editor.html?c=bar-data-color
+-->
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+    <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+
+<div class="total_page">
+    <h1>The number of Spring Boot GitHub Repository commits for every year</h1>
+    <div id="container" style="height: 80%;top: 150px;"></div>
+    <div class="btns" style="position: absolute; right: 40px; bottom: 30px;">
+        <a href="springboot-menu.html"><img src="../img/return.jpg" alt=""></a>
+    </div>
+</div>
+
+
+<style>
+    h1 {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color: #fff;
+        font-size: 30px;
+        /* 字间距 */
+        letter-spacing: 7px;
+        /* 转大写 */
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 40px;
+        margin: 30px;
+        outline: none;
+        /* 自定义属性--c，可通过var函数对其调用 */
+        --c: lightseagreen;
+        /* 调用自定义属性--c，设置文字阴影（发光效果） */
+        text-shadow: 0 0 10px var(--c),
+        0 0 20px var(--c),
+        0 0 40px var(--c),
+        0 0 80px var(--c),
+        0 0 160px var(--c);
+        /* 执行动画：动画名 时长 线性的 无限次播放 */
+        animation: animate 5s linear infinite;
+        white-space: pre-line;
+        position: absolute;
+        top: 5px;
+        left: 350px;
+        width: 700px;
+    }
+
+    .total_page {
+        width: 100%;
+        height: 100%;
+        background: url('../img/stars.jpg') no-repeat;
+    }
+
+    .btns {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .btns img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 14px;
+    }
+
+</style>
+
+<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+
+<script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+        renderer: 'canvas',
+        useDirtyRect: false
+    });
+    var app = {};
+
+    var option;
+
+    option = {
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            },
+        },
+        xAxis: {
+            type: 'category',
+            data: ['2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'],
+            axisLabel: {
+                rotate: -20,
+                color: 'white'
+            }
+        },
+        yAxis: {
+            type: 'value'
+        },
+        series: [
+            {
+                emphasis: {
+                    itemStyle: {
+                        // borderColor: 'transparent',
+                        // color: 'transparent'
+                        focus: 'self',
+                        textStyle: {
+                            color: 'white'
+                        }
+                    }
+                },
+                data: [
+                    {
+                        value: 2737,
+                        itemStyle: {
+                            color: '#C71585'
+                        }
+                    },
+                    {
+                        value: 2846,
+                        itemStyle: {
+                            color: '#9400D3'
+                        }
+                    },
+                    {
+                        value: 3450,
+                        itemStyle: {
+                            color: '#1E90FF'
+                        }
+                    }, {
+                        value: 4501,
+                        itemStyle: {
+                            color: '#00CED1'
+                        }
+                    }, {
+                        value: 5289,
+                        itemStyle: {
+                            color: '#2E8B57'
+                        }
+                    }, {
+                        value: 4482,
+                        itemStyle: {
+                            color: '#FFA500'
+                        }
+                    }, {
+                        value: 5738,
+                        itemStyle: {
+                            color: '#FF7F50'
+                        }
+                    }, {
+                        value: 5148,
+                        itemStyle: {
+                            color: '#a90000'
+                        }
+                    }, {
+                        value: 2741,
+                        itemStyle: {
+                            color: '#808080'
+                        }
+                    },
+                ],
+                type: 'bar',
+                label: {
+                    show: true,
+                    position: 'inside',
+                    color: 'black'
+                },
+                name: 'Commit Number'
+            }
+        ]
+    };
+
+    if (option && typeof option === 'object') {
+        myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+</script>
+</body>
+</html>
