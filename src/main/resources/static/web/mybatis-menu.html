@@ -1,10 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset='utf-8'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='../js/jquery.warpdrive.min.js'></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>MyBatis Menu</title>
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <style type='text/css'>
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, font, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow: hidden;
+            background-color: #CCC;
+        }
+
+        #holder {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 800px;
+            height: 300px;
+            z-index: -1;
+        }
+
+        .menu {
+            animation: engender 3s 1;
+        }
+
+        @keyframes engender {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .menu img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 14px;
+            position: absolute;
+            left: 635px;
+            top: 320px;
+        }
+
+        .btn {
+            border: 1px solid;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-size: 24px;
+            padding: 10px 20px;
+            font-weight: 300;
+        }
+
+        .two {
+            color: #f038ff;
+            position: absolute;
+            left: 180px;
+            top: 314px;
+        }
+
+        .three {
+            color: #b9e769;
+            position: absolute;
+            left: 534px;
+            top: 650px;
+        }
+
+        .five {
+            color: #4cc9f0;
+            position: absolute;
+            left: 1060px;
+            top: 314px;
+        }
+
+        .btn:hover {
+            color: white;
+            border: 0;
+            cursor: pointer;
+        }
+
+        .two:hover {
+            background-color: #f038ff;
+            -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+            -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+            box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+        }
+
+        .three:hover {
+            background-color: #b9e769;
+            -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+            -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+            box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+        }
+
+        .five:hover {
+            background-color: #4cc9f0;
+            -webkit-box-shadow: 10px 10px 99px 6px rgb(76, 201, 240, 1);
+            -moz-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+            box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+        }
+
+
+        h1 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #fff;
+            font-size: 30px;
+            /* 字间距 */
+            letter-spacing: 7px;
+            /* 转大写 */
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 76px;
+            margin: 30px;
+            outline: none;
+            /* 自定义属性--c，可通过var函数对其调用 */
+            --c: lightseagreen;
+            /* 调用自定义属性--c，设置文字阴影（发光效果） */
+            text-shadow: 0 0 10px var(--c),
+            0 0 20px var(--c),
+            0 0 40px var(--c),
+            0 0 80px var(--c),
+            0 0 160px var(--c);
+            /* 执行动画：动画名 时长 线性的 无限次播放 */
+            animation: animate 5s linear infinite;
+            white-space: pre-line;
+        }
+
+        @keyframes animate {
+            to {
+                /* 色相旋转滤镜（设置度数可改变颜色） */
+                filter: hue-rotate(360deg);
+            }
+        }
+
+        canvas {
+            z-index: -10;
+        }
+
+    </style>
+
+    <script>
+
+        $(document).ready(function () {
+            var settings = {
+
+                width: 1600,
+                height: 1000,
+                autoResize: false,
+                autoResizeMinWidth: null,
+                autoResizeMaxWidth: null,
+                autoResizeMinHeight: null,
+                autoResizeMaxHeight: null,
+                addMouseControls: true,
+                addTouchControls: true,
+                hideContextMenu: true,
+                starCount: 6666,
+                starBgCount: 2222,
+                starBgColor: {r: 0, g: 204, b: 255},
+                starBgColorRangeMin: 20,
+                starBgColorRangeMax: 80,
+                starColor: {r: 0, g: 204, b: 255},
+                starColorRangeMin: 50,
+                starColorRangeMax: 100,
+                starfieldBackgroundColor: {r: 5, g: 5, b: 14},
+                starDirection: 1,
+                starSpeed: 5,
+                starSpeedMax: 7,
+                starSpeedAnimationDuration: 2,
+                starFov: 300,
+                starFovMin: 200,
+                starFovAnimationDuration: 2,
+                starRotationPermission: true,
+                starRotationDirection: 1,
+                starRotationSpeed: 0.0,
+                starRotationSpeedMax: 1.0,
+                starRotationAnimationDuration: 2,
+                starWarpLineLength: 2.0,
+                starWarpTunnelDiameter: 100,
+                starFollowMouseSensitivity: 0.025,
+                starFollowMouseXAxis: true,
+                starFollowMouseYAxis: true
+
+            };
+            var warpdrive = new WarpDrive(document.getElementById('holder'), settings);
+        });
+
+    </script>
+
 </head>
+
 <body>
 
+<div id='holder'></div>
+<div class="menu">
+    <h1>MyBatis Menu</h1>
+    <div><img src="../img/mybatis-menu.png" onclick="window.location.href='java2-card.html'"></div>
+    <button type="button" class="btn two" onclick="window.location.href='mybatis-commit.html'">GitHub Commit</button>
+    <button type="button" class="btn five" onclick="window.location.href='mybatis-issue.html'">GitHub Issue</button>
+    <button type="button" class="btn three" onclick="window.location.href='mybatis-stackoverflow.html'">Stack Overflow Question</button>
+    <canvas id="lines" width="1200px" height="1000px"></canvas>
+</div>
+
+<script type="text/javascript">
+    var canvas = document.getElementById("lines");
+    if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+
+        ctx.beginPath();
+        ctx.moveTo(416, 200);
+        ctx.lineTo(690, 280);
+        ctx.strokeStyle = "#f038ff";
+        ctx.lineWidth = 3;
+        ctx.stroke();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.moveTo(1060, 200);
+        ctx.lineTo(790, 280);
+        ctx.strokeStyle = "#4cc9f0";
+        ctx.lineWidth = 3;
+        ctx.stroke();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.moveTo(746, 515);
+        ctx.lineTo(746, 280);
+        ctx.strokeStyle = "#b9e769";
+        ctx.lineWidth = 3;
+        ctx.stroke();
+        ctx.closePath();
+    }
+
+</script>
+
 </body>
-</html>
