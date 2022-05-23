@@ -1,0 +1,1155 @@
+[Help Wanted] The release pdf does not support non-Latin scripts
+Multithreading executes mapper query methods
+mybatis does not support N' for sql server
+Adds the ability to complement each other with attributes of annotations and XML tags
+Mapper参数构造bug
+SqlSession seems not trigger batch operation unless I use @Transactional
+support more statement in SQL Builder
+Support preventing and reporting feature for SQL injection
+TypeHandler incorrectly selects super classes/interfaces
+graalvm build failure
+Optimize MetaObject.setValue memory usage
+the simplified Chinese version of the document has a translation problem
+Consider supporting OptionalLong
+NullPointerException on first query
+DefaultSqlSession doesn't ROLLBACK on close after SELECT
+cannot use void for Postgres functions which return void
+cache feature request
+Consider adding some new java type alias, like 'localdate', 'localdate[]', 'localdatetime', 'localdatetime[]' in TypeAliasRegistry.class
+about databaseId
+Tag assocation and attribute extends in duplicate records
+The property with type Map.class not correctly assigned key-value, May be caused by reflector.findPropertyName(name) in MetaClass#buildProperty
+Proposed increase Cache translation function
+MyBatis silently hangs if XML mapper file is invalid
+Statement.closeOnCompletion result in MySql Server memory leak
+Use Cursor in long Transacion Result in Full GC
+For Custom VFS logging
+Find NPE in SqlRunner.java
+how to force a no-argument constructor
+insert on update error when using usegeneratedkeys as true
+SQL add AND("") for/after JOIN with string as parameter
+paging query
+in mybatis3.4.6: the class name TypeAliasRegistry's method resolveAlias should solve the parameter string like string.trim() to avoid the eroor happend when the programmer Wrong definition of parameterType which include Space In the end in mapper.xml
+Allow collection population by explicit method instead of whole setter
+Mapping into Map<String, Object> contains driver specific value classes
+Incorrect work with immutable objects
+TypeHandler lost information of actualTypeArguments when class is ParameterizedType
+MyBatis is ignoring setting of typeHandler in @Result annotation in Mapper
+Expose properties in DefaultParameterHandler.java
+When I changed the automatic commit of the connection, shouldn't I change the automatic commit of the corresponding transaction?
+Using PostgreSQL's returning doesn't mark session dirty
+XMLConfigBuilder class mapperElement method to determine optimization
+OWASP Scan still shows Vulnerability when spring-2.0.5 update to 2.0.6 and myBatis-3.5.5 to 3.5.6
+mybatis get LimitSegment.rowCount incorrectly
+mybatis can not parse #{list[0][0]} correctly
+Feature Request: resultMap Builder support
+XNode#toString() cannot display all information
+when i use flink and mybatis, throw error JdbcTransactionFactory is not serializable.
+Interceptor optimization
+add xml label for that making the document clearer .
+Does not remove an ErrorContext from ThreadLocal when use the lazy loading
+'sql' subseciton missing in TOC
+Unexpected cache hit ratio is reported for a SELECT with flushCache enabled
+The Bug Of SelectKeyGenerator
+Configuration.java should expose method removeMappedStatement(MappedStatement ms).
+How to make custom log queries with my own pattern in Mybatis3?
+Why not add an attribute value to the package sub element of the mappers element in the configuration file to identify the interface implemented by the interface?
+mybatis desperate needs nested select in dynamic [MARS stored procedure] combined
+Configurable ExceptionFactory
+Feature Request: Provide an intuitive way to insert escape column / table names in SQL builder
+is there something like OptionProvider, InsertProvider is not enough to support insert with dynamic identity id
+Support to construct result maps by using annotations with POJO model
+Custom implementation of CacheKey?
+Support the GraalVM
+Cache key collision when using AbstractRoutingDatasource
+Introduce the SqlSessionManager on documentation
+when we use @Param annotation, like this param.field, that cause my custom TypeHandler dosen't work
+Hope to add Reactive Relational Database Access
+Does not support ordering blocking on BlockingCache
+Does MyBatis want our source?
+Feature request: overriding sql fragments in mapper inheritance paradigm.
+Why not provide a configuration to close the first-level cache
+Cannot work a JDBC standard generated keys at <update>
+Support java.util.stream.Stream as return type of mapper method
+Add easier specification of columns in selects
+The configuration field of BaseTypeHandler is always null
+Configuring SQL statement using XSD
+Unexpected auto-commit behaviour when performing "UPDATE... RETURNING *" on Postgres
+Use Connection.isValid() in PooledDataSource or PooledConnection
+Per-db file parsing support
+ORA-01461: can bind a LONG value only for insert into a LONG column
+Need better documentation on complex parameters in stored procedure calls
+POJO modified in the 2nd level cache
+Add post processing Method in Configuration#addMappedStatement
+Can't use List<String[]> on foreach
+[Feedback] Why Rowbounds accept Integer, when we can limit using Long.?
+How about future plugins in Netbeans?
+Request for adding poolMaximumLifetime
+Constructor Args Map Incorrect Columns When Using resultMap property
+BaseBuilder#resolveTypeHandler does not account javaType for caching handlers
+@MappedColumn
+Adding possibility to pass properties to SQL fragments via XML attributes
+SQL builder: add subclass support
+Sub-Query Support for SQL builder
+Support package scanning using wildcard
+Change so that it can used a default value of placeholder as default feature
+Request for adding explanation how to call static methods to MyBatis manual.
+Add wiki page to introduce useful plugins
+There is case that does not close pooled connections
+Reusing JPA annotations to help results auto-mapping
+Add how to create a mapper interface using groovy in docs
+Merge Scripting and Parameterization phases in dynamic sql
+Enable access to Cache Delegates
+Javassist proxies cause marshaling frameworks (like Jackson) to fail
+Support of nested cursors
+MySQL Replication Driver Support
+BaseJdbcLogger.removeBreakingWhitespace strips whitespace in inline parameter constants
+How can I get column name when use map
+flushStatements() is not intercepted when it's called from commit method of executor
+Please support typeAliases of configuration on OgnlClassResolver
+Add more code comments if possible
+Can mybatis execute SQL directly?
+Is there a elegant way to get RoutingStatementHandler in multiple interceptors?
+SQLBuilder parentheses management question
+MyBatis MapKey for nested collection
+How to custom my filed mapper，like "mapUnderscoreToCamelCase"
+Extend DynamicContext for globally bind further vars
+Allow run-time exception to be thrown from within the xml
+SQL parameter substitution functionality differs substantially from string substitution functionality
+VendorDatabaseIdProvider should not return null databaseId
+Is LoggingCache thread safe?
+EnumOrdinalTypeHandler.getRawType returns E
+Field level annotations
+Lazy loaded dependency from different connection
+Cancelling long running select queries
+Feature Request: Load additional configuration files or extend config.xml
+Specifying a single parameter in a subselect as composite, causing typeMapper to be ignored in parameterType is specified.
+Handling Collection properties where getter returns unmodifiable collection
+MyBatis Constructor Injection should support <collection> as well?
+Lack of logging out parameters of stored procedures/functions
+ResultMap annotation for domain class
+Enable OSGI blueprint inyection for MyBatis consumers
+Use <include> in <resultMap>
+Mask parameters in log file
+3.2.2 SAXParseException includes row and column of error, but should have filename too
+Support for pluggable scripting engines in expression evaluation
+Collections should handle lazy loading
+The link of China Mailing List in blog website doesn't work
+Using var as a variable name is not appropriate
+Add aliases for char and Character
+Constructor id arguments don't need to be listed first
+The Source Code Build Failed with maven-pdf-plugin
+Use ResultHandler to obtain data and write the data to anthoer table, out of memory
+"ThreadLocal" variables should be cleaned up correctly
+There can cause NPE problem
+The interrupted status should return to caller
+CustomInterceptor to intercept @Provider linked method,but execute twice
+Is mybatis affected by spring's 0day rce vulnerability？
+Throw exception in DefaultResultSetHandler when more result set got returned than was expected
+README badge can't display maven central version in "svg".
+When I use 'DefaultObjectFactory' to create Queue,it's failed
+[urgency bug]The master branch code is compiling error
+When customized XML collection（use <collection>） query and cursor are used together Query result incorrect
+Should there be more in the "getting started" documentation?
+update the doc
+Skip SQL execution when any of the specified collection parameters is empty
+better to move 'org.apache.ibatis.exceptions.TooManyResultsException' to the package of 'org.apache.ibatis.session'
+The "PROJECT DOCUMENTATION" Chinese version is not translated completely
+Allow skipping setAutoCommit() call in JdbcTransaction
+Illegal reflective access warning when using "_parameter.containsKey() and Collections.singletonMap
+Please consider adding "like" element to the Mapper XML files
+add a constructor for XMLConfigBuilder
+SoftCache/WeakCache#removeObject() should return unwrapped object
+upgrade log4j-core to release version 2.16
+WARNING: An illegal reflective access operation has occurred -> when using public method in non public class
+rollback Cause cache dirty reading
+MyBatis needs to access java.lang and java.util . Not working anymore by default in Java 17
+<->
+can we addMapper using parallel?
+Error getting generated key or setting result to parameter object - Too many keys are generated. There are only 1 target objects
+about mybatis cache
+unable to use dynamic sql to update value with dynamic column
+482
+About when Configuration's cacheEnabled is ture, SqlSession#select run later, other query-operation's result will be not accurate.
+MapUtil#computeIfAbsent Object repeated creation
+when will this code be valid?
+BigDecimal precision lossing when reusing prepared statement for INSERT / UPDATE queries in DB2
+MyBatis not mapping correct result to correct field
+Memory leak from BaseExecutor use of PerpetualCache in SESSION scope
+Need Mybatis related to NodeJs
+Bug when namespace starts with a space
+Map receive returned incorrect result
+concurrentHashMap get and with the same object put could lead to performance problem
+Cannot read configuration in a modular Java project.
+Mybatis always return null value to the last column on select list
+setting in localCacheScope as SESSION not working correct
+@Select select a record with null columns，these columns are filled with columns' value that are not null
+MapperAnnotationBuilder:: parseResultMap get Results Annotation instance is not correct in master branch
+Only using auto mapping in parent result map will cause nested result objects don't grouped
+select by id return null occasionlly
+MyBatis 3.5.2 can't get partial field values.
+Cannot initialize context because "Caches collection already contains value for Benefits"
+useGeneratedKeys does work unexpected after upgrading from 3.4.4 to 3.5.6
+A confusing "No enum constant" exception
+Oracle insertions - severe performance degradation when not specifying jdbcType in SQL XML
+type handler was null on parameter mapping for property '_ frch_element' for Timestamp
+IllegalAccessException when auto-mapping Records (JEP-359)
+Use param names for constructor auto-mapping
+SQL Server showing nvarchar implicit conversation causing significant performance issue
+useAffectedRows in sql server
+Why can't Mybatis dynamically switch DataSources during execution
+Support catch NoClassDefFoundError exception When use ClassLoaderWrapper load Class
+Can I join the MyBatis team?
+Two tests have the same code lines in MetaObjectTest.java
+About the oracle column value type
+How to Read Mybaits（i can use it ,but i can not understand it）=.=
+Failed to rollback at catch when cause exception(s)
+resultMap can not mapping <result column="d.id" property="id"/> when the field "fullColumnNameToIndex" contains “d.id”
+Union query union all operation cannot be executed
+plsql if
+parse xml sql fail
+Error querying database. Cause: java.lang.NullPointerException
+Regression with Mapper XML Parsing: ResultMap couldn't declare association anymore
+Is it wrong
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named '__frch_item_0' in 'class
+h2 CLOB (via TEXT column type in H2) is mapped to StringTypeHandler which is not returning the correct value when it's going into a generic value
+a <cache> and <cache-ref> sorting issues
+Document site Toc is not work
+Mybatis automatically adds a LIMIT clause to the statement
+Feature request: 1. provide ways to close PerpetualCache, 2. SynchronizedCache VS ConcurrentHashMap
+BlockingCache may produce OutOfMemoryError
+List not iterable
+It is recommended to add xmlconfigbuilder to support configuration construction parameters
+when i use mybatis foreach tag， and i get some wrong, what reason?
+Table with 306 Column while making Pojo passing 306 variable causing issue by Java - What is the work around?
+Annotation problem of a method
+Error with interface TypeHandler for enum with interface
+About UnkonwTypeHandler takes up too much memory space
+Use foreach to insert data into ms sql server database, and the auto increment field only returns the last data
+Returning Account object after inserting new value into Account table in db
+How to get saved object back after INSERT
+BatchInsert Annotation Support?
+npe when I call mapper in non main thread
+JacksonTypeHandler
+Mybatis 3.5.5 ResultMap Bug
+MyBatis Boolean type handler cannot proceed null value in Java 11
+InvalidPathException thrown when parsing typeAliases elements using package as sub-tag
+I Don't Think It's Necessary To Keep The Cache System In Mybatis
+Support non-standard transaction isolation levels
+Offer configuration to disable autoMappingsCache in DefaultResultSetHandler
+The bug of MapperMethod.SqlCommand#resolveMappedStatement method
+Collection recursion needs to set recursion conditions
+ProviderSqlSource
+hi where spark hive use jdbc not use mybatis？
+only one parameter not use @param, may not work for DynamicSqlSource
+Why mybatis batchexecutor.doUpdate return Integer.MIN_VALUE + 1002?
+How can i set a property of type Interface ?
+add a tag like #{} ${} reopen! i have a new idea!
+change schema dynamicly not work sometimes
+TrimSqlNode bug
+unit test failling in UseActualParamNameTest::shouldMultipleParamsBeReferencedByActualNames
+Mapper method invocation should be non-blocking (work around JDK-8161372)
+The maven-bundle-plugin not work on JDK 15-ea+23 (Travis CI is failed)
+Oracle begin...end block
+Mybatis mapper SQL does not support annotations?
+Console log [org.apache.ibatis.io.DefaultVFS]-Reader entry Chinese Garbled
+Empty ResultSet And ResultSetLog output Total: 1
+MySQL 8 json data type
+mybatis DSL support
+iBatis Cachemodel for custom type handler
+Association and collection no working
+AutoMappingUnknownColumnBehavior if it is an interface, it is more reasonable
+Why the mapping of entity class annotation to database field is not supported
+DatabaseId is not supported by mybatis annotation
+Inline parameter expression parser not support ? : operator
+spring boot mybatis cache
+Missing parentheses in <foreach> tag when collection is empty
+I have a question
+CacheNamespaceRef causes IllegalArgumentException
+SQL Server | defaultStatementTimeout not working for jtds driver
+MetaObject.setValue tip error
+record missing in result
+Custom TypeHandler doesn't work in Dynamic SQL
+missing prepared sql parameters when POJO's attribute is set to 0
+<association> with Nested <collection> Returns Unexpected Results
+Mybatis issuse with Map<String, Object> type while add new record
+Race Condition in TypeHandlerRegistry
+Why @One/@Many supports only select?
+Hi @itdoer ,
+Why not preserve the flexibility and syntactic feel of SQL in Java?
+When I use batch update by ';'(allowMultiQueries=true),how can I get affected rows?
+sss
+batch insert with "on duplicate key" in mysql just return first primary key
+Does mybatis sqlProvider support batch insert using forEach tags
+Possible incorrect TypeVariable resolution in TypeParameterResolver
+fullgc in 3.4.4
+ClassCastError from LinkedHashMap to my own class type #3.5.2
+Using <bind> tag causes other parameters to be empty(Null)
+BaseBuilder repeat code
+Is VFS singleton？
+Feature Request: Add SQL Comment globally for distributed tracing
+Very strange NullPointException for DefaultResultSetHandler in mybatis
+Unable to use a Class located in default package in OGNL expressions
+从oracle迁移到postgresql大小写问题
+L2 cache dirty read
+typeHandler don't work when use discriminator in a extends resultMap
+Cache MethodHandle instances used to invoke default methods
+Mybatis interceptor cannot intercept batch insert data
+OffsetDateTimeTypeHandler had a breaking change from 3.4.6 -> 3.5.3
+class reference conflict:org.apache.ibatis.type.ZonedDateTimeTypeHandler in [mybatis/mybatis-3] and [mybatis/typehandlers-jsr310]
+Several potential NullPointerException bugs.
+sys_guid() call always return same value
+NPE while using selectOne(String statement, Object parameter)
+Possible NullPointerException when assigning generated keys to objects with custom hashCode() method
+The <cache> configuration will invalidate the <cache-ref>
+ClassCastException, with mapper method that return generics.
+Error getting generated key or setting result to parameter object. Cause: java.lang.NullPointerException
+LanguageDriver interface added method for scriptings sql source
+Cache Hit Ratio is 0.0 using 2nd level cache for select then you must execute session.commit
+field cache should be final in class org.apache.ibatis.cache.impl.PerpetualCache
+Updating from 3.1.1 to 3.5.3 breaks due to the change of SqlSession
+In some cases, the null pointer exception will be reported when setting the parameters, causing the data insert to fail
+About method param name
+org.apache.ibatis.executor.ExecutorException: Too many keys are generated. There are only 1 target objects. You either specified a wrong 'keyProperty' or encountered a driver bug like #1523.
+Reflector#resolveGetterConflicts boolean.class and Boolean.class
+bug or enhancement report --- expect to close real database connection
+some fileds should be final
+field id should be final in class org.apache.ibatis.mapping.Environment.Builder
+functionality enhancement request---add attribute location in mybatis-config.xml such as mapper location="xxx.yyy.mapper"
+Updating from 3.1.1 to 3.5.3 breaks
+should use try-with-resoures construct for java.sql.Connection in method org.apache.ibatis.mapping.VendorDatabaseIdProvider.getDatabaseName(DataSource dataSource) throws SQLException
+enhancement --- duplicate checking to key of HashMap in class org.apache.ibatis.type.TypeAliasRegistry
+Doesn't support batch count(if()) operations?
+is there no point to adding variables of configuration in method org.apache.ibatis.builder.xml.XMLConfigBuilder.propertiesElement(XNode context)
+no need to check equality for hash code of strings in method org.apache.ibatis.datasource.pooled.PooledConnection.invoke()
+ArrayList<HashMap<String, Object>> insert failure
+sql语句没问题，但是baosql语句的问题
+mybatis dynamic sql question
+Mybatis cannot retrieve data from Oracle with data type blob, clob to HashMap?
+mybatis3 problem on result is wrong when batch insert many times
+how to return Map<Key, List<Value>>？
+Customize object construction when select the raw. (Feature request)
+Mybatis supports asynchronous queries
+PropertyNamer class question
+Illegal reflective access by org.apache.ibatis.binding.MapperProxy Java 12
+<resultMap> does not work in a parameterized constructor
+MyBatis TransactionalCacheManager problem
+Why there is basically no comment in the source code of MyBatis.
+queryCusor() fails in streaming mode of MySQL Connector/J (fetchSize=Integer.MIN_VALUE)
+Unable to iterate Cursor if the next element is null
+org.apache.ibatis.ognl.NoSuchPropertyException, java.lang.String with mybatis 5.0
+How to replace the database name of where condition of query according to Java configuration variables before generating SQL?
+LocalDateTimeTypeHandler failing with TIMESTAMPTZ
+name conventions: rename getExtensiveSubject to getExtensiveSubjects
+Bug From BlockingCache NullPointException
+Illegal reflective access when invoking default mapper method
+localCache in BaseExecutor cached uncertain results.
+expand interface for customer scan mapper package
+where i can find org/mybatis/example/BlogMapper.xml and Blog.java code
+About the date field in the oracle database
+array.length is not 0, when array is empty
+the column atttribute of <collection> element does not work well
+WARNING: An illegal reflective access operation has occurred
+Occur infinite loop when throw Exception that hold cause from provider method
+a simple question about org.apache.ibatis.parsing.XPathParser
+UUID native support
+Does resultMap support return subclasses of a class
+Find a NullPointerException like issue #1050
+The contents of the 'caption' tag are garbled In the Korean translation document
+Two xml with same namespace interface, cache uncleared when invoke update in second xml
+Mybatis Mapper Interface extends Mapped,MappedStatement register twice
+NPE in DefaultResultSetHandler when using association on composite key
+University project
+MyBatis 3.5.1 and JDK 11: Illegal reflective access
+selectOne cause OOM
+spell mistake in org.apache.ibatis.session.Configuration
+Insert list
+java.lang.IndexOutOfBoundsException: Index: 20, Size: 20
+Log printing is inconsistent with actual results
+In some case, a unmapped column name can not automapping to a similar property in the bean object.
+No dedicated secure source for DTDs
+mapper method thread no safe
+Typehandler's argument "columnName" is not column name, but is column label
+There is case that a TypeHandler is incorrectly selected for a nested select query parameter
+why logImpl of settings doesn't support logack
+LocalDate Cause TypeException
+Interface naming is not standard
+Criterion error for 3.5.1
+mybatis 3.5.1 mysql LocalDateTime wrong time zone mapping
+java.lang.NoClassDefFoundError: org/apache/ibatis/reflection/ExceptionUtil
+About the use of typeHandlers configuration
+Mybatis does not work in multithreaded programming
+No setter found for the keyProperty 'id' in 'java.lang.String'.
+Support networkTimeout on built-in DataSource classes
+mybatis 3.5.1 mysql Conversion not supported for type java.time.ZonedDateTime
+The difference between Ognl 3.1.16 and 3.2.10
+Error occurred when I try to "INSERT INTO ~ ON DUPLICATE KEY UPDATE" with useGeneratedKeys.
+SQL can`t use LIMIT AND OFFSET
+Druid + JSR-310 type handlers = SQLFeatureNotSupportedException
+I had a Collection usage problem
+MyBatis looks like shit
+Does using example affect performance?
+Collection returns different form of data in version 3.4.6
+scan typeHandlersPackage cause many WARN messages
+ErrorContext
+Multiupdate query in mybaties mapper
+Auto-mapping fails in a result map referenced from a constructor arg with columnPrefix
+Constructor auto mapping could fail when columnPrefix is specified in the parent resultMap
+Doesn't work well with @lombok.Data
+cannot find type handler for enum when enum value has methods
+Returns the subclass type of the generic type dynamically
+Why is this happening wrong?
+MyBatis 3.5.0 inconsistent handling of keyProperty
+LONGVARCHAR is mapped to ClobTypeHandler
+Support overloaded methods mapped to individual statements
+select bug on 3.4.6 , result contains other classes
+There may be some bugs in the CachingExecutor and SerializedCache
+The conversion to class java.time.ZonedDateTime is unsupported.
+property
+A bug in org.apache.ibatis.reflection.Reflector
+[Enhancement] can mapper.xml provide a better support for code reusing?
+Mysql sets the primary key increment, and when the step size is 2, mybatis inserts the returned primary key id in batches, there is an error.
+Cannot get all correct keys when insert batch data into sqlserver
+3.4.6 unsupport jdk11 in lazy proxy
+ArrayTypeHandler doesn't call Array.free
+Convert all tests to Junit 5
+Return one by code but find two by sql
+Hope to add JSON support
+Dead-Lock in BlockingCache
+when the 3.5.0 will be released?
+I want to ask a very simple question, why is SqlSessionFactoryBuilder not defined as a static class?
+java type erasure1
+About mapper interface method parameter
+Build is failed using JDK 6 on 3.4.x
+Slightly improved compatibility with drivers that only support JDBC 3 API
+Interceptor Connection.class
+*
+My Batis Unable to create objects by constructor with collection as argument
+Association javaType property not automatically resolved
+let mapper build process fail when mapper file encountered an error
+Upgrade to mybatis-parent 31 GA
+Maven build is failed because junit-engine.version property does not found
+the bug in 3.4.6
+Upgrade to Javassist 3.23.1-GA
+missing property in xml file
+Mix of cursor + stream + intermediate operation seems to be broken
+TypeHandlers for the same type management on collection
+Maps multiple column on the same property object with existing typeHandler
+Mybatis delete returns negative value. Why is that?
+Why do we do this ,when I use @Param, I got an exception
+Bug that BlockingCache does not release lock properly
+Problem with if tag
+Bundle Reinstall dos't work in OSGi environment (Apache Karaf)
+Cursor.close() closes its statement even if the ExecutorType is REUSE
+arg0 style not work with 3.4.6
+BaseExecutor queryStack properties may cause thread safety problem?
+I want to return promary key with @SelectKey,but throws com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: PROCEDURE neptune.identity does not exist
+JDK10 - XML mapper can not be found
+SQLException when using selectCursor on DB2
+[DefaultResultSetHandler.applyPropertyMappings] optimization
+3.3.1 java.lang.IllegalArgumentException: invalid comparison: java.util.Date and java.lang.String
+<select statementType="STATEMENT"> not support dynamic sql
+When SQL starts with use database; Batch insert can't get the keyProperty
+about BatchExecutor
+different default value between XMLStatementBuilder and MapperAnnotationBuilder
+handle order of cache and cacheRef in XMLMapperBuilder.configurationElement?
+Exception when SQL comment text contains a parameter argument
+Feature Request: Pass JavaType to TypeHandler
+ClobTypeHandler does not work properly with Postgresql JDBC driver
+global mapper abstraction configuration request
+callSettersOnNulls true >> I want "part resultMap false"
+Jdbc Type handler does not match the website information
+messy code for logback
+mybatis3.4.6 bug
+The Collection doesn't work right with unordered data
+in ResultMapping resolveTypeHandler method, typeHandlerRegistry get typeHandler by a javaType(which is a java Interface) returns null. the reason is using different ClassLoader in registering and getting time.
+TypeParameterResolver.resolveFieldType gives incorrect result
+MySQL 8.0.11 Returns the id value after insert
+DefaultResultSetHandler createByConstructorSignature
+throw TooManyResultsException when use mutiple resultsets store procedure
+MyBatis CachingExecutor problem
+Empty Iterator returned on Cursor when it is already closed
+Cause: java.lang.IllegalStateException: Cannot enable lazy loading because Javassist is not available. Add Javassist to your classpath.
+Using @Update or @Insert with PostgreSQL's RETURNING to get the updated object
+Strange behavior with association ID if this ID in master table is null
+The Bug of Jdbc3KeyGenerator when use DB2 database and insertBatch Method
+Got null map while using map as resultType to store result with all null columns.
+Mapper String parsing bug
+Allow omit the 'method' attribute when provider method name is same with mapper method
+PreparedStatementHandler query should check the prepared statement execute result.
+BaseExecutor may produce ClassCastException in multithread environment
+Cannot apply changes a logging implementation at some class
+batch insert and get Generated Keys
+Add build using JDK11 on Travis CI
+Bug on <insert keyProperty="">
+Annotation Mapping one to many with simple (not prepared) statement throws org.apache.ibatis.reflection.ReflectionException
+BlockingCache has a risk of OOM
+Generic type parameter is not correctly resolved when the class hierarchy is deeper than 3 levels.
+Allow accessing private, package private and protected members on OGNL expression
+SqlSessionFactoryBean Parse Exception But No log
+mybatis timestamp DEFAULT '0000-00-00 00:00:00' dont work
+If malicious data already present in DB, are we doing any sanitization while retrieving data
+Cannot found Type handler when use <constructor> element.
+Constructor based java.util.Date throws Exception, expects java.sql.TimeStamp
+Allow referencing single parameter using actual method argument name when compile with -parameters
+throw ReflectionException when using #{array.length}
+Wiki FAQ - Add a better way for sql like.
+ScriptRunnerTest fails on Windows OS
+mvn site is fail after mybatis-parent 31-SNAPSHOT
+Deprecated Log4J 1.x
+There is case that does not restore accessible state on Ognl
+Support concurrency on OgnlClassResolver
+Upgrade to ognl 3.2.x(3.2.6)
+Supports log4j-core 2.6+(2.11)
+Drop support for JDK 1.6 and 1.7 at build definitions
+ClobTypeHandler doesn't work properly with mariadb clob utf8mb4
+[RFC] add example to document, show how to pass table name in params
+Ambiguous getter/setter causes ReflectionException even when the property is not accessed
+Bug: Constructor instantiation does not map data types correctly
+Add Automatic Module Name
+Using @CacheNamespace with <cache-ref /> could cause exception
+Sorting and Pagination
+Cascade Error with <Constructor> resulting in null value
+Unexpected auto-commit when doing UPDATE... RETURNING *
+Can't get data from oracle stored procedure
+useGeneratedKeys=true seems not working properly with sybase ase 15.7
+About The inner class ParamMap of MapperMethod
+One to Many association in Lazy Loading mode
+ForEachSqlNode put unexpected key-value to DynamicContext
+Can't register TypeHandler after using TypeHandlerRegistry.hasTypeHandler
+Deeply nested (3+ levels) result map could cause IllegalArgumentException
+issue #377, call setter on nulls, correct in 3.4.0 but error in 3.4.1-3.4.5
+OutOfMemoryException because PerpetualCache.cache is too big
+I maybe find a Bug
+fail
+Build Failure With Java 9
+can mapper namespace support alias，like typeAlias type
+OutOfMemoryError
+Improve documentation around caching and cache-ref
+MyBatis and JDK 9: Illegal reflective access
+<where> does not automatically remove the and/or connector that starts with the and exists
+BaseTypeHandler may cause different meaning
+Struct cann't use Cache
+Run basetest fails.
+The Mathod of nodeHandlers need to be enhanced
+ExpressionEvaluator returns true for a double value 0.0d
+asdfgbnm
+VARBINARY to byte[] and vise versa
+a bug in update process
+ON DUPLICATE KEY UPDATE during batch insert is broken after update from 3.4.4 to 3.4.5
+Supports CharSequence on SQL provider method
+Upgrade to postgresql-embedded 2.5
+Insert foreach - useGeneratedKeys Bug(?)
+Nested sql framgements are not searched from nesting elements
+Remove blank lines in SQL
+Upgrade to mockito-core 2.12.0
+Upgrade to javassist 3.22.0-GA
+Broken backward compatibility. Parameter '0' not found
+Researching Build Breakage
+declared delimiter to take whole next token
+Can you provide general insert, update, delete, get method?
+A sample bug was found in the test class that caused the mvn test to fail
+BUG: Multi-row insert not assigning generated id into property
+Image Insertion Issue
+BatchExecutor should close statements immediately after execution
+Compile against JDK9
+StrictMap exceptions should be more clear
+A select statement with both returnMap and returnType result in returning an one size List without an element
+Lazy loading not working when field getter is final
+resultMap Bug when SQL using "as" aliases for column names
+Mapping multiple result sets using only Java annotations.
+3.4.5, class org.apache.ibatis.executor.resultset.DefaultResultSetHandler getNextResultSet cause a stackoverflow exception?
+Column name ignored in Collection association unless the resultMap is complex.
+impossible to retrieve more than one object (same class) from a column with mybatis by using a typehandler
+Some params #{object.property} not accessible after 3.4.1
+When the comment in *-mapper.xml include string #{XXX}, the #{XXX} looks like being resolved as a parameter of statement.
+Error setting Log implementation. with slfj4j-api-1.7.12.jar
+MyBatis Generator + Postgres + sequence + AnnotatedMapper = Insert-Exception
+use @Alias, the entity's property could not construct like @columnMap
+typeAliases+package doesn't work in non-unpacked .war
+OffsetDateTimeTypeHandler or ZonedDateTimeTypeHandler loses time zone information
+Update to postgresql 42.1.4.jre6 (JDBC driver)
+Update to postgresql-embedded 2.3
+Upgrade to OGNL 3.1.15
+Does Mybatis support kotlin?
+SQL include does not replace in attributes
+Handler can not have an Spring injected attribute
+ORA-01461 when SQLXML field contains XML longer than 4K
+Mybatis do not find the correct handler for a class
+mybatis mapper scan in springboot
+RowBounds can not pass in values
+mysql multi-row insert ,return wrong id
+Allow replacing configuration properties on ProviderSqlSource
+mybatis batch update(foreach) size
+NullPointerException for High concurrency
+flushInterval does not work
+It's would be better if MapperMethod.executeForMany support any Type
+why not use java SPI to locate user's SqlSource implement
+Upgrade to mybatis-parent 29
+Upgrade to javassist 3.22.0-CR2
+Upgrade to mockito-core 2.8.47
+New Chinese technical book: MyBatis 从入门到精通
+multipleResultsetSets lost resultset
+Too smart TypeHandler
+mappers should support wildcards,eg * or **
+TransactionalCache Delay to send
+When the parameter name is "size", it is always mapped with integer
+The Boolean type value error in a map.
+Invalid value "5" for parameter "parameterIndex" [90008-192]
+INSERT ... ON DUPLICATE KEY UPDATE Syntax can not work
+springboot+mybatis+druid配置sql执行空指针异常
+update neither columns
+Does mybatis support non-crud operations?
+Just generate the SQL based on a xml template so it can be used in custom JDBC call
+Cursor is closed.
+mybatis3.4.1 A large amount of thread access can be blocked
+频繁操作mybatis会这样
+spring boot2已经支持kotlin，希望mybatis也支持kotin
+No operations allowed after statement closed.
+Dynamic sql using @SelectProvider
+Exception raised, when association object field value is used to insertion query
+Can Mybatis offer mapper extends feature now?
+java.lang.OutOfMemoryError: Java heap space
+how to get comment of table
+Can not get Mapper name in LanguageDriver
+A serious bug about some methods in SqlSession
+Lazy loading should not overwrite a property value set by user
+How to parse oracle hints /*+ materialize */ in Mybatis3?
+multiple selectKey in one insert node
+Firebird clobs incompatible with mybatis 3.4.x
+Allow to customize default TypeHandler for Enum
+3.4.3 does not work on Java 6 and 7
+Constructor Args do not support columnPrefix
+When i use mybatis with Quartz,
+How to pass a sql or parameter or property to super interface
+The if expression can't get variable value when giving a String.
+Update to Mockito 2.7.19
+Update to CGLIB 3.2.5
+Update to SLF4J 1.7.25
+The "test condition" replace the paramter value
+DefaultVFS nullpointer exception in Websphere Liberty 8.5.5.9
+Issue returning empty cursor as Collection
+ScriptRunner must not commit if autoCommit is false
+Reg : Mybatis not support bigdata(impala,hive)
+getsession() NullPointerException
+Why mybatis columnNames and model properties also was null？
+BUG? The associaction object reference mybatis cached not readOnly has exception "org.apache.ibatis.executor.ExecutorException: Cannot get Configuration as configuration factory was not set."
+Update to OGNL 3.1.14
+Update to Mockito 2.7.12
+Update to SLF4J 1.7.24
+Could not find parameter map java.util.Map
+Invalid error message 'Two methods with same method sigunature but not providing classes assignable?' in System.err
+@ResultType and @Params annotations doesn't work as expected
+may cache dirty data when update from another instance?
+Can't invoke the setter for the <collection> property when a bean (<resultMap> ) set a <collection> property
+typeHandler cannot find enum witch @override a abstract method
+incompleteMethods in Configuration keep non empty cause java.lang.IllegalArgumentException: Mapped Statements collection already contains value for****
+Dynamics results with dynamic columns only works with a 'stmt' bean getter (ParameterObject)
+regression: bean/model inheritance fails with ReflectionException with version 3.4.2 (was working with 3.2.8)
+useGeneratedKeys while Batch Insertion via List
+element "include" content must "EMPTY"。
+Add mappers via package name directory doesn't work
+Integration tests problems with mybatis and HSQLDB
+Creating an object through a constructor fails when using Enums
+A boolean property should be able to have two getters: isX() and getX()
+Default methods support on mappers, does not work for non-public mappers.
+Building UPDATE JOIN statement by SQL Builder
+ExecutorException: No setter found for the keyProperty 'id'
+When user org.mybatis.spring.mapper.MapperScannerConfigurer Spring placeHolder can not place content
+The mybatis-3.4.2.jar (inside mybatis-3.4.2.zip provided at release page) is require Java 8 runtime
+Please allow extend base Enum handlers - change type access to protected
+How to Pass Multiple Java POJO object from DAO to XML mapper
+Use Java 8 parameter names for constructing object post-query
+how to query all the fields in resultmap fast when using left join?
+why sqlruuner.selectOne method return map key need upperCase
+About the sqlSession
+SelectKey for id not work?
+after insert into sql server, mybatis does not return generated key
+mybatis-3/src/main/java/org/apache/ibatis/executor/loader/javassist/JavassistProxyFactory.java
+Improve to share Jdbc3KeyGenerator and NoKeyGenerator instance
+Add tests for auto-detecting mybatis-typehandlers-jsr310
+Support auto-detecting YearMonthTypeHandler
+Problem with fetching data from table with NVARCHAR2
+Update to Mockito 2.4.2
+Cache doesn't work in 1 mapper when 2 mappers are mapped to a same namespace
+Why repackage the ognl and when repackage with apache common-ognl?
+Can add physical paging feature?
+mybatis batch insert oracle table ID use sequence return ID NULL
+@Intercepts PROCEDURE: throws ClientAbortException: java.io.IOException: Broken pipe
+Two typos in documents
+Typo for SqlSessionFactoryBuilder in documents
+Allow to specify a default value on placeholder
+The docs page is down
+SQL contains '?' Fill Problem
+PropertyTokenizer causes Infinite Loop when used in enhanced for-loop
+how to get @MapperScan annotationClass's custom arrtibute value
+Can't create a result object according constructor parameters
+new line between "=" and "CALL" when calling store procedure parser error
+mybatis
+class not found com.mysql.jdbc.Driver
+I hope I can do not need to mybatis XML configuration file database operation, simply by javaBeanannotations.
+3.2.8 Official documentation typeHandlers question
+Pass configuration variables to Cache upon construction
+PerpetualCache is thread-unsafe
+Can't insert data on h2 database
+mybatis lazy loading issue
+how to use enum in tests
+Mybatis constructor automapping fails on primitive/wrapper
+Wildcard type with upper bound is resolved as java.lang.Object.
+Logger is wrong in VendorDatabaseIdProvider
+Can change StatementHandler.query(Statement, ResultHandler) into StatementHandler.query(Statement0.
+why the DefaultSqlSession's method wrapCollection has map.put("collection",object) and map.put("list",object)，this map may put two times
+mybatis3.4.0 and mybatis3.4.1 just suit the mybatis-spring1.3.0 ?
+suggest changing StatementHandler.query(Statement,ResultHandler) interface into change StatementHandler.query(Statement)
+why I can't open the website http://mybatis.github.io/mybatis-3/?
+custom typehandler occur error
+Mapper creation in an endless loop
+Why MyBatis don't support "readOnly" property in a DB connection?
+callSettersOnNulls does not work
+Why MyBatis don't support "import" function in mapper.xml
+CreateDB.sql
+"autoCommmit" spelling mistake in JdbcTransaction class
+BRIDGE Method object maybe used to MapperProxy#invoke with Java 8 compiler
+For master branch, mybatis-parent 28-snapshot isn't available in maven repo
+Performance problem at 'BaseExecutor.createCacheKey' in instantaneous high concurrency environment
+mybatis缓存问题
+how can i dynamic change the sql
+ReuseExecutor reuses a still in-use PreparedStatement when a nested query result has the same prepared SQL
+Intermittent java.sql.SQLRecoverableException: Closed Connection
+Bug in DefaultResultSetHandler.java with null values and .isCallSettersOnNulls set to true
+Setter with generics and without a getter produces an exception
+Parent child relationship insert
+How can I run a procedure and return a set result?
+Lazy loading should not be triggered by setter methods
+poolMaximumCheckoutTime logic has problem when leaked a connection.
+Accessing bound array parameter in a SQLMap fails
+MS SQL 2008 - Multirow insert; returning of Key Generation failing.
+i have a dream
+3.4.0 Full-GC frequently
+Logging of Array parameters
+动态sql执行count结果异常
+NVARCHAR2 issue
+shows 'Invalid bound statement' in junit test with spring
+why after sqlsession.close(),the lazy load can do?
+Unable to use composite key in nested query
+bug report: empty table cause IndexOutOfBoundsException
+Cannot access properties in <setting /> since 3.3.1
+Resolve POJO constructor arguments by name rather than position
+Is possible add at GUICE the JDBCTypeForNull and CallSettersOnNulls configuration?
+Execute stored procedures with a lot of updates in SQL Server is too slow.
+useing ResultHandler result of sqlexception when query huge data
+Unable to process Jar entry SEVERE: Unable to process Jar entry [org/apache/ibatis/javassist/util/proxy/SerializedProxy.class
+tomcat error 报错
+about mybatis
+mybatis
+Support default methods on mapper interfaces
+长时间频繁增删改时Mybatis错误：Error preparing statement
+how can i get generated timestamp by mysql
+mybatis-3.4.0.jar on IBM's Websphere Application Server 8.5.5.9
+Handle overloaded mapper methods
+Share configuration
+XML configuration for custom TypeHandlers is not being mapped to primitive type booleans from 3.3.x onwards
+NullPointException in ResultSetHandler when java type className is null.
+mybatis 3.4.0 and mybatis-spring 1.3.0 #####Prepare Method BUG?
+Can mybatis support optimistic lock and pessimistic lock in future version?
+resultmap declaration programatically
+ScriptRunner解析sql脚本文件问题
+Make global variables available in dynamic SQL test expressions
+flushInterval for cache not work
+Add ability to skip read of concrete output parameter from callable statement using mapping.
+Parameter Maps collection does not contain value for java.util.List
+mybatis higt-version plugin Occasionally not execute?
+MsSQL Server Error with generatedKey and InsertTrigger on Table
+Can not support child properties in ObjectWrapperFactory
+Can not customize a ReflectorFactory using mybatis-config.xml
+please， review #663
+Support @Select with an array return type
+Does not work Cursor using annotation based Mapper
+Can not fetch an object from Cursor when a RowBounds is used
+maven repo has problem? there's no jar found @ maven path
+Association to mapped select that uses @Param arguments fails
+mybatis3.4.0 error
+why removed #621 from the 3.4.0 milestone
+Mapping to wrong class when using one-to-many mapping and custom typeHandler
+New @Mapper marker annotation for DI frameworks
+StatementLogger's equals/hashCode is maybe dead code.
+RowBound not working
+Getting "NoSuchPropertyException" Randomly
+Error setting Log implementation.
+doc: In Getting started, add download link of the mybatis-x.x.x.jar file.
+vfsImpl in settings is not working
+useGeneratedKeys doesn't work with multiple parameters
+TypeHandler cannot support super classes or interfaces.
+Mybatis issue while generating Model Java file
+This may a spelling error but not a bug on ResulSet
+Can mybatis support a list or an array as a parameter and there is no need to use <forEach>？
+Bug with collection select on HashMap.entrySet()
+TypeHandler with @MappedJdbcTypes causes exception in mapper configuration
+OgnlOps#isEqual comparison of two enum thrown IllegalArgumentException
+java.sql.SQLException: Exhausted Resultset
+Error deploying in TomEE 1.7.3 since migration from 3.2.8 to 3.3.1
+Property type fetching should process generic.
+Some records are missing in result
+collection in ResultMap get only one row and can't set list attribute correctly
+Request posgrSQL for generatedKey
+Update performance by caching automapped mappings
+Querying the existing cache in a particular session
+collection of type List<String>
+how to call oracle function in mybatis
+Spring mybatis insert can't return primary key
+1
+Mybatis defind a generic sql provider?
+pom.xml should save in utf-8 without BOM.
+lombok support
+Create TypeHandlers for Java 8 Date and Time API
+Registered custom TypeHandler is not applied to generated key if jdbcType is specified
+primitive array resultType throws exception
+org.apache.ibatis.binding.MapperRegistry.addMapper Exceptions are ignored
+Part of result records MISSED when using ResultMap with COLLECTION
+Mybatis cache result not right
+Custom cache flushInterval not working
+Obtain formal parameter names using Java reflection
+Default namespace for mappers?
+Bad connection issue if autoCommit = false
+一对多级联查询，多端有重复数据，只能查出一条是为什么呢？
+a Improvement for TypeHandler
+Your README.md file is lacking proper keywords
+TypeHandler was not used when parsing @SelectKey result
+Under certain conditions mybatis took a previous value of a variable it was passed.
+Add filename in BuilderException
+Can mybatis and mybatis add a aop function to mapperproxy
+The MyBatis OGNL doesn't support special set/get method
+mybatis doesn't support two same column names
+Problem with useGeneratedKeys and postgresql on multiple insert
+question PropertyTokenizer on java 8 ;
+MySQL DELIMITER does not work
+Neo4j Syntax Error
+foreignColumns with multiple columns validation error
+Use @Intercepts. set AdditionalParameter, can't set value, it's issue?
+MyBatis JNDI with JBoss gets expired records
+mybatis lose duplicated rows when using association
+Can I insert one to one mapping in a single xml configuration?
+Ignore association when there is no result (Nested Results for Collection)
+aggressiveLazyLoading doesn't work as document says
+mybatis <if> error
+About ResultMap.idResultMappings
+is this bug?
+not support overload?
+'insert' method in the mapper class does't flush 2nd cache
+About mybatis3.2 log ooo Using Connection [jdbc:mysql://localhost:3306/.........
+Explanation of configurationFactory setting is not exist in reference page
+Improve handling of defaultStatementTimeout
+Change to select valid setting name in mybatis-config.xml
+Mybatis @Select annotation support cache configuration?
+DefaultVFS can't cope with self-booting JARs
+Error inserting list of objects with identity column using mybatis.
+not support ntext ?
+ONGL Expression can't support char '}' ecscape
+Apply custom ResultHandler to CURSOR type OUT parameter
+NPE when ResultSet is null
+ResultMap, discriminator association, NullPointerException when no resultType set
+flushInterval="10000" dosn't work
+Support batch inserts
+The foreach mapper can't direct to process the "java.util.List"
+NStringTypeHandler handles only String and not NString
+parameterType of list has throwing MyBatisSystemException.
+Missing annotation to scan Alias
+Custom primitive TypeHandlers are ignored in MyBatis 3.3
+How to avoid non-English word's messy code in mapper.xml?
+How to concat a number type in a select sql in Mybatis?
+foreach collection can't be list
+select LIKE
+mybatis dynamic sql bug
+No se ejecuta ResultHandler con cursores en parámetros de salida.
+MyBatis Generator and PostgreSQL sequence
+How can I map a LocalDateTime field ?
+downloading maven plugins ,help help help
+Cache error
+ErrorContext.store() method
+Why does not UnpooledDataSourceFactory behave like a common factory?
+how to Table values function call in mybatis ?
+Detail Data show in table
+Use @MapperScan annotation in springboot container result in a IllegalArgumentException: Cannot subclass final class class com.sun.proxy.$Proxy57
+java.util.RandomAccessSubList and java.lang.String
+EnumOrdinalTypeHandler annotation configuration error
+MySQL's GROUP_CONCAT with special separator not tokenized correctly
+Dynamic SQL judgment
+Override Automapping is not correct
+DB server closed connection error
+mapUnderscoreToCamelCase=true setting does not work in some cases
+Mybatis unable to log queries with log4j2
+entity Have only one valid parameter and the value is id was wrong!!!
+How to get to every case sql from complex dynamic query?
+How to Improve mybtis dynamid sql performance?
+Objects instantiated when all fields in a ResultMap are null
+callSettersOnNulls=true doesn't work in version 3.3.0 anymore
+Using mybatis with SAP HANA
+Not fully supported about generic TypeHandler
+BindingException: Parameter 'a' not found. Available parameters are [param1, b] for the case when I use xml query building and one query for several Mapper-methods.
+<foreach> does not properly close IN-clause if the collection is empty.
+LogFactory dependency on cobertura in 3.3.0
+about method DefaultResultSetHandler.createRowKeyForMappedProperties
+the ERROR prompt is not very clear!
+Setting custom variables per environment
+foreach collection is a list in a map-parameter
+cross mapper use sql
+Need explicitly configure flushCache manully once using the Options annotation
+org.apache.ibatis.builder.BuilderException caused by java.lang.StringIndexOutOfBoundsException
+List<X> in mapper doesn't work when using resultMap with association
+TransactionalCacheManager nullpointerException for rollback ?
+work
+NPE if mapper namespace not provided
+IllegalArgumentException in resultMap that contains a collection with javaType List
+mybatis 3.2.8 question about if tag
+Wrong column value applied to collection
+How to return generated ID when using batch insert?
+Support the defaultFetchSize in config.xml
+mybatis + spring use aop:pointcut not rollback
+problem :Error querying database.
+Divide the class repository (Reflector) for different SqlSession Config
+Modify to use Log#isDebugEnabled()
+Use MyBatis execute direct Sql
+FreeMarker plugin for MyBatis
+Unwanted trailing whitespace is readed from @Select annotation
+Mapping a list of strings as <collection> in XML could be more intuitive
+MapperRegistry is thread-unsafe
+Support for invoke the flushStatements via Mapper interface.
+PL/SQL is not fully supported
+Nested Result Set automatically ignored if typeHandler in registry
+Is there a way to check parameter for a specific character
+Must I make my xxMapper.xml ' s name and interface.java's name as like as two peas?
+Accessing dynamic variable could cause BindingException when null is bound
+Cannot register language driver instance
+__frch_key_0
+How to use a simple @Select correctly
+DefaultSqlSession returned by DefaultSqlSessionFactory is not Thread-Safe
+Exception occurs when MyBatisBatchItemWriter is used with oracle database.
+RowBounds do not work as expected ?
+Maybe it is a bug. Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'id' in 'class java.lang.Integer'
+Mybatis 3.2.8 ERROR: Mapped Statements collection does not contain value
+typeHandlersPackage scanning not working when custom TypeHandler is in other (nested) jar than the SqlSessionFactoryBean definition
+java.sql.sqlrecoverableexception closed statement in BatchExecutor
+Mybatis doesn't get correct return type when the mapper interface extends another one.
+More Scalable @SelectProvider
+ScriptRunner log writter doesn't work when the full script is sent
+NPE in PropertyTokenizer during startup with multiple threads
+Mybatis Annotation problems
+I found a bug about TypeHandler
+GenerationConfiguration file
+DefaultParameterHandler need to pass JdbcTypeName to TypeHandler
+null value returned by DefaultResultSetHandler
+autoMapping part in manual
+map in foreach
+How to add condition to collection
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "."
+useCache flag is not checked in SimpleExecutor
+how to manage nested queries (LAZY)
+Issue in update***SelectiveMapper
+dynamic result type
+How stop queries
+Enums with implementations incorrectly use String even if you specify ordinal TypeHandler
+Mybatis 3.2.8 's logs are not correct.
+NullPointerException in BaseExecutor during high load
+The property is null if the column is using in Result transformation
+spring ignoring bean creation exception on FactoryBean type check
+SqlSessionInterceptor committing INSERT statement even when autocommit is false and before session.commit()
+Bug on get native Connection By SqlSessionTemplate
+jdbcType LONGNVARCHAR cannot be resolved
+MyBatis cache is not working
+when resultType is map,the jdbctype is mismatched
+bug in class SqlSourceBuilder
+Element type "bind" must be declared.
+In usage of "stored procedure", is not wrote about statementType="CALLABLE"
+How to set jdbcTypeForNull using java config?
+Set lazy loading in xml
+How to wrap multiple select queries into one query
+Does not work correctly the RowBonds mechanism when use the ResultHandler to nested result map
+@CacheNamespace default values are inconsistent
+check cache after get connection.
+Sonar Related Issues
+duplicate collection entities when having multiple one-to-many relations
+ava.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.Long
+Mybatis does not find the correct property setter.
+associations broken for primitive types
+中文文档中存在文字错误
+mybatis not closing oracle cursor
+Upgraded to 3.2.7 and now get java.math.BigDecimal cannot be cast to java.lang.Integer when using NUMERIC type
+unable to use annotation based mapper to set fuzzy search SQL
+BaseTypeHandler<T extends Enum<T>> is ignored when @MappedJdbcTypes is specified
+could you recommend a guide book to me for study mybatis
+Maven Surefire Plugin: Error building SqlSession
+Support of Set.java as collection
+nullvalue in result tag
+MapperAnnotationBuilder doesn't handle Java 8 compiler change for generic interfaces
+Mybatis 3.2.x / MyBatis-Spring 1.2.0 BindingException when use single word for database table column name
+Log4j2 API change in 2.0-rc2 causes ClassNotFoundEx with MyBatis-3.2.7
+Log4j2 integration broken with rc2 release
+mybatis-spring-1.1.1.jar bug..
+problem with ${}
+Passing multiple parameters on @Many annotation
+Support for Java's Optional<T>
+Error inserting a list of objects with collection type list with MyBatis 3.2.7
+OGNL 2.6.9 bug is affecting mybatis when there is a heavy load on startup.
+Provide facilities for EJB programming
+How to use complicated JavaBean in parametertype?
+CustomTypeHandler trouble with "is" prepend
+No Getter Property
+Circularly referenced resultMap is filled with ancestor object even when columnPrefix is specified.
+Lazy load default value in documentation is incorrect
+Lazy Loading using MyBatis 3 with Java
+About annotation @SelectProvider
+About annotation @Results
+Lazy loading documentation
+Error when using HashMap.Entry inside sql mapping
+Documentation in Russian
+SqlSession select cache result is empty
+foreach collection does not honor method returns.
+OGNL parser does not allow "}" in constant string litteral when making a function call using $, but works with bind
+Getting nullPointerException randomly
+Cause Spring stuck on "Pre-instantiating singletons ....."
+Cause Spring stuck in "Pre-instantiating singletons ....."
+Type aliases package resolution problem in WAS 8.5.5 Full Profile
+Empty foreach regression in MyBatis 3.2.x, compared to iBATIS 2.3.x
+GenericTokenParser Skipped Vaiables bug
+Cache problems
+mybatis does not support postgresql？
+ORA-01000 : maximum open cursors exceeded when using ExecutorType.BATCH
+XMLStatementBuilder.databaseIdMatchesCurrent issue
+Support for oracle refcursors
+It's a problem abount MyBatis-3's docs
+Null configuration factory when object was deserialized using lazy load
+Reserved words in literal strings
+Using OGNL in includes for better routing.
+Using expressions in foreach arguments
+Null in DB to String in Java
+Cache crosses datastore boundry
+Extended mapper cannot get result map from parent
+Maven repository
+Apply logging to caches by default
+Wrong name for fetchType property in @One and @Many
+MyBatis 3.2.6 not work annotation @One
+Wrapper TypeHandler overrides Primitive companion
+Ognl classloading issue
+Remove external cache locking
+Use the namespace for cache logging
+Reusing @Results annotation
+Optimistic concurrency control
+Nested select logging indentation
+the RowBounds is not used
+Selective lazy loading
+Can't run scripts that have PL/SQL blocks for Oracle
+How can we get the sql statements(may be from the annotations or from the relative mapper file about the interface) in one mapper interface ?
+Avoid using only "dirty" caches but use the rest
+MyBatis Callable Statement - java Date Issue - Upgrade to 3.2.5 Issue
+can SelectKey supports dynamic statement
+selectKey not executed
+NoClassDefFoundError
+NoKeyGenerator is called for every statement when using batch
+TypeHandler Scanning is not working in an Eclipse/OSGI environment
+MyBatis it wont override the JdbcType if i specify the JdbcType in the paramete
+NullPointer in FIFOCache.java in the clear() method
+Incomplete methods are not processed in Configuration.buildAllStatements
+TypeHandler to Map inappropriately invoked when method has multiple parameters
+Heavy load on logging autodiscover reflection.
+hi, how to selectprovider to query in sql
+Null Pointer Exception with multiple result sets
+select * with partial resultmap in association
+Batch inserts for multiple tables
+Regression: extra \n and spaces when using 3.2.4
+Regression: missing space separator when using <include> in one line in 3.2.4
+SQL defined in annotation cannot use the global variable defined in the MyBatis configuration file/object
+Problem with <collection> mapping when parent's id is VARBINARY
+org.apache.ibatis.io.Resources as a singleton instead of static methods
+MapperAnnotationBuilder getLanguageDriver return null
+Reloading mappers on-demand
+Nested resultMap bug
+Collections with parent reference don't work with columnPrefix
+Feature Request: Input Processor/Sanitizer for insert and update statements
+Major bottleneck during cache refresh in Mybatis v3.2.2
+mybatis 3.1.0 migrations does not work with variable substitution
+AutoMapping doesn't work with ColumnPrefix
+ErrorContext.reset() method
+NullPointerException
+columnPrefix is not treated as case insesitive
+Second level cache only works if you call commit or close in between statements
+Result Map passed to constrcutor args can result in missing values
+MyBatis Constructor Injection with resultMap does not map nested object properties
+Use of parameterType attribute in select statement
+Cache settings (decorators) not applied to 3rd party cache implementations.
+An inline nested resultmap needs no column attribute
+Batch Insert & Select Performance on Mybatis vs Jdbc (comes from Issue 580 on google)
+ibatis 2.3.4 bug
+foreach bug with single letter item name
+Change log level in BaseExecutor.close() to WARN
+When autoMapping="true", auto-mapping should be applied to the nested collection/association.
+Return -2147482646 when execute update(3.2.2)
+MyBatis 3.2.3 - OSGi MANIFEST.MF problem
+Wrong OSGI imports make some optional dependencies mandatory
+Column 'DEFAULT2.DEFAULT_CUTOFF_IND' is either not in any table in the FROM list or appears within a join specification and is outside the scope of the join specification or appears in a HAVING clause and is not in the GROUP BY list. If this is a CREATE o
+Lazy load function doesn't work in MyBatis 3.2.2
+Stored Procedure result mapping column name vs column index
+Mapper.class JDBC type convertion problem for Simple Java Objects (String, Long and etc.)
+SpringEL
+Is it possible to support multiple <package..> for element <typeAliases> in mybatis-config.xml file
+Undescriptive error message in case of overloaded mapper method
+About asm and cglib error!
+Mapper.xml <bind> element is not available under <sql> <if> <when>...
+TypeHandler cannot find inner enums
+NullpointerException thrown in BaseExecutor.queryFromDatabase()
+MyBatis has problem with 'package' at 'mappers'
+MyBatis has problems assembling resultsets to entities.
+VENDOR alias collision - Tomcat startup fails
+MyBatis 3.2.2 / MyBatis-Spring 1.2.0 causing BindingException inside foreach blocks, when receiving a null element inside collection
+Why the OGNL included in the project? What good would it have done
+3.2.x / MyBatis-Spring 1.2.0 causing BindingException when translating parameters inside foreach blocks
+Problem with the trim in 'where' tag
+3rd party caches prevent JavaFX from shutting down
+A row with null column values is mapped to null instead of an object with null fields
+Parameter Mapping issue with Mybatis 3.2.2
+Ignore
+UnPooledDataSource driverProperties not work
+Cannot find sqlmap file in jar
+List insertion using foreach loop through mybatis
+mybatis-spring OSGi imports - Spring batch should be optional #2
+Generation With "Long" As Column Not Working
+Empty namespace is allowed in mapper XML
+PooledDataSource does not retry acquiring a real connection if an SQLException occurs during connection establishment
+Mapping Oracle SPs using Association
+Method applyItem(DynamicContext context, Object o, int i) in class ForEachSqlNode pollute the context specified
+Nested queries should use namespace cache
+NullPointerException when use 'bind' Element
+Performance optimization on ResultFlag(s)
+More than one result set with @ResultMap
+Proposal for an enum type handler which persists specified value rather than ordinal or name.
+Escape in queries (<update>, <insert>...) property name which are named like operators (lt, gt, ...)
+Space in typeAlias results in the IllegalArgumentException: "Result Maps collection already contains value for"
+3.2.x release: NestedResultSetHandler.handleRowValues discarding row.
+Make bean-class configurabe in MapperScannerConfigurer
+SqlSessionTemplate/SqlSessionInterceptor should use public get-methdos
+Giving an option to save and restore parsed MappedStatement in binary data
+Can mybatis support mapper xml extend feature?
+Logging improvements
+raw language does not support includes
+Fail when a mapped column does not exist
+Problem abount generated keys with batch executor
+Add support for log4j 2
+UnPooledDatasource sets autocommit to false if no autocommit was specified.
+IndexOutOfBounds when a select key returns no data
+Performance optimization on lang=raw statements.
+ResultSet problem.
+Allow <set> to trim comma prefix
+Maps inside <foreach> - ${index} is replaced as 0,1,2... not map key
+support for two-level model classes generation (abstract base class and stub class)
+JdbcType cannot be resolved!
+Column names with a period messes up name mapping
+Mybatis tries to instantiate an interface
+3.2.x zip bundle includes the .tar.gz file
+Index variable is not reset when multiple foreach loops are used in a single insert
+Missing TypeHandler returns null return than throwing an exception
+MyBatis 3.2.0 - Disabled lazy loading but CGLIB is still required to be on classpath
+Enum name collision when using typeAliases for packages in mybatis 3.2.0
+Wrong java type with one-to-one association element
+Cglib should not be required if lazy loading is not enabled
+"less than" in Select annotations
+StackOverflow when using databaseId
+Wrong dependency on Log4j in MyBatis 3.2

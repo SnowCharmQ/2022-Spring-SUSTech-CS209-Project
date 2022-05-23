@@ -5,7 +5,7 @@ import java.io.*;
 public class ScriptcorrectStackoverflow {
     public static void main(String []args) throws IOException {
         File f = new File("src/test/java/com/cs209/project/file/MybatisStackoveflowQuestionDetail.txt");
-        File ff = new File("src/test/java/com/cs209/project/file/MybaitsCorrect.txt");
+        File ff = new File("src/test/java/com/cs209/project/file/MybatisCorrect.txt");
         BufferedWriter bw = new BufferedWriter(new FileWriter(ff));
         String s;
         BufferedReader br = new BufferedReader(new FileReader(f));
@@ -38,13 +38,8 @@ public class ScriptcorrectStackoverflow {
                 System.out.println(s);
             }else
                 bw.write(s + "\n");
-
-
         }
-//        BufferedReader bb = new BufferedReader(new FileReader(ff));
-//        while((s = bb.readLine())!=null){
-//            if(s.contains("&gt;"))
-//                System.out.println(s);
-//        }
+        bw.close();
+
     }
 }
