@@ -1,0 +1,411 @@
+Overriding Binding in Guice	2009-01-27	78842	5	https://stackoverflow.com/questions/483087/overriding-binding-in-guice
+Guice call init method after instantinating an object	2010-01-19	33969	8	https://stackoverflow.com/questions/2093344/guice-call-init-method-after-instantinating-an-object
+Inject Generic Implementation using Guice	2010-11-22	36463	4	https://stackoverflow.com/questions/4238919/inject-generic-implementation-using-guice
+Why is HttpServletRequest inputstream empty?	2011-12-15	24115	7	https://stackoverflow.com/questions/8522568/why-is-httpservletrequest-inputstream-empty
+Guice assisted injection deeper down the dependency hierarchy	2013-05-01	2642	2	https://stackoverflow.com/questions/16316719/guice-assisted-injection-deeper-down-the-dependency-hierarchy
+How to instantiate Spring managed beans at runtime?	2015-01-07	89175	5	https://stackoverflow.com/questions/27809838/how-to-instantiate-spring-managed-beans-at-runtime
+Accessing Guice injector in its Module?	2013-04-14	37013	2	https://stackoverflow.com/questions/15989991/accessing-guice-injector-in-its-module
+How to implement the &quot;robot legs&quot; use case with Google Guice?	2016-03-04	1302	1	https://stackoverflow.com/questions/35784112/how-to-implement-the-robot-legs-use-case-with-google-guice
+Can I use some kind of assisted Inject with Dagger?	2015-03-21	2721	3	https://stackoverflow.com/questions/29175014/can-i-use-some-kind-of-assisted-inject-with-dagger
+Pass parameter to constructor with Guice	2012-02-11	54070	4	https://stackoverflow.com/questions/9237996/pass-parameter-to-constructor-with-guice
+Scan the classpath for classes with custom annotation	2011-09-06	7328	4	https://stackoverflow.com/questions/7317179/scan-the-classpath-for-classes-with-custom-annotation
+Guice module with type parameters	2011-09-12	2417	1	https://stackoverflow.com/questions/7385858/guice-module-with-type-parameters
+How to inject dependency into Jackson Custom deserializer	2019-02-20	4512	3	https://stackoverflow.com/questions/54777586/how-to-inject-dependency-into-jackson-custom-deserializer
+Ensure Module Is Loaded Only Once In Guice	2013-12-23	6958	3	https://stackoverflow.com/questions/20735211/ensure-module-is-loaded-only-once-in-guice
+How to use Guice&#39;s AssistedInject?	2012-01-24	41313	1	https://stackoverflow.com/questions/8976250/how-to-use-guices-assistedinject
+Guice: is it possible to inject modules?	2011-04-01	18476	4	https://stackoverflow.com/questions/5504555/guice-is-it-possible-to-inject-modules
+How to specify a classifier in a gradle dependency&#39;s dependency?	2012-11-02	41675	1	https://stackoverflow.com/questions/13188438/how-to-specify-a-classifier-in-a-gradle-dependencys-dependency
+Java Generics: Accessing Generic Type at runtime	2012-03-04	8972	4	https://stackoverflow.com/questions/9548779/java-generics-accessing-generic-type-at-runtime
+Appengine with Google Cloud Endpoints and Guice	2013-06-16	4346	1	https://stackoverflow.com/questions/17128714/appengine-with-google-cloud-endpoints-and-guice
+Guice injector in JUnit tests	2011-04-12	62610	7	https://stackoverflow.com/questions/5633915/guice-injector-in-junit-tests
+Does Guice Persist provide transaction scoped or application managed EntityManager?	2013-08-07	6036	4	https://stackoverflow.com/questions/18101488/does-guice-persist-provide-transaction-scoped-or-application-managed-entitymanag
+Guice @Provides Methods vs Provider Classes	2015-01-29	37410	2	https://stackoverflow.com/questions/28202882/guice-provides-methods-vs-provider-classes
+custom Guice binding annotations with parameters	2011-04-18	7925	4	https://stackoverflow.com/questions/5704918/custom-guice-binding-annotations-with-parameters
+Implementing a wormhole pattern using AspectJ	2012-08-26	1977	3	https://stackoverflow.com/questions/12129562/implementing-a-wormhole-pattern-using-aspectj
+Guice, JDBC and managing database connections	2010-02-27	21480	4	https://stackoverflow.com/questions/2347384/guice-jdbc-and-managing-database-connections
+How do I test Guice injections?	2010-03-15	30576	4	https://stackoverflow.com/questions/2448013/how-do-i-test-guice-injections
+Use of TypeLiteral in java	2011-12-28	18617	5	https://stackoverflow.com/questions/8655921/use-of-typeliteral-in-java
+Custom Guice Scope, or a better approach?	2012-03-30	7445	4	https://stackoverflow.com/questions/9942782/custom-guice-scope-or-a-better-approach
+How to inject Injector?	2010-02-01	23032	4	https://stackoverflow.com/questions/2176216/how-to-inject-injector
+What is the Spring equivalent for CDI&#39;s Instance, or Guices Provider	2012-05-11	5001	2	https://stackoverflow.com/questions/10538528/what-is-the-spring-equivalent-for-cdis-instance-or-guices-provider
+Origin is not allowed by Access-Control-Allow-Origin - how to enable CORS using a very simple web stack and guice	2013-05-03	58483	3	https://stackoverflow.com/questions/16351849/origin-is-not-allowed-by-access-control-allow-origin-how-to-enable-cors-using
+Play Framework: Dependency Inject Action Builder	2015-06-28	3070	3	https://stackoverflow.com/questions/31098911/play-framework-dependency-inject-action-builder
+Do Guice singletons honor thread-confinement?	2013-09-04	5938	1	https://stackoverflow.com/questions/18599871/do-guice-singletons-honor-thread-confinement
+How to correctly schedule task in Play Framework 2.4.2 scala?	2015-07-28	5369	2	https://stackoverflow.com/questions/31679563/how-to-correctly-schedule-task-in-play-framework-2-4-2-scala
+Injection with google guice does not work anymore after obfuscation with proguard	2010-03-03	6368	4	https://stackoverflow.com/questions/2369939/injection-with-google-guice-does-not-work-anymore-after-obfuscation-with-proguar
+Guice don&#39;t inject to Jersey&#39;s resources	2016-01-29	4999	2	https://stackoverflow.com/questions/35085267/guice-dont-inject-to-jerseys-resources
+Guice injecting Generic type	2014-07-09	18101	1	https://stackoverflow.com/questions/24657127/guice-injecting-generic-type
+How to get all implementors/subclasses of an interface with Guice?	2011-05-22	8278	3	https://stackoverflow.com/questions/6085200/how-to-get-all-implementors-subclasses-of-an-interface-with-guice
+Injecting a generic factory in Guice	2010-09-25	5307	2	https://stackoverflow.com/questions/3791839/injecting-a-generic-factory-in-guice
+Inject variable with custom parameter without creating 2 guice helper interfaces?	2013-01-30	2819	1	https://stackoverflow.com/questions/14608142/inject-variable-with-custom-parameter-without-creating-2-guice-helper-interfaces
+Testing a Play2 application with SecureSocial using dependency injection	2013-07-19	925	1	https://stackoverflow.com/questions/17735636/testing-a-play2-application-with-securesocial-using-dependency-injection
+Guice + Tomcat potential memory leak	2011-05-17	10112	3	https://stackoverflow.com/questions/6025089/guice-tomcat-potential-memory-leak
+Generalize guice&#39;s robot-legs example with Multibinding	2011-07-08	2703	1	https://stackoverflow.com/questions/6625837/generalize-guices-robot-legs-example-with-multibinding
+Guice - how to implement a factory that returns different implementations	2014-08-10	13742	1	https://stackoverflow.com/questions/25226912/guice-how-to-implement-a-factory-that-returns-different-implementations
+Inject in scala object	2016-05-17	8375	1	https://stackoverflow.com/questions/37274533/inject-in-scala-object
+How to use jersey 2.0 guice on grizzly	2013-08-06	3867	2	https://stackoverflow.com/questions/18080911/how-to-use-jersey-2-0-guice-on-grizzly
+Eclipse OSGi bundle reqiure another bundle&#39;s fragment	2011-08-22	2782	2	https://stackoverflow.com/questions/7141398/eclipse-osgi-bundle-reqiure-another-bundles-fragment
+Can&#39;t Get Guice Method Interception to Work	2012-01-14	5594	1	https://stackoverflow.com/questions/8862531/cant-get-guice-method-interception-to-work
+Can we use Google Guice DI with a Scala Object instead of a Scala class in Play 2.4 with scala	2015-06-28	1425	1	https://stackoverflow.com/questions/31100534/can-we-use-google-guice-di-with-a-scala-object-instead-of-a-scala-class-in-play
+Guice: Cannot inject annotated type in Request scope	2012-01-24	7676	1	https://stackoverflow.com/questions/8977492/guice-cannot-inject-annotated-type-in-request-scope
+How can I wire up N chains of nodes in guice like filters	2015-09-03	265	1	https://stackoverflow.com/questions/32362711/how-can-i-wire-up-n-chains-of-nodes-in-guice-like-filters
+Java Guice DI error: UnsatisfiedDependencyException: There was no object available for injection at SystemInjecteeImpl	2018-09-28	2300	1	https://stackoverflow.com/questions/52546689/java-guice-di-error-unsatisfieddependencyexception-there-was-no-object-availab
+Guice with multiple concretes......picking one of them	2018-09-11	623	1	https://stackoverflow.com/questions/52279459/guice-with-multiple-concretes-picking-one-of-them
+Practical advice on using Jersey and Guice for RESTful service	2010-04-20	32379	11	https://stackoverflow.com/questions/2669926/practical-advice-on-using-jersey-and-guice-for-restful-service
+Google Guice vs. PicoContainer for Dependency Injection	2010-01-08	33332	6	https://stackoverflow.com/questions/2026016/google-guice-vs-picocontainer-for-dependency-injection
+Guice and properties files	2010-06-19	19125	1	https://stackoverflow.com/questions/3071891/guice-and-properties-files
+Java Dependency injection: XML or annotations	2011-02-15	10556	10	https://stackoverflow.com/questions/4995170/java-dependency-injection-xml-or-annotations
+Can Guice automatically create instances of different classes based on a parameter?	2013-07-16	8698	1	https://stackoverflow.com/questions/17669413/can-guice-automatically-create-instances-of-different-classes-based-on-a-paramet
+Which Java Web Framework fits best with Google Guice?	2009-01-27	7344	6	https://stackoverflow.com/questions/481705/which-java-web-framework-fits-best-with-google-guice
+Dependency injection: Scoping by region (Guice, Spring, Whatever)	2010-06-10	3017	7	https://stackoverflow.com/questions/3014140/dependency-injection-scoping-by-region-guice-spring-whatever
+The guice AbstractModule install method	2014-01-30	28733	1	https://stackoverflow.com/questions/21446685/the-guice-abstractmodule-install-method
+Injecting generics with Guice	2010-04-06	23985	1	https://stackoverflow.com/questions/2581137/injecting-generics-with-guice
+Guice: differences between Singleton.class and @Singleton	2013-02-09	26970	1	https://stackoverflow.com/questions/14781471/guice-differences-between-singleton-class-and-singleton
+How to scan classes for annotations?	2012-10-30	50720	7	https://stackoverflow.com/questions/13128552/how-to-scan-classes-for-annotations
+Guice and interface that has multiple implementations	2011-11-08	30375	4	https://stackoverflow.com/questions/8046805/guice-and-interface-that-has-multiple-implementations
+Generics Hell: Can I construct a TypeLiteral&lt;Set&lt;T&gt;&gt; using generics?	2012-01-08	5279	2	https://stackoverflow.com/questions/8772555/generics-hell-can-i-construct-a-typeliteralsett-using-generics
+Annotation-driven dependency injection which handles different environments	2012-11-21	7686	2	https://stackoverflow.com/questions/13490393/annotation-driven-dependency-injection-which-handles-different-environments
+Why use @Singleton over Scala&#39;s object in Play Framework?	2016-05-18	8573	3	https://stackoverflow.com/questions/37282792/why-use-singleton-over-scalas-object-in-play-framework
+Spring and Guice together, or just Spring	2014-01-11	19197	5	https://stackoverflow.com/questions/21056063/spring-and-guice-together-or-just-spring
+Guice - How to share the same Singleton instance through multiple injectors/modules	2011-12-02	13455	2	https://stackoverflow.com/questions/8356640/guice-how-to-share-the-same-singleton-instance-through-multiple-injectors-modu
+How to avoid having injector.createInstance() all over the place when using guice?	2010-10-21	5973	3	https://stackoverflow.com/questions/3986858/how-to-avoid-having-injector-createinstance-all-over-the-place-when-using-guic
+Guice injecting only some of the constructor	2012-02-06	4837	1	https://stackoverflow.com/questions/9154410/guice-injecting-only-some-of-the-constructor
+Guice eager/lazy singleton instantiations	2011-11-09	36429	1	https://stackoverflow.com/questions/8053515/guice-eager-lazy-singleton-instantiations
+Guice And Scala - Injection on Generics Dependencies	2011-06-08	6003	2	https://stackoverflow.com/questions/6271435/guice-and-scala-injection-on-generics-dependencies
+Guice 3.0 + Tomcat 7.0 = ClassLoader memory leak	2012-01-13	2242	1	https://stackoverflow.com/questions/8842256/guice-3-0-tomcat-7-0-classloader-memory-leak
+Guice: How do I get an instance of a TypeLiteral-wrapped generic?	2011-06-22	12750	1	https://stackoverflow.com/questions/6438803/guice-how-do-i-get-an-instance-of-a-typeliteral-wrapped-generic
+Inject Util Class with Google Guice vs static Methods?	2010-12-07	4286	3	https://stackoverflow.com/questions/4370683/inject-util-class-with-google-guice-vs-static-methods
+How can i use Guice in JavaFX controllers?	2014-05-05	4669	4	https://stackoverflow.com/questions/23471185/how-can-i-use-guice-in-javafx-controllers
+If I use Mockito do I even need Guice?	2014-12-03	8075	2	https://stackoverflow.com/questions/27260860/if-i-use-mockito-do-i-even-need-guice
+Can Guice inject Scala objects	2012-12-10	16072	2	https://stackoverflow.com/questions/13791815/can-guice-inject-scala-objects
+Guice Performance on Android	2011-02-21	5433	4	https://stackoverflow.com/questions/5067681/guice-performance-on-android
+Getting multiple guice singletons of the same type	2009-08-03	9076	2	https://stackoverflow.com/questions/1221920/getting-multiple-guice-singletons-of-the-same-type
+ClassNotFoundException with Guice 2.0	2009-08-12	12269	5	https://stackoverflow.com/questions/1266587/classnotfoundexception-with-guice-2-0
+TypeLiteral injection with reflection	2011-10-15	632	2	https://stackoverflow.com/questions/7776608/typeliteral-injection-with-reflection
+What is the best pattern for managing multiple versions of the same dependency tree in Guice?	2010-12-11	492	1	https://stackoverflow.com/questions/4411443/what-is-the-best-pattern-for-managing-multiple-versions-of-the-same-dependency-t
+Atmosphere + Jersey: How do I have multiple broadcasters?	2014-02-09	3098	2	https://stackoverflow.com/questions/21650032/atmosphere-jersey-how-do-i-have-multiple-broadcasters
+Changing Guice bindings at runtime	2014-06-06	8602	1	https://stackoverflow.com/questions/24067708/changing-guice-bindings-at-runtime
+How to initialize a circular dependency (final fields referencing each other)?	2013-11-06	1980	3	https://stackoverflow.com/questions/19808342/how-to-initialize-a-circular-dependency-final-fields-referencing-each-other
+Guice : How to bind classes that are dynamically obtained by an already binded object?	2012-10-08	4295	1	https://stackoverflow.com/questions/12774020/guice-how-to-bind-classes-that-are-dynamically-obtained-by-an-already-binded-o
+Guice creates Swing components outside of UI thread problem?	2010-04-28	1249	3	https://stackoverflow.com/questions/2728097/guice-creates-swing-components-outside-of-ui-thread-problem
+Guice and RequestScoped behaviour in multiple threads	2013-12-11	5978	3	https://stackoverflow.com/questions/20505649/guice-and-requestscoped-behaviour-in-multiple-threads
+Multi tenancy with Guice Custom Scopes and Jersey	2015-03-28	1147	1	https://stackoverflow.com/questions/29308402/multi-tenancy-with-guice-custom-scopes-and-jersey
+How to use @Singleton of Guice ?	2011-12-13	5248	3	https://stackoverflow.com/questions/8489239/how-to-use-singleton-of-guice
+Reconstructing generic types at runtime with Guice via Types and TypeLiterals	2009-07-12	2391	2	https://stackoverflow.com/questions/1114384/reconstructing-generic-types-at-runtime-with-guice-via-types-and-typeliterals
+Guice , afterPropertiesSet	2010-05-26	2121	4	https://stackoverflow.com/questions/2912278/guice-afterpropertiesset
+guice multibinder with Providers	2013-02-12	5022	2	https://stackoverflow.com/questions/14833777/guice-multibinder-with-providers
+Guice with parents	2010-11-30	8614	3	https://stackoverflow.com/questions/4309450/guice-with-parents
+How to access Play Framework 2.4 guice Injector in application?	2016-01-19	8460	5	https://stackoverflow.com/questions/34869466/how-to-access-play-framework-2-4-guice-injector-in-application
+Integrate Guice component into Spring application	2013-09-16	5430	3	https://stackoverflow.com/questions/18826308/integrate-guice-component-into-spring-application
+CXF and Google Guice using JAX-RS + JAX-WS	2011-06-07	3011	3	https://stackoverflow.com/questions/6263194/cxf-and-google-guice-using-jax-rs-jax-ws
+How to use Guice in Swing application	2010-04-14	2491	2	https://stackoverflow.com/questions/2632033/how-to-use-guice-in-swing-application
+Deserializing a Generic Type with Jackson	2012-10-29	21262	2	https://stackoverflow.com/questions/13118798/deserializing-a-generic-type-with-jackson
+using guice injection with actor throws null pointer	2013-07-12	3265	3	https://stackoverflow.com/questions/17612440/using-guice-injection-with-actor-throws-null-pointer
+Guice inject based on annotation value	2015-02-17	7261	2	https://stackoverflow.com/questions/28549549/guice-inject-based-on-annotation-value
+Jersey and Google Guice integration	2016-04-12	2483	1	https://stackoverflow.com/questions/36555137/jersey-and-google-guice-integration
+Guice inject single instance into multiple objects without using @Singleton	2013-08-21	9280	1	https://stackoverflow.com/questions/18358309/guice-inject-single-instance-into-multiple-objects-without-using-singleton
+Java Generics : Is any meta information about the generic type preserved at runtime as well?	2017-08-22	1272	6	https://stackoverflow.com/questions/45802927/java-generics-is-any-meta-information-about-the-generic-type-preserved-at-runt
+How do I bind Different Interfaces using Google Guice?	2010-05-09	6641	3	https://stackoverflow.com/questions/2795585/how-do-i-bind-different-interfaces-using-google-guice
+Google Guice on Google Appengine: mapping with working _ah	2010-05-18	1575	4	https://stackoverflow.com/questions/2857279/google-guice-on-google-appengine-mapping-with-working-ah
+Guice : Inject an ArrayList of Strings	2015-06-12	3811	2	https://stackoverflow.com/questions/30802384/guice-inject-an-arraylist-of-strings
+Deferred binding failed	2012-05-03	12662	4	https://stackoverflow.com/questions/10419724/deferred-binding-failed
+How to bind with provider which uses annotation value in Guice?	2013-02-04	4516	2	https://stackoverflow.com/questions/14680124/how-to-bind-with-provider-which-uses-annotation-value-in-guice
+How do I substitute Guice modules with fake test modules for unit tests?	2015-08-05	2326	1	https://stackoverflow.com/questions/31814851/how-do-i-substitute-guice-modules-with-fake-test-modules-for-unit-tests
+Guice: One &quot;Provider&lt;T&gt;&quot; for multiple implementations	2015-05-09	1684	2	https://stackoverflow.com/questions/30133305/guice-one-providert-for-multiple-implementations
+Guice + Jersey integration injects null objects	2015-09-08	668	1	https://stackoverflow.com/questions/32449706/guice-jersey-integration-injects-null-objects
+Jersey, Guice and Hibernate - EntityManager thread safety	2016-06-16	1306	3	https://stackoverflow.com/questions/37857481/jersey-guice-and-hibernate-entitymanager-thread-safety
+Bind in Guice without to	2015-09-16	4808	1	https://stackoverflow.com/questions/32594106/bind-in-guice-without-to
+Resteasy and Google Guice: how to use multiple @ApplicationPath and resource with @Injection?	2016-09-13	1688	1	https://stackoverflow.com/questions/39461657/resteasy-and-google-guice-how-to-use-multiple-applicationpath-and-resource-wit
+Weblogic 12c : Prefer-web-inf-classes and prefer-application-packages for Jersey	2016-03-30	12729	2	https://stackoverflow.com/questions/36292980/weblogic-12c-prefer-web-inf-classes-and-prefer-application-packages-for-jersey
+Guice dynamic inject with custom annotation	2014-06-12	4321	1	https://stackoverflow.com/questions/24176493/guice-dynamic-inject-with-custom-annotation
+Guice @Nullable annotation	2011-02-03	5948	1	https://stackoverflow.com/questions/4887196/guice-nullable-annotation
+Guice: inject different implementation depending on who is getting it?	2016-03-24	1389	1	https://stackoverflow.com/questions/36186724/guice-inject-different-implementation-depending-on-who-is-getting-it
+Why is a lambda expression breaking guice error handling when i try to start jetty?	2015-01-31	7285	1	https://stackoverflow.com/questions/28244342/why-is-a-lambda-expression-breaking-guice-error-handling-when-i-try-to-start-jet
+Google Guice desktop application - how to make it work?	2012-01-17	1491	3	https://stackoverflow.com/questions/8883112/google-guice-desktop-application-how-to-make-it-work
+Why is Guice throwing $ComputationException from UncaughtExceptionHandler in main?	2016-10-07	2995	1	https://stackoverflow.com/questions/39918622/why-is-guice-throwing-computationexception-from-uncaughtexceptionhandler-in-mai
+Dependency injection using Guice with the DAO pattern	2016-11-17	2574	1	https://stackoverflow.com/questions/40646780/dependency-injection-using-guice-with-the-dao-pattern
+Guice: How to get instance of Singleton without injector or using Constructor Injection	2013-07-06	4464	1	https://stackoverflow.com/questions/17493143/guice-how-to-get-instance-of-singleton-without-injector-or-using-constructor-in
+Publishing JAX-WS Webservice with Guice in a Servlet Application	2013-04-09	2093	1	https://stackoverflow.com/questions/15901617/publishing-jax-ws-webservice-with-guice-in-a-servlet-application
+Dynamically generating injections by annotation	2015-10-13	124	1	https://stackoverflow.com/questions/33087905/dynamically-generating-injections-by-annotation
+Guice ignoring @Nullable on injected constructor parameter	2011-11-22	873	1	https://stackoverflow.com/questions/8226310/guice-ignoring-nullable-on-injected-constructor-parameter
+Binding a guava supplier using guice	2020-12-16	575	1	https://stackoverflow.com/questions/65317178/binding-a-guava-supplier-using-guice
+Embedded Jetty handling urls to serve content	2015-09-03	1850	1	https://stackoverflow.com/questions/32378028/embedded-jetty-handling-urls-to-serve-content
+Configure an object provided by a Guice Module	2014-06-19	2286	2	https://stackoverflow.com/questions/24310018/configure-an-object-provided-by-a-guice-module
+Scala Dependency injection with generic class	2017-07-15	829	1	https://stackoverflow.com/questions/45110815/scala-dependency-injection-with-generic-class
+Hidden Features of Google Guice	2010-04-27	4459	3	https://stackoverflow.com/questions/2716993/hidden-features-of-google-guice
+How to retrieve annotated instance from Guice&#39;s injector?	2011-02-25	54210	2	https://stackoverflow.com/questions/5118082/how-to-retrieve-annotated-instance-from-guices-injector
+Why use/develop Guice, when You have Spring and Dagger?	2016-09-25	37424	1	https://stackoverflow.com/questions/39688830/why-use-develop-guice-when-you-have-spring-and-dagger
+Dependency Injection in OSGI environments	2012-06-23	19628	6	https://stackoverflow.com/questions/11164432/dependency-injection-in-osgi-environments
+How does guice&#39;s TypeLiteral work?	2010-07-30	3480	2	https://stackoverflow.com/questions/3370641/how-does-guices-typeliteral-work
+Injecting Collection of Classes with Guice	2010-12-11	16127	2	https://stackoverflow.com/questions/4410712/injecting-collection-of-classes-with-guice
+How to bind String to variable in Guice?	2009-10-14	37797	4	https://stackoverflow.com/questions/1564762/how-to-bind-string-to-variable-in-guice
+Implementing dynamic plugins in Java	2010-01-21	7860	5	https://stackoverflow.com/questions/2104821/implementing-dynamic-plugins-in-java
+Has anyone used ServiceLoader together with Guice?	2009-05-24	4828	3	https://stackoverflow.com/questions/902639/has-anyone-used-serviceloader-together-with-guice
+How to bind concrete classes?	2011-12-13	34515	3	https://stackoverflow.com/questions/8486437/how-to-bind-concrete-classes
+How to hook Jackson ObjectMapper with Guice / Jersey	2013-05-26	12144	1	https://stackoverflow.com/questions/16757724/how-to-hook-jackson-objectmapper-with-guice-jersey
+Lombok - retain field&#39;s annotation in constructor input params	2017-03-01	11230	2	https://stackoverflow.com/questions/42526279/lombok-retain-fields-annotation-in-constructor-input-params
+Guice and general application configuration	2011-01-26	23560	4	https://stackoverflow.com/questions/4805874/guice-and-general-application-configuration
+Using Google Guice to inject java properties	2012-03-19	35310	5	https://stackoverflow.com/questions/9772557/using-google-guice-to-inject-java-properties
+How to @Inject into existing object hierarchy using Guice?	2010-05-18	4578	2	https://stackoverflow.com/questions/2856004/how-to-inject-into-existing-object-hierarchy-using-guice
+Guice: How to change injection on runtime based on a (dynamic web property)	2013-10-14	25284	1	https://stackoverflow.com/questions/19358487/guice-how-to-change-injection-on-runtime-based-on-a-dynamic-web-property
+How to define order of method interceptors in Guice?	2011-11-29	2769	1	https://stackoverflow.com/questions/8308203/how-to-define-order-of-method-interceptors-in-guice
+Method interception in Jersey using Guice AOP	2012-06-11	3461	1	https://stackoverflow.com/questions/10982583/method-interception-in-jersey-using-guice-aop
+Java error: Found interface ... but class was expected	2009-02-27	32414	5	https://stackoverflow.com/questions/591411/java-error-found-interface-but-class-was-expected
+Generic @Inject&#39;d fields in an abstract superclass	2014-10-19	1927	2	https://stackoverflow.com/questions/26447360/generic-injectd-fields-in-an-abstract-superclass
+What techniques do you use to debug complex guice bindings?	2011-12-23	7267	1	https://stackoverflow.com/questions/8608638/what-techniques-do-you-use-to-debug-complex-guice-bindings
+Builder pattern vs. Dependency Injection (for instance via Guice)	2012-09-21	11219	3	https://stackoverflow.com/questions/12520678/builder-pattern-vs-dependency-injection-for-instance-via-guice
+Simple Example with Guice Servlets	2011-11-26	10849	1	https://stackoverflow.com/questions/8275194/simple-example-with-guice-servlets
+No implementation was bound - Java Guice	2014-07-16	73080	2	https://stackoverflow.com/questions/24766665/no-implementation-was-bound-java-guice
+Long lasting &#39;COMMIT&#39; queries with &#39;idle&#39; state in pg_stat_activity	2017-05-24	8577	1	https://stackoverflow.com/questions/44156050/long-lasting-commit-queries-with-idle-state-in-pg-stat-activity
+Binding @Provides method as eager singleton	2014-03-03	7924	1	https://stackoverflow.com/questions/22147817/binding-provides-method-as-eager-singleton
+Using Guice to inject dependencies into an Android activity&#39;s constructor	2010-03-27	6459	1	https://stackoverflow.com/questions/2525969/using-guice-to-inject-dependencies-into-an-android-activitys-constructor
+Configuring Apache Shiro with Google Guice Servlet	2011-05-05	3723	1	https://stackoverflow.com/questions/5887603/configuring-apache-shiro-with-google-guice-servlet
+Guice runtime dependency parameters reinjection	2011-10-04	4074	3	https://stackoverflow.com/questions/7641565/guice-runtime-dependency-parameters-reinjection
+Using Guice 3 with JAX-WS in Java 6 outside web container	2011-10-07	2668	2	https://stackoverflow.com/questions/7687204/using-guice-3-with-jax-ws-in-java-6-outside-web-container
+How to avoid dependency injection in Scala?	2012-09-10	1988	4	https://stackoverflow.com/questions/12341867/how-to-avoid-dependency-injection-in-scala
+Guice best practices and anti-patterns	2009-11-06	7978	2	https://stackoverflow.com/questions/1683777/guice-best-practices-and-anti-patterns
+Guice: how do you configure an @Provides and @Singleton in a module in this case?	2013-04-12	36442	3	https://stackoverflow.com/questions/15957237/guice-how-do-you-configure-an-provides-and-singleton-in-a-module-in-this-case
+Guice: Difference between Binder#bindConstant() and Binder#bind() ... toInstance	2010-11-12	11575	2	https://stackoverflow.com/questions/4165506/guice-difference-between-binderbindconstant-and-binderbind-toinstance
+A Guice-ready security framework?	2009-11-27	2375	2	https://stackoverflow.com/questions/1805843/a-guice-ready-security-framework
+Mimicking Spring profiles in Guice	2013-08-08	2007	1	https://stackoverflow.com/questions/18112299/mimicking-spring-profiles-in-guice
+How to test implementations of Guice AbstractModule?	2014-11-03	12168	2	https://stackoverflow.com/questions/26710191/how-to-test-implementations-of-guice-abstractmodule
+Modern Akka DI with Guice	2015-06-16	6031	6	https://stackoverflow.com/questions/30863934/modern-akka-di-with-guice
+What is the Spring equivalent to FactoryModuleBuilder, @AssistedInject, and @Assisted in Guice?	2015-04-10	1850	2	https://stackoverflow.com/questions/29555705/what-is-the-spring-equivalent-to-factorymodulebuilder-assistedinject-and-ass
+How do I use a Jersey ExceptionMapper with Google Guice?	2012-08-16	3981	1	https://stackoverflow.com/questions/11987097/how-do-i-use-a-jersey-exceptionmapper-with-google-guice
+Dropwizard and Guice: injecting Environment	2014-08-30	18127	3	https://stackoverflow.com/questions/25581590/dropwizard-and-guice-injecting-environment
+Associating FXML and Controller in Guice&#39;s Module configuration	2013-04-14	2106	2	https://stackoverflow.com/questions/15990777/associating-fxml-and-controller-in-guices-module-configuration
+How to use Guava ServiceManager with Guice Injection	2013-08-29	3081	2	https://stackoverflow.com/questions/18502650/how-to-use-guava-servicemanager-with-guice-injection
+Replacing abstract factory with Guice?	2013-04-15	2293	3	https://stackoverflow.com/questions/16002484/replacing-abstract-factory-with-guice
+Managing transactions in JavaSE with Hibernate and Guice	2011-03-13	2012	1	https://stackoverflow.com/questions/5287985/managing-transactions-in-javase-with-hibernate-and-guice
+Guice assistedinject already configured	2015-04-23	9571	1	https://stackoverflow.com/questions/29824177/guice-assistedinject-already-configured
+What is the clojure equivalent to google guice?	2012-10-26	2410	2	https://stackoverflow.com/questions/13085370/what-is-the-clojure-equivalent-to-google-guice
+Guice proxying to support circular dependency	2012-04-04	10240	3	https://stackoverflow.com/questions/10014825/guice-proxying-to-support-circular-dependency
+Why there&#39;s no configuration file at all for dependency injection with Google Guice?	2009-04-20	4574	6	https://stackoverflow.com/questions/765680/why-theres-no-configuration-file-at-all-for-dependency-injection-with-google-gu
+How to use ServletScopes.scopeRequest() and ServletScopes.continueRequest()?	2011-12-06	3499	1	https://stackoverflow.com/questions/8402012/how-to-use-servletscopes-scoperequest-and-servletscopes-continuerequest
+Bind list of objects using Guice + Kotlin	2016-04-14	3092	3	https://stackoverflow.com/questions/36625168/bind-list-of-objects-using-guice-kotlin
+Java Generics Error: inconvertible types from command line compiler	2011-11-15	2406	2	https://stackoverflow.com/questions/8126682/java-generics-error-inconvertible-types-from-command-line-compiler
+how to auto-wire HibernateBundle with guice on dropwizard?	2014-04-27	5968	4	https://stackoverflow.com/questions/23320927/how-to-auto-wire-hibernatebundle-with-guice-on-dropwizard
+Guice equivalent of Spring&#39;s @Autowire list of instances	2014-08-26	2169	2	https://stackoverflow.com/questions/25506133/guice-equivalent-of-springs-autowire-list-of-instances
+How to exclude/redirect certain url pattern in web.xml or Guice servlet module?	2011-09-17	10684	2	https://stackoverflow.com/questions/7448316/how-to-exclude-redirect-certain-url-pattern-in-web-xml-or-guice-servlet-module
+Transactions with Guice and JDBC - Solution discussion	2015-02-04	2949	0	https://stackoverflow.com/questions/28317459/transactions-with-guice-and-jdbc-solution-discussion
+Google Auto Factory: not annotated with @Provided?	2014-08-02	4562	1	https://stackoverflow.com/questions/25090570/google-auto-factory-not-annotated-with-provided
+Guice injection in a jenkins plugin?	2015-01-09	695	0	https://stackoverflow.com/questions/27849291/guice-injection-in-a-jenkins-plugin
+Guice - Jersey - Servlet binding	2013-09-24	8949	3	https://stackoverflow.com/questions/18972198/guice-jersey-servlet-binding
+Using GWT source code in Android	2014-05-09	455	1	https://stackoverflow.com/questions/23559376/using-gwt-source-code-in-android
+Wicket Dependency Injection	2009-02-18	3154	2	https://stackoverflow.com/questions/561578/wicket-dependency-injection
+Guice SPI: find bindings by wildcard types	2009-07-09	1478	1	https://stackoverflow.com/questions/1100784/guice-spi-find-bindings-by-wildcard-types
+Using guice when creating a custom Action using ActionBuilder in play	2014-05-31	455	2	https://stackoverflow.com/questions/23965449/using-guice-when-creating-a-custom-action-using-actionbuilder-in-play
+Google Auto Factory / Dagger Integration: Dependencies on injected code	2014-08-03	1936	0	https://stackoverflow.com/questions/25100115/google-auto-factory-dagger-integration-dependencies-on-injected-code
+guice: runtime injection/binding at command line	2011-10-05	3753	3	https://stackoverflow.com/questions/7663618/guice-runtime-injection-binding-at-command-line
+JAX-WS and Guice 3	2011-08-15	1964	2	https://stackoverflow.com/questions/7061626/jax-ws-and-guice-3
+Guice SPI: find bindings by wildcard types	2009-07-09	1478	1	https://stackoverflow.com/questions/1100784/guice-spi-find-bindings-by-wildcard-types
+MyBatis-guice 3.3 + Multiple datasources + properties + scriptrunner	2013-05-28	4113	3	https://stackoverflow.com/questions/16788024/mybatis-guice-3-3-multiple-datasources-properties-scriptrunner
+Guice + Jersey 2 + ContainerRequestFilter and @Context	2016-01-07	2771	1	https://stackoverflow.com/questions/34642987/guice-jersey-2-containerrequestfilter-and-context
+JAX-WS and Guice 3	2011-08-15	1964	2	https://stackoverflow.com/questions/7061626/jax-ws-and-guice-3
+Guice injected EntityManager in multi threaded application	2012-08-26	4485	2	https://stackoverflow.com/questions/12128552/guice-injected-entitymanager-in-multi-threaded-application
+Guice log4j custom injection does not support logging within the constructor	2011-07-07	1771	1	https://stackoverflow.com/questions/6604071/guice-log4j-custom-injection-does-not-support-logging-within-the-constructor
+use verify on mocked (with Mockito) objects inject by guice	2012-03-12	2758	2	https://stackoverflow.com/questions/9664233/use-verify-on-mocked-with-mockito-objects-inject-by-guice
+Playframework &amp; Guice without routing	2013-05-18	528	1	https://stackoverflow.com/questions/16613924/playframework-guice-without-routing
+How to @Inject a HttpSession object in a service layer (DAO) class in GWT using Guice?	2011-06-03	1088	1	https://stackoverflow.com/questions/6225542/how-to-inject-a-httpsession-object-in-a-service-layer-dao-class-in-gwt-using
+Using Guice, how can I inject a bounded-wildcard class?	2012-01-05	1085	1	https://stackoverflow.com/questions/8734826/using-guice-how-can-i-inject-a-bounded-wildcard-class
+Is there a way to inject ITestContext from TestNg to guice module?	2018-05-15	1115	1	https://stackoverflow.com/questions/50351001/is-there-a-way-to-inject-itestcontext-from-testng-to-guice-module
+Is it possible to automatically clean up resources at the end of scope in Guice?	2011-01-08	3738	1	https://stackoverflow.com/questions/4634588/is-it-possible-to-automatically-clean-up-resources-at-the-end-of-scope-in-guice
+How to delegate creation of some classes from Guice injector to another factory?	2016-02-05	1109	2	https://stackoverflow.com/questions/35223032/how-to-delegate-creation-of-some-classes-from-guice-injector-to-another-factory
+guice injection in static variable	2015-02-14	20884	1	https://stackoverflow.com/questions/28513147/guice-injection-in-static-variable
+Is Google Guice active?	2012-08-08	3651	4	https://stackoverflow.com/questions/11859207/is-google-guice-active
+WebSocket.acceptWithActor and @Inject() in the Actor (Play 2.5)	2017-08-20	324	2	https://stackoverflow.com/questions/45774470/websocket-acceptwithactor-and-inject-in-the-actor-play-2-5
+Play 2.0/2.1 for Java and dependency injection	2012-11-13	2596	1	https://stackoverflow.com/questions/13358101/play-2-0-2-1-for-java-and-dependency-injection
+How do you make dynamic bindings in Guice that require an injected Instance?	2012-11-06	10795	1	https://stackoverflow.com/questions/13242957/how-do-you-make-dynamic-bindings-in-guice-that-require-an-injected-instance
+How to do manual DI with deep object graphs and many dependencies properly	2010-03-11	2002	2	https://stackoverflow.com/questions/2425458/how-to-do-manual-di-with-deep-object-graphs-and-many-dependencies-properly
+Why do I have an error when I try to override a generic binding with Guice? (TypeLiteral)	2015-12-09	321	2	https://stackoverflow.com/questions/34176461/why-do-i-have-an-error-when-i-try-to-override-a-generic-binding-with-guice-typ
+Why is dagger considered better for AWS lambda implementation than Guice?	2019-05-02	5928	1	https://stackoverflow.com/questions/55944811/why-is-dagger-considered-better-for-aws-lambda-implementation-than-guice
+Guice - Inject dependency into a class with static helper methods	2013-08-27	18820	1	https://stackoverflow.com/questions/18454790/guice-inject-dependency-into-a-class-with-static-helper-methods
+Guice injectMembers method	2011-02-25	15018	1	https://stackoverflow.com/questions/5116383/guice-injectmembers-method
+lombok and guice injection	2017-03-21	15564	1	https://stackoverflow.com/questions/42910148/lombok-and-guice-injection
+How do I get google guice to inject a custom logger, say a commons-logging or log4j logger	2010-04-09	7528	4	https://stackoverflow.com/questions/2605198/how-do-i-get-google-guice-to-inject-a-custom-logger-say-a-commons-logging-or-lo
+What is the purpose for using an empty interface that extends another in Java?	2012-05-15	7004	3	https://stackoverflow.com/questions/10590526/what-is-the-purpose-for-using-an-empty-interface-that-extends-another-in-java
+How to override binding in GIN	2011-09-06	1242	2	https://stackoverflow.com/questions/7314323/how-to-override-binding-in-gin
+Injecting dependencies to ServletContextListener with Guice	2011-12-22	5087	2	https://stackoverflow.com/questions/8605419/injecting-dependencies-to-servletcontextlistener-with-guice
+How to get HK2 ServiceLocator in a Jersey2 ServletContainer?	2017-10-19	3029	2	https://stackoverflow.com/questions/46825067/how-to-get-hk2-servicelocator-in-a-jersey2-servletcontainer
+Constructor Injection using Guice	2010-01-21	13135	3	https://stackoverflow.com/questions/2105895/constructor-injection-using-guice
+JBoss AS7 Automatically Loading JPA	2012-04-19	5538	1	https://stackoverflow.com/questions/10231575/jboss-as7-automatically-loading-jpa
+why there is two instances of a singleton with Google Guice dependency injection framework	2012-06-13	2186	1	https://stackoverflow.com/questions/11001920/why-there-is-two-instances-of-a-singleton-with-google-guice-dependency-injection
+Passing parameters to Guice @Provides method	2012-08-27	18206	2	https://stackoverflow.com/questions/12137602/passing-parameters-to-guice-provides-method
+URI-specific ExceptionMapper in JAX-RS	2011-09-28	1615	2	https://stackoverflow.com/questions/7581393/uri-specific-exceptionmapper-in-jax-rs
+Create @UnitOfWork-aware proxies of existing objects	2016-07-08	991	1	https://stackoverflow.com/questions/38261787/create-unitofwork-aware-proxies-of-existing-objects
+Play/Scala injecting controller into test	2015-11-19	1362	1	https://stackoverflow.com/questions/33804407/play-scala-injecting-controller-into-test
+How to create recursive object graphs with Guice?	2011-09-14	2187	3	https://stackoverflow.com/questions/7416974/how-to-create-recursive-object-graphs-with-guice
+How do I apply a servlet filter when serving an HTML page directly?	2010-05-05	4695	2	https://stackoverflow.com/questions/2770323/how-do-i-apply-a-servlet-filter-when-serving-an-html-page-directly
+Releasing ORMLite helper on @Singleton	2012-08-22	1441	1	https://stackoverflow.com/questions/12068634/releasing-ormlite-helper-on-singleton
+Swagger and Google Guice setup	2013-05-31	2354	1	https://stackoverflow.com/questions/16858253/swagger-and-google-guice-setup
+How to clear ResourceBundle cache	2012-03-22	14473	6	https://stackoverflow.com/questions/9819999/how-to-clear-resourcebundle-cache
+Jersey + Guice can&#39;t mix non-jersey resources with jersey resources	2012-03-05	526	1	https://stackoverflow.com/questions/9556495/jersey-guice-cant-mix-non-jersey-resources-with-jersey-resources
+Android/RoboGuice/Maven: ClassNotFoundException in Eclipse, but not from Maven command line	2011-09-05	2197	2	https://stackoverflow.com/questions/7303836/android-roboguice-maven-classnotfoundexception-in-eclipse-but-not-from-maven-c
+Guice : Set bindings from an XML file	2015-05-21	2176	3	https://stackoverflow.com/questions/30372936/guice-set-bindings-from-an-xml-file
+Multibinding with generics	2013-01-25	1616	1	https://stackoverflow.com/questions/14519722/multibinding-with-generics
+Using guice for a framework with injected classes, proper way to initialize?	2012-12-05	680	1	https://stackoverflow.com/questions/13708918/using-guice-for-a-framework-with-injected-classes-proper-way-to-initialize
+Guice:Binding Annotations with Attributes	2017-01-31	3335	1	https://stackoverflow.com/questions/41958321/guicebinding-annotations-with-attributes
+Configuring cucumber-guice	2012-09-13	6455	2	https://stackoverflow.com/questions/12404434/configuring-cucumber-guice
+Using Guice Injection in custom Authenticator on Google Cloud Endpoints	2015-09-29	360	1	https://stackoverflow.com/questions/32840413/using-guice-injection-in-custom-authenticator-on-google-cloud-endpoints
+Registry optimization with Guice	2011-09-15	653	1	https://stackoverflow.com/questions/7420900/registry-optimization-with-guice
+Jersey-Guice doesn&#39;t process bound resources if injector is a child?	2011-12-10	1366	1	https://stackoverflow.com/questions/8454647/jersey-guice-doesnt-process-bound-resources-if-injector-is-a-child
+Play Framework Dependency Injection	2013-03-24	6689	4	https://stackoverflow.com/questions/15600186/play-framework-dependency-injection
+Is it possible to use Spring Security with Google Guice?	2011-03-30	1155	1	https://stackoverflow.com/questions/5484568/is-it-possible-to-use-spring-security-with-google-guice
+How to inject a &quot;runtime&quot; dependency like a logged in user which is not available at application boot time?	2011-01-08	951	2	https://stackoverflow.com/questions/4629777/how-to-inject-a-runtime-dependency-like-a-logged-in-user-which-is-not-availabl
+Guice and JSF 2	2009-12-29	3430	6	https://stackoverflow.com/questions/1971807/guice-and-jsf-2
+Equivalent of MyBatis XML multiple environments in MyBatis Guice	2015-11-25	1476	2	https://stackoverflow.com/questions/33917115/equivalent-of-mybatis-xml-multiple-environments-in-mybatis-guice
+Shutdown Quartz scheduler	2010-10-10	3132	1	https://stackoverflow.com/questions/3897807/shutdown-quartz-scheduler
+Akka cluster setup with play framework	2016-08-17	3752	2	https://stackoverflow.com/questions/38995437/akka-cluster-setup-with-play-framework
+When using the guice servlet extension is it possible to react to servlet destruction?	2011-10-27	640	1	https://stackoverflow.com/questions/7915155/when-using-the-guice-servlet-extension-is-it-possible-to-react-to-servlet-destru
+How to inject parameters into a class/trait method in Scala	2018-03-01	2605	2	https://stackoverflow.com/questions/49034562/how-to-inject-parameters-into-a-class-trait-method-in-scala
+Guice AssistedInject won&#39;t inject the factory	2013-02-08	6547	2	https://stackoverflow.com/questions/14760219/guice-assistedinject-wont-inject-the-factory
+Post creation initialization of guice singleton	2015-09-18	5632	2	https://stackoverflow.com/questions/32635563/post-creation-initialization-of-guice-singleton
+Jersey Test Framework &amp; HK2-Guice bridge	2016-08-30	1013	1	https://stackoverflow.com/questions/39225187/jersey-test-framework-hk2-guice-bridge
+Jersey resource that matches any path	2015-06-15	2854	2	https://stackoverflow.com/questions/30834696/jersey-resource-that-matches-any-path
+injecting generics with roboguice	2013-07-12	363	1	https://stackoverflow.com/questions/17617005/injecting-generics-with-roboguice
+@Nullable Ignored by guice	2012-09-19	1346	0	https://stackoverflow.com/questions/12483650/nullable-ignored-by-guice
+How to use Play Framework&#39;s request and session scope in Google Guice?	2014-09-02	1858	2	https://stackoverflow.com/questions/25626264/how-to-use-play-frameworks-request-and-session-scope-in-google-guice
+Get All the instance subclass of trait using Google Guice	2017-04-30	1269	2	https://stackoverflow.com/questions/43705146/get-all-the-instance-subclass-of-trait-using-google-guice
+Hibernate Validator: Intercept Invalid Values	2012-01-14	2164	1	https://stackoverflow.com/questions/8853795/hibernate-validator-intercept-invalid-values
+How to pass parameters to guicified TestNG test from Surefire Maven plugin?	2011-06-08	5406	2	https://stackoverflow.com/questions/6280576/how-to-pass-parameters-to-guicified-testng-test-from-surefire-maven-plugin
+Is it possible to inject an object with scala-guice?	2014-07-17	2241	1	https://stackoverflow.com/questions/24807880/is-it-possible-to-inject-an-object-with-scala-guice
+Guice: Creating Injectors for Shared Libs	2012-01-13	1599	1	https://stackoverflow.com/questions/8852276/guice-creating-injectors-for-shared-libs
+Use Guice multibindings with assisted inject for the set members	2014-10-23	1018	1	https://stackoverflow.com/questions/26514009/use-guice-multibindings-with-assisted-inject-for-the-set-members
+Deferred binding failed error - Ginjector	2011-07-02	5154	2	https://stackoverflow.com/questions/6555062/deferred-binding-failed-error-ginjector
+Is it possible to limit type hierarchy scanning with Guice?	2014-01-19	207	2	https://stackoverflow.com/questions/21217883/is-it-possible-to-limit-type-hierarchy-scanning-with-guice
+Play Framework, Akka, Guice : How to create multiple instances of an actor (which has dependencies) with Guice inside controller?	2017-07-20	981	1	https://stackoverflow.com/questions/45216905/play-framework-akka-guice-how-to-create-multiple-instances-of-an-actor-whic
+Google Guice and varying injections at runtime	2011-10-05	2749	2	https://stackoverflow.com/questions/7651980/google-guice-and-varying-injections-at-runtime
+Guice FactoryModuleBuilder an instance with constructor parameters	2016-03-30	4170	2	https://stackoverflow.com/questions/36290073/guice-factorymodulebuilder-an-instance-with-constructor-parameters
+DI, Guice and Strategy Pattern	2012-07-26	1333	1	https://stackoverflow.com/questions/11667134/di-guice-and-strategy-pattern
+Best way to initialize JpaPersistModule	2011-12-14	2598	2	https://stackoverflow.com/questions/8502271/best-way-to-initialize-jpapersistmodule
+What&#39;s the difference between guice bind to instance and asEagersingleton	2019-04-03	645	1	https://stackoverflow.com/questions/55483440/whats-the-difference-between-guice-bind-to-instance-and-aseagersingleton
+How do I set up a Google AppEngine webapp with JSF 2.2, JPA 2.0 and Dependency Injection features?	2017-01-22	1185	1	https://stackoverflow.com/questions/41786164/how-do-i-set-up-a-google-appengine-webapp-with-jsf-2-2-jpa-2-0-and-dependency-i
+Using @Assisted inject with multiple params of same Type (@Named params)	2014-05-09	7192	1	https://stackoverflow.com/questions/23553865/using-assisted-inject-with-multiple-params-of-same-type-named-params
+How to use Guice&#39;s Injector?	2013-02-13	17913	1	https://stackoverflow.com/questions/14839956/how-to-use-guices-injector
+Calling a service on startup in a Play application	2015-09-15	3894	1	https://stackoverflow.com/questions/32570547/calling-a-service-on-startup-in-a-play-application
+Guice Custom Injection for constructor parameters	2015-12-11	1107	0	https://stackoverflow.com/questions/34217920/guice-custom-injection-for-constructor-parameters
+What is the best way to use Guice and JMock together?	2010-01-12	3942	4	https://stackoverflow.com/questions/2044991/what-is-the-best-way-to-use-guice-and-jmock-together
+(Play 2.4) Dependency injection in a trait?	2015-08-10	4525	1	https://stackoverflow.com/questions/31923365/play-2-4-dependency-injection-in-a-trait
+How do you prevent Guice from injecting a class not bound in the Module?	2012-09-18	4724	2	https://stackoverflow.com/questions/12468483/how-do-you-prevent-guice-from-injecting-a-class-not-bound-in-the-module
+Guice: how do I bind generics for ALL types?	2015-04-16	681	1	https://stackoverflow.com/questions/29676605/guice-how-do-i-bind-generics-for-all-types
+Guice + classpath scanning	2015-07-14	3475	1	https://stackoverflow.com/questions/31404101/guice-classpath-scanning
+How to improve Guice performance at startup	2011-01-20	2432	1	https://stackoverflow.com/questions/4748405/how-to-improve-guice-performance-at-startup
+How to configure the Maven dependency for Guice 3.0 for use without AOP?	2013-05-03	7170	3	https://stackoverflow.com/questions/16352798/how-to-configure-the-maven-dependency-for-guice-3-0-for-use-without-aop
+guice assisted inject + multibinding + generics	2018-04-11	1077	1	https://stackoverflow.com/questions/49769830/guice-assisted-inject-multibinding-generics
+How does Guice Populate Annotated Fields	2012-03-05	1112	1	https://stackoverflow.com/questions/9568514/how-does-guice-populate-annotated-fields
+Should i inject Objects needed for execution of an algorithm? Should i inject everything?	2012-12-19	167	3	https://stackoverflow.com/questions/13943704/should-i-inject-objects-needed-for-execution-of-an-algorithm-should-i-inject-ev
+Google Guice - how to automatically add binding	2018-10-21	1448	1	https://stackoverflow.com/questions/52915611/google-guice-how-to-automatically-add-binding
+Cucumber with Guice - multiple guice injector	2016-02-10	2013	1	https://stackoverflow.com/questions/35315963/cucumber-with-guice-multiple-guice-injector
+Serving static content with Jetty/Jersey/Guice	2012-05-30	4493	1	https://stackoverflow.com/questions/10808610/serving-static-content-with-jetty-jersey-guice
+Mock a superclass constructor	2012-05-03	11726	3	https://stackoverflow.com/questions/10421357/mock-a-superclass-constructor
+Cucumber with Guice - multiple guice injector	2016-02-10	2013	1	https://stackoverflow.com/questions/35315963/cucumber-with-guice-multiple-guice-injector
+Dependency injection using Guice within Constraint validator	2017-04-19	2241	1	https://stackoverflow.com/questions/43485410/dependency-injection-using-guice-within-constraint-validator
+Guice puzzler: Batch scoped Encapsulated Context	2012-12-13	301	1	https://stackoverflow.com/questions/13847558/guice-puzzler-batch-scoped-encapsulated-context
+Can Guice&#39;s @Singleton annotation be inherited?	2012-10-23	1650	1	https://stackoverflow.com/questions/13015831/can-guices-singleton-annotation-be-inherited
+How to get instance for dynamic type/dynamically built ParameterizedType in Guice	2013-06-04	1055	1	https://stackoverflow.com/questions/16902707/how-to-get-instance-for-dynamic-type-dynamically-built-parameterizedtype-in-guic
+Guice: &quot;Could not find suitable constructor&quot; when suitable constructor supplied in FactoryBuilder	2014-05-15	5600	1	https://stackoverflow.com/questions/23680901/guice-could-not-find-suitable-constructor-when-suitable-constructor-supplied
+Java - java.lang.NoClassDefFoundError: com/google/inject/internal/util/$Preconditions	2015-08-26	13510	1	https://stackoverflow.com/questions/32228350/java-java-lang-noclassdeffounderror-com-google-inject-internal-util-precondi
+Guice nullpointer exception on injected instance	2015-09-16	1333	1	https://stackoverflow.com/questions/32609954/guice-nullpointer-exception-on-injected-instance
+Google Guice persistence + Spring Data JPA	2014-03-14	1455	1	https://stackoverflow.com/questions/22394252/google-guice-persistence-spring-data-jpa
+Guice post execution method interception	2015-10-18	598	1	https://stackoverflow.com/questions/33195223/guice-post-execution-method-interception
+Spring injection bind toInstance	2011-08-07	283	1	https://stackoverflow.com/questions/6970920/spring-injection-bind-toinstance
+Inject the same component with different parameters with Guice	2011-04-26	814	1	https://stackoverflow.com/questions/5791423/inject-the-same-component-with-different-parameters-with-guice
+untargeted bind vs. `toInstance()` bind	2014-12-18	2076	1	https://stackoverflow.com/questions/27540204/untargeted-bind-vs-toinstance-bind
+How can I access request in Play Guice Module?	2016-03-13	2000	1	https://stackoverflow.com/questions/35960207/how-can-i-access-request-in-play-guice-module
+how to create an object from a different scope	2012-03-22	127	1	https://stackoverflow.com/questions/9819794/how-to-create-an-object-from-a-different-scope
+How can Guice&#39;s @RequestScoped be done with Play 2.6	2018-07-11	129	0	https://stackoverflow.com/questions/51281807/how-can-guices-requestscoped-be-done-with-play-2-6
+Error creating BlobContext using jclouds in a Spring MVC application	2014-02-04	1262	1	https://stackoverflow.com/questions/21536498/error-creating-blobcontext-using-jclouds-in-a-spring-mvc-application
+Inject a Class&lt;T&gt; with GIN	2011-08-17	711	2	https://stackoverflow.com/questions/7093274/inject-a-classt-with-gin
+When to provide explicit binding and when to leverage the automatic binding on Guice	2011-09-10	4782	1	https://stackoverflow.com/questions/7364976/when-to-provide-explicit-binding-and-when-to-leverage-the-automatic-binding-on-g
+Inheriting annotation for AOP in GUICE	2020-05-08	323	1	https://stackoverflow.com/questions/61671183/inheriting-annotation-for-aop-in-guice
+Can Guice be configured to hide the class path in stack traces?	2012-01-07	236	1	https://stackoverflow.com/questions/8766843/can-guice-be-configured-to-hide-the-class-path-in-stack-traces
+Proper structure for dependency injection (using Guice)	2011-11-23	1053	1	https://stackoverflow.com/questions/8236594/proper-structure-for-dependency-injection-using-guice
+Guice cannot find a suitable constructor: @Inject class Patient(v1:C1) {}	2012-11-18	905	1	https://stackoverflow.com/questions/13434884/guice-cannot-find-a-suitable-constructor-inject-class-patientv1c1
+Guice, Injecting TypeLiteral&lt;T&gt; when using @AssistedInject	2012-04-19	2676	1	https://stackoverflow.com/questions/10219227/guice-injecting-typeliteralt-when-using-assistedinject
+Is it possible to inject the class requesting injection using Guice?	2012-01-27	691	4	https://stackoverflow.com/questions/9027766/is-it-possible-to-inject-the-class-requesting-injection-using-guice
+Guice - what is the equivalent of Spring Autowired in Guice	2018-11-01	3367	2	https://stackoverflow.com/questions/53090222/guice-what-is-the-equivalent-of-spring-autowired-in-guice
+Generic Bind with Guice	2012-07-04	1131	3	https://stackoverflow.com/questions/11318836/generic-bind-with-guice
+Expose Map in private guice module	2019-09-21	178	1	https://stackoverflow.com/questions/58036280/expose-map-in-private-guice-module
+Intercept a constructor with google guice	2011-01-24	1004	1	https://stackoverflow.com/questions/4781604/intercept-a-constructor-with-google-guice
+Got UnsupportedActionException with GWT and Maven	2011-12-07	553	2	https://stackoverflow.com/questions/8415720/got-unsupportedactionexception-with-gwt-and-maven
+How can I write a generic Guice binding function?	2011-12-30	2529	2	https://stackoverflow.com/questions/8672431/how-can-i-write-a-generic-guice-binding-function
+Inject all implementations of a certain trait/class in play using guice	2018-03-21	799	1	https://stackoverflow.com/questions/49409608/inject-all-implementations-of-a-certain-trait-class-in-play-using-guice
+How to get String from config.yml file in Dropwizard resource?	2018-04-11	2518	2	https://stackoverflow.com/questions/49771099/how-to-get-string-from-config-yml-file-in-dropwizard-resource
+Guice change binding by property (string in external text file)/ on runtime	2011-11-24	1479	1	https://stackoverflow.com/questions/8257863/guice-change-binding-by-property-string-in-external-text-file-on-runtime
+what&#39;s the difference between these two binding declarations with Google Guice?	2012-06-13	306	2	https://stackoverflow.com/questions/11002935/whats-the-difference-between-these-two-binding-declarations-with-google-guice
+Java: Junit a class with Inject annotation	2019-06-04	8756	2	https://stackoverflow.com/questions/56435924/java-junit-a-class-with-inject-annotation
+Guice DAO Provider in thread pool - queries become &#39;idle in transation&#39;	2017-05-11	694	1	https://stackoverflow.com/questions/43919411/guice-dao-provider-in-thread-pool-queries-become-idle-in-transation
+Google guice - multibinding + generics + assistedinject	2011-11-27	2699	1	https://stackoverflow.com/questions/8279711/google-guice-multibinding-generics-assistedinject
+Error when retrying method after OptimisticLockException - org.postgresql.util.PSQLException: This statement has been closed	2017-05-04	1295	1	https://stackoverflow.com/questions/43780675/error-when-retrying-method-after-optimisticlockexception-org-postgresql-util-p
+How to bind a class that extends a Trait with a monadic type parameter using Scala Guice?	2019-06-19	326	1	https://stackoverflow.com/questions/56668719/how-to-bind-a-class-that-extends-a-trait-with-a-monadic-type-parameter-using-sca
+Read Aspectj Pointcut definition from property file for LTW	2013-08-08	1768	1	https://stackoverflow.com/questions/18130336/read-aspectj-pointcut-definition-from-property-file-for-ltw
+Does Guice binding bind subclass as well?	2015-07-24	2418	1	https://stackoverflow.com/questions/31598703/does-guice-binding-bind-subclass-as-well
+Java Guice - how to bind integer value to my class/object?	2013-12-23	3479	1	https://stackoverflow.com/questions/20731500/java-guice-how-to-bind-integer-value-to-my-class-object
+Is it possible to bind dependencies to interceptor in TestNG?	2015-03-03	322	2	https://stackoverflow.com/questions/28825372/is-it-possible-to-bind-dependencies-to-interceptor-in-testng
+Handling un-mapped Rest path	2013-04-08	282	1	https://stackoverflow.com/questions/15874698/handling-un-mapped-rest-path
+Creating a custom @TestScoped Guice scope for the duration of a unit test	2015-09-08	1418	2	https://stackoverflow.com/questions/32444723/creating-a-custom-testscoped-guice-scope-for-the-duration-of-a-unit-test
+Is there a way to check if I&#39;m inside a servlet request with Guice?	2013-06-26	726	2	https://stackoverflow.com/questions/17303134/is-there-a-way-to-check-if-im-inside-a-servlet-request-with-guice
+Using the provider from two different scopes	2014-12-07	517	2	https://stackoverflow.com/questions/27336407/using-the-provider-from-two-different-scopes
+How to use Google Guice with Richfaces 4.3.7	2015-09-01	856	1	https://stackoverflow.com/questions/32319981/how-to-use-google-guice-with-richfaces-4-3-7
+How can I mix Guice and Jersey injection?	2013-08-28	595	1	https://stackoverflow.com/questions/18489529/how-can-i-mix-guice-and-jersey-injection
+Java inject implementation using TypeLiteral	2016-04-18	246	1	https://stackoverflow.com/questions/36690178/java-inject-implementation-using-typeliteral
+&quot;Error injecting constructor&quot; when mapping Enumeration using Slick 3.1 with play and scala	2015-11-04	1253	2	https://stackoverflow.com/questions/33510259/error-injecting-constructor-when-mapping-enumeration-using-slick-3-1-with-play
+GWT Guice/Gin on the server side problem	2011-06-03	1931	2	https://stackoverflow.com/questions/6227720/gwt-guice-gin-on-the-server-side-problem
+Running inside Guice injector, @Injects not respected on `new`-ed class	2011-05-25	1102	2	https://stackoverflow.com/questions/6123782/running-inside-guice-injector-injects-not-respected-on-new-ed-class
+Multiple instance of the same provider	2013-11-18	346	2	https://stackoverflow.com/questions/20041776/multiple-instance-of-the-same-provider
+When is Assisted-inject useful?	2013-12-26	608	2	https://stackoverflow.com/questions/20778090/when-is-assisted-inject-useful
+GWT, Guice and GIN compilation	2012-02-23	1055	2	https://stackoverflow.com/questions/9403815/gwt-guice-and-gin-compilation
+Guice multibindings package missing in imports	2011-12-31	1835	1	https://stackoverflow.com/questions/8688538/guice-multibindings-package-missing-in-imports
+Artifact is pulled without explicit dependency shown by sbt-dependency-graph	2016-03-31	143	1	https://stackoverflow.com/questions/36320695/artifact-is-pulled-without-explicit-dependency-shown-by-sbt-dependency-graph
+JPA 2 + EclipseLink : Caching Issue	2014-01-04	4484	1	https://stackoverflow.com/questions/20920400/jpa-2-eclipselink-caching-issue
+How to integrate Swagger into Java project using Guice + Jersey + servlet and generate REST API docs automatically	2018-07-24	1103	2	https://stackoverflow.com/questions/51490353/how-to-integrate-swagger-into-java-project-using-guice-jersey-servlet-and-ge
+how to inject servlet context in guice module?	2020-09-21	220	0	https://stackoverflow.com/questions/63986297/how-to-inject-servlet-context-in-guice-module
+How to bind Assisted Injected class to interface?	2009-10-21	2502	1	https://stackoverflow.com/questions/1595723/how-to-bind-assisted-injected-class-to-interface
+Properties framework in java apps	2010-04-12	1065	3	https://stackoverflow.com/questions/2621319/properties-framework-in-java-apps
+What&#39;s the use of @Component in spring?	2014-10-07	1196	1	https://stackoverflow.com/questions/26229602/whats-the-use-of-component-in-spring
+how to init guice if my running class is junit?	2014-12-22	432	1	https://stackoverflow.com/questions/27604727/how-to-init-guice-if-my-running-class-is-junit
+Binding a value to one of two possibilities in Guice	2014-06-13	438	1	https://stackoverflow.com/questions/24193591/binding-a-value-to-one-of-two-possibilities-in-guice
+TestNG - Accessing ITestContext in Guice Module	2019-04-14	551	1	https://stackoverflow.com/questions/55677112/testng-accessing-itestcontext-in-guice-module
+Error in binding: No implementation was bound - Guice	2015-06-03	10234	1	https://stackoverflow.com/questions/30611635/error-in-binding-no-implementation-was-bound-guice
+Using Mockito &amp; Guice to test interfaces with generics in Scala	2015-07-29	235	1	https://stackoverflow.com/questions/31681976/using-mockito-guice-to-test-interfaces-with-generics-in-scala
+&#39;idle in transaction&#39; when using Hibernate, Postgres and Guice Provider	2017-05-05	1629	1	https://stackoverflow.com/questions/43803627/idle-in-transaction-when-using-hibernate-postgres-and-guice-provider
+How to implement a new guice scope that caches and return named instances?	2013-03-22	149	0	https://stackoverflow.com/questions/15556802/how-to-implement-a-new-guice-scope-that-caches-and-return-named-instances
+Apache Wicket: Injecting dependencies in form validators (using Guice)	2013-06-25	309	1	https://stackoverflow.com/questions/17285304/apache-wicket-injecting-dependencies-in-form-validators-using-guice
+Have a common provider for subclasses using Guice?	2013-01-19	743	1	https://stackoverflow.com/questions/14403119/have-a-common-provider-for-subclasses-using-guice
+How can I a get singleton from Guice that&#39;s configured with runtime parameters?	2016-07-26	5758	1	https://stackoverflow.com/questions/38589940/how-can-i-a-get-singleton-from-guice-thats-configured-with-runtime-parameters
+Create an Instance of class which does DI via Playframework Guice Independently in Scala	2016-07-20	683	2	https://stackoverflow.com/questions/38471551/create-an-instance-of-class-which-does-di-via-playframework-guice-independently
+Is Sitebricks compatible with GAE backends (Java)	2012-12-20	219	1	https://stackoverflow.com/questions/13964043/is-sitebricks-compatible-with-gae-backends-java
+Guice - Binding an instance created by assisted injection factory	2016-11-10	1624	1	https://stackoverflow.com/questions/40512944/guice-binding-an-instance-created-by-assisted-injection-factory
+Is it &quot;bad practice&quot; to pass argument to guice module	2016-03-07	2005	1	https://stackoverflow.com/questions/35833660/is-it-bad-practice-to-pass-argument-to-guice-module
+Provider&lt;HttpSession&gt; not getting injected	2012-03-26	1352	2	https://stackoverflow.com/questions/9873877/providerhttpsession-not-getting-injected
+Current Request/User details in Models in Scala Play! 2.5	2016-05-07	724	1	https://stackoverflow.com/questions/37086994/current-request-user-details-in-models-in-scala-play-2-5
+How to avoid Google guice injector getInstance() repetative calls due to null?	2020-05-17	584	1	https://stackoverflow.com/questions/61853490/how-to-avoid-google-guice-injector-getinstance-repetative-calls-due-to-null
+Jersey, Guice using non-root request paths	2012-02-01	527	1	https://stackoverflow.com/questions/9097238/jersey-guice-using-non-root-request-paths
+trying to access spring bean from guice module	2019-09-17	607	0	https://stackoverflow.com/questions/57962016/trying-to-access-spring-bean-from-guice-module
+Jersey + Guice + Tomcat producing 404 when served with something other than root directory	2013-02-01	811	1	https://stackoverflow.com/questions/14634834/jersey-guice-tomcat-producing-404-when-served-with-something-other-than-root
+How is guice AOP implemented?	2020-01-29	515	1	https://stackoverflow.com/questions/59957968/how-is-guice-aop-implemented
+Java: Can&#39;t get a working ServiceLoader	2015-03-11	1541	0	https://stackoverflow.com/questions/28983997/java-cant-get-a-working-serviceloader
+Why is Eclipse not able to resolve Guice import in Play 2.2.x application?	2014-10-23	227	2	https://stackoverflow.com/questions/26529648/why-is-eclipse-not-able-to-resolve-guice-import-in-play-2-2-x-application
+Guice properties injection	2017-01-13	2959	1	https://stackoverflow.com/questions/41623295/guice-properties-injection
+Guice: Inject class with constructor with own parameters?	2021-03-09	178	1	https://stackoverflow.com/questions/66537240/guice-inject-class-with-constructor-with-own-parameters
+spring integration with drools	2016-01-21	827	1	https://stackoverflow.com/questions/34916936/spring-integration-with-drools
+How to indicate one or more match in url pattern?	2011-09-17	313	2	https://stackoverflow.com/questions/7447885/how-to-indicate-one-or-more-match-in-url-pattern
+Binding a constructor argument based on the Annotation of the class	2011-10-05	1239	2	https://stackoverflow.com/questions/7660374/binding-a-constructor-argument-based-on-the-annotation-of-the-class
+Building project form multiple subprojects in Eclipse	2011-10-17	800	1	https://stackoverflow.com/questions/7789547/building-project-form-multiple-subprojects-in-eclipse
+GWT RPC GWTTestCase + GUICE 2.0	2011-07-14	825	1	https://stackoverflow.com/questions/6682037/gwt-rpc-gwttestcase-guice-2-0
+How do I bind a specific parameter to an instance of a custom annotation?	2011-07-04	199	2	https://stackoverflow.com/questions/6571680/how-do-i-bind-a-specific-parameter-to-an-instance-of-a-custom-annotation
+Guice - bind different instances based on enclosing class	2014-02-04	477	1	https://stackoverflow.com/questions/21554841/guice-bind-different-instances-based-on-enclosing-class
+Guice inject annotation value	2018-02-27	337	1	https://stackoverflow.com/questions/49010954/guice-inject-annotation-value
+Swagger + Jersey + Guice integration not working	2018-01-03	178	0	https://stackoverflow.com/questions/48071916/swagger-jersey-guice-integration-not-working
+Guice: Using parameter in Module (JndiIntegration)	2012-01-25	532	1	https://stackoverflow.com/questions/8991654/guice-using-parameter-in-module-jndiintegration
+Field level injection with Gin	2012-05-02	1534	2	https://stackoverflow.com/questions/10414089/field-level-injection-with-gin
+Google Guice can&#39;t find class	2016-08-23	2163	1	https://stackoverflow.com/questions/39091053/google-guice-cant-find-class
+Guice properties injection	2017-01-13	2959	1	https://stackoverflow.com/questions/41623295/guice-properties-injection
+Binding the same interface twice (Guice)	2017-12-16	1121	1	https://stackoverflow.com/questions/47838771/binding-the-same-interface-twice-guice
+Guice inject annotation value	2018-02-27	337	1	https://stackoverflow.com/questions/49010954/guice-inject-annotation-value
+Swagger + Jersey + Guice integration not working	2018-01-03	178	0	https://stackoverflow.com/questions/48071916/swagger-jersey-guice-integration-not-working
+Injecting services into Scala Akka Actors with Google Guice	2015-08-01	2343	2	https://stackoverflow.com/questions/31755016/injecting-services-into-scala-akka-actors-with-google-guice
+Java: Can&#39;t get a working ServiceLoader	2015-03-11	1541	0	https://stackoverflow.com/questions/28983997/java-cant-get-a-working-serviceloader
+Dynamic Google Juice injection depending on value of an annotation	2016-04-15	43	0	https://stackoverflow.com/questions/36642511/dynamic-google-juice-injection-depending-on-value-of-an-annotation
+Binding Annotation in spring	2016-03-28	1432	2	https://stackoverflow.com/questions/36262825/binding-annotation-in-spring
+spring integration with drools	2016-01-21	827	1	https://stackoverflow.com/questions/34916936/spring-integration-with-drools
