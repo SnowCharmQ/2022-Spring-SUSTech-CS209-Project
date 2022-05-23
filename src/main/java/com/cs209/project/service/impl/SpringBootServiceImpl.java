@@ -1,9 +1,6 @@
 package com.cs209.project.service.impl;
 
-import com.cs209.project.entity.IssueWord;
-import com.cs209.project.entity.SpringBootIssueVersion;
-import com.cs209.project.entity.SpringBootIteration;
-import com.cs209.project.entity.SpringBootQuestion;
+import com.cs209.project.entity.*;
 import com.cs209.project.mapper.SpringBootIssueMapper;
 import com.cs209.project.mapper.SpringBootIterMapper;
 import com.cs209.project.mapper.SpringBootQuestionMapper;
@@ -79,6 +76,11 @@ public class SpringBootServiceImpl implements ISpringBootService {
     @Override
     public List<IssueWord> selectIssueWord() {
         return wordMapper.selectIssueWord();
+    }
+
+    @Override
+    public List<QuestionWord> selectQuestionWord() {
+        return wordMapper.selectQuestionWord();
     }
 
 }

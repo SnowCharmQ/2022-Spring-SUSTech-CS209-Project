@@ -4,6 +4,11 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cs209.project.mapper.WordMapper">
     <select id="selectIssueWord" resultType="com.cs209.project.entity.IssueWord">
-        SELECT * FROM issue_word;
+        SELECT *
+        FROM issue_word;
+    </select>
+    <select id="selectQuestionWord" resultType="com.cs209.project.entity.QuestionWord">
+        SELECT *
+        FROM question_word;
     </select>
 </mapper>

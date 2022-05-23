@@ -38,3 +38,9 @@ create table if not exists issue_word
     word  varchar(200),
     count integer
 );
+
+create table if not exists question_word
+(
+    word  varchar(200),
+    count integer
+);

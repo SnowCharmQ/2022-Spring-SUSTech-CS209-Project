@@ -2,6 +2,7 @@ package com.cs209.project.loader;
 
 
 import com.cs209.project.entity.IssueWord;
+import com.cs209.project.entity.QuestionWord;
 import com.cs209.project.entity.SpringBootQuestion;
 
 import java.io.BufferedReader;
@@ -13,7 +14,8 @@ import java.util.*;
 public class WordLoader {
     private static Connection con = null;
     private static PreparedStatement stmt = null;
-    private static HashMap<IssueWord, Integer> map = new HashMap<>();
+    private static HashMap<IssueWord, Integer> map1 = new HashMap<>();
+    private static HashMap<QuestionWord, Integer> map2 = new HashMap<>();
 
     private static void openDB(String host, String dbname,
                                String user, String pwd) {
@@ -64,18 +66,50 @@ public class WordLoader {
                 if (content[0].length() <= 1) continue;
                 IssueWord iw = new IssueWord(content[0]);
                 Integer temp;
-                if (map.containsKey(iw)) {
-                    temp = map.get(iw);
+                if (map1.containsKey(iw)) {
+                    temp = map1.get(iw);
                     temp = temp + Integer.parseInt(content[1]);
                 } else temp = Integer.parseInt(content[1]);
-                map.put(iw, temp);
+                map1.put(iw, temp);
             }
             stmt = con.prepareStatement("insert into issue_word (word, count) values (?,?);");
-            Set<Map.Entry<IssueWord, Integer>> set = map.entrySet();
+            Set<Map.Entry<IssueWord, Integer>> set = map1.entrySet();
             for (Map.Entry<IssueWord, Integer> entry : set) {
                 IssueWord iw = entry.getKey();
                 int count = entry.getValue();
                 stmt.setString(1, iw.getWord());
+                stmt.setInt(2, count);
+                stmt.addBatch();
+            }
+            stmt.executeBatch();
+            stmt.clearBatch();
+            con.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public static void loadQuestionWord() {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringBootQuestionNLP.txt")))) {
+            String line;
+            while ((line = inline.readLine()) != null) {
+                String[] content = line.split("\t");
+                if (content[0].length() <= 1) continue;
+                QuestionWord qw = new QuestionWord(content[0]);
+                Integer temp;
+                if (map2.containsKey(qw)) {
+                    temp = map2.get(qw);
+                    temp = temp + Integer.parseInt(content[1]);
+                } else temp = Integer.parseInt(content[1]);
+                map2.put(qw, temp);
+            }
+            stmt = con.prepareStatement("insert into question_word (word, count) values (?,?);");
+            Set<Map.Entry<QuestionWord, Integer>> set = map2.entrySet();
+            for (Map.Entry<QuestionWord, Integer> entry : set) {
+                QuestionWord qw = entry.getKey();
+                int count = entry.getValue();
+                stmt.setString(1, qw.getWord());
                 stmt.setInt(2, count);
                 stmt.addBatch();
             }
@@ -100,11 +134,12 @@ public class WordLoader {
         Statement stmt0;
         if (con != null) {
             stmt0 = con.createStatement();
-            stmt0.execute("truncate table issue_word cascade;");
+            stmt0.execute("truncate table issue_word, question_word cascade;");
             con.commit();
             stmt0.close();
         }
         loadIssueWord();
+        loadQuestionWord();
         closeDB();
         System.out.println("LOAD DONE!");
     }

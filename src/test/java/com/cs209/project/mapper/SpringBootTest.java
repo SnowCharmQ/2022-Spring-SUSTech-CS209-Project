@@ -1,6 +1,7 @@
 package com.cs209.project.mapper;
 
 import com.cs209.project.entity.IssueWord;
+import com.cs209.project.entity.QuestionWord;
 import com.cs209.project.entity.SpringBootIssueVersion;
 import com.cs209.project.service.ISpringBootService;
 import org.junit.Test;
@@ -181,6 +182,17 @@ public class SpringBootTest {
         out.write("issue = [[\"word\",\"count\"],");
         for (IssueWord iw : list) {
             out.write(String.format("[\"%s\",%d],", iw.getWord(), iw.getCount()));
+        }
+        out.write("]");
+    }
+
+    @Test
+    public void questionWordTest() throws IOException {
+        List<QuestionWord> list = springBootService.selectQuestionWord();
+        BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("src/main/resources/static/js/question-word.js")));
+        out.write("question = [[\"word\",\"count\"],");
+        for (QuestionWord qw : list) {
+            out.write(String.format("[\"%s\",%d],", qw.getWord(), qw.getCount()));
         }
         out.write("]");
     }
