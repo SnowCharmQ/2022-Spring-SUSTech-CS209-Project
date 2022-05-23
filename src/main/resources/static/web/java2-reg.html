@@ -156,7 +156,6 @@
                     success: function (json) {
                         if (json.state === 200) {
                             alert("Successfully Register!");
-                            location.href = "login.html";
                         } else {
                             document.getElementById("error-message-reg").innerText = ("Fail To Register！" + json.message);
                         }

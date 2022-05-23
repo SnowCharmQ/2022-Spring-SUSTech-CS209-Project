@@ -18,4 +18,4 @@ create table t_user
 
 select *
 from t_user;
-truncate table t_user;
+drop table t_user;
