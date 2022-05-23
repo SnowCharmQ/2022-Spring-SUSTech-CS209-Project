@@ -239,4 +239,51 @@ Using type handler in where clause in MyBatis	2013-06-27	3091	1	https://stackove
 MyBatis ORA-01745: invalid host/bind variable name	2015-08-19	4323	1	https://stackoverflow.com/questions/32081980/mybatis-ora-01745-invalid-host-bind-variable-name
 what is the xml mapping for json like this?	2019-12-02	70	0	https://stackoverflow.com/questions/59140683/what-is-the-xml-mapping-for-json-like-this
 mybatis-spring java annotation for multiple datasources	2015-11-11	1235	1	https://stackoverflow.com/questions/33652793/mybatis-spring-java-annotation-for-multiple-datasources
-How can i call a function that return a BOOLEAN using MyBatis?	2019-10-03	916	1	https://stackoverflow.com/questions/58205549/how-can-i-call
+How can i call a function that return a BOOLEAN using MyBatis?	2019-10-03	916	1	https://stackoverflow.com/questions/58205549/how-can-i-call-a-function-that-return-a-boolean-using-mybatis
+The Mapper conflicts with itself?	2020-02-07	200	1	https://stackoverflow.com/questions/60112455/the-mapper-conflicts-with-itself
+Why would MyBatis sometimes not find the mapper, but most of the time it would?	2019-11-15	249	1	https://stackoverflow.com/questions/58862574/why-would-mybatis-sometimes-not-find-the-mapper-but-most-of-the-time-it-would
+MyBatis: java.sql.SQLException: Invalid java.sql.Types constant value -9 passed to set or update method	2019-11-13	561	1	https://stackoverflow.com/questions/58835141/mybatis-java-sql-sqlexception-invalid-java-sql-types-constant-value-9-passed
+how to pass a constant value to nested column with mybaits association	2016-03-26	1429	1	https://stackoverflow.com/questions/36230661/how-to-pass-a-constant-value-to-nested-column-with-mybaits-association
+foreach injection is not working in mybatis	2021-07-01	177	1	https://stackoverflow.com/questions/68212892/foreach-injection-is-not-working-in-mybatis
+Can Spring DAO be merged into Service layer?	2016-07-25	471	2	https://stackoverflow.com/questions/38560507/can-spring-dao-be-merged-into-service-layer
+Lazy fetching in MyBatis	2016-05-23	1787	1	https://stackoverflow.com/questions/37386083/lazy-fetching-in-mybatis
+How to indicate dabaseId with annotation implementation?	2022-02-17	21	1	https://stackoverflow.com/questions/71149999/how-to-indicate-dabaseid-with-annotation-implementation
+How do configure the dao files to handle inserting a List<String> in MyBatis	2013-02-08	1691	1	https://stackoverflow.com/questions/14762471/how-do-configure-the-dao-files-to-handle-inserting-a-liststring-in-mybatis
+Using MyBatis with Oracle XMLType function "existsNode()"	2011-10-25	1098	1	https://stackoverflow.com/questions/7878478/using-mybatis-with-oracle-xmltype-function-existsnode
+Maven MyBatis tests fail when running Java 8 project compiled with Java 11	2021-09-20	116	0	https://stackoverflow.com/questions/69256245/maven-mybatis-tests-fail-when-running-java-8-project-compiled-with-java-11
+MyBatis 3 - Spring MVC. Type interface is not known to the MapperRegistry	2016-01-12	3112	2	https://stackoverflow.com/questions/34732636/mybatis-3-spring-mvc-type-interface-is-not-known-to-the-mapperregistry
+How to update mysql fields into Chinese using MyBatis	2012-12-29	259	1	https://stackoverflow.com/questions/14079525/how-to-update-mysql-fields-into-chinese-using-mybatis
+unexpected error while running mybatis generator. unsupported major.minor version 51.0	2012-11-27	2812	1	https://stackoverflow.com/questions/13581610/unexpected-error-while-running-mybatis-generator-unsupported-major-minor-versio
+Why mybatis insert java.util.Date value to Mysql datetime column then fetch it they are not equal?	2016-08-02	5411	2	https://stackoverflow.com/questions/38722942/why-mybatis-insert-java-util-date-value-to-mysql-datetime-column-then-fetch-it-t
+Return a List<MyClass> in MyBatis	2020-02-26	296	1	https://stackoverflow.com/questions/60400672/return-a-listmyclass-in-mybatis
+what's the mechanism of xml in spring during the lifecycle of a program?	2013-01-27	113	1	https://stackoverflow.com/questions/14547148/whats-the-mechanism-of-xml-in-spring-during-the-lifecycle-of-a-program
+MyBatis Error on Collection of Map.Entry and Map.entrySet()	2016-03-01	11382	2	https://stackoverflow.com/questions/35717551/mybatis-error-on-collection-of-map-entry-and-map-entryset
+Incorrect double values returned from mysql to java	2020-09-11	598	2	https://stackoverflow.com/questions/63841429/incorrect-double-values-returned-from-mysql-to-java
+Display one to many mapping using sql in mybatis	2013-04-24	1146	2	https://stackoverflow.com/questions/16193687/display-one-to-many-mapping-using-sql-in-mybatis
+mybatis @Insert annotation for Mysql and H2 - need a way to use Point for mysql and ST_Point for H2	2020-11-01	143	1	https://stackoverflow.com/questions/64627459/mybatis-insert-annotation-for-mysql-and-h2-need-a-way-to-use-point-for-mysql
+How to select data of the specified 'createBy'	2020-10-09	30	0	https://stackoverflow.com/questions/64272763/how-to-select-data-of-the-specified-createby
+ObjectFactory and MyBatis, mapping result into JAXBElement<XmlGregorianCalendar>	2017-12-21	390	1	https://stackoverflow.com/questions/47922539/objectfactory-and-mybatis-mapping-result-into-jaxbelementxmlgregoriancalendar
+SpringMVC: @Transactional causes: No qualifying bean of type [...] is defined	2015-01-26	3583	1	https://stackoverflow.com/questions/28144574/springmvc-transactional-causes-no-qualifying-bean-of-type-is-defined
+JSF ManagedBean - injected properties not working correctly on STATE_SAVING_METHOD=client	2012-04-03	2211	1	https://stackoverflow.com/questions/9986197/jsf-managedbean-injected-properties-not-working-correctly-on-state-saving-meth
+MyBatis CDI class loader issue in case of EAR	2017-05-24	227	2	https://stackoverflow.com/questions/44154419/mybatis-cdi-class-loader-issue-in-case-of-ear
+How to build and wire Spring database dependency .JAR project for use with multiple .WAR projects?	2014-04-05	1935	2	https://stackoverflow.com/questions/22871879/how-to-build-and-wire-spring-database-dependency-jar-project-for-use-with-multi
+best way implement filtering using mybatis	2015-01-16	1375	1	https://stackoverflow.com/questions/27979207/best-way-implement-filtering-using-mybatis
+Unable to make batch insert into Oracle DB using MyBatis	2014-10-09	3588	3	https://stackoverflow.com/questions/26278531/unable-to-make-batch-insert-into-oracle-db-using-mybatis
+Camel + MyBatis + Apache Aries	2014-07-31	2381	1	https://stackoverflow.com/questions/25045264/camel-mybatis-apache-aries
+Procedure to perform delete operation	2012-06-14	78	1	https://stackoverflow.com/questions/11033101/procedure-to-perform-delete-operation
+nested exception is org.apache.ibatis.binding.BindingException: Parameter 'tagId' not found. Available parameters are [0, 1, param1, param2]	2018-01-10	5760	2	https://stackoverflow.com/questions/48188727/nested-exception-is-org-apache-ibatis-binding-bindingexception-parameter-tagid
+Jboss Wildfly EJB3 and Mybatis Deployment Error: NoSuchMethodError javax.persistence.Table.indexes()[Ljavax/persistence/Index;	2014-11-01	313	1	https://stackoverflow.com/questions/26687423/jboss-wildfly-ejb3-and-mybatis-deployment-error-nosuchmethoderror-javax-persist
+Is it possible to work with temp variable in my batis "select"?	2014-09-18	2401	1	https://stackoverflow.com/questions/25907404/is-it-possible-to-work-with-temp-variable-in-my-batis-select
+MyBatis: Errors when upgrading to 3.2.7 from 3.0.3	2014-09-23	4348	1	https://stackoverflow.com/questions/25999636/mybatis-errors-when-upgrading-to-3-2-7-from-3-0-3
+Wicket MyBatis Want to sort a row but can't update it	2014-08-22	117	0	https://stackoverflow.com/questions/25443397/wicket-mybatis-want-to-sort-a-row-but-cant-update-it
+Is there a setting change we need to make for iBatis to MyBatis conversion tool?	2014-12-18	552	1	https://stackoverflow.com/questions/27530637/is-there-a-setting-change-we-need-to-make-for-ibatis-to-mybatis-conversion-tool
+How to mock MyBatis mapper interface with Arquillian (PART2)?	2017-03-11	1206	1	https://stackoverflow.com/questions/42728129/how-to-mock-mybatis-mapper-interface-with-arquillian-part2
+Performance comparison between mybaits Batch ExecutorType and for_each Xml	2019-05-08	394	1	https://stackoverflow.com/questions/56034380/performance-comparison-between-mybaits-batch-executortype-and-for-each-xml
+Why is Mybatis mapper scanner picking up wrong class	2013-12-06	1837	1	https://stackoverflow.com/questions/20406045/why-is-mybatis-mapper-scanner-picking-up-wrong-class
+Mybatis How to map a column from another table to a String list?	2019-03-09	2005	1	https://stackoverflow.com/questions/55074171/mybatis-how-to-map-a-column-from-another-table-to-a-string-list
+Mybatis select with nested objects	2012-03-15	2989	1	https://stackoverflow.com/questions/9717500/mybatis-select-with-nested-objects
+How to access temporary table(# table sybase ase 15) from java using mybatis	2015-07-02	1090	0	https://stackoverflow.com/questions/31181130/how-to-access-temporary-table-table-sybase-ase-15-from-java-using-mybatis
+Sending a list of java objects to an SQL stored procedure via mybatis?	2017-03-29	1696	1	https://stackoverflow.com/questions/43078220/sending-a-list-of-java-objects-to-an-sql-stored-procedure-via-mybatis
+MySQL Insert Gson Date	2013-12-11	802	1	https://stackoverflow.com/questions/20509883/mysql-insert-gson-date
+How to use MyBatis to iterate all fields of an object?	2018-11-01	221	3	https://stackoverflow.com/questions/53095869/how-to-use-mybatis-to-iterate-all-fields-of-an-object
+MyBatis CDI + Container-Managed Transaction	2017-04-24	1860	1	https://stackoverflow.com/questions/43574276/mybatis-cdi-container-managed-transaction
