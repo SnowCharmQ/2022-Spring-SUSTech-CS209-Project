@@ -1,0 +1,254 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src='https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+  <script src='../js/jquery.warpdrive.min.js'></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+  <!-- <script src="../../echarts/dist/echarts.js"></script> -->
+  <script src='../js/echarts-wordcloud-js.js'></script>
+  <script src="../js/question-word.js"></script>
+</head>
+<body>
+
+<div id='holder' ></div>
+<div id='main'></div>
+<div class="btns" style="position: absolute; right: 40px; bottom: 30px;">
+  <a href="springboot-menu.html"><img src="../img/return.jpg" alt=""></a>
+</div>
+<div class="btns" style="position: absolute; right: 40px; bottom: 80px;">
+  <a href="#" id="save2"><img src="../img/save.png"
+                              onclick="download(save_data, 'question-NLP.csv', 'text/plaintext')"
+                              alt=""></a>
+</div>
+<span style="flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    /* 字间距 */
+    letter-spacing: 7px;
+    /* 转大写 */
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 76px;
+    margin: 30px;
+    outline: none;
+    /* 自定义属性--c，可通过var函数对其调用 */
+    --c:lightseagreen;
+    /* 调用自定义属性--c，设置文字阴影（发光效果） */
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    /* 执行动画：动画名 时长 线性的 无限次播放 */
+    animation: animate 5s linear infinite;
+    white-space: pre-line;
+    position: absolute;
+    top: 100px;
+    right: 108px;
+    width: 70px;
+">The number of words obtained by NLP segmentation: 6366</span>
+<style type='text/css'>
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, font, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow: hidden;
+    background-color: #CCC;
+    /* 100%窗口高度 */
+    height: 100vh;
+    /* 弹性布局 水平+垂直居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 渐变背景 */
+    background: linear-gradient(200deg, #517fa4, #243949);
+  }
+
+  #holder {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 800px;
+    height: 300px;
+    /*z-index: -1;*/
+  }
+
+  .btns {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .btns img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 14px;
+  }
+
+</style>
+
+<script>
+  function download(text, name, type) {
+    var a = document.getElementById("save2");
+    var file = new Blob([text], {type: type});
+    a.href = URL.createObjectURL(file);
+    a.download = name;
+    // a.dispatchEvent(new MouseEvent('click', {'bubbles': false, 'cancelable': true}));
+  }
+</script>
+
+<script>
+
+  $( document ).ready( function() {
+    var settings = {
+
+      width: 1600,
+      height: 1000,
+      autoResize: false,
+      autoResizeMinWidth: null,
+      autoResizeMaxWidth: null,
+      autoResizeMinHeight: null,
+      autoResizeMaxHeight: null,
+      addMouseControls: true,
+      addTouchControls: true,
+      hideContextMenu: true,
+      starCount: 6666,
+      starBgCount: 2222,
+      starBgColor: { r:0, g:204, b:255 },
+      starBgColorRangeMin: 20,
+      starBgColorRangeMax: 80,
+      starColor: { r:0, g:204, b:255 },
+      starColorRangeMin: 50,
+      starColorRangeMax: 100,
+      starfieldBackgroundColor: { r:5, g:5, b:14 },
+      starDirection: 1,
+      starSpeed: 2,
+      starSpeedMax: 6,
+      starSpeedAnimationDuration: 2,
+      starFov: 300,
+      starFovMin: 200,
+      starFovAnimationDuration: 2,
+      starRotationPermission: true,
+      starRotationDirection: 1,
+      starRotationSpeed: 0.0,
+      starRotationSpeedMax: 1.0,
+      starRotationAnimationDuration: 2,
+      starWarpLineLength: 2.0,
+      starWarpTunnelDiameter: 100,
+      starFollowMouseSensitivity: 0.025,
+      starFollowMouseXAxis: true,
+      starFollowMouseYAxis: true
+
+    };
+    var warpdrive = new WarpDrive( document.getElementById( 'holder' ), settings );
+  } );
+
+  var save_data = "word,count\n";
+  for (var i = 1;i < question.length;i++){
+    save_data = save_data + question[i][0] + "," + question[i][1] + "\n";
+  }
+</script>
+
+<style>
+  html, body, #main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+</style>
+
+
+<script>
+  var word_cloud_chart = echarts.init(document.getElementById('main'));
+
+  var question_data = [];
+
+  for (var i = 1; i < question.length; i++) {
+    var temp = question[i];
+    question_data.push({'name': temp[0], 'value': temp[1]});
+  }
+
+  // var maskImg = new Image()
+
+  var word_cloud_option = {
+    title: {
+      text: 'Spring Boot Stack Overflow Question WordCloud',
+      textStyle:{
+        fontStyle: 'oblique',
+        fontSize: 60,
+        color: '#4cc9f0'
+      },
+      subtextStyle:{
+        fontSize: 60,
+      },
+      left: 'center'
+    },
+    tooltip: {},
+    series: [{
+      type: 'wordCloud',
+      sizeRange: [12, 240],
+      rotationRange: [-40, 40],
+      gridSize: 2,
+      shape: 'star',
+      // maskImage: maskImg,
+      drawOutOfBound: false,
+      layoutAnimation: true,
+      keepAspect: true,
+      textStyle: {
+        fontWeight: 'bold',
+        color: function () {
+          return 'rgb(' + [
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160)
+          ].join(',') + ')';
+        }
+      },
+      emphasis: {
+        textStyle: {
+          shadowBlur: 15,
+          shadowColor: '#333'
+        }
+      },
+      data: question_data.sort(function (a, b) {
+        return b.value - a.value;
+      })
+    }]
+  };
+
+  // maskImg.onload = function () {
+  //     word_cloud_option.series[0].maskImage
+  word_cloud_chart.setOption(word_cloud_option);
+  // }
+
+  // maskImg.src = '../img/logo.png';
+
+</script>
+</body>
+</html>
