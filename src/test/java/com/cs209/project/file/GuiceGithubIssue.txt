@@ -1,0 +1,817 @@
+null	Apr 28, 2022	When integrated with mybatis-guice, java.lang.ClassNotFoundException: com.google.inject.AbstractModule		null
+null	May 21, 2022	Are there any plans to translate the docs to other languages?		null
+null	Mar 5, 2022	JDK 17 build 23 - breaks		null
+null	Feb 15, 2022	Gradle tries to find no_aop jar for version 5.1.0 even though classifier noaop is not specified anywhere		null
+null	Jan 31, 2022	Guice 5.1.0 - wrong release date in wiki		null
+null	Dec 12, 2021	Local build from scratch is broken due to missing extensions-parent		null
+null	Nov 2, 2021	NPE in generated code		null
+null	Jan 25, 2022	Java 17 support		null
+null	Sep 13, 2021	Illegal reflective access by org.springframework.util.ReflectionUtils		null
+null	Mar 23, 2021	5.0.1 gradle resolution complains about missing no-aop jar?		null
+null	Mar 23, 2021	release notes for 5.0.1 have wrong year		null
+null	Mar 2, 2021	Bundle-SymbolicName of guice-assistedinject 5.0.0 is broken and has the same name as guice		null
+null	Feb 25, 2021	Update Google Guava to 30.1-jre		null
+null	Dec 17, 2020	Document that @Provides methods can be static		null
+null	Feb 26, 2021	Security Vulnerabilty test Fails on inject:guice due to guava:guava@27.1-jre		null
+null	Dec 13, 2020	Replace javax.inject with jakarta.inject		null
+null	Oct 30, 2020	5.0.0 Beta 1 - Bug with guice-servlet		null
+null	Oct 30, 2020	Possible typo in "Binding Annotations" wiki		null
+null	Oct 15, 2020	Tache Java de migration de la base de données en ADKv5		null
+null	Oct 30, 2020	Java 15 support		null
+null	Oct 30, 2020	guice-multibindings should be part of BOM		null
+null	Oct 30, 2020	Travis CI's build could not complete		null
+null	Oct 22, 2020	Singleton option for Injector.getInstance(Class<?>)		null
+null	May 18, 2020	[wiki] Incorrect Example Code in GettingStarted Wiki Entry		null
+null	Feb 3, 2021	WARNING: Illegal reflective access by com.google.inject.assistedinject.FactoryProvider2		null
+null	Apr 23, 2020	GuiceResteasyBootstrapServletContextListener Guice is initialized before resteasy boots up		null
+null	Mar 19, 2020	Please release Guice 4.2.3 with Java14 support		null
+null	May 11, 2020	Guice fails on Android		null
+null	Jan 28, 2020	Eager singleton table broken in scopes wiki		null
+null	Dec 21, 2019	No error log in tomcat after crash		null
+null	Oct 21, 2019	Protected Inner Class/Interface leads to failed compilation		null
+null	May 6, 2020	Release JDK 13 compatible version		null
+null	Sep 26, 2019	java 11		null
+null	Mar 10, 2020	Update asm to 7.2 to support Java 14		null
+null	Jul 29, 2019	Guice Multibindings 4.2.2 not fully working in OSGi in Apache Karaf		null
+null	Jul 26, 2019	some tools like：spring--applicationContext.getBean("A.class")		question
+null	Jul 24, 2019	"Bad" Test Name Detection (Research proposal, feedback needed)		null
+null	Jul 15, 2019	Modules override with private modules fails when there is no binding to override		null
+null	Aug 17, 2019	What is the use of requireBinding?		null
+null	May 8, 2019	Allow zero-configuration constructor injection when a class has only one constructor.		null
+null	Jan 25, 2019	The package com.google.inject is accessible from more than one module		null
+null	Mar 25, 2019	Bazel support		null
+null	Nov 5, 2018	Information is lost when wrapper libraries are used and exceptions are thrown		null
+null	Oct 12, 2018	Should RequestParameters have a javax.inject.Qualifier annotation?		null
+null	Oct 9, 2018	checkNotNull Error.		null
+null	Sep 28, 2018	4.2.1 brings in Android Guava, incompatible/trumps regular Guava?		null
+null	Oct 29, 2018	New release for Java 11?		null
+null	Sep 20, 2018	Support for Ahead-of-Time (AoT) compilation		null
+null	Sep 10, 2018	Java 11 Compatibility check: guice, guice-multibindings, guice-servlet		null
+null	Sep 20, 2018	Stop shading ASM?		null
+null	May 24, 2018	Why guava..-android and not the -jre?		null
+null	Nov 1, 2019	IllegalStateException instead of understandable error message like "No implementation for Abstract was bound"		null
+null	Sep 20, 2018	Regular releases supporting new Java versions		null
+null	Nov 11, 2018	Solve the robot legs problem		null
+null	Feb 28, 2018	Dangling multibindings extension in master build?		null
+null	Feb 2, 2018	application is non responsive		null
+null	Jan 23, 2018	ProvisionListener not work when use PrivateModule		null
+null	Feb 2, 2018	om.google.inject.internal.util.$ComputationException: java.lang.ArrayIndexOutOfBoundsException: 52264		null
+null	Nov 26, 2017	jdk1.8.0_152.jdk/Contents/Home/bin/java'' finished with non-zero exit value 255		null
+null	Jul 10, 2020	Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1		null
+null	Feb 5, 2018	Add 'Automatic-Module-Name' to MANIFEST for JDK9 interoperability		null
+null	Jul 13, 2017	What is the appropriate way to write test in guice project?		null
+null	Jun 20, 2017	Kotlin Guiced; Small kotlin helper wrapper library		null
+null	Mar 1, 2018	Release a new Guice version		null
+null	Jun 1, 2017	Guice provision errors		null
+null	May 30, 2017	put a binding in a separate thread , not blocking the main thread.		null
+null	May 19, 2017	Guice error reporting for unchecked exceptions in constructors during provisioning		null
+null	Apr 4, 2017	[Question] Is there tight coupling between guice and its extensions?		null
+null	Mar 30, 2017	Wiki: Broken table in the Scopes page		null
+null	Mar 31, 2017	Guava version conflict		null
+null	Feb 28, 2018	Java 9 (JDK-9) support for guice		null
+null	Jun 13, 2017	Child injectors not sharing singletons (and affecting each other when binds are present)		null
+null	Feb 7, 2017	Remove the FUD, or prove the statement		null
+null	Nov 26, 2021	Can Guice do DI without the @Inject annotation on constructors without real side-effects?		null
+null	Apr 7, 2017	Struts2Factory does not handle creation of Struts interceptors after creation of injector		null
+null	Jan 27, 2017	Wiki: cyclic dependencies copy		null
+null	Dec 23, 2016	AssistedInject: making sure the factory is singleton?		null
+null	Nov 24, 2016	Guice hides failures in static initialization		null
+null	Nov 22, 2016	Multiple injections if instance is bound in child injector		null
+null	Oct 31, 2016	MethodInterception on class w/ @Injected private Constructor throw "No visible constructor Exception"		null
+null	Oct 12, 2016	Modules.override does not dedupe modules correctly		null
+null	Oct 3, 2016	Wiki typo		null
+null	Oct 4, 2016	Binding to mock instance of concrete class fails if real class cannot be injected		null
+null	Sep 24, 2016	Typo in cyclic dependencies wiki		null
+null	Sep 18, 2016	Unable to get the hang of Guice Method Interceptor (Null Pointer Exception during bindInterceptor)		null
+null	Oct 3, 2018	Broken link in FAQ		null
+null	Sep 9, 2016	Custom bindings aren't being honored		null
+null	Sep 9, 2016	Add support for component-scan like in spring framework		null
+null	Aug 25, 2016	TypeListener not called for @Provides methods		null
+null	Aug 18, 2016	java.lang.NoClassDefFoundError: com.google.common.collect.ImmutableSet		null
+null	Aug 3, 2016	Injection of Injector Odd Behaviour		null
+null	Aug 29, 2016	SingletonScope NPE with Guice 4.1		null
+null	Aug 3, 2016	ClassNotFoundException: com.google.inject.Module		null
+null	Aug 26, 2016	Modules.override() does not work with @Provides methods		null
+null	Aug 26, 2016	Link to JSR 305 is broken in wiki		null
+null	Jun 10, 2016	JSR 330 links are all broken		null
+null	Jun 4, 2016	Feature Request: Multi-Bindings		null
+null	May 23, 2016	An exception was caught and reported. Message: There is no started application		null
+null	May 8, 2016	Guice Binder hasBind functionality		null
+null	Apr 24, 2016	Lazy loading		null
+null	Aug 26, 2016	guice annotation is not recognized in injector.getInstance(		null
+null	Jun 17, 2016	Please release 4.0.1 with cglib 3.2.0		null
+null	Jan 3, 2017	Optional Dependency Injection for an binding from Private Module doesn't work when the class comprising of optional dependency is the only depedency		null
+null	Mar 17, 2016	Properties and Assisted injection don't work together		null
+null	Mar 5, 2016	Can anyone comment jBeanBox project? it's IOC/AOP tool but simple than Guice.(only 1 Java file)		null
+null	Mar 1, 2016	Binding values to Supplier<T>		null
+null	Mar 1, 2016	How to build guice with maven on intellij idea?		null
+null	Feb 23, 2016	Guice 4.0 + Info.Cukes 1.2.4 + ChromeDriver : Guice configuration errors but with Info.Cukes 1.1.1 it works		null
+null	Feb 23, 2016	Guice 4.0 + Info.Cukes 1.2.4 + ChromeDriver : Guice configuration errors		null
+null	Feb 19, 2016	Guice core optimizations		null
+null	Jan 12, 2016	Security - Unreleased Resource		null
+null	Nov 27, 2015	Registering Guice to DropWizard		null
+null	Nov 26, 2015	Research google guice + java EE + weblogic 11g		null
+null	Nov 25, 2015	Problem with multibindings and binding annotations?		null
+null	Nov 24, 2015	CreationException Error Not Printing		null
+null	Oct 15, 2015	Wrong annotation name in Injections Wiki page		null
+null	Sep 30, 2015	InstanceBinding - annotating class as @Singleton is not the same as binding #in(Singleton.class)		null
+null	Sep 15, 2015	Invalid SHA1 in sonatype repo		null
+null	Aug 10, 2015	Binding an implicit implementation with a qualifier		null
+null	Aug 10, 2015	Automatically create scoped proxies		null
+null	Aug 5, 2015	Wiki is out of date about disabling the bridge ClassLoader		null
+null	Aug 4, 2015	java.lang.StackOverflowError due to lots of injections.		null
+null	Dec 22, 2015	Message.hashCode and Message.equals are Inconsistent		null
+null	Jul 6, 2015	Java 8: Static interface methods considered with FactoryModuleBuilder		null
+null	Jun 27, 2015	Generic injection with out additional binding		null
+null	Jun 27, 2015	AOP fails when implementation is bound to and injected by interface		null
+null	Jun 8, 2015	Scopes.isCircularProxy obsolete?		null
+null	Jun 10, 2015	Custom Annotations instead of Named()		null
+null	May 11, 2015	Singleton scope on .toInstance() binding should be enabled by default		null
+null	May 6, 2015	Grapher generates dot files with syntax errors in v3.0		null
+null	Apr 12, 2015	Javadoc for TypeLiteral is misformatted		null
+null	Jun 27, 2015	Explain relation of causes for com.google.inject.CreationException		null
+null	Mar 24, 2015	TypeLiteral configured in child Injector leaked into parent Injector		null
+null	Mar 18, 2015	Guice injects fields even when injection has not been requested		null
+null	Mar 1, 2015	Example on wiki page for CustomScopes is wrong		null
+null	Mar 23, 2015	BridgeClassLoader should implement BundleReference		null
+null	Feb 23, 2015	Adding bindings to multibinder from multiple private modules		null
+null	Feb 25, 2015	Problem with abstract class and assisted inject after migration to Java 8		null
+null	Feb 11, 2015	Misleading error message		null
+null	Feb 4, 2015	OptionalBinder bound constants are not converted during Binding Resolution		null
+null	Feb 7, 2015	Is it possible to add an isolating classloader to Guice?		null
+null	Jan 28, 2015	StackOverflowError in DelegatingInvocationHandler.invoke		null
+null	May 9, 2015	Guice Servlet 3 multipart support?		null
+null	Jan 16, 2015	AOP bug - Child injector doesn't intercepts JIT bindings		null
+null	Aug 4, 2015	Define a mechanism to make Providers Serializable		null
+null	Jan 7, 2015	Using annotations with untargetted bindings results in no implementation error		null
+null	Jan 24, 2015	Linked bindings have surprising behaviour with private modules / child injectors.		null
+null	Dec 5, 2014	ProvisionListener is not aware of partially failed provision		null
+null	Nov 22, 2014	MapBinder and SetBinder share bindings?		null
+null	Nov 14, 2014	Variable mismatch in documentation		null
+null	Nov 7, 2014	Misleading error message with child injector		null
+null	Nov 7, 2014	Wiki: There seems to be a paragraph missing in the wiki on injecting providers		null
+null	Nov 7, 2014	Multibinder only binds Collection<com.google.injectProvider<T>> and not Collection<javax.inject.Provider<T>>		null
+null	Nov 1, 2014	JpaPersistService.end() doesn't wipe the TLS slot		null
+null	Oct 23, 2014	Typo on motivation wiki page		null
+null	Oct 18, 2014	RequestDispatcher forward does not wrap HttpRequest properly		null
+null	Oct 6, 2014	in binding definition, It would be nice to specify annotatedWith both for inputs and outputs.		null
+null	Sep 16, 2014	OutOfMemoryError in com.google.inject.internal.Errors		null
+null	Sep 15, 2014	OutOfMemoryError in com.google.inject.internal.Errors		null
+null	Sep 16, 2014	Binding an AssistedInject generated factory to a third party class		null
+null	Sep 15, 2014	Binding described in child injector is never injected when using @Inject(optional=true)		null
+null	Oct 10, 2014	If the dependencies are managed up to Guava 18, there is a problem with Guice using a deprecated and no longer public method.		null
+null	Sep 7, 2014	CircleDependency in SimpleScope example		null
+null	Sep 7, 2014	Caused by: java.lang.ClassNotFoundException: com.google.inject.internal.util.$ImmutableList		null
+null	Sep 7, 2014	Seeding a request scoped value example in ServletModule documentation is wrong		null
+null	Aug 15, 2014	Injection to parent method used instead of injection to child method when run from commandline		null
+null	Sep 7, 2014	Option to disable "parent first" placing of JIT bindings		null
+null	Sep 7, 2014	Fix up the poms (local and ultimately corporate) to do snapshots right.		null
+null	Aug 4, 2014	A (possible) typo in user guide/Multibindings		null
+null	Jul 25, 2014	Missing close paren in Javadoc for FactoryModuleBuilder		null
+null	Jul 24, 2014	Page 63 Wiki Typo in Heading		null
+null	Jul 25, 2014	Nicer error message when doing requestStaticInjection(MyInterfaceType.class)		null
+null	Jul 7, 2014	Assisted inject doesn't work with boolean		imported
+null	Jul 7, 2014	Guice Assisted Inject with multiple implementations of interface		imported
+null	May 7, 2015	@ProvidedBy requires a Guice provider		imported
+null	Oct 1, 2014	ContinuingHttpServletRequest: Make cookies immutable		imported
+null	Jul 7, 2014	Line number issue under java 8 and guice 4.0 beta 4		duplicate	imported
+null	Oct 28, 2014	Add some Java8-specific, lambda-oriented tests under a Java8 maven profile		Component-Core	enhancement	imported	Milestone-Release4.0	Priority-High	Scrubbed
+null	Oct 12, 2014	Fix OSGI metadata in latest Maven build		Component-Core	imported	Milestone-Release4.0	Priority-Critical	Scrubbed	Type-Build
+null	Oct 12, 2014	Let factory create an object depends on annotation defined at left hand side?		imported
+null	Jul 7, 2014	Bad checksums for guice artifacts in Maven repository		imported
+null	Jul 7, 2014	Injector toString helper util with more readable "report" than built-in massive one-liner InjectorImpl toString() ToStringBuilder		imported
+null	Jul 7, 2014	maven sources jar does not contain com.google.inject.internal		imported
+null	Jul 7, 2014	Multibinder Bindings Don't Always Respect Singleton Scope		imported
+null	Jul 7, 2014	Binding assisted inject factory to a named annotation		imported
+null	Jul 7, 2014	PrivateModule bindings conflict only if one of them is exposed		imported
+null	Jul 7, 2014	Guice3.0 : Warning on createInjector : Could not load Finalizer in its own class loader. Loading Finalizer in the current class loader instead. As a result, you will not be able to garbage collect this class loader. To support reclaiming this class loader, either resolve the underlying issue, or move Google Collections to your system class path		duplicate	imported
+null	Jul 7, 2014	Modules.override() doesn't pass the right stage to the sub-modules		imported
+null	Jul 7, 2014	java.lang.ClassCastException: sun.proxy.$Proxy9 cannot be cast to se.example.EnvRequirement		imported	invalid
+null	Jul 7, 2014	Guice 4.0b: CreationException hidden by Guava $ComputationException		duplicate	imported
+null	Jul 7, 2014	De-duplicate listeners and interceptors		imported
+null	Jul 7, 2014	Typo in com/google/inject/servlet/ServletScopes.java		imported
+null	Jul 7, 2014	Avoid unnecessary object creation if .withSource doesn't change the source		imported
+null	Jul 7, 2014	Moved Book Link in External Documentation		imported
+null	Jul 7, 2014	Custom Injections		imported	invalid
+null	Jul 7, 2014	Annotations.isAllDefaultMethods returns false for method less interfaces.		imported
+null	Jul 7, 2014	Child injector binding override		imported	wontfix
+null	Jul 7, 2014	Guice can not be built against Guava 15.0-rc1		duplicate	imported
+null	Jul 7, 2014	Provide all versions of Guice in Maven Central Repository....only Guice v1.0 is available right now!		imported	invalid
+null	Jul 7, 2014	Christian Gruber Blog Roll Link		imported
+null	Jul 7, 2014	something is weird, using thread pool in AOP		imported
+null	Oct 12, 2014	Update internal caches to use Guava's CacheBuilder API		imported	Milestone-Release4.0	Type-CodeQuality
+null	Jul 7, 2014	Use ASM 4.2 (or 5.0_BETA for Java8 support)		imported
+null	Jul 7, 2014	Increase support for optional injection.		imported
+null	Sep 25, 2014	Java 8 lambda definitions can break Guice's internal exception handling		imported
+null	Jul 7, 2014	Memory leak by using child injector and multibinder		imported
+null	Jul 7, 2014	Grapher generates dot files with syntax errors		imported
+null	Jul 7, 2014	Guice hangs injecting members on objects whose class exteds from abstract classes		imported	invalid
+null	Jul 7, 2014	Guice.createInjector enforces bindings that become unused by Modules.override		imported	wontfix
+null	Jul 7, 2014	Guice is injecting members when binding an instance [bind().toInstance()].		imported
+null	Nov 19, 2014	With guice-persist, it is not possible to provide a DataSource to providers.		Component-Persist	imported
+null	Jul 7, 2014	Add support for injection into non-static inner classes		imported
+null	Jul 7, 2014	Add protected method in PrivateModule for binding provision listeners		Component-Core	imported	Type-Patch
+null	Oct 10, 2014	guice servlet: HttpServletRequest.getPathInfo not decoded		imported
+null	Jul 7, 2014	Class annotation lost then after Injection		imported
+null	Jul 7, 2014	Move constructionContext.removeCurrentReference from ConstructorInjector.construct to ConstructorInjector.provision?		Component-Core	imported	Type-Patch
+null	Jul 7, 2014	AssistedInject inconsistency for Singleton return types		imported
+null	Jul 7, 2014	Not obvious behavior of JIT bindings creations by parent		imported	wontfix
+null	Jul 7, 2014	Interceptor enhanced classes not participating in type listener		imported
+null	Sep 16, 2018	@Singleton annotation on get() method of a Provider class shoudln't be silently ignored		imported
+null	Jul 7, 2014	NullPointerException at com.google.inject.internal.Initializer$InjectableReference.get(Initializer.java:147)		duplicate	imported
+null	Jul 7, 2014	MapBinder does not allow for javax.inject.Provider		imported
+null	Jul 7, 2014	Weird issue in Guice 3.0		imported
+null	Jul 7, 2014	Deadlock using FactoryModuleBuilder from different threads		imported
+null	Jul 7, 2014	Email Template		imported	invalid
+null	Jul 7, 2014	guice-persist #\\		imported	invalid
+null	Jul 7, 2014	Minor optimization to TypeConverterBindingProcessor		imported
+null	Jul 7, 2014	PrivateModule prevents interceptors to be applied		imported
+null	Jul 7, 2014	NoClassDefFoundError com.google.inject.Module		imported	invalid
+null	Jul 7, 2014	Minor build fixes		imported
+null	Jul 7, 2014	Simplify build scripts by removing unnecessary jarjar invocations		duplicate	imported
+null	Jul 7, 2014	guice-persist-3.0.jar contains log4j.properties		duplicate	imported
+null	Jul 7, 2014	Parent injector is injected when using childinjector		imported
+null	Jul 7, 2014	Multibinding with Set and Map with same valueType not working properly		imported
+null	Jul 7, 2014	Pull Guava out from jarjar and attach it as a normal dependency.		Component-Core	imported	Type-Build
+null	Sep 22, 2014	Support "default" (overridable) bindings in a flexible way		Component-Core	enhancement	imported
+null	Jul 7, 2014	ThreadLocal leak		duplicate	imported
+null	Jul 7, 2014	Depend on javax.inject and aopalliance provided by apache servicemix which have OSGI metadata.		duplicate	imported	Type-Build
+null	Jul 7, 2014	Private modules and aop interceptors do not work together - test code in description		imported
+null	Jul 7, 2014	NullPointerException in com.google.inject.internal.Injector.get(Errors errors)		imported	Milestone-Release3.1
+null	Jul 7, 2014	Incorrect error report when using Jersey and Guice and forget to annotate a resource constructor with @Inject		duplicate	imported
+null	Jul 7, 2014	Test issue - ignore this.		imported	invalid	Type-Extension
+null	Jul 7, 2014	Guice provides different instances of desired type.		bug	imported
+null	Jul 7, 2014	Make Guava an external dependency instead of jarjaring		duplicate	imported
+null	Jul 7, 2014	Swallowing exceptions prevents effective debugging of the GuiceFilter		imported	invalid
+null	Jul 7, 2014	ComputationException due to StackOverflowError during injection is hard to track down		imported	wontfix
+null	Jul 7, 2014	Scope annotations on assisted objects should fail		imported
+null	Jul 7, 2014	Trunk guice-servlet depends on jarjar'd com.google.base.Throwables, but this isn't included in guice core		imported
+null	Jul 7, 2014	Guice 3 requires javax.inject but Android cannot load javax.* in JARs.		imported	wontfix
+null	Jul 7, 2014	AssistedInject issues misleading error messages for generic methods that are fully-specified		duplicate	imported
+null	Jul 7, 2014	Guice 2.0 and 3.0 jar are not generated with proper rights		imported	invalid
+null	Jul 7, 2014	Optional injection not supported in JSR-330 integration - can we make an @Optional field annotation?		imported	wontfix
+null	Jul 7, 2014	Fix failing test: MultibinderTest.testSetAndMapValueConflict		bug	imported
+null	Jul 7, 2014	[Patch Included]: Multibinder javadoc mangled phrasing		imported
+null	Jul 7, 2014	build - Test failure - Null pointer		imported
+null	Jul 7, 2014	Grapher is producing corrupt graphs		imported
+null	Jul 7, 2014	Private Modules don't de-dup Modules / Bindings from parent modules		imported	wontfix
+null	Jul 7, 2014	Add utility method to get the Set<Dependency<?>> representing injection of an object		imported	wontfix
+null	Jul 7, 2014	Make it clear how to do an optional Injector.getInstance		imported	wontfix
+null	Jul 7, 2014	Dynamically passing key to @Named annotation		imported	invalid
+null	Jul 7, 2014	Execution of a MethodInvocation.proceed() can cause an infinite loop		imported
+null	Jul 7, 2014	GuiceFilter/ServletModule does not support filters that wrap the request or response		duplicate	imported
+null	Jul 7, 2014	MapBinder value set collides with Multibinder set		Extension.Multibindings	imported
+null	Jul 7, 2014	Scoping issue when using CheckedProvider		imported	invalid
+null	Jul 7, 2014	requestStaticInjection to an interface throws NPE		imported
+null	Jul 7, 2014	ClassLoader leaks in IndicesCallbackFilter		imported
+null	Jul 7, 2014	where is the code inside com.google.inject.internal ?		imported	invalid
+null	Jul 7, 2014	Interceptors are matched incorrectly when there are generics involved		duplicate	imported
+null	Jul 7, 2014	ProvisionListener doesn't report annotation in dependency chain		imported	invalid
+null	Jul 7, 2014	GuiceFilter multithreaded support		duplicate	imported
+null	Jul 7, 2014	Cannot suppress GuiceFilter warning		imported
+null	Jul 7, 2014	Offer the dependency hierarchy, for debugging		imported
+null	Jul 7, 2014	Guice + Tomcat potential memory leak		duplicate	imported
+null	Jul 7, 2014	createChildInjector injects wrong injector		imported	invalid
+null	Jul 7, 2014	Bug in com.google.inject.internal.Initializer		imported	Milestone-Release3.1
+null	Jul 7, 2014	Providers don't do circular dependency detection		imported
+null	Jul 7, 2014	Patch for /tags/3.0/core/src/com/google/inject/internal/InjectorImpl.java		imported	Type-Patch	wontfix
+null	Jul 7, 2014	Please Update Documentation on Guice.createInjector		imported
+null	Jul 7, 2014	log4j.properties in guice-persist.jar		imported
+null	Jul 7, 2014	toProvider is not working in guice3.0 anymore		imported	invalid
+null	Jul 7, 2014	Struts2Factory Fails When a Struts Global Type Converter is Specified		duplicate	imported
+null	Jul 7, 2014	com.google.inject.ProvisionException: Guice provision errors -> help		imported	invalid
+null	Jul 7, 2014	Patch for /trunk/core/src/com/google/inject/spi/ConvertedConstantBinding.java		imported	Type-Patch
+null	Jul 7, 2014	@ImplementedBy creates & needs JIT bindings immediately		imported
+null	Jul 7, 2014	Circular dependencies with @Provides @Singleton methods don't create singletons.		duplicate	imported
+null	Jul 7, 2014	Problematic profile activation in extensions-parent		imported	invalid
+null	Jul 7, 2014	Struts2 plug-in fails with custom type converters		duplicate	imported
+null	Jul 7, 2014	requireExplicitBindings() is incompatible with TypeConverters & ConvertedConstantBindings		imported
+null	Jul 7, 2014	mvn eclipse:eclipse fails		imported	invalid
+null	Jul 7, 2014	Child can rebind a binding that's in parent's JIT binding set		imported
+null	Jul 7, 2014	Inject a iterable of bindings of a given type		imported	invalid
+null	Jul 7, 2014	Guice creation error : Error in custom provider : hides underlying exception		imported
+null	Jul 7, 2014	JpaPersistService start() does not follow conditions specified in PersistService		duplicate	imported
+null	Jul 7, 2014	Persist: Automatically starting a UnitOfWork in JpaPersistService.get()		duplicate	imported
+null	Jul 7, 2014	guice-grapher rootedAt method takes only Class parameters		imported
+null	Jul 7, 2014	Use SLF4J instead of JUL		imported	wontfix
+null	Jul 18, 2014	Persist Extension: UnitOfWork.begin() throws IllegalStateException when called multiple times		Component-Persist	imported
+null	Jul 7, 2014	RequestWrappers don't work with Servlet Extension		duplicate	Extension-Servlet	imported
+null	Jul 7, 2014	PersistModule doesn't bind interceptor for class-level @Transactional annotation		imported
+null	Jul 7, 2014	Cannot use optimized @Assisted provider outside the scope of the constructor.		imported
+null	Jul 7, 2014	Removing the finalization of the AbstractModule.configure(Binder)		imported	wontfix
+null	Jul 7, 2014	Documentation: ProvisionException references ConfigurationException		imported
+null	Jul 7, 2014	Explicitly document that assisted inject can create several types with one single factory interface		imported
+null	Jul 7, 2014	Better error reports for Assistedinject where source class is not an interface		imported	invalid
+null	Jul 7, 2014	Dependency on net.sf.cglib.core.NamingPolicy not declared in guice-assistedinject POM		imported	invalid
+null	Jul 7, 2014	potential binding resolution order break in childInjectors		imported	invalid
+null	Jul 7, 2014	com.google.inject.spi.InjectionPoint getInjectionPoints warnings		imported	wontfix
+null	Jul 7, 2014	Add javax.inject.Named creation support		imported	wontfix
+null	Jul 7, 2014	com.google.inject.servlet.GuiceFilter cannot be cast to javax.servlet.Filter		imported	invalid
+null	Jul 7, 2014	Persist Extension - Support @javax.inject.Named in Finder		imported
+null	Jul 7, 2014	Persist Extension - Remove useless sysout		imported
+null	Jul 7, 2014	com.google.inject.util.Providers#guicify() make original Provider injection points invisible		imported
+null	Jul 7, 2014	Add no_AOP jar to maven repository		duplicate	imported
+null	Jul 7, 2014	guice-struts2-plugin pom.xml causes app to explode		imported
+null	Jul 7, 2014	Connot find bytecode for class XXX when using ASM generated classes		imported
+null	Jul 7, 2014	It would be nice to have TypeLiteral as a standalone project		imported	wontfix
+null	Jul 7, 2014	Performance problem or wrong usage?		imported	invalid
+null	Jul 7, 2014	ServletModule needs better error msg if calling serve(..) or filter(..) outside of configureServlets		Extension-Servlet	imported
+null	Jul 7, 2014	Add Binding interfaces for XXXBinding classes.		imported
+null	Jul 7, 2014	provide a method to servlet bindings to return true if a given URI matches the binding's URI pattern		imported
+null	Jul 7, 2014	Target of LinkedBinding Treated as JIT When Scoped		imported
+null	Jul 7, 2014	Guice Servlet injects a wrong request		Extension-Servlet	imported
+null	Jul 7, 2014	InjectionListener.afterInjection() not called for instances created via Providers		imported	invalid
+null	Jul 7, 2014	binding to a generic and fix for it too...		imported	invalid
+null	Jul 7, 2014	Typo on javadoc		imported
+null	Jul 7, 2014	guice-servlet implementation		duplicate	imported
+null	Jul 7, 2014	Fix no_aop build		imported
+null	Jul 7, 2014	Problem using guice-servlet in multiple war, when guice-servlet.jar is in ear's libraries		imported	wontfix
+null	Jul 7, 2014	Support optional in JSR 330		imported	wontfix
+null	Jul 7, 2014	Road map		imported	invalid
+null	Jul 7, 2014	Extensions SPI support for Assisted Inject		imported
+null	Jul 7, 2014	build.xml missing section to copy persist jars into dist directory		imported
+null	Jul 7, 2014	includeantruntime="false" missing from common.xml		imported
+null	Jul 7, 2014	[Multibindings] No documentation explains that the injected collections are unmodifiable		imported
+null	Jul 7, 2014	Refactor project layout to match Maven conventions		imported	Type-Patch
+null	Apr 12, 2016	Exceptions when using circular dependency in multi-threaded code		imported
+null	Jul 7, 2014	Use getRequestDispatcher forward cause page not found		duplicate	Extension.Servlet	imported
+null	Jul 7, 2014	Same Module Mutiple Implementation Problem		imported	invalid
+null	Jul 7, 2014	Provide a JpaPersistModule constructor with the properties argument		imported	invalid
+null	Jul 7, 2014	Improve the com.google.inject.name.Names properties resolution		imported	wontfix
+null	Jul 7, 2014	Guice servlet module crashed when used with Elements.getElements()		imported
+null	Jul 7, 2014	Constructor injection		imported	wontfix
+null	Jul 7, 2014	Javadoc is incomplete in the /trunk directory		duplicate	imported
+null	Jul 7, 2014	POM update		imported
+null	Jul 7, 2014	Multibinder & MapBinder should have an extension SPI		imported
+null	Jul 7, 2014	Support JSR330 annotation for instance binding		imported	invalid
+null	Jul 7, 2014	Add bind(...).toProvider(javax.inject.Provider instance);		imported	wontfix
+null	Jul 7, 2014	Javadoc is generated incomplete		imported
+null	Jul 7, 2014	Add bindHealthHook() to GseModule.		imported	invalid
+null	Jul 7, 2014	Add public api: Named.getValue()		imported	invalid
+null	Jul 7, 2014	een test		imported	invalid
+null	Jul 7, 2014	OSGI exported package version inconsistent with bundle version		imported	invalid
+null	Jul 7, 2014	Followup matters to issue 526 - last part of neatly separating the c.g.i.internal.util package from c.g.i.internal		imported
+null	May 26, 2015	Add FactoryModuleBuilder.getProvider to support Command Pattern use case		Extension-AssistedInject	imported
+null	Jul 7, 2014	Unexposed bindings in PrivateModules cannot be overridden via Modules.override(...)		imported
+null	Jul 7, 2014	Tidy empty directories in source tree		imported
+null	Jul 7, 2014	Followup matters to r1185		imported
+null	Jul 7, 2014	Merge 2.0-maven branch and update for 3.0		imported
+null	Jul 7, 2014	Extension introspection API		3.0	imported
+null	Jul 7, 2014	Injection support for spawned threads (Request scoped)		imported
+null	Jul 7, 2014	Correct typo on common.xml		imported	invalid
+null	Jul 7, 2014	Add persist extension to build		imported
+null	Jul 7, 2014	toProvider() should continue to use Guice's Provider, not JSR-330's		3.0	imported	wontfix
+null	Jul 7, 2014	Hide Key.ofType().		3.0	imported	wontfix
+null	Jul 7, 2014	Investigate duplicate binding filtering		3.0	imported	wontfix
+null	Jul 7, 2014	What are the use cases for @Toolable?		3.0	imported	wontfix
+null	Jul 7, 2014	Do we need Injector.getExistingBinding()?		3.0	imported	wontfix
+null	Jul 7, 2014	Why do we need Injector.getAllBindings()?		3.0	imported	wontfix
+null	Jul 7, 2014	Reconcile difference in overriding behavior between Guice and JSR-330's @Inject		3.0	imported
+null	Jul 7, 2014	Undeprecate Guice.createInjector(Stage, ...)		3.0	imported
+null	Jul 7, 2014	Remove InjectorBuilder		3.0	imported	wontfix
+null	Jul 7, 2014	Cache result of Class.getAnnotations()		3.1	imported
+null	Jul 7, 2014	AOP visibility checks should include the method return type		3.0	imported
+null	Jul 7, 2014	ClassCastException: com.google.inject.internal.LinkedProviderBindingImpl cannot be cast to com.google.inject.spi.HasDependencies		3.0	bug	imported	OpSys-All	Priority-Critical
+null	Jul 7, 2014	FactoryProvider2 can't accept Provider<T> as an assisted type specified in the Factory interface		imported
+null	Jul 7, 2014	when is the next release?		imported	invalid
+null	Jul 7, 2014	"java.lang.OutOfMemoryError: PermGen space" when using MethodInterceptor and multiple injectors		imported
+null	Jul 7, 2014	Add support for Injector.requestConstructorInjection(Class)		imported	invalid
+null	Jul 7, 2014	Singleton error checking for Guice Servlets and Filters should also allow instance bindings		imported
+null	Jul 7, 2014	AnnotationCategorizer interface callback that determines the "type" of a found annotation		imported	wontfix
+null	Jul 7, 2014	@Nullable is in internal package.		imported	wontfix
+null	Jul 7, 2014	Ability to add/remove a Binding after creating an Injector.		imported	wontfix
+null	Jul 7, 2014	ConstantBindingBuilder.to(byte) missing.		imported
+null	Jul 7, 2014	Guice Servlet Jar doesn't deploy in OSGi container(s)		imported
+null	Jul 7, 2014	Minor performance improvement in BytecodeGen		3.0	imported
+null	Jul 7, 2014	Provide optional SLF4J logger injection		enhancement	imported	wontfix
+null	Jul 7, 2014	Multibinder breaks with @Marker() binding annotations		imported
+null	Jul 7, 2014	Exception in Finalizer in AppEngine		imported	invalid
+null	Jul 7, 2014	Default Provider Binding		duplicate	imported
+null	Jul 7, 2014	rename @Singleton annotation		imported	wontfix
+null	Jul 7, 2014	provider doesn't seem to "remember" exceptions		imported	wontfix
+null	Jul 7, 2014	Injecting a Logger into an @Provides method kills memory		imported
+null	Jul 7, 2014	Unable to save a file using the GCE at Scratchpad		imported	invalid
+null	Jul 7, 2014	Provide a way to unbind a binding while overriding a module		imported	wontfix
+null	Jul 7, 2014	AnnotationType strategies are not canonicalized		bug	imported	Milestone-Release2.1
+null	Jul 7, 2014	Assisted injection does not handle parameterized types correctly in some cases		imported
+null	Jul 7, 2014	Scopes.isSingleton does not properly check bindings coming from Private Modules		imported
+null	Jul 7, 2014	Multiple interface implementation at runtime		imported	invalid
+null	Jul 7, 2014	Guice displays misleading line numbers		imported	invalid
+null	Jul 7, 2014	Broken toString in ParameterizedTypeImpl		imported
+null	Jul 7, 2014	Child injector injecting root injector rather then itself		imported	invalid
+null	Jul 7, 2014	NullPointException at com.google.inject.Initializer$InjectableReference.get(Initializer.java:145)		duplicate	imported
+null	Jul 7, 2014	Custom scope get called out of a scoping block during startup		imported	invalid
+null	Jul 7, 2014	The Singleton annotation should be itself @Inherited annotated		imported	wontfix
+null	Jul 7, 2014	[RFE] add a bindCollection(Class component) to handle Component oriented programming		imported	wontfix
+null	Jul 7, 2014	grapher extension in maven		imported
+null	Jul 7, 2014	guiceyfruit solution integration		imported	invalid
+null	Jul 7, 2014	requestInjection section misnamed		imported
+null	Jul 7, 2014	creditCard not used		imported
+null	Jul 7, 2014	bindInterceptor in child injector		imported	invalid
+null	Jul 7, 2014	Incorrect grammer in comment		imported	wontfix
+null	Jul 7, 2014	bind().toInstance() should be considered as a singleton		imported	invalid
+null	Jul 7, 2014	RequestDispatcher.forward() cannot dispatch to HTML or JSP files		bug	imported	Priority-High
+null	Jul 7, 2014	ServletModule doesn't work with Glassfish v3		imported	invalid
+null	Jul 7, 2014	Enhance intercepting of methods to allow modification of parameters before methodInvocation.proceed() will get called		imported	invalid
+null	Jul 7, 2014	Binding an interface before binding the concrete class fails, but reversing the order works.		imported	invalid
+null	Jul 7, 2014	Servlet match on a servlet path, not the actual request path		duplicate	Extension-Servlet	imported
+null	Jul 7, 2014	AssistedInject: Factory does not support twice the same assisted type in parameters		imported	invalid
+null	Jul 7, 2014	Check for overriden methods in ProviderMethodsModule		duplicate	imported
+null	Jul 7, 2014	typo in InternalContext line 49		imported
+null	Jul 7, 2014	Assisted-injection does not validate that factory methods will work in TOOL stage		Extension.AssistedInject	imported
+null	Jul 7, 2014	List of bugs		imported	invalid
+null	Jul 7, 2014	[RFE] Add annotations for AssistedInjected factories		imported	wontfix
+null	Jul 7, 2014	[RFE] Extend the Logger "special case" to any class		duplicate	imported
+null	Jul 7, 2014	Verify OSGi headers for 2.1		imported	Milestone-Release2.1	Type-Patch
+null	Jul 7, 2014	requireBinding() should work with TypeLiteral		imported	wontfix
+null	Jul 7, 2014	Improve MoreTypes.getRawType() handling of array types		enhancement	imported
+null	Jul 7, 2014	Provide access to Guice's own internal TypeConverters		3.0	imported	Type-Patch
+null	Jul 7, 2014	Assisted Inject uses child injector to bind args		bug	Extension.AssistedInject	imported	Performance	Priority-Critical
+null	Jul 7, 2014	bind(Interface).toConstructor(ConstructorInImpl) fails		imported
+null	Jul 7, 2014	NPE in Encounter.addError(Throwable t)		imported
+null	Jul 7, 2014	Binder.bindInterceptor must throws an exception (if intercepted method is final)		imported	invalid
+null	Jul 7, 2014	AssistedInject: Multi-constructor injection		imported
+null	Jul 7, 2014	[RFE] Allow binding-based private modules		imported	wontfix
+null	Jul 7, 2014	AssistedInject proxies don't work for non-public classes		Extension.AssistedInject	imported
+null	Jul 7, 2014	Allow filters and servlets bound in different ServletModules to specify ordering		imported	wontfix
+null	Jul 7, 2014	Coalesce @javax.inject.Named and @com.google.inject.Named		enhancement	Extension.JSR330	imported	Milestone-Release2.1
+null	Jul 7, 2014	JSR 330 support		enhancement	imported	Milestone-Release2.1
+null	Jul 7, 2014	Need information about web.xml on Struts2Integration wiki page		imported
+null	Jul 7, 2014	[RFE] Allow type inference in assisted injection		imported	wontfix
+null	Jul 7, 2014	invalid sha digest on pom file in maven repo		imported
+null	Jul 7, 2014	Please provide maven access to guice 2.0_no_aop		imported
+null	Jul 7, 2014	Another way to assist injections		imported	wontfix
+null	Jul 7, 2014	Filters match on a servlet path, not the actual request path		Extension-Servlet	imported
+null	Jul 7, 2014	BridgeClassLoader is not aware of: java.lang.NoClassDefFoundError: sun/reflect/ConstructorAccessorImpl		bug	duplicate	imported	Milestone-Release2.1
+null	Jul 7, 2014	Method interception on non-guice created objects		imported	wontfix
+null	Jul 7, 2014	Grapher extension does not draw implementation classes on the graph		duplicate	Extension-Grapher	imported
+null	Jul 7, 2014	Multibinder should supply Set<Provider<T>>		imported	wontfix
+null	Jul 7, 2014	Context-sensitive Providers		duplicate	imported
+null	Jul 7, 2014	guice-grapher missing from Maven repository		imported
+null	Jul 7, 2014	Exception when overriding a binding to an instance		imported	invalid
+null	Jul 7, 2014	Typo in Binder.getProvider() documentation		imported
+null	Jul 7, 2014	Guice AOP explodes with "Cannot subclass final class class" exception		Extension.AOP	imported
+null	Jul 7, 2014	Shortcuts in configuration		imported	wontfix
+null	Jul 7, 2014	searching for "guice docs" on google takes me to google doc reader home		imported	invalid
+null	Jul 7, 2014	getAllBindings() throws exception for servlet module		imported
+null	Jul 7, 2014	Guice 1.0 in maven repository has been compiled with Java 6		imported	wontfix
+null	Jul 7, 2014	Pull out CGLib and reexport in in OSGi		imported	wontfix
+null	Jul 7, 2014	apostrophe in title prevents download of user's guide in Firefox		imported	invalid
+null	Jul 7, 2014	guice-assistedinject 2.0 OSGi bundle incorrectly depends on guice versions < 2.0		imported	invalid
+null	Jul 7, 2014	Struts2 plugin NPE if server bounced		imported
+null	Jul 7, 2014	InjectorBuilder		imported	Priority-Medium
+null	Jul 7, 2014	Make ServletScopes.REQUEST fully-featured		Extension-Servlet	imported
+null	Jul 7, 2014	Maven Metadata Code Review Request		imported	Priority-High	Type-Build
+null	Jul 7, 2014	PrivateModule + @Inject(optional=true)		duplicate	imported
+null	Jul 7, 2014	Scopes.SINGLETON does not detect re-entrant calls		bug	imported	Priority-Medium
+null	Jul 7, 2014	bindInterceptor in child injector		imported	invalid
+null	Jul 7, 2014	Injector.getAllBindings()		imported
+null	Jul 7, 2014	Scopes.isSingleton		imported
+null	Jul 7, 2014	Misdocumented ScopeAnnotation		imported
+null	Jul 7, 2014	No src jar download		imported
+null	Jul 7, 2014	RequestScoped Servlet example is need.		imported	wontfix
+null	Jul 7, 2014	No source jars in maven repository		imported
+null	Jul 7, 2014	Add a toProvider method that accepts TypeLiteral to LinkedBindingBuilder.		imported
+null	Jul 7, 2014	Multibinder.permitDuplicates()		Extension-Multibinder	imported
+null	Jul 7, 2014	Forwarding to Servlet Broken w/ Parameters		Extension-Servlet	imported
+null	Jul 7, 2014	Minor gramatical error in Motivation wiki page		imported
+null	Jul 7, 2014	Private modules couldn't provide possibility to create 2		imported	invalid
+null	Apr 19, 2019	Servlet regex path dispatching is inflexible for getServletPath()		Extension-Servlet	imported	Priority-High
+null	Jul 7, 2014	BindListener		imported	invalid
+null	Jul 7, 2014	Child Injector Linked Singletons Not Eager		bug	imported
+null	Jul 7, 2014	GuiceFilter breaks dispatching to jsp if jasper is being used to compile the jsp		imported
+null	Jul 7, 2014	Unable to serve a javax.servlet.Servlet		imported	wontfix
+null	Jul 7, 2014	@CheckedProvides		Extension.ThrowingProvider	imported	Priority-Medium
+null	Jul 7, 2014	AssistedInject and MapBinder api conveniance in method parameters		imported	wontfix
+null	Feb 4, 2015	@Provides methods don't respect null or @Nullable		bug	imported	Milestone-Release3.1	Priority-High
+null	Jul 7, 2014	Servlet module not very rigorous in deciding what's a singleton		bug	Extension-Servlet	imported	Priority-Low
+null	Jul 7, 2014	Update local copy of google-collection classes to 1.0 RC1		enhancement	imported	Priority-High	Security
+null	May 21, 2015	Optimize Injector Creation Performance		imported	Performance	Priority-Medium
+null	Jul 7, 2014	Servlet instances in ServletsModule		enhancement	Extension-Servlet	imported	Priority-Medium
+null	Jul 7, 2014	Wrong scope visiting for LinkedKeyBinding		imported	invalid
+null	Jul 7, 2014	Scoping.getScopeAnnotation() tends to return null for custom scopes		imported	invalid
+null	Jul 7, 2014	Strange behavior on Inject Injector instance in Constructor		imported	invalid
+null	Jul 7, 2014	WildcardTypeImpl constructor argument check fails		imported
+null	Jul 7, 2014	allow post injection listeners to be registered so that they are always invoked after all the custom injection mutations occur		imported
+null	Apr 19, 2019	Guice explodes if it doesn't have System.getProperty permissions		imported
+null	Jul 7, 2014	Can not bind multiple interfaces to the same class		duplicate	imported	Priority-Low
+null	Jul 7, 2014	ServletContext is null		imported
+null	Jul 7, 2014	AssistedInject: Multi-type factories		Extension-AssistedInject	imported	Priority-Medium
+null	Jul 7, 2014	Improve private modules error reporting		imported	Priority-Low
+null	Jul 7, 2014	JMX Manager.manage in webapps		Extension-JMX	imported	invalid	Priority-Low
+null	Jul 7, 2014	BytecodeGen uses system classloader when applying AOP to system types		imported	Milestone-Release2.1	Priority-High	Type-Patch
+null	Jul 7, 2014	Disable Just-in-time bindings		imported	Priority-High
+null	Jul 7, 2014	Guice explodes on 0-arg ParameterizedTypes		imported	Milestone-Release2.0	Priority-High
+null	Jul 7, 2014	void return type @Provides method throws obscure error		imported
+null	Jul 7, 2014	Report better error when a @Provides method has void return type		bug	duplicate	imported	Priority-Low
+null	Jul 7, 2014	Update to Google Collections 0.9 snapshot 20090211		imported	wontfix
+null	Jul 7, 2014	AssistedInject needs class load bridging under OSGi		Extension-AssistedInject	imported	Milestone-Release2.1	Priority-Low	Type-Patch
+null	Jul 7, 2014	ClassLoader.getSystemClassLoader() permission might not be available		imported	Milestone-Release2.0
+null	Jul 7, 2014	Filters/Servlets should only be initialized once		bug	imported	Milestone-Release2.0	Priority-High
+null	Jul 7, 2014	Inconsistent documentation and implementation for ServletModule		Extension-Servlet	imported	invalid
+null	Jul 7, 2014	Undocumented dependency of assistedInject to Google Collect		imported
+null	Jul 7, 2014	Assisted injection of inherited specialized interfaces fails		imported
+null	Jul 7, 2014	Grapher causing "Illegal attribute align in <FONT>" warnings in GraphViz		bug	imported
+null	Jul 7, 2014	AssistedInject double binding error		Extensions-AssistedInject	imported	Priority-Low
+null	Jul 7, 2014	AssistedInject issues misleading error messages for configuration errors		bug	Extension-AssistedInject	imported	Priority-Low
+null	Jul 7, 2014	Independent child Injectors with a shared parent have binding interactions that make them non-useful.		imported	wontfix
+null	Jul 7, 2014	ServletModule shouldn't depend on HttpServlet		imported	wontfix
+null	Jul 7, 2014	com.google.inject.Injector.GuiceServletContextListener.INJECTOR_NAME should be protected		imported	wontfix
+null	Jul 7, 2014	AbstractModule's JavaDoc contains bad scope example		imported	wontfix
+null	Jul 7, 2014	ConstantBindingBuilder should take Object		imported	wontfix
+null	Jul 7, 2014	Grapher doesn't do @Inject(optional=true) properly		Extension-Grapher	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Add JSR 269 annotation processor to Guice		duplicate	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Google Code skipped issue 321		imported
+null	Jul 7, 2014	IllegalStateException in LateBoundConstructor only when calling Provider.get() for types setup in a child Injector.		bug	imported	Priority-High
+null	Jul 7, 2014	Injecting classes		imported	invalid
+null	Jul 7, 2014	Map binder doesn't support parameterised types		imported
+null	Jul 7, 2014	CreationException not backwards compatible		imported
+null	Jul 7, 2014	Maven Metadata Code Review		imported	Priority-Medium	Type-Review
+null	Jul 7, 2014	Modules.override() should be more granular		imported	wontfix
+null	Jul 7, 2014	Some guice extensions do not resolve under OSGi.		duplicate	imported	Milestone-Release2.1	Priority-High	Type-Patch
+null	Jul 7, 2014	ServletModuleBuilder uses "with" as part of the EDSL which causing issues with Scala		bug	Extension-Servlet	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Calling getDependencies() can fail if Multibinder isn't initialized yet		bug	duplicate	Extension-Multibindings	imported	Priority-Low
+null	Jul 7, 2014	constructor injection gives better errors than field injection for circular dependency		bug	imported	invalid	Priority-Low
+null	Jul 7, 2014	Decorators		duplicate	enhancement	imported	Priority-Low
+null	Jul 7, 2014	Wrong error reporting with double declarations and overrides		bug	imported	Priority-Low
+null	Jul 7, 2014	Expose a few things about provider methods to support Gin		imported
+null	Jul 7, 2014	Explode if servlets are mapped to the same literal URI.		enhancement	imported	Milestone-Release2.0	Priority-High
+null	Jul 7, 2014	Singleton error checking for Guice Servlets and Filters		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Allow getInstance/getProvider by TypeLiteral		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	InstanceBinding of HasDependencies instance doesn't return InjectionPoint Dependencies from getDependencies()		bug	imported	invalid
+null	Jul 7, 2014	NPE in #getDependencies() of ProviderInstanceBinding for Multibinder in Stage.TOOL		bug	imported	Priority-Low
+null	Aug 7, 2014	@ProvidedBy doesn't work with enums		bug	imported	Priority-Low
+null	Jul 7, 2014	MoreTypes#toString(Type) double-qualifies parameterized inner classes		imported	invalid
+null	Jul 7, 2014	UriPatternType should be non-null in ServletKeyBindingBuilderImpl		Extension-Servlet	imported	Priority-Low	wontfix
+null	Jul 7, 2014	ConstructorBinding should expose interceptors		imported	Priority-Medium
+null	Jul 7, 2014	New BindingTargetVisitor interface needs wildcard types		imported
+null	Jul 7, 2014	Provide JarJar-less builds in official releases		imported	wontfix
+null	Jul 7, 2014	ConvertedConstantBinding should have a getSourceKey() method		imported	Milestone-Release2.0
+null	Jul 7, 2014	ProviderMethod has no InjectionPoints or Dependencies when Visited		imported
+null	Jul 7, 2014	Let a child injector inject itself when injecting Injector		imported	wontfix
+null	Jul 7, 2014	Some Guice Servlet fixes		imported	invalid
+null	Jul 7, 2014	NoClassDefFound for aopalliance when creating an injector without aopalliance jar in classpath		imported	wontfix
+null	Jul 7, 2014	Document optional dependencies and child injectors		imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Attempt to call methodInvocation.getThis results in StackOverflowError		imported	invalid
+null	Jul 7, 2014	Minor patch to the OSGi headers: add version ranges to imported packages		imported
+null	Jul 7, 2014	Modules.override() + newPrivateBinder		bug	imported	Milestone-Release2.0	Priority-High
+null	Jul 7, 2014	Xwork conversion causes a null pointer exception		imported	invalid
+null	Jul 7, 2014	Improve error details for "java.lang.IllegalStateException: not initialized"		imported
+null	Jul 7, 2014	Cryptic error thrown on duplicate bindings		imported
+null	Jul 7, 2014	NullPointerException in JndiIntegration.fromJndi		imported	invalid
+null	Jul 7, 2014	Snapshot repository for guice 2?		imported	Maven	Priority-Low	Type-Other	wontfix
+null	Jul 7, 2014	polish error in example doc		imported	invalid
+null	Jul 7, 2014	Support HasDependencies for requestInjection(), custom providers, etc...		imported	Milestone-Release2.0
+null	Jul 7, 2014	Scopes.SINGLETON + null doesn't work		imported	Priority-High
+null	Jul 7, 2014	Just-in-time bindings for TypeLiteral<T> to undo erasure		imported
+null	Jul 7, 2014	Move Logger binding out to LoggerModule, so users can bind their own Loggers		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Android support		duplicate	imported	OpSys-Android
+null	Jul 7, 2014	Figure out InterceptingInjectorBuilder		imported	Milestone-Release2.0	Priority-Medium	Type-Task
+null	Jul 7, 2014	Use proguard to reduce size of Guice		bug	Component-Scripts	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Modules.override() does not play nice with multibinder		bug	imported	Priority-High
+null	Jul 7, 2014	override() should invoke delegate modules lazily.		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Explicitly build for Java 5		bug	imported	Priority-Medium
+null	Jul 7, 2014	NullPointerException in Guice.createInjector(...) with null module		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	[patch] a guice based JNDI provider		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	[Patch] custom annotation based injection points		imported	Priority-High	Type-Extension
+null	Jul 7, 2014	@Named shortcut could use parameter's name		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	bindConstant().annotatedWith(clazz).to(null) causes ambigious error message		bug	imported	Priority-Medium
+null	Jul 7, 2014	AbstractModule class documentation example error		bug	imported	Priority-Medium
+null	Jul 7, 2014	Patch: use jarjar in multibindings build.xml		bug	imported	Milestone-Release2.0	Priority-High
+null	Jul 7, 2014	new feature - search packages for objects to instantiate		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Clean up @SuppressWarnings("DoubleCheckedLocking")		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	NPE in com.google.inject.ProviderToInternalFactoryAdapter$1.call()		bug	imported	Priority-Medium
+null	Jul 7, 2014	AssistedInject should blow up if interceptors apply		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	untargeted bindings of parameterized types fail		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	jarjar doesn't play nice with Java 6 compiler		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Guice should refuse to inject final fields		bug	imported	Milestone-Release2.0	Priority-Low	wontfix
+null	Jul 7, 2014	JavaDocs for Guice 2 don't include "Since" information about new classes / methods		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Binding annotations warning breaks Scala		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	TypeLiteral should not be serializable		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Make TypeLiteral not serializable		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Integrate Warp-Servlet as com.google.inject.servlet		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Findbugs bug definitions for Guice		imported	Priority-Medium	Type-Extension
+null	Jul 7, 2014	Servlet context scope		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	In the Snapshot 20080713 Struts2 XML validator fails on Windows		bug	Extension-Struts	imported	invalid	Priority-Medium
+null	Jul 7, 2014	OSGi classloading doesn't work with package-private dependencies		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Update pom.xmls to build the project		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Link to Guice Web Extensions is broken		bug	imported	Priority-Medium
+null	Jul 7, 2014	Include stacktraces for each error		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Support mixed injection and manual wiring		bug	imported	Priority-Medium
+null	Jul 7, 2014	Make cglib dependency optional/pluggable		bug	imported	Priority-Medium
+null	Jul 7, 2014	Abstract away serialization standins		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	ServletModule should have .equals() and .hashCode() implementations		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	FinalizableReferenceQueue leaks, preventing reloads in a Servlet container		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Allow nesting injectors		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Error-checking for requireBinding() declarations		imported	Priority-Medium	Type-Extension	wontfix
+null	Jul 7, 2014	guice-assistedinject does not inject classes with default-constructors		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	cannot build		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	NPE at com.google.inject.InjectorImpl$LateBoundConstructor.get()		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Objects.assertNoNulls performs a JVM-wide lock		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Support Guice extensions for Maven		bug	imported	Priority-Medium
+null	Jul 7, 2014	Promote class loader code to cglib?		Component-AOP	imported	Priority-Medium	Type-CodeQuality	wontfix
+null	Jul 7, 2014	Guice dependencies not specified correctly in maven pom		bug	imported	Priority-Medium
+null	Jul 7, 2014	Register additional scope and binding annotation during binding phase		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Grapher, to create graphs from an Injector		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	com.google.inject.util.Providers.of() does not inject dependencies into it's instance		bug	imported	Priority-Low	wontfix
+null	Jul 7, 2014	ConstructorInjector.java:105 should indicate exception cause		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Exceptionhandling during requestStaticInjection phase?		bug	imported	Priority-Medium
+null	Jul 7, 2014	Guice references invalid class "com.google.inject.asm.util.TraceClassVisitor()"		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Guice + Wildcard types for Providers would be handy		bug	imported	Priority-Medium
+null	Jul 7, 2014	2.0 Release		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Unify commands and Binder SPI		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Unable to compile guice under JDK 1.6		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Construction interceptors		bug	duplicate	imported	Milestone-Release2.1	Priority-Medium
+null	Jul 7, 2014	Binder.requestInjection(Object)		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Guice leaks permgen space		bug	imported	Milestone-Release2.0	Priority-High
+null	Jul 7, 2014	Stage.PRODUCTION doesn't load @Singletons eagerly		bug	imported	Priority-Medium
+null	Jul 7, 2014	ProvisionException isn't serializable		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Compilation error involving generics in InjectorImpl.java		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Race condition in cglib MethodProxy.invokeSuper() causes wrong method invocation		bug	imported	Priority-Medium
+null	Jul 7, 2014	"Who's calling" ability to receive the object that requesting injection.		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Provide guice-servlet.jar in Maven repository		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	GPL code in the project		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Interceptor ineffective on private method		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Allow to read parameters from Injection annotations		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	NullPointerException during Provider.get() call in an proxied instance		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	NamedImpl class has package scope		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Compile-time Guice		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Honor type parameters		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Errors when static members depend on pre-existing providers		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Binding to an abstract class causes NullPointerException at getInstance() time		bug	imported	Priority-Medium
+null	Jul 7, 2014	Scopes.SINGLETON uses a global lock		bug	Component-Core	imported	Priority-Medium
+null	Jul 7, 2014	Scope is ignored depending on binding order		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Bindings to Singleton fails depending on the order of bindings		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	singleton scope should apply to the value as well as the key		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Exceptions during injection of pre-existing instances are swallowed		bug	imported	Priority-Medium
+null	Jul 7, 2014	Instances and providers must be bound in dependency order		bug	imported	Priority-Medium
+null	Jul 7, 2014	Provider methods circular dependency StackOverflowError		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Cross module singletons (true singletons)		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Increase lock granularity of singleton scope		enhancement	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Providers are used before they are injected		bug	imported	Priority-Medium
+null	Jul 7, 2014	Make objects with bound interceptors serializable		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Enable injection after deserialization		bug	imported	Priority-Low	wontfix
+null	Jul 7, 2014	bind(SomeConcreteType.class).toConstructor()		bug	imported	Milestone-Release2.1	Priority-Low
+null	Jul 7, 2014	Accessing Guice Injector from SessionListener		bug	imported	Priority-Medium	Struts2	wontfix
+null	Jul 7, 2014	Just-in-time bindings cache isn't threadsafe		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	VerifyError: "Inconsistent stack height 1 != 2" on Solaris, TPTP		bug	imported	invalid	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Proxy-based interceptors (rather than subclass-based interceptors)		imported	Priority-Medium	Type-Extension	wontfix
+null	Jul 7, 2014	Binding out-of-order throws binding not found CreationException		bug	imported	Priority-Critical
+null	Jul 7, 2014	matcher for annotation on class (not method)		bug	imported	Priority-Medium
+null	Jul 7, 2014	method name matcher		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	No way to bind a ConstructorInterceptor, bindInterceptor() expects an array of MethodInterceptor's		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	ambiguous method invoke		bug	imported	Milestone-Release2.0	Priority-High
+null	Jul 7, 2014	User Guide not too helpful for getting started.		bug	imported	Priority-Medium
+null	Jul 7, 2014	Give an error if you bind to an invalid type.		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Injecting Clazz<?>		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Guice does not look up constructors with generic types correctly		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	profiling swing application with tptp		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Method Interceptors with Dependencies		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	toProvider() with missing binding fails silently		bug	imported	Priority-Medium
+null	Jul 7, 2014	Error message for non-static inner classes is not intuitive		bug	imported	Priority-Medium
+null	Jul 7, 2014	Optional injection doesn't work with Provider bindings		bug	imported	Priority-Medium
+null	Jul 7, 2014	What does bind(Impl.class); do?		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	explicit module dependencies via module injection		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Support scope annotations along with @ImplementedBy		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Guice doesn't work with a Security Manager due to cglib		bug	duplicate	imported	Milestone-Release2.1	Priority-Medium
+null	Jul 7, 2014	Validate member injection at startup		bug	imported	Priority-Medium
+null	Jul 7, 2014	Don't allow null in ConstantProvider		bug	imported	Priority-Medium
+null	Jul 7, 2014	Struts 2 and Guice problem		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Struts 2 and Guice problem		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Make ProvisionException public, usable and documented		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	createInjector should take Iterable<? extends Module> instead of Iterable<Module>		bug	imported	Priority-Medium
+null	Jul 7, 2014	Names.bindProperties incorrect		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Fix cyclic dependencies in Guice code base		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Log binding resolving		Component-Core	enhancement	imported	Priority-Low
+null	Jul 7, 2014	Improve Circular Dependency Error Message		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Add Injector.getStage() support		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Make GuiceServletContextListener.INJECTOR_NAME public		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	NPE when lazily using a scoped provider		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	annotate @SessionScoped and @RequestScoped with @Inherited and @Documented		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Lifecycle Annotations		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Add support for WebWork 2		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Enable Guice to use custom injection markers like @EJB		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	partial injection a.k.a. factory generation		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Support dynamic injector configuration		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	explicit imports and exports to solve the robot problem		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Add support for collections as configuration parameters		duplicate	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Annotations with Attributes using enums not working		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Injector.getInstance() broken for annotation instances		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Ensure bound implementation is valid		bug	imported	Priority-Medium
+null	Jul 7, 2014	Convenience methods for type literals for collections		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Specifiy alternate source of a binding		bug	imported	Priority-Medium
+null	Jul 7, 2014	Make guice jars OSGi bundles		bug	imported	Priority-Medium
+null	Jul 7, 2014	Don't try to create classes with a private no-arg constructor		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	throw exception containing all error messages when Injector.getInstance() fails		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Get the class provided by a provider?		bug	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Reopen issue #90 as the suggested patch works...		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Injector#getBinding does not handle primitives the same way as Injector#getInstance		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Should not inject parameterless constructors without @Inject		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Thread scope for Guice		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Struts2 plugin should not use System.exit()		bug	Extension-Struts	imported	Priority-Medium
+null	Jul 7, 2014	Allow injected member to declare that null is acceptable		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Document the RuntimeException thrown by Provider.get()		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Update SpringComparison: Spring 2.1 Java configuration		bug	imported	Priority-Low	wontfix
+null	Jul 7, 2014	add convenience method for binding an instance to its own class		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	allow optional injection of a class with no @Inject annotation		bug	imported	Priority-Medium
+null	Jul 7, 2014	make guice annotations a separate build artifact		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Misplaced test class		bug	imported	Priority-Medium
+null	Jul 7, 2014	A no-arg Guice.createInjector() method may be useful for Groovy		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Enhanced Object with Interceptor not Serializable		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	make guice javadoc a separate download		bug	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Method anntation lost when interceptor used with class annotation.		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Are Http scopes and scope implementations sufficiently general?		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Using bindProperties() and injecting an invalid name produces error message that is not awesome		bug	Component-Core	imported	Priority-Low
+null	Jul 7, 2014	JUnit xml results		bug	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Inject a session scoped instance with specified name (session attribute name)		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Decorators, that injection point can ask to have applied ad-hoc		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Something about Guice pisses off Emma		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Support OSGi classloading in Guice		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	[patch] remove harmful unused imports		1.1	bug	imported	Priority-Medium
+null	Jul 7, 2014	Use &quot;snapshot&quot; as default version.		1.1	bug	imported	Priority-Medium
+null	Jul 7, 2014	[patch] fix pom.xml to be a real Maven project file		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Make guice retrotranslatable to be used in java 1.4		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	document visibility failure in AbstractReferenceCache		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Inject dependencies into interceptors		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Provider injection makes for annoying unit-testing		1.1	enhancement	imported	Priority-Low
+null	Jul 7, 2014	creating an inner class also creates a fresh instance of the outer class		1.1	bug	imported	Priority-Medium
+null	Jul 7, 2014	Guice error message can be misleading:		1.1	bug	imported	Priority-Low
+null	Jul 7, 2014	Just a hint: tutorial agour Guice in brazilian portuguese		imported	Priority-Medium	Type-Task
+null	Jul 7, 2014	@ProviderMethod		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Improve the toString() of bundled scopes		1.1	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Any plans for C++ or opinions about autumnframework?		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Allow bindings in the same Module to be overridable		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	What's our story on sharing the Injector between struts2 and servlets in the same app?		imported	Milestone-Release2.0	Priority-Medium	Type-Task
+null	Jul 7, 2014	Support Provision Interception / Construction Interception		bug	imported	Priority-High
+null	Jul 7, 2014	dependence on ASM		bug	imported	Priority-Medium
+null	Jul 7, 2014	Check for runtime retention in Matchers.annotatedWith()		1.1	bug	imported	Priority-Medium
+null	Jul 7, 2014	inSubpackage Matcher		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	It's too much work to get your servlets injected		1.1	bug	imported	Priority-Medium
+null	Jul 7, 2014	Support @Inject inheritence		bug	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Injector does not respect constructor's private visibility		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Allow custom injection-point finders		bug	imported	Priority-Medium
+null	Jul 7, 2014	Support any annotation in place of @Inject		bug	imported	Priority-Low
+null	Jul 7, 2014	Unzipping Guice 1.0 Source Archive Does Not Create Separate Directory		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	ConfigurationException needs to be made public and documented in @throws		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Overridden methods are injected twice		bug	imported	Milestone-Release2.1	Priority-Medium
+null	Jul 7, 2014	Scope Struts 2 interceptors		Component-Struts	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Run code after injection		duplicate	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	DefaultConstructionProxyFactory can throw SecurityException		bug	imported	Milestone-Release2.0	Priority-Low
+null	Jul 7, 2014	Struts2 Plugin not installing user defined modules - Patch included		bug	imported	Priority-Medium
+null	Jun 26, 2015	Lifecycle support		Component-NewExtension	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Extension to support javax.interceptor		bug	imported	Priority-Medium
+null	Jul 7, 2014	Maven 2 POM for guice		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	submit guice to the maven repository		bug	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Translate error messages		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	MyModule.configure() should be public in the User's Guide		bug	imported	Priority-Medium
+null	Jul 7, 2014	OutOfScopeException		1.1	bug	imported	Priority-Medium
+null	Jul 7, 2014	Support more binding dimensions		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Annotation implementation builder		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	bindConstant(foo) should be bindConstant().annotatedWith(foo)		bug	imported	Priority-Medium
+null	Jul 7, 2014	Can we construct a generic class?		duplicate	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Disallow conflicting scopes for linked bindings		bug	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Dev tool: report useless initialization		Component-Core	enhancement	imported	Priority-Low
+null	Jul 7, 2014	Allow user-provided "autobinders"		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Spring integration		1.0RC3	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Possibly find a way to separate out the advanced Binder methods		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Support chaining injectors / parent injectors		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Support annotating interfaces with their default implementation.		1.0RC3	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Define default scope for a series of bindings.		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Clean up after exceptions in getImplicitBinding().		bug	imported	Priority-Medium
+null	Jul 7, 2014	Guice should never ever inject a null value		1.0RC3	bug	imported	Priority-Medium
+null	Jul 7, 2014	clean up warnings		imported	Priority-Low	Type-Task
+null	Jul 7, 2014	Consider removing Injector.getProvider()		enhancement	imported	invalid	Priority-Low
+null	Jul 7, 2014	Eager loading for any scope		Component-Core	enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Multibindings		1.1	enhancement	imported	Priority-High
+null	Jul 7, 2014	Binding API allows bogus sequences of calls		1.0RC3	bug	imported	Priority-Medium
+null	Jul 7, 2014	allow overriding a scope to no scope		enhancement	imported	Priority-Low
+null	Jul 7, 2014	Binder methods should not throw any exceptions, always using addError() instead?		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	binder.install() should possibly be safe from RuntimeExceptions		enhancement	imported	Milestone-Release2.0	Priority-Low
+null	Jul 7, 2014	Prohibit bindings to any com.google.inject.* type		1.0RC3	bug	imported	Priority-Medium
+null	Jul 7, 2014	Handle de-duping of Modules (the &quot;diamond&quot; problem)		bug	imported	Priority-Medium
+null	Jul 7, 2014	Binder.addError() should accept a Throwable		1.0RC3	bug	imported	Priority-Medium
+null	Jul 7, 2014	A new and full-featured Injector introspection API (keys, implementations, dependencies, etc.)		enhancement	imported	Milestone-Release2.0	Priority-Medium
+null	Jul 7, 2014	Switch to Maven		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Inject the InjectionPoint		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Switch to TestNG		imported	Priority-Low	Type-Task	wontfix
+null	Jul 7, 2014	Require an @ScopeAnnotation on scope annotations		bug	imported	Priority-Medium
+null	Jul 7, 2014	Improve reporting of nested ProvisionExceptions		bug	duplicate	imported	Priority-Medium
+null	Jul 7, 2014	Support custom constant type converters		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Unit tests for error conditions		imported	Milestone-Release2.0	Priority-Medium	Type-Task
+null	Jul 7, 2014	Support scope annotation parameters		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Validate @Binder annotations at compile time		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Find bindings by annotation		enhancement	imported	Priority-Low	wontfix
+null	Jul 7, 2014	Hide implementation details from the public API using OSGi		duplicate	eclipse	enhancement	imported	osgi	Priority-Low
+null	Jul 7, 2014	Hide c.g.inject.internal		enhancement	imported	Priority-Low
+null	Jul 7, 2014	Make circular dependencies involving constructors more robust		Component-Core	enhancement	imported	Priority-Low
+null	Jul 7, 2014	Point to members from source objects		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Add notion of a &quot;stage&quot;		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Make proxies serializable		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	API cleanup		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Apply @Inject externally		enhancement	imported	Priority-Medium	wontfix
+null	Jul 7, 2014	Container hierarchies, container per dependency		enhancement	imported	invalid	Priority-Medium
+null	Jul 7, 2014	Handle injection into wider scopes		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Constant type conversion		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	XML configuration		enhancement	imported	invalid	Priority-Low
+null	Jul 7, 2014	AOP integration		enhancement	imported	Priority-Medium
+null	Jul 7, 2014	Introspection/reflection API		enhancement	imported	Priority-Medium
