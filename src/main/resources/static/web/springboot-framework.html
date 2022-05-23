@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+    <meta charset="utf-8">
+    <title>MyBatis Issue</title>
+    <link rel="stylesheet" type="text/css" href="../css/issue.css">
+    <link rel="shortcut icon" href="#"/>
+    <script src='../js/prefixfree.min.js'></script>
+    <script src="../bootstrap3/js/holder.js"></script>
+    <script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+    <script src="../bootstrap3/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/question.js"></script>
+    <style type="text/css">
+        .title {
+            margin: 0;
+            text-align: center;
+            color: #00fffc;
+            font-style: italic;
+            font-size: 50px;
+            top: 50px;
+        }
+
+        .subtitle {
+            margin: 0;
+            text-align: center;
+            color: rgb(160, 160, 160);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="height: 100%; margin: 0">
+<div class="total_page">
+    <h1 class="title">GitHub Repositories Number</h1>
+    <h2 class="subtitle">The number of GitHub repositories associated with these frameworks</h2>
+    <div id="container4"></div>
+    <div class="btns" style="position: absolute; right: 40px; bottom: 30px;">
+        <a href="springboot-menu.html"><img src="../img/return.jpg" alt=""></a>
+    </div>
+    <!--  <span class="year" id="y1">Ioc: 4076</span>-->
+    <!--  <span class="year" id="y2">Data Access Framework: 3261</span>-->
+    <!--  <span class="year" id="y3">Spring MVC: 45076</span>-->
+    <!--  <span class="year" id="y4">Transaction Management: 7749</span>-->
+    <!--  <span class="year" id="y5">Spring Web Service: 7091</span>-->
+    <!--  <span class="year" id="y6">JDBC abstraction layer: 43512</span>-->
+
+</div>
+
+<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+<script type="text/javascript">
+    var dom = document.getElementById('container4');
+    var myChart = echarts.init(dom, null, {
+        renderer: 'canvas',
+        useDirtyRect: false
+    });
+    var app = {};
+
+    var option;
+
+    option = {
+        tooltip: {
+            trigger: 'item'
+        },
+        legend: {
+            orient: 'vertical',
+            left: 140,
+            top: 400,
+            textStyle: {
+                fontSize: 20,
+                color: '#F5FFFA'
+            }
+        },
+        series: [
+            {
+                left: 200,
+                name: 'The Year',
+                type: 'pie',
+                radius: '80%',
+                center: [700, 320],
+                data: [
+                    {value: 4076, name: 'IoC', url: 'guice.html'},
+                    {value: 3261, name: 'Data Access Framework'},
+                    {value: 45076, name: 'Spring MVC', url: 'jsp-mvc.html'},
+                    {value: 7749, name: 'Transaction Management'},
+                    {value: 7091, name: 'Spring Web Service'},
+                    {value: 43512, name: 'JDBC abstraction layer'}
+                ],
+                color: ['#9400D3', '#FF00FF', '#4169E1', '#3CB371', '#FFA500', '#FF7F50'],
+                emphasis: {
+                    itemStyle: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0.1, 0.2, 0, 0.5)',
+                    }
+                },
+                itemStyle: {
+                    normal: {
+                        label: {
+                            textStyle: {
+                                fontSize: 12,
+                                color: '#F5FFFA'
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    };
+
+    if (option && typeof option === 'object') {
+        myChart.setOption(option);
+        myChart.on("click", function (params) {
+            if (params.name === 'Spring MVC'){
+                window.location.href = params.data.url
+            }
+            if (params.name === 'IoC'){
+                window.location.href = params.data.url
+            }
+        })
+    }
+
+    window.addEventListener('resize', myChart.resize);
+</script>
+
+</body>
+</html>

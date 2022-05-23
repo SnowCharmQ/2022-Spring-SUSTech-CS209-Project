@@ -196,4 +196,93 @@ public class SpringBootTest {
         }
         out.write("]");
     }
+
+    @Test
+    public void jspTest() {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/JSPStackoverflowQuestions.txt")))) {
+            HashMap<String, Integer> map = new HashMap<>();
+            String line;
+            while ((line = inline.readLine()) != null) {
+                String[] content = line.split("\t");
+                String year = content[1].substring(0, 4);
+                if (map.containsKey(year)) {
+                    int num = map.get(year);
+                    map.put(year, ++num);
+                } else map.put(year, 1);
+            }
+            Set<Map.Entry<String, Integer>> set = map.entrySet();
+            for (Map.Entry<String, Integer> entry : set) {
+                System.out.println(entry.getKey() + " " + entry.getValue());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void mvcTest() {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/SpringMVCStackoverflowQuestion.txt")))) {
+            HashMap<String, Integer> map = new HashMap<>();
+            String line;
+            while ((line = inline.readLine()) != null) {
+                String[] content = line.split("\t");
+                String year = content[1].substring(0, 4);
+                if (map.containsKey(year)) {
+                    int num = map.get(year);
+                    map.put(year, ++num);
+                } else map.put(year, 1);
+            }
+            Set<Map.Entry<String, Integer>> set = map.entrySet();
+            for (Map.Entry<String, Integer> entry : set) {
+                System.out.println(entry.getKey() + " " + entry.getValue());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void guiceStackOverflowTest() {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/GuiceStackoverflowQuestion.txt")))) {
+            HashMap<String, Integer> map = new HashMap<>();
+            String line;
+            while ((line = inline.readLine()) != null) {
+                String[] content = line.split("\t");
+                String year = content[1].substring(0, 4);
+                if (map.containsKey(year)) {
+                    int num = map.get(year);
+                    map.put(year, ++num);
+                } else map.put(year, 1);
+            }
+            Set<Map.Entry<String, Integer>> set = map.entrySet();
+            for (Map.Entry<String, Integer> entry : set) {
+                System.out.println(entry.getKey() + " " + entry.getValue());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void guiceGitHubTest() {
+        try (BufferedReader inline = new BufferedReader(new InputStreamReader(new FileInputStream("src/test/java/com/cs209/project/file/GuiceGithubIssue.txt")))) {
+            HashMap<String, Integer> map = new HashMap<>();
+            String line;
+            while ((line = inline.readLine()) != null) {
+                String[] content = line.split("\t");
+                String s = content[1];
+                String year = s.substring(s.length()-4  );
+                if (map.containsKey(year)) {
+                    int num = map.get(year);
+                    map.put(year, ++num);
+                } else map.put(year, 1);
+            }
+            Set<Map.Entry<String, Integer>> set = map.entrySet();
+            for (Map.Entry<String, Integer> entry : set) {
+                System.out.println(entry.getKey() + " " + entry.getValue());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

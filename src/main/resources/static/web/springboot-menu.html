@@ -67,7 +67,7 @@
             margin-right: 14px;
             position: absolute;
             left: 635px;
-            top: 360px;
+            top: 400px;
         }
 
         .btn {
@@ -82,50 +82,57 @@
         .one {
             color: #4cc9f0;
             position: absolute;
-            left: 400px;
-            top: 180px;
+            left: 241px;
+            top: 300px;
         }
 
         .two {
             color: #f038ff;
             position: absolute;
-            left: 100px;
-            top: 340px;
+            left: 80px;
+            top: 470px;
         }
 
         .three {
             color: #b9e769;
             position: absolute;
             left: 220px;
-            top: 560px;
+            top: 600px;
         }
 
         .four {
             color: #ac2925;
             position: absolute;
-            left: 955px;
-            top: 560px;
+            left: 965px;
+            top: 600px;
         }
 
         .five {
             color: #f0ad4e;
             position: absolute;
-            left: 1020px;
-            top: 340px;
+            left: 1040px;
+            top: 470px;
         }
 
         .six {
             color: teal;
             position: absolute;
-            left: 790px;
-            top: 180px;
+            left: 968px;
+            top: 300px;
         }
 
         .seven {
             color: blueviolet;
             position: absolute;
             left: 506px;
-            top: 680px;
+            top: 720px;
+        }
+
+        .eight{
+            color: silver;
+            position: absolute;
+            left: 546px;
+            top: 180px;
         }
 
         .btn:hover {
@@ -181,6 +188,13 @@
             -webkit-box-shadow: 10px 10px 99px 6px rgba(138, 43, 226, 1);
             -moz-box-shadow: 10px 10px 99px 6px rgba(138, 43, 226, 1);
             box-shadow: 10px 10px 99px 6px rgba(138, 43, 226, 1);
+        }
+
+        .eight:hover{
+            background-color: silver;
+            -webkit-box-shadow: 10px 10px 99px 6px rgba(192, 192, 192, 1);
+            -moz-box-shadow: 10px 10px 99px 6px rgba(192, 192, 192, 1);
+            box-shadow: 10px 10px 99px 6px rgba(192, 192, 192, 1);
         }
 
         h1 {
@@ -287,7 +301,8 @@
     <button type="button" class="btn four" onclick="window.location.href='springboot-closed-issue.html'">GitHub Closed Issue</button>
     <button type="button" class="btn five" onclick="window.location.href='springboot-stackoverflow.html'">Stack Overflow Question</button>
     <button type="button" class="btn six" onclick="window.location.href='springboot-commit.html'">GitHub Commit</button>
-    <button type="button" class="btn seven">Stack Overflow Question NLP</button>
+    <button type="button" class="btn seven" onclick="window.location.href='springboot-stackoverflow-NLP.html'">Stack Overflow Question NLP</button>
+    <button type="button" class="btn eight" onclick="window.location.href='springboot-framework.html'">Spring sub-Framework</button>
     <canvas id="lines" width="1200px" height="1000px"></canvas>
 </div>
 
@@ -297,57 +312,65 @@
         var ctx = canvas.getContext("2d");
 
         ctx.beginPath();
-        ctx.moveTo(546, 93);
-        ctx.lineTo(716, 280);
+        ctx.moveTo(506, 193);
+        ctx.lineTo(716, 320);
         ctx.strokeStyle = "#4cc9f0"
         ctx.lineWidth = 3;
         ctx.stroke();
         ctx.closePath();
 
         ctx.beginPath();
-        ctx.moveTo(420, 230);
-        ctx.lineTo(720, 320);
+        ctx.moveTo(400, 360);
+        ctx.lineTo(720, 360);
         ctx.strokeStyle = "#f038ff";
         ctx.lineWidth = 3;
         ctx.stroke();
         ctx.closePath();
 
         ctx.beginPath();
-        ctx.moveTo(506, 448);
-        ctx.lineTo(716, 352);
+        ctx.moveTo(506, 488);
+        ctx.lineTo(716, 392);
         ctx.strokeStyle = "#b9e769";
         ctx.lineWidth = 3;
         ctx.stroke();
         ctx.closePath();
 
         ctx.beginPath();
-        ctx.moveTo(900, 93);
-        ctx.lineTo(770, 272);
+        ctx.moveTo(968, 193);
+        ctx.lineTo(770, 312);
         ctx.strokeStyle = "teal";
         ctx.lineWidth = 3;
         ctx.stroke();
         ctx.closePath();
 
         ctx.beginPath();
-        ctx.moveTo(1022, 230);
-        ctx.lineTo(770, 320);
+        ctx.moveTo(1042, 360);
+        ctx.lineTo(770, 360);
         ctx.strokeStyle = "#f0ad4e";
         ctx.lineWidth = 3;
         ctx.stroke();
         ctx.closePath();
 
         ctx.beginPath();
-        ctx.moveTo(958, 448);
-        ctx.lineTo(770, 360);
+        ctx.moveTo(968, 488);
+        ctx.lineTo(770, 400);
         ctx.strokeStyle = "#ac2925";
         ctx.lineWidth = 3;
         ctx.stroke();
         ctx.closePath();
 
         ctx.beginPath();
-        ctx.moveTo(736, 320);
-        ctx.lineTo(736, 544);
+        ctx.moveTo(736, 360);
+        ctx.lineTo(736, 584);
         ctx.strokeStyle = "blueviolet";
+        ctx.lineWidth = 3;
+        ctx.stroke();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.moveTo(736, 360);
+        ctx.lineTo(736, 92);
+        ctx.strokeStyle = "silver";
         ctx.lineWidth = 3;
         ctx.stroke();
         ctx.closePath();
