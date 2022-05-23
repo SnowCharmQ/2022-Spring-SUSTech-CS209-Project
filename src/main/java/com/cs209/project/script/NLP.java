@@ -20,8 +20,8 @@ public class NLP {
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
-        File f = new File("src/test/java/com/cs209/project/file/MybatisIssuefile.txt");
-        File ff = new File("src/test/java/com/cs209/project/file/NLPanswerMybatisIssue.txt");
+        File f = new File("src/test/java/com/cs209/project/file/SpringBootStackoverflowQuestionZ.txt");
+        File ff = new File("src/test/java/com/cs209/project/file/NLPanswerSpringBootQuestion.txt");
         BufferedWriter bw = new BufferedWriter(new FileWriter(ff));
         BufferedReader br = new BufferedReader(new FileReader(f));
         String text;
