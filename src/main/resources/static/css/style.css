@@ -23,8 +23,9 @@ Stark Industries Logo
     animation: logo-entry 4s ease-in;
     width: 500px;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
     z-index: 40;
+    height: 800px;
 }
 
 h1.hogo {
@@ -34,9 +35,8 @@ h1.hogo {
     font-size: 48px;
     font-size: 4.8rem;
     font-weight: bold;
-    position: absolute;
+    /*position: absolute;*/
     text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
-    top: 50px;
 }
 
 h1.hogo:before {
