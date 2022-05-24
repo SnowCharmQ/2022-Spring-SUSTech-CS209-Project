@@ -77,12 +77,12 @@
                 radius: '80%',
                 center: [700, 320],
                 data: [
-                    {value: 4076, name: 'IoC', url: 'guice.html'},
+                    {value: 3345, name: 'Dependency Injection', url: 'guice.html'},
                     {value: 3261, name: 'Data Access Framework'},
                     {value: 45076, name: 'Spring MVC', url: 'jsp-mvc.html'},
                     {value: 7749, name: 'Transaction Management'},
                     {value: 7091, name: 'Spring Web Service'},
-                    {value: 43512, name: 'JDBC abstraction layer'}
+                    {value: 43512, name: 'JDBC abstraction layer'},
                 ],
                 color: ['#9400D3', '#FF00FF', '#4169E1', '#3CB371', '#FFA500', '#FF7F50'],
                 emphasis: {
@@ -109,10 +109,10 @@
     if (option && typeof option === 'object') {
         myChart.setOption(option);
         myChart.on("click", function (params) {
-            if (params.name === 'Spring MVC'){
+            if (params.name === 'Spring MVC') {
                 window.location.href = params.data.url
             }
-            if (params.name === 'IoC'){
+            if (params.name === 'Dependency Injection') {
                 window.location.href = params.data.url
             }
         })
