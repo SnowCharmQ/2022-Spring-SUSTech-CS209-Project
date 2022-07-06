@@ -30,37 +30,37 @@
         InputStream inStream =  conn.getInputStream();
         byte[] data = readInputStream(inStream);
         return new String(data);
-    }
+        }
 
-    public static byte[] readInputStream(InputStream instream) throws Exception {
+public static byte[] readInputStream(InputStream instream) throws Exception {
         ByteArrayOutputStream outStream = new ByteArrayOutputStream();
         byte[]  buffer = new byte[1204];
         int len = 0;
         while ((len = instream.read(buffer)) != -1){
-            outStream.write(buffer,0,len);
+        outStream.write(buffer,0,len);
         }
         instream.close();
         return outStream.toByteArray();
-    }
+        }
 ```
 
 接下来我们应用stream处理方式在得到的Document类型中进行数据提取。通过观察目标数据在HTML标签中的位置，我们用流处理的方式进行一步步筛选和映射，最终提取出目标信息并写入文本文件。
 
 ```java
 Supplier<Stream<Element>> te = () -> d.getElementsByTag("div").stream().filter((r) -> r.attr("id").startsWith("issue"));
-                Stream<Element> Atemp = te.get().flatMap((t) -> t.getElementsByTag("a").stream()
-                        .filter((e) -> e.attr("id").startsWith("issue_")));
-                List<String> context = Atemp.map(Element::text).toList();
-                List<String> time = te.get().flatMap((t) -> t.getElementsByTag("relative-time").stream()).map(Element::text).toList();
-                List<String> label = te.get().map((t) -> t.getElementsByTag("a").stream()
-                        .filter((e) -> e.attr("id").startsWith("label-"))
-                        .map(Element::text)
-                        .reduce((a, b) -> {
-                            System.out.println(a);
-                            System.out.println(b);
-                            return a +"\t"+ b;})
-                        .orElse("null")
-                ).toList();
+        Stream<Element> Atemp = te.get().flatMap((t) -> t.getElementsByTag("a").stream()
+        .filter((e) -> e.attr("id").startsWith("issue_")));
+        List<String> context = Atemp.map(Element::text).toList();
+        List<String> time = te.get().flatMap((t) -> t.getElementsByTag("relative-time").stream()).map(Element::text).toList();
+        List<String> label = te.get().map((t) -> t.getElementsByTag("a").stream()
+        .filter((e) -> e.attr("id").startsWith("label-"))
+        .map(Element::text)
+        .reduce((a, b) -> {
+        System.out.println(a);
+        System.out.println(b);
+        return a +"\t"+ b;})
+        .orElse("null")
+        ).toList();
 ```
 
 ### Stack Overflow上数据的爬取：
@@ -73,13 +73,13 @@ Supplier<Stream<Element>> te = () -> d.getElementsByTag("div").stream().filter((
 
 ```java
 String str = "https://api.stackexchange.com/2.3/tags/Guice/faq?page="+q+"&pagesize=100&site=stackoverflow";
-                URL url = new URL(str);
-                HttpURLConnection httpUrlConn = (HttpURLConnection) url.openConnection();
-                httpUrlConn.setDoInput(true);
-                httpUrlConn.setRequestMethod("GET");
-                BufferedReader br = new BufferedReader(new InputStreamReader(new GZIPInputStream(httpUrlConn.getInputStream()), StandardCharsets.UTF_8));
-JSONObject json = JSONObject.fromObject(j);
-                JSONArray json_array = JSONArray.fromObject(json.getString("items"));
+        URL url = new URL(str);
+        HttpURLConnection httpUrlConn = (HttpURLConnection) url.openConnection();
+        httpUrlConn.setDoInput(true);
+        httpUrlConn.setRequestMethod("GET");
+        BufferedReader br = new BufferedReader(new InputStreamReader(new GZIPInputStream(httpUrlConn.getInputStream()), StandardCharsets.UTF_8));
+        JSONObject json = JSONObject.fromObject(j);
+        JSONArray json_array = JSONArray.fromObject(json.getString("items"));
 ```
 
 <hr>
@@ -92,26 +92,26 @@ JSONObject json = JSONObject.fromObject(j);
 
 ```java
 while ((line = inline.readLine()) != null) {
-                String[] content = line.split("\t");
-                SpringBootQuestion sqb = new SpringBootQuestion();
-                sqb.setQuestion(content[0]);
-                sqb.setDate(Date.valueOf(content[1]));
-                sqb.setViews(Integer.parseInt(content[2]));
-                sqb.setAnswers(Integer.parseInt(content[3]));
-                sqb.setHref(content[4]);
-                springBootQuestions.add(sqb);
-            }
-            stmt = con.prepareStatement("insert into springboot_question (question, date, views, answers, href) values(?,?,?,?,?);");
-            for (SpringBootQuestion sbq: springBootQuestions) {
-                stmt.setString(1, sbq.getQuestion());
-                stmt.setDate(2, sbq.getDate());
-                stmt.setInt(3, sbq.getViews());
-                stmt.setInt(4, sbq.getAnswers());
-                stmt.setString(5, sbq.getHref());
-                stmt.addBatch();
-            }
-            stmt.executeBatch();
-			con.commit();
+    String[] content = line.split("\t");
+    SpringBootQuestion sqb = new SpringBootQuestion();
+    sqb.setQuestion(content[0]);
+    sqb.setDate(Date.valueOf(content[1]));
+    sqb.setViews(Integer.parseInt(content[2]));
+    sqb.setAnswers(Integer.parseInt(content[3]));
+    sqb.setHref(content[4]);
+    springBootQuestions.add(sqb);
+}
+stmt = con.prepareStatement("insert into springboot_question (question, date, views, answers, href) values(?,?,?,?,?);");
+for (SpringBootQuestion sbq: springBootQuestions) {
+    stmt.setString(1, sbq.getQuestion());
+    stmt.setDate(2, sbq.getDate());
+    stmt.setInt(3, sbq.getViews());
+    stmt.setInt(4, sbq.getAnswers());
+    stmt.setString(5, sbq.getHref());
+    stmt.addBatch();
+}
+stmt.executeBatch();
+con.commit();
 ```
 
 ### natural language processing词频统计：
@@ -123,22 +123,22 @@ while ((line = inline.readLine()) != null) {
 由于进行nlp处理非常消耗heap空间，处理较长String类型数据时会导致IDEA的heap内存不足，所以我们用nlp单独去处理每一条issue或question，最后我们统计所有名词出现的次数并将数据写入数据库。
 
 ```java
-			Annotation document = new Annotation(text);
-            pipeline.annotate(document);
-            List<CoreMap> sentences = document.get(SentencesAnnotation.class);
-            List<String> words = new ArrayList<>();
-            List<String> posTags = new ArrayList<>();
-            List<String> nerTags = new ArrayList<>();
-            for (CoreMap sentence : sentences) {
-                for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
-                    String word = token.get(TextAnnotation.class);
-                    words.add(word);
-                    String pos = token.get(PartOfSpeechAnnotation.class);
-                    posTags.add(pos);
-                    String ne = token.get(NamedEntityTagAnnotation.class);
-                    nerTags.add(ne);
-                }
-            }
+Annotation document = new Annotation(text);
+pipeline.annotate(document);
+List<CoreMap> sentences = document.get(SentencesAnnotation.class);
+List<String> words = new ArrayList<>();
+List<String> posTags = new ArrayList<>();
+List<String> nerTags = new ArrayList<>();
+for (CoreMap sentence : sentences) {
+    for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
+        String word = token.get(TextAnnotation.class);
+        words.add(word);
+        String pos = token.get(PartOfSpeechAnnotation.class);
+        posTags.add(pos);
+        String ne = token.get(NamedEntityTagAnnotation.class);
+        nerTags.add(ne);
+    }
+}
 ```
 
 <hr>
@@ -228,7 +228,7 @@ while ((line = inline.readLine()) != null) {
 
 ​		前端界面主要通过了jQuery AJAX技术用于读取后端数据在前端进行展示。AJAX（异步 JavaScript 和 XML，Asynchronous JavaScript and XML）是与服务器交换数据的技术，它可以在不重载全部页面的情况下，实现对部分网页的更新，故而我们能够使用 HTTP Get 和 HTTP Post 从远程服务器上请求文本、HTML、XML 或 JSON ， 同时把这些外部数据直接载入网页的被选元素中。以查找Stack Overflow上的question为例：
 
-![image-20220524140936824](C:/Users/OS/AppData/Roaming/Typora/typora-user-images/image-20220524140936824.png)
+![image-20220524140936824](https://s2.loli.net/2022/07/06/mTpt2AegbirV4SK.png)
 
 ​		在本函数中，我们使用ajax技术获取到了controller对应的RequestMapping注解中的地址，以POST从远端服务器请求文本，传给后端服务器的数据为通过id获取到的HTML元素form中的提交信息，dataType为json。将数据传到后端后controller会调用service中的相应方法如下所示：
 
@@ -280,7 +280,7 @@ while ((line = inline.readLine()) != null) {
 
 ​		在这部分，我们使用NLP分词技术分析了爬取到的Spring Boot的GitHub仓库里的issue，根据分词的结果分析了每个词在issue中的出现次数，并根据出现的次数的不同生成了词云图如下所示：
 
-![image-20220524165053477](C:/Users/OS/AppData/Roaming/Typora/typora-user-images/image-20220524165053477.png)
+![image-20220524165053477](https://s2.loli.net/2022/07/06/LBYRqy6Fmo9bHVX.png)
 
 **SPRING BOOT VERSION：**
 
@@ -336,7 +336,7 @@ LIMIT 5 OFFSET #{offset};
 
 ​		其中question代表每个Stack Overflow的问题对应的文本在数据库中的变量，date代表每个Stack Overflow的问题对应提出的时间，此处以时间降序排序，springboot_question是数据表，key是输入的key值，offset为基于page数计算所得。当根据时间降序排序搜索key值为json的数据且page为2时，返回的界面结果如下所示：
 
-![image-20220524205013377](C:/Users/OS/AppData/Roaming/Typora/typora-user-images/image-20220524205013377.png)
+![image-20220524205013377](https://s2.loli.net/2022/07/06/c9NeuOyG3E6Z2WV.png)
 
 **GITHUB COMMIT：**
 
