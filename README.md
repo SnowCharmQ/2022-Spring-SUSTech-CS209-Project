@@ -1,5 +1,9 @@
 # **2022-Spring-Java2-Project**
 
+**Group Members:**
+> JADDYK <br>
+> Olin66
+
 ### **The Topic of This Project:**
 
 ##### *Data mining, analysis, and visualization of current mainstream development framework Spring Boot and MyBatis*
