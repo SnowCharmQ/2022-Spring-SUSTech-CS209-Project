@@ -196,7 +196,7 @@ for (CoreMap sentence : sentences) {
 
 ![image-20220524111656498](https://s2.loli.net/2022/05/24/BhVjsK5Gfp6TDWS.png)
 
-​		Sevice主要存放业务逻辑处理，在本项目中基本都为数据库查询的操作，在每个ServiceImpl都导入了对应的mapper类，并通过mapper类来对数据库进行操作。以如下方法为例：
+​		Service层主要存放业务逻辑处理，在本项目中基本都为数据库查询的操作，在每个ServiceImpl都导入了对应的mapper类，并通过mapper类来对数据库进行操作。以如下方法为例：
 
 ![image-20220524111842522](https://s2.loli.net/2022/05/24/V6LFzMlhBQoaDSg.png)
 
@@ -206,7 +206,7 @@ for (CoreMap sentence : sentences) {
 
 ### 4、Controller层
 
-​		Ctroller层是用于响应用户需求，决定用什么视图，需要准备什么数据来展示。Controller层负责前后端交互，接收前端请求，调用Service层，接收Service层返回的数据，最后返回具体的数据和页面到客户端。在类的定义时加上了RestController的和RequestMapping的注释。
+​		Controller层是用于响应用户需求，决定用什么视图，需要准备什么数据来展示。Controller层负责前后端交互，接收前端请求，调用Service层，接收Service层返回的数据，最后返回具体的数据和页面到客户端。在类的定义时加上了RestController的和RequestMapping的注释。
 
 ​		项目中具体使用的controller类如下所示：
 
