@@ -1,7 +1,7 @@
 # **2022-Spring-Java2-Project**
 
 **Group Members:**
-> [**JADDYK**](https://github.com/JADDYK)
+> [**JADDYK**](https://github.com/JADDYK) <br>
 > [**Olin66**](https://github.com/Olin66)
 
 ### **The Topic of This Project:**
